@@ -36,8 +36,8 @@
 <td>Apellido Apellido, Nombre Nombre</td>
 </tr>
 <tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
+<td>U202320574</td>
+<td>Meza Huanacune, Juan José</td>
 </tr>
 <tr>
 <td>U20XXXXXXX</td>
