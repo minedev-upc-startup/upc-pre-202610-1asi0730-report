@@ -115,6 +115,50 @@ En esta sección se describen los aspectos principales del Sprint Planning Meeti
 
 
 ### 5.2.1.2 Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX), la cual define, para cada aspecto del Sprint 1, quién asume el rol de líder (Leader) y quiénes participan como colaboradores (Collaborators).
+
+Los aspectos seleccionados están directamente relacionados con el alcance del Sprint 1, el cual se centró en la implementación inicial del Landing Page y la configuración del entorno de desarrollo del sistema MineTrack.
+
+Los principales aspectos considerados fueron:
+
+- Desarrollo del Landing Page  
+- Configuración del entorno de desarrollo  
+- Gestión del repositorio en GitHub  
+- Diseño de interfaz (UI/UX)  
+- Documentación del proyecto  
+
+Esta distribución permite mejorar la organización del equipo, asignando responsabilidades claras y fomentando la colaboración activa, en línea con el cumplimiento del Student Outcome 5.
+
+---
+
+### Leadership and Collaboration Matrix (LACX)
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Entorno Dev | GitHub | UI/UX | Documentación |
+|------------------------------------|----------------|--------------|-------------|--------|-------|--------------|
+| Sanchez Arenas, Zahir Emmanuel | zahirsanchez | L | C | C | L | C |
+| Mendoza Machoa, Lionel | lionelmendoza | C | L | C | C | L |
+| Meza Huanacuna, Juan José | JuanMHZ12 | L | C | L | C | C |
+| Aliquipa Poma, Sebastian Andres | sebastianaliquipa | C | C | C | L | C |
+| Figueroa Sanchez, Alvaro | alvarofigueroa | C | L | C | C | L |
+| Molina Umeres, Nestor | nestormolina | C | C | L | C | C |
+
+---
+
+### Leyenda
+
+- **L (Leader):** Responsable principal del aspecto  
+- **C (Collaborator):** Apoyo en la ejecución del aspecto  
+
+---
+
+### Justificación
+
+La asignación de líderes y colaboradores se realizó considerando la distribución equitativa de responsabilidades y la participación activa de todos los integrantes del equipo.
+
+Cada miembro asumió al menos un rol de liderazgo, lo cual permitió fortalecer la coordinación interna y asegurar el cumplimiento de los objetivos del Sprint.
+
+Además, esta organización está alineada con las tareas definidas en el Sprint Backlog, garantizando coherencia entre la planificación y la ejecución del trabajo.
 ### 5.2.1.3 Sprint Backlog 1
 ### 5.2.1.4 Development Evidence for Sprint Review
 ### 5.2.1.5 Execution Evidence for Sprint Review
