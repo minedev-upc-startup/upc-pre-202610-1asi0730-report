@@ -83,3 +83,41 @@ Este proceso permitió optimizar la aplicación para su ejecución en un entorno
 Posteriormente, la aplicación fue desplegada en un entorno web, lo que permitió validar que el sistema funcione correctamente fuera del entorno de desarrollo.
 
 De esta manera, se logró contar con una Landing Page funcional que presenta la propuesta de valor del sistema MineTrack, enfocada en la venta y mantenimiento preventivo inteligente de maquinaria mediante el uso de dispositivos IoT.
+
+## 5.2 Landing Page, Services & Applications Implementation
+### 5.2.1 Sprint 1
+## 5.2.1 Sprint 1
+
+En esta sección se describe el desarrollo del Sprint 1 del proyecto MineTrack, incluyendo la planificación, organización del equipo, backlog del sprint y evidencias de implementación.
+
+El Sprint 1 se enfocó en la construcción inicial del Landing Page, así como la configuración del entorno de desarrollo y la estructura base del proyecto, permitiendo al equipo establecer una base sólida para los siguientes sprints.
+
+Durante este Sprint, el equipo trabajó de manera colaborativa, distribuyendo responsabilidades y estableciendo objetivos claros, alineados con el cumplimiento del Student Outcome 5, el cual enfatiza la planificación efectiva, liderazgo compartido y trabajo en equipo.
+
+### 5.2.1.1 Sprint Planning 1
+
+En esta sección se describen los aspectos principales del Sprint Planning Meeting correspondiente al Sprint 1, donde el equipo definió los objetivos, alcance y organización del trabajo.
+
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **Sprint Planning Background** |  |
+| Date | 2026-04-20 |
+| Time | 08:00 PM |
+| Location | Reunión virtual vía Discord|
+| Prepared By | Meza Huanacuna, Juan José |
+| Attendees (to planning meeting) | Sanchez Arenas, Zahir Emmanuel / Mendoza Machoa, Lionel / Meza Huanacuna, Juan José / Aliquipa Poma, Sebastian Andres / Figueroa Sanchez, Alvaro / Molina Umeres, Nestor |
+| Sprint 0 – Review Summary | No aplica, debido a que este es el primer Sprint del proyecto. |
+| Sprint 0 – Retrospective Summary | No aplica, al ser el primer Sprint. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | **Our focus is on** developing the initial version of the Landing Page and setting up the development environment. <br> **We believe it delivers** a clear presentation of the value proposition to potential users and a solid base for future development. <br> **This will be confirmed when** the Landing Page is accessible and includes key sections such as Home, Features, and Contact.|
+| Sprint 1 Velocity | El equipo definió una capacidad de trabajo de **15 Story Points** para este Sprint, considerando la disponibilidad de los integrantes. | 
+| Sum of Story Points| La suma total de Story Points asignados a las User Stories seleccionadas para este Sprint es de: **15 Story Points**  |
+
+
+### 5.2.1.2 Aspect Leaders and Collaborators
+### 5.2.1.3 Sprint Backlog 1
+### 5.2.1.4 Development Evidence for Sprint Review
+### 5.2.1.5 Execution Evidence for Sprint Review
+### 5.2.1.6 Services Documentation Evidence for Sprint Review
+### 5.2.1.7 Software Deployment Evidence for Sprint Review
+### 5.2.1.8 Team Collaboration Insights during Sprint
