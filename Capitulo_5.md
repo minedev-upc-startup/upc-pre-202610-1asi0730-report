@@ -23,10 +23,10 @@ Las herramientas principales utilizadas fueron:
 
 Para ejecutar el proyecto, se siguieron pasos simples:
 
-bash
+```bash
 npm install
 npm start
-
+```
 
 ## 5.1.2 Source Code Management
 
@@ -43,9 +43,9 @@ El flujo de trabajo consistía en crear una rama a partir de `develop`, implemen
 
 Ejemplo de commit utilizado:
 
-bash
+```bash
 git commit -m "feat: agregar monitoreo de maquinaria con datos IoT"
-
+```
 ## 5.1.3 Source Code Style Guide & Conventions
 
 Para mantener el código limpio y fácil de entender, se definieron algunas convenciones básicas que todos los integrantes del equipo siguieron durante el desarrollo.
@@ -60,10 +60,26 @@ Entre las principales reglas adoptadas se encuentran:
 
 Ejemplo:
 
-javascript
+```javascript
 function evaluarEstadoMaquina(sensor) {
   if (sensor.temperatura > 80) {
     return "Alerta";
   }
   return "Normal";
 }
+```
+
+## 5.1.4 Software Deployment Configuration
+
+El despliegue del sistema MineTrack se realizó considerando la necesidad de contar con una versión accesible del producto que permita mostrar su funcionamiento de manera clara.
+
+Para ello, se generó una versión de producción del proyecto utilizando el siguiente comando:
+
+```bash
+npm run build
+```
+Este proceso permitió optimizar la aplicación para su ejecución en un entorno real, reduciendo el tamaño de los archivos y mejorando el rendimiento.
+
+Posteriormente, la aplicación fue desplegada en un entorno web, lo que permitió validar que el sistema funcione correctamente fuera del entorno de desarrollo.
+
+De esta manera, se logró contar con una Landing Page funcional que presenta la propuesta de valor del sistema MineTrack, enfocada en la venta y mantenimiento preventivo inteligente de maquinaria mediante el uso de dispositivos IoT.
