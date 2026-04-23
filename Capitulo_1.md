@@ -74,13 +74,8 @@ Nuestra solución, MineTrack, busca resolver este problema integrando un catálo
 * **Hipótesis de Respuesta Preventiva:** Creemos que consolidaremos a MineTrack como la herramienta técnica indispensable si los gestores de flota logran tomar decisiones más rápidas y precisas gracias al sistema de Generación de alertas tempranas y recomendaciones de mantenimiento.
 
 #### 1.2.2.4. Lean UX Canvas
-| 1. Problema de negocio | 5. Ideas de soluciones | 2. Resultados comerciales |
-| :--- | :--- | :--- |
-| La gestión de maquinaria minera está fragmentada; los procesos de venta y monitoreo operativo no están integrados, generando procesos manuales complejos. La falta de visibilidad técnica real resulta en paradas de equipo no programadas. MineTrack centraliza la comercialización y el monitoreo técnico mediante IoT para capturar datos en tiempo real (vibración, temperatura, presión). | - Catálogo de maquinarias.<br>- Módulo de procesos de venta.<br>- Dashboard de monitoreo IoT.<br>- Sistema de alertas tempranas.<br>- Módulo general de visualización de estado. | - Aumento de cuota de mercado en distribuidores.<br>- Eficiencia en servicios de mantenimiento.<br>- Fidelización mediante monitoreo constante.<br>- Reducción de costos por automatización de detección de anomalías. |
-| **3. Usuario y clientes** | **7. ¿Qué es lo más importante que necesito atender primero?** | **4. Beneficios del usuario** |
-| - Distribuidores de Maquinaria Pesada.<br>- Empresas de Servicios de Mantenimiento.<br>- Gestores de Flotas Mineras.<br>- Técnicos de mantenimiento. | - Disponibilidad de técnicos para migrar a digital.<br>- Viabilidad técnica de integrar flujos de datos IoT múltiples.<br>- Riesgo de rechazo por monitoreo intrusivo. | - Visualización remota de valores críticos.<br>- Seguimiento de compras centralizado.<br>- Prevención de averías mediante alertas.<br>- Ahorro de tiempo en consulta de salud de flota. |
-| **6. Hipótesis** | **8. ¿Menor cantidad de trabajo para resolver dudas?** | |
-| - Los distribuidores adoptarán la plataforma si centralizan contratos y stock.<br>- Las empresas de mantenimiento reducirán costos si usan monitoreo IoT.<br>- La transparencia aumentará la confianza del cliente final.<br>- Las alertas preventivas mejorarán la toma de decisiones. | - Entrevistas de validación con distribuidores.<br>- Prototipo de alta fidelidad en Figma de dashboards.<br>- Simulación de flujo de datos IoT.<br>- Comparativa de tiempos de respuesta manual vs digital. | |
+<img width="1920" height="1080" alt="Lean UX Canvas (V2)" src="https://github.com/user-attachments/assets/2540c695-b8be-4627-a644-c1b31ff505b0" />
+
 
 ### 1.2.3. Segmentos objetivo
 1. **Distribuidores de Maquinaria Pesada:** Organizaciones que venden maquinaria compleja y requieren un control riguroso de sus activos para gestionar garantías, contratos de servicio post-venta y conocer el estado técnico de las máquinas entregadas.
