@@ -21,7 +21,7 @@ Transformar la gestión de activos en la industria minera mediante una plataform
 Consolidarnos para el año 2030 como la plataforma líder en el sector minero regional, reconocida por nuestra capacidad de convertir datos complejos en soluciones predictivas que impulsen una minería más inteligente, segura y de alta productividad a través de la innovación tecnológica constante.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-* **Mendoza Machoa, Lionel Snayder (U202417433):** Team Leader. Estudiante de Ingeniería de Software con interés en desarrollo web y diseño de interfaces (UI/UX).
+* **Mendoza Machoa, Lionel Snayder (U202417433):** Team Leader. Estudiante de Ingeniería de Software 
 * **Sanchez Arenas, Zahir Emmanuel (U202315324):** Estudiante de Ingeniería de Software.
 * **Meza Huanacune, Juan José (U202320574):** Estudiante de Ingeniería de Software.
 * **Aiquipa Poma, Sebastian Andres:** Estudiante de Ingeniería de Software.
@@ -77,6 +77,6 @@ Nuestra solución, MineTrack, busca resolver este problema integrando un catálo
 <img width="1920" height="1080" alt="Lean UX Canvas (V2)" src="https://github.com/user-attachments/assets/2540c695-b8be-4627-a644-c1b31ff505b0" />
 
 
-### 1.2.3. Segmentos objetivo
+#### 1.2.3. Segmentos objetivo
 1. **Distribuidores de Maquinaria Pesada:** Organizaciones que venden maquinaria compleja y requieren un control riguroso de sus activos para gestionar garantías, contratos de servicio post-venta y conocer el estado técnico de las máquinas entregadas.
 2. **Empresas de Servicios de Mantenimiento:** Compañías especializadas en soporte técnico y prevención de fallas contratadas para asegurar la continuidad operativa, utilizando la plataforma como su centro de control técnico predictivo mediante IoT.
