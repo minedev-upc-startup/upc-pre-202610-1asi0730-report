@@ -41,7 +41,7 @@
 </tr>
 <tr>
 <td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
+<td>Figueroa Sanchez, Alvaro Sebastian</td>
 </tr>
 <tr>
 <td>U20XXXXXXX</td>
