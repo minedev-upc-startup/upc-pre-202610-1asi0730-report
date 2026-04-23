@@ -29,3 +29,40 @@
 | **Debilidades** | Startup nueva en el mercado con experiencia limitada en hardware propio. | Menor enfoque en la parte transaccional (ventas) del ciclo de vida del equipo. | Costos de implementación muy elevados para empresas pequeñas o medianas. | Limitado principalmente a equipos de la propia marca Caterpillar. |
 | **Oportunidades** | Creciente digitalización de pequeñas empresas de servicios mineros en la región. | Expansión hacia nuevos tipos de sensores y automatización de flotas. | Integración con sistemas de minería autónoma. | Lanzamiento de versiones ligeras para competir en flotas mixtas. |
 | **Amenazas** | Competidores establecidos lanzando versiones simplificadas. | Fabricantes desarrollando sus propios sistemas telemáticos cerrados. | Nuevas startups con tecnologías más ágiles y económicas. | Plataformas multimarca que ofrecen más libertad al dueño de la flota. |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para posicionar nuestra app frente a gigantes establecidos como Trackunit o VisionLink, = implementaremos las siguientes estrategias:
+
+* **Estrategia de Diferenciación por Integración:** A diferencia de la competencia que se centra solo en telemetría (Trackunit) o solo en ventas , MineTrack ofrece una solución todo en uno que une el ciclo comercial con el monitoreo técnico.
+* **Enfoque en el Mercado Regional (Localismo):** Mientras que Hexagon y Caterpillar se enfocan en grandes corporaciones globales, MineTrack atacará a los distribuidores locales y medianas empresas de mantenimiento en Perú, ofreciendo soporte personalizado y adaptado a la realidad minera regional.
+* **Táctica de Usabilidad Superior:** Aprovechando el diseño centrado en el usuario , nuestra plataforma será más intuitiva y fácil de configurar que los sistemas corporativos complejos, reduciendo la curva de aprendizaje para los técnicos de campo.
+* **Modelo de Escalabilidad B2B:** Implementaremos un modelo SaaS escalable que permita a las pequeñas empresas de mantenimiento monitorear flotas reducidas a un bajo costo, algo que los competidores de alta gama no permiten.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+Para validar nuestras hipótesis y entender las necesidades reales del mercado, hemos diseñado dos guiones de entrevista dirigidos a nuestros segmentos objetivo principales.
+
+#### Segmento 1: Distribuidores de Maquinaria Pesada (Ventas y Garantías)
+1. ¿Cómo llevan hoy el control de las máquinas que ya le entregaron a sus clientes?
+2. ¿Cuál es el mayor dolor de cabeza que tienen cuando un cliente reclama una garantía?
+3. ¿De qué forma se enteran si una máquina que vendieron falló en plena operación?
+4. ¿Qué programas o aplicaciones usan actualmente para ver su inventario o stock?
+5. ¿Creen que mostrarle al cliente datos en vivo de su máquina ayudaría a cerrar más ventas?
+6. De datos como calor, vibración o presión, ¿cuál es el que más les piden monitorear?
+7. ¿Sienten que el equipo de ventas y los técnicos están bien comunicados sobre el estado de los equipos?
+8. Si pudieran cambiar algo de su sistema actual para que sea más fácil de usar, ¿qué sería?
+
+#### Segmento 2: Empresas de Servicios de Mantenimiento (Técnicos)
+1. ¿Cómo revisan hoy si una máquina necesita mantenimiento sin tener que ir hasta el sitio?
+2. ¿Qué tan seguido se detienen las máquinas por fallas que nadie vio venir?
+3. ¿En qué se basan para decidir que a una máquina ya le toca mantenimiento preventivo?
+4. ¿Es muy complicado manejar máquinas de marcas distintas en una misma plataforma?
+5. ¿Les ayudaría recibir alertas al celular cuando una máquina empieza a vibrar o calentar de más?
+6. ¿Pasan más tiempo arreglando máquinas que ya se malograron o tratando de que no fallen?
+7. ¿Cómo le demuestran a sus clientes que están haciendo un buen trabajo de seguimiento técnico?
+8. ¿Cuánto tiempo a la semana pierden viajando solo para chequear si una máquina está bien?
+
+### 2.2.2. Registro de entrevistas
