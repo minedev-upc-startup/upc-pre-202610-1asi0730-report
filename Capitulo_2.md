@@ -11,8 +11,7 @@
 
 #### Competitive Analysis Landscape
 
-| Categoría  | MineTrack <img width="1920" height="1080" alt="Lean UX Canvas (V2)" src="https://github.com/user-attachments/assets/0ce64c49-ccf1-459c-ac5f-1002938776cb" />
-| Trackunit | Hexagon (Asset Health) | VisionLink (Caterpillar) |
+| Categoría  | MineTrack | Trackunit | Hexagon (Asset Health) | VisionLink (Caterpillar) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Perfil: Overview** | Plataforma web centralizada para la venta y gestión técnica de maquinaria minera con monitoreo de sensores. | Plataforma global de telemática para maquinaria pesada, independiente de la marca del fabricante. | Tecnología industrial avanzada enfocada en la "salud de activos" y minería conectada a gran escala. | Sistema oficial de gestión de flotas de Caterpillar para sus distribuidores y clientes. |
 | **Ventaja Competitiva** | Integración única de catálogo de ventas y monitoreo IoT en una sola herramienta simple para distribuidores. | Gran escala global y compatibilidad extrema con hardware de cualquier marca (agnóstico). | Profundidad técnica en análisis predictivo y automatización de procesos mineros complejos. | Integración nativa total con el hardware de Caterpillar y su red global de distribuidores. |
