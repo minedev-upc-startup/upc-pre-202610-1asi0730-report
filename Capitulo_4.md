@@ -332,31 +332,27 @@ En esta sección se presenta la propuesta visual del Landing Page de MineTrack, 
 
 Hero:
 
-![Hero Wireframe](Resources/wireframes/LandingPage/Hero.png)
+![Hero Wireframe](Resources/wireframes/landingPage/Hero.png)
 
 Características:
 
-![Features Wireframe](Resources/wireframes/LandingPage/Features.png)
+![Features Wireframe](Resources/wireframes/landingPage/Caracteristicas.png)
 
 Beneficios:
 
-![Benefits Wireframe](Resources/wireframes/LandingPage/Benefits.png)
+![Benefits Wireframe](Resources/wireframes/landingPage/Beneficios.png)
 
 Testimonios:
 
-![Testimonials Wireframe](Resources/wireframes/LandingPage/Testimonials.png)
+![Testimonials Wireframe](Resources/wireframes/landingPage/Testimonios.png)
 
 Contacto:
 
-![Contact Wireframe](Resources/wireframes/LandingPage/Contact.png)
-
-CTA Final:
-
-![CTA Wireframe](Resources/wireframes/LandingPage/CTA.png)
+![Contact Wireframe](Resources/wireframes/landingPage/Contacto.png)
 
 Footer:
 
-![Footer Wireframe](Resources/wireframes/LandingPage/Footer.png)
+![Footer Wireframe](Resources/wireframes/landingPage/Footer.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -366,27 +362,23 @@ Hero:
 
 Características:
 
-![Features Mockup](Resources/mockups/LandingPage/Features.png)
+![Features Mockup](Resources/mockups/landingPage/Caracteristicas.png)
 
 Beneficios:
 
-![Benefits Mockup](Resources/mockups/LandingPage/Benefits.png)
+![Benefits Mockup](Resources/mockups/landingPage/Beneficios.png)
 
 Testimonios:
 
-![Testimonials Mockup](Resources/mockups/LandingPage/Testimonials.png)
+![Testimonials Mockup](Resources/mockups/landingPage/Testimonios.png)
 
 Contacto:
 
-![Contact Mockup](Resources/mockups/LandingPage/Contact.png)
-
-CTA Final:
-
-![CTA Mockup](Resources/mockups/LandingPage/CTA.png)
+![Contact Mockup](Resources/mockups/landingPage/Contacto.png)
 
 Footer:
 
-![Footer Mockup](Resources/mockups/LandingPage/Footer.png)
+![Footer Mockup](Resources/mockups/landingPage/Footer.png)
 
 ### 4.4. Web Applications UX/UI Design.
 
@@ -394,7 +386,7 @@ En esta sección se presenta la propuesta visual y de interacción para las pant
 
 ### 4.4.1. Web Applications Wireframes.
 
-Inicio de Sesión:
+Inicio de sesión:
 
 ![Login Wireframe](Resources/wireframes/WebApplication/Login.png)
 
@@ -405,8 +397,6 @@ Creación de cuenta:
 Catálogo de máquinas:
 
 ![Catalog Wireframe](Resources/wireframes/WebApplication/Catalog.png)
-
-![Catalog Filtered Wireframe](Resources/wireframes/WebApplication/Catalog_Filtered.png)
 
 Detalle de máquina:
 
@@ -436,18 +426,6 @@ Mis máquinas (Propietario):
 
 ![My Machines Wireframe](Resources/wireframes/WebApplication/My_Machines.png)
 
-Registro de máquina:
-
-![Register Machine Wireframe](Resources/wireframes/WebApplication/Register_Machine.png)
-
-Reporte de ganancias (Propietario):
-
-![Earnings Wireframe](Resources/wireframes/WebApplication/Earnings.png)
-
-Histórico IoT de una máquina:
-
-![IoT History Wireframe](Resources/wireframes/WebApplication/IoT_History.png)
-
 Dashboard del Intermediario:
 
 ![Broker Dashboard Wireframe](Resources/wireframes/WebApplication/Broker_Dashboard.png)
@@ -456,29 +434,9 @@ Bandeja de solicitudes (Intermediario):
 
 ![Requests Inbox Wireframe](Resources/wireframes/WebApplication/Requests_Inbox.png)
 
-Registro de horas y cierre de alquiler:
-
-![Close Rental Wireframe](Resources/wireframes/WebApplication/Close_Rental.png)
-
 Monitoreo IoT:
 
 ![IoT Monitoring Wireframe](Resources/wireframes/WebApplication/IoT_Monitoring.png)
-
-Ficha IoT de una máquina:
-
-![IoT Machine Detail Wireframe](Resources/wireframes/WebApplication/IoT_Machine_Detail.png)
-
-Bandeja de alertas (Intermediario):
-
-![Alerts Wireframe](Resources/wireframes/WebApplication/Alerts.png)
-
-Resumen de facturación (Intermediario):
-
-![Billing Wireframe](Resources/wireframes/WebApplication/Billing.png)
-
-Gestión de usuarios (Intermediario):
-
-![Users Management Wireframe](Resources/wireframes/WebApplication/Users_Management.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
@@ -631,7 +589,7 @@ US20: Alertas automáticas por eventos anormales
 
 ### 4.4.3. Web Applications Mock-ups.
 
-Inicio de Sesión:
+Inicio de sesión:
 
 ![Login Mockup](Resources/mockups/WebApplication/Login.png)
 
@@ -642,8 +600,6 @@ Creación de cuenta:
 Catálogo de máquinas:
 
 ![Catalog Mockup](Resources/mockups/WebApplication/Catalog.png)
-
-![Catalog Filtered Mockup](Resources/mockups/WebApplication/Catalog_Filtered.png)
 
 Detalle de máquina:
 
@@ -673,18 +629,6 @@ Mis máquinas (Propietario):
 
 ![My Machines Mockup](Resources/mockups/WebApplication/My_Machines.png)
 
-Registro de máquina:
-
-![Register Machine Mockup](Resources/mockups/WebApplication/Register_Machine.png)
-
-Reporte de ganancias (Propietario):
-
-![Earnings Mockup](Resources/mockups/WebApplication/Earnings.png)
-
-Histórico IoT de una máquina:
-
-![IoT History Mockup](Resources/mockups/WebApplication/IoT_History.png)
-
 Dashboard del Intermediario:
 
 ![Broker Dashboard Mockup](Resources/mockups/WebApplication/Broker_Dashboard.png)
@@ -693,29 +637,9 @@ Bandeja de solicitudes (Intermediario):
 
 ![Requests Inbox Mockup](Resources/mockups/WebApplication/Requests_Inbox.png)
 
-Registro de horas y cierre de alquiler:
-
-![Close Rental Mockup](Resources/mockups/WebApplication/Close_Rental.png)
-
 Monitoreo IoT:
 
 ![IoT Monitoring Mockup](Resources/mockups/WebApplication/IoT_Monitoring.png)
-
-Ficha IoT de una máquina:
-
-![IoT Machine Detail Mockup](Resources/mockups/WebApplication/IoT_Machine_Detail.png)
-
-Bandeja de alertas (Intermediario):
-
-![Alerts Mockup](Resources/mockups/WebApplication/Alerts.png)
-
-Resumen de facturación (Intermediario):
-
-![Billing Mockup](Resources/mockups/WebApplication/Billing.png)
-
-Gestión de usuarios (Intermediario):
-
-![Users Management Mockup](Resources/mockups/WebApplication/Users_Management.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
