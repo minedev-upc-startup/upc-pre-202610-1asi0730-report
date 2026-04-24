@@ -301,3 +301,8 @@
 | **Título** | Backup de datos técnicos |
 | **Descripción** | Como administrador de sistemas, deseo programar una descarga semanal de toda la base de datos para no perder información por fallas del servidor. |
 | **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que llega el domingo a las 12 AM, <br> *When* el sistema ejecuta la tarea, <br> *Then* se genera un archivo .sql comprimido en el almacenamiento de la nube. <br><br> **Escenario 2:** <br> *Given* que el backup falla por espacio, <br> *When* termina el proceso, <br> *Then* me llega un correo de alerta inmediata indicando "Error de Backup". |
+
+## 3.2. Impact Mapping
+
+<img width="2167" height="1330" alt="Mapa de impacto" src="https://github.com/user-attachments/assets/de34843f-3b4e-49e4-9241-d44da61a2984" />
+
