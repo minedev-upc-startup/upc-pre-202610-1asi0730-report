@@ -216,4 +216,25 @@ Esta documentación permite comprender cómo el sistema gestiona la información
 
 ---
 ### 5.2.1.7 Software Deployment Evidence for Sprint Review
+
+Se realizó el despliegue de la aplicación en un entorno local, permitiendo validar su funcionamiento fuera del entorno de desarrollo.
+
+Se logró:
+
+- Ejecutar correctamente la aplicación  
+- Visualizar la Landing Page con sus secciones implementadas  
+- Verificar la navegación entre componentes  
+- Validar la correcta representación de datos simulados  
+
+Este despliegue inicial permitió comprobar la viabilidad del sistema MineTrack como solución digital.
+
+---
 ### 5.2.1.8 Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo trabajó de manera colaborativa, distribuyendo responsabilidades y manteniendo una comunicación constante.
+
+Se utilizaron herramientas como GitHub para coordinar el desarrollo y gestionar el código fuente. Además, se realizaron reuniones de seguimiento para revisar avances y resolver dificultades.
+
+Cada integrante participó activamente tanto en tareas de desarrollo como en la toma de decisiones, lo cual permitió avanzar de manera eficiente.
+
+Esta dinámica de trabajo refleja el cumplimiento del Student Outcome 5, evidenciando la capacidad del equipo para colaborar, organizarse y lograr objetivos comunes dentro del proyecto.
