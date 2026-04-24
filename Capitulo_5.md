@@ -188,6 +188,32 @@ Se utilizaron buenas prácticas de desarrollo, incluyendo modularización del c�
 
 ---
 ### 5.2.1.5 Execution Evidence for Sprint Review
+
+Durante la ejecución del Sprint 1, el equipo trabajó de manera organizada utilizando GitHub como herramienta principal de control de versiones.
+
+Se evidenciaron las siguientes actividades:
+
+- Uso de ramas feature para el desarrollo de funcionalidades específicas  
+- Realización de commits constantes y descriptivos  
+- Integración progresiva de cambios hacia la rama develop  
+- Validación continua del funcionamiento mediante pruebas locales  
+
+El flujo de trabajo permitió mantener un desarrollo ordenado y alineado con los objetivos del Sprint.
+
+---
 ### 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+Se documentaron los componentes y servicios principales del sistema MineTrack, con el objetivo de entender el flujo de información y la interacción entre sus partes.
+
+Entre los elementos documentados se incluyen:
+
+- Flujo de datos de monitoreo de maquinaria (simulado)  
+- Representación de variables como estado, uso y alertas  
+- Interacción entre la interfaz de usuario y la lógica del sistema  
+- Estructura de componentes del Landing Page  
+
+Esta documentación permite comprender cómo el sistema gestiona la información relacionada con el mantenimiento preventivo y el seguimiento de maquinaria.
+
+---
 ### 5.2.1.7 Software Deployment Evidence for Sprint Review
 ### 5.2.1.8 Team Collaboration Insights during Sprint
