@@ -137,6 +137,7 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 ​ 
 ### 2.4. Big Picture EventStorming
 
+<img width="1638" height="795" alt="image" src="https://github.com/user-attachments/assets/02ccbd56-990b-41a3-b12b-10099dac40d9" />
 
 
 ### 2.5. Ubiquitous Language
