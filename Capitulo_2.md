@@ -135,8 +135,26 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 
 
 ​ 
+### 2.4. Big Picture EventStorming
 
-​
+
+
+### 2.5. Ubiquitous Language
+
+
+
+| Term (EN) | Definición (ES) |
+| :--- | :--- |
+| **Distributor (Distribuidor)** | Empresa o usuario responsable de la venta de maquinaria pesada y la gestión de garantías post-venta en la plataforma. |
+| **Asset (Activo / Maquinaria)** | Unidad física de maquinaria pesada (excavadora, camión minero, etc.) que es monitoreada por el sistema. |
+| **IoT Sensor (Sensor IoT)** | Dispositivo de hardware instalado en la maquinaria que captura datos físicos como temperatura, vibración y presión. |
+| **Telemetry (Telemetría)** | Proceso de medición y transmisión de datos técnicos en tiempo real desde los sensores de la maquinaria hacia la nube de MineTrack. |
+| **Downtime (Tiempo de inactividad)** | Periodo en el cual una máquina no está operativa debido a una falla técnica o mantenimiento no programado. |
+| **Threshold (Umbral)** | Límite numérico pre-configurado (ej. 90°C) que, al ser superado por un sensor, dispara automáticamente una alerta en el sistema. |
+| **Warranty (Garantía)** | Periodo de cobertura técnica brindado por el distribuidor sobre un activo vendido, gestionado digitalmente en la app. |
+| **Health Score (Puntaje de Salud)** | Indicador algorítmico (0-100) que representa el estado general de funcionamiento de una máquina basado en sus alertas recientes. |
+| **Maintenance Lead (Jefe de Mantenimiento)** | Usuario encargado de supervisar la flota técnica, recibir alertas críticas y asignar técnicos para reparaciones preventivas. |
+| **Fleet Dashboard (Panel de Flota)** | Vista consolidada que permite visualizar la ubicación y el estado de salud de todos los activos pertenecientes a una organización. |
 
 ​ 
 
