@@ -64,7 +64,8 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| Tb1 | 24/04/2026 | Grupo Brainstorm | Entrega inicial del informe TB1 que incluye especificación de requisitos y diseño inicial del sistema. |
+| Tb1 | 24/04/2026 | --Lionel
+--Zahit|  Se creó la estructura del informe y se completó los capítulos 1, 2, 3 y 4 |
 
 
 
