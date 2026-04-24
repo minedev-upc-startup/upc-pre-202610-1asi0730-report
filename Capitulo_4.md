@@ -426,6 +426,10 @@ Mis máquinas (Propietario):
 
 ![My Machines Wireframe](Resources/wireframes/WebApplication/My_Machines.png)
 
+Registro de nueva máquina (Propietario):
+
+![Register Machine Wireframe](Resources/wireframes/WebApplication/Register_Machine.png)
+
 Dashboard del Intermediario:
 
 ![Broker Dashboard Wireframe](Resources/wireframes/WebApplication/Broker_Dashboard.png)
@@ -437,6 +441,10 @@ Bandeja de solicitudes (Intermediario):
 Monitoreo IoT:
 
 ![IoT Monitoring Wireframe](Resources/wireframes/WebApplication/IoT_Monitoring.png)
+
+Ficha IoT de máquina (Intermediario):
+
+![IoT Machine Detail Wireframe](Resources/wireframes/WebApplication/IoT_Machine_Detail.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
@@ -624,6 +632,10 @@ Mis máquinas (Propietario):
 
 ![My Machines Mockup](Resources/mockups/WebApplication/My_Machines.png)
 
+Registro de nueva máquina (Propietario):
+
+![Register Machine Mockup](Resources/mockups/WebApplication/Register_Machine.png)
+
 Dashboard del Intermediario:
 
 ![Broker Dashboard Mockup](Resources/mockups/WebApplication/Broker_Dashboard.png)
@@ -635,6 +647,10 @@ Bandeja de solicitudes (Intermediario):
 Monitoreo IoT:
 
 ![IoT Monitoring Mockup](Resources/mockups/WebApplication/IoT_Monitoring.png)
+
+Ficha IoT de máquina (Intermediario):
+
+![IoT Machine Detail Mockup](Resources/mockups/WebApplication/IoT_Machine_Detail.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
