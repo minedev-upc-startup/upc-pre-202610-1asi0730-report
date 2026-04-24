@@ -1,4 +1,3 @@
-# 2. Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -66,3 +65,95 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 8. ¿Cuánto tiempo a la semana pierden viajando solo para chequear si una máquina está bien?
 
 ### 2.2.2. Registro de entrevistas
+### 2.2.3. Analisis de entrevistas
+
+
+## 2.3. NeedFinding
+
+### 2.3.1. User Persona
+Segmento: Distribuidores 
+
+<img width="1249" height="705" alt="Captura de pantalla 2026-04-23 192948" src="https://github.com/user-attachments/assets/5dc2c9d0-4c33-460d-bed6-92cd5ead8b08" />
+
+Segmento: Jefes de mantenimiento
+
+<img width="1260" height="713" alt="image" src="https://github.com/user-attachments/assets/aae0a536-0609-44d5-bbd5-cf6fa4471371" />
+
+### 2.3.2. User Task Matrix
+
+En esta sección se detallan las tareas principales que realizarán los usuarios en la plataforma **MineTrack**, evaluando qué tan seguido las hacen (Frecuencia) y qué tan críticas son para su trabajo (Importancia).
+
+#### Segmento 1: Distribuidores de Maquinaria Pesada
+Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las garantías de los equipos mineros.
+
+|Ricardo Morales | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Iniciar sesión y gestionar perfil de distribuidor | Alta | Alta |
+| Registrar nueva maquinaria pesada en el catálogo | Media | Alta |
+| Consultar disponibilidad de equipos para la venta | Alta | Alta |
+| Registrar y gestionar contratos de venta de maquinaria | Media | Alta |
+| Realizar seguimiento al estado de las garantías vigentes | Alta | Alta |
+| Consultar el historial de uso de los equipos entregados | Media | Media |
+| Validar y responder solicitudes de servicio técnico | Media | Alta |
+| Visualizar el dashboard de monitoreo de la flota vendida | Alta | Media |
+| Generar reportes de ventas y desempeño de activos | Baja | Media |
+| Actualizar información técnica de los equipos en stock | Media | Media |
+
+#### Segmento 2: Empresas de Servicios de Mantenimiento
+Este segmento utiliza la plataforma como su centro de control técnico para prevenir fallas y monitorear sensores IoT.
+
+| Javier Espinoza | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Revisar el panel principal de monitoreo de maquinaria | Alta | Alta |
+| Monitorear vibración, temperatura y presión en tiempo real | Alta | Alta |
+| Configurar los umbrales de alerta para los sensores IoT | Baja | Alta |
+| Atender notificaciones de alertas preventivas del sistema | Alta | Alta |
+| Registrar informes de mantenimiento preventivo y correctivo | Alta | Media |
+| Consultar el historial de alertas y fallas de una unidad | Alta | Media |
+| Asignar técnicos especializados a tareas de reparación | Media | Alta |
+| Analizar tendencias de datos para predicción de fallas | Media | Media |
+| Descargar manuales y guías técnicas de operación | Baja | Baja |
+| Revisar las horas de uso acumuladas de cada máquina | Alta | Alta |
+
+### 2.3.3. User Task Matrix
+
+#### Segmento 1: Distribuidores de Maquinaria Pesada
+
+<img width="1172" height="565" alt="Captura de pantalla 2026-04-23 200915" src="https://github.com/user-attachments/assets/8d2b6e79-f3d0-4aef-82c6-4888cefd5b62" />
+
+#### Segmento 2 : Jefes de mantenimiento
+​
+<img width="1394" height="666" alt="image" src="https://github.com/user-attachments/assets/cd659495-c623-4ff9-a452-fe8d2274178d" />
+
+### 2.3.4. Empathy
+
+#### Segmento 1: Distribuidores de Maquinaria Pesada
+​<img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/7d5dcd2d-81b6-4415-9df4-0ad5d52440c8" />
+
+#### Segmento 1: jefe de mantenimiento
+<img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/a4c7a535-31ff-4edc-9c34-d5fc9f88168c" />
+
+
+​ 
+
+​
+
+​ 
+
+​​ 
+
+​ 
+
+​​ 
+
+​ 
+
+​
+​ 
+
+​
+
+
+
+
+
