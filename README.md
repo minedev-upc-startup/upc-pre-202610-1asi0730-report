@@ -24,23 +24,22 @@
 
 ## Integrantes
 
-| Código | Nombre | Rol |
-|--------|--------|-----|
-| U20XXXXXXX | Sanchez Arenas, Zahir Emmanuel | Team Leader |
-| U20XXXXXXX | Mendoza Machoa, Lionel | Backend Engineer |
-| U202320574 | Meza Huanacune, Juan José | Frontend Engineer |
-| U20XXXXXXX | Aliquipa Poma, Sebastian Andres | UI/UX Designer |
+| Código     | Nombre                             | Rol                             |
+| ---------- | ---------------------------------- | ------------------------------- |
+| U20XXXXXXX | Sanchez Arenas, Zahir Emmanuel     | Team Leader                     |
+| U20XXXXXXX | Mendoza Machoa, Lionel             | Backend Engineer                |
+| U202320574 | Meza Huanacune, Juan José          | Frontend Engineer               |
+| U201916755 | Aiquipa Poma, Sebastian Andres     | UI/UX Designer                  |
 | U20XXXXXXX | Figueroa Sanchez, Alvaro Sebastian | IoT & Data Integration Engineer |
-| U20XXXXXXX | Molina Umeres, Nestor | Full Stack Engineer |
+| U20XXXXXXX | Molina Umeres, Nestor              | Full Stack Engineer             |
 
 </div>
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor | Descripción |
-|--------|------------|-------|-------------|
-| 0.1.0  | 2026-04-20 | - Sanchez Arenas, Zahir Emmanuel <br> - Mendoza Machoa, Lionel <br> - Meza Huanacuna, Juan José <br> - Aliquipa Poma, Sebastian Andres <br> - Figueroa Sanchez, Alvaro <br> - Molina Umeres, Nestor | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria. |
-
+| Versión | Fecha      | Autor                                                                                                                                                                                               | Descripción                                                                                                                                                                                                                                |
+| ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0.1.0   | 2026-04-20 | - Sanchez Arenas, Zahir Emmanuel <br> - Mendoza Machoa, Lionel <br> - Meza Huanacuna, Juan José <br> - Aliquipa Poma, Sebastian Andres <br> - Figueroa Sanchez, Alvaro <br> - Molina Umeres, Nestor | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria. |
 
 ## Project Report Collaboration Insights
 
@@ -145,14 +144,15 @@
 - [Conclusiones y recomendaciones](Conclusiones_bibliografia.md#conclusiones-y-recomendaciones)
 - [Video About-the-Team](Conclusiones_bibliografia.md#video-about-the-team)
 
-
 <div style="page-break-after: always;"></div>
 
 ## Student Outcome
 
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-| Criterio                                                                                        | Acciones realizadas | Conclusiones |
-| ----------------------------------------------------------------------------------------------- | ------------------- | ------------ |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                |                     |              |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                     |              |
+ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+| Criterio                                                                                        | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | **Sebastián Aiquipa:** Lideré el desarrollo del Capítulo IV secciones 4.1 a 4.5 (Product Design), definiendo la guía de estilo, arquitectura de información, diseño de la Landing Page y 15 pantallas de la aplicación web para los tres roles (Cliente, Propietario, Intermediario). Establecí las convenciones de GitFlow con commits convencionales que el equipo adoptó, y gestioné los Pull Requests a la rama develop asegurando revisiones previas al merge.                                                                                                                                                                                                                                         | El liderazgo compartido permitió que cada integrante asumiera responsabilidad sobre un módulo específico del reporte, aportando desde su especialidad sin depender de una figura central. Esta distribución de liderazgo fortaleció la autonomía del equipo y aceleró el avance en paralelo de los capítulos, demostrando que un liderazgo distribuido es viable cuando se establecen convenciones claras.                 |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sebastián Aiquipa:** Como equipo establecimos metas semanales alineadas al syllabus del curso, usando GitFlow con ramas feature por integrante para evitar bloqueos. Coordinamos mediante reuniones periódicas donde revisamos el estado de cada Capítulo y ajustamos la distribución de tareas según la carga de trabajo. Se adoptó la práctica de Pull Requests con revisión entre pares antes de integrar cambios a la rama develop, lo que permitió mantener la calidad del entregable y resolver dudas técnicas de forma colaborativa. Cada integrante aportó desde su fortaleza (diseño UX/UI, arquitectura, dominio del negocio, documentación) respetando los tiempos y sugerencias de los demás. | El entorno colaborativo creado permitió cumplir con los objetivos del proyecto dentro del plazo establecido, a pesar de la complejidad de coordinar cinco capítulos en paralelo. La planificación semanal y el uso disciplinado de GitFlow demostraron ser prácticas efectivas para un equipo distribuido, minimizando conflictos de integración y asegurando que cada entregable reflejara el aporte colectivo del grupo. |
