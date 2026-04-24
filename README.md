@@ -8,13 +8,13 @@
   Ingeniería de Software – 202610
 </h3><br><br>
 
-<p align="center"><strong>Curso:</strong> Aplicaciones Web</p>
+<p align="center"><strong>Curso: Aplcaciones Web</strong> Aplicaciones Web</p>
 
-<p align="center"><strong>NRC:</strong> </p>
+<p align="center"><strong>NRC: 2610</strong> </p>
 
-<p align="center"><strong>Profesor:</strong> </p>
+<p align="center"><strong>Profesor: Angel Augusto Velasquez Nuñez</strong> </p>
 
-<p align="center"><strong>StartUp:</strong> </p>
+<p align="center"><strong>StartUp: Brainstorm</strong> </p>
 
 <p align="center"><strong>Producto:</strong> MineTrack</p><br><br>
 
@@ -56,22 +56,31 @@
 
 ## **Registro de versiones del Informe**
 
-<table style="width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width: 25%;">Version</th>
-    <th style="width: 25%;">Fecha</th>
-    <th style="width: 25%;">Autor</th>
-    <th style="width: 25%;">Descripción de modificación</th>
-  </tr>
-  <tr>
-    <td align="center">1.0</td>
-    <td align="center">2026-04-18</td>
-    <td></td>
-    <td>Creación del informe</td>
-  </tr>
-</table>
-
-<div style="page-break-after: always;"></div>
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.1.0</td>
+      <td>2026-04-20</td>
+      <td>
+        - Sanchez Arenas, Zahir Emmanuel<br/>
+        - Mendoza Machoa, Lionel<br/>
+        - Meza Huanacuna, Juan José<br/>
+        - Aliquipa Poma, Sebastian Andres<br/>
+        - Figueroa Sanchez, Alvaro<br/>
+        - Molina Umeres, Nestor
+      </td>
+      <td>
+        Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria.
+      </td>
+    </tr>
 
 ## Project Report Collaboration Insights
 
@@ -176,9 +185,6 @@
 - [Conclusiones y recomendaciones](Conclusiones_bibliografia.md#conclusiones-y-recomendaciones)
 - [Video About-the-Team](Conclusiones_bibliografia.md#video-about-the-team)
 
-## [Bibliografía](Conclusiones_bibliografia.md#bibliografía)
-
-## [Anexos](Conclusiones_bibliografia.md#anexos)
 
 <div style="page-break-after: always;"></div>
 
