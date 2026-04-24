@@ -56,7 +56,7 @@
 
 <br>
 <p align="center">
-  <strong>2026</strong>
+  <strong> LIMA 24 DE ABRIL DEL 2026</strong>
 </p>
 
 
