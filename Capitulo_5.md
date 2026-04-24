@@ -86,7 +86,6 @@ De esta manera, se logró contar con una Landing Page funcional que presenta la 
 
 ## 5.2 Landing Page, Services & Applications Implementation
 ### 5.2.1 Sprint 1
-## 5.2.1 Sprint 1
 
 En esta sección se describe el desarrollo del Sprint 1 del proyecto MineTrack, incluyendo la planificación, organización del equipo, backlog del sprint y evidencias de implementación.
 
