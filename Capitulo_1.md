@@ -20,13 +20,16 @@ Transformar la gestión de activos en la industria minera mediante una plataform
 **Visión**
 Consolidarnos para el año 2030 como la plataforma líder en el sector minero regional, reconocida por nuestra capacidad de convertir datos complejos en soluciones predictivas que impulsen una minería más inteligente, segura y de alta productividad a través de la innovación tecnológica constante.
 
-### 1.1.2. Perfiles de integrantes del equipo
-* **Mendoza Machoa, Lionel Snayder (U202417433):** Team Leader. Estudiante de Ingeniería de Software 
-* **Sanchez Arenas, Zahir Emmanuel (U202315324):** Estudiante de Ingeniería de Software.
-* **Meza Huanacune, Juan José (U202320574):** Estudiante de Ingeniería de Software.
-* **Aiquipa Poma, Sebastian Andres:** Estudiante de Ingeniería de Software.
-* **Figueroa Sanchez, Alvaro (U20231A269):** Estudiante de Ingeniería de Software.
-* **Molina Umeres, Nestor Marcial:** Estudiante de Ingeniería de Software.
+### 1.1.2 Perfiles de integrantes del equipo
+
+| Imagen | Información | Descripción |
+|--------|-------------|-------------|
+| ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
+| ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
+| ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
+| ![Resources/juanmeza.jpeg](Resources/juanmeza.jpeg) | **Nombre:** Juan José Meza Huanacune <br> **Código:** U202320574 <br> **Rol:** Frontend Engineer & API Owner <br> | Responsable del desarrollo del frontend del sistema MineTrack, incluyendo la implementación de APIs y la gestión de datos para el monitoreo de maquinaria mediante IoT. Participa en la estructuración del sistema y en la integración de la lógica del proyecto. <br><br> **Evidencia TB1:** configuración del entorno backend, estructura inicial del sistema y definición de endpoints. |
+| ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
+| ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 
 ## 1.2. Solution Profile
 

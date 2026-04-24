@@ -717,3 +717,34 @@ Notification Service (Servicio de Notificaciones): Envía alertas y notificacion
 
 El diagrama muestra cómo MineTrack integra estos componentes para ofrecer una solución completa de monitoreo y gestión de maquinaria.
 ![Context Diagram](Resources/context-diagram.png)
+
+### 4.6.3 Software Architecture Container Diagrams
+
+En esta sección se presenta el diagrama de contenedores del sistema MineTrack, el cual describe la estructura interna del sistema y cómo se distribuyen las responsabilidades entre sus principales componentes.
+
+El sistema MineTrack está compuesto por los siguientes contenedores:
+
+- **Web Application (Angular):** Interfaz de usuario que permite a los usuarios registrarse, visualizar el estado de la maquinaria, consultar reportes y gestionar información del sistema.
+
+- **API REST (Spring Boot):** Componente backend que gestiona la lógica de negocio, procesa las solicitudes provenientes de la aplicación web y coordina la comunicación con los demás componentes del sistema.
+
+- **Database (MySQL):** Sistema de almacenamiento que guarda la información relacionada con la maquinaria, usuarios y registros generados por el sistema.
+
+Además, el sistema interactúa con componentes externos:
+
+- **IoT Sensors:** Proveen datos en tiempo real como temperatura, vibración y horas de uso de la maquinaria, los cuales son enviados al API REST para su procesamiento.
+
+- **Notification Service:** Servicio externo encargado de enviar alertas y notificaciones a los usuarios mediante correo electrónico o SMS.
+
+En cuanto a la comunicación entre los contenedores, la aplicación web se comunica con el API REST mediante protocolos seguros (HTTPS). El API REST se encarga de leer y escribir información en la base de datos, así como de enviar notificaciones a través del servicio externo cuando se detectan eventos relevantes.
+
+![Container Diagram](Resources/container-diagram.png)
+
+### 4.6.4 Software Architecture Components Diagrams
+
+En esta sección se presenta el diagrama de componentes correspondiente al contenedor API REST (Spring Boot).  
+El diagrama describe la estructura interna del backend, identificando los principales componentes 
+(controladores, servicios y repositorios), sus responsabilidades y las interacciones entre ellos, 
+así como con sistemas externos.
+
+![Component Diagram](Resources/component-diagram-api-rest..png)

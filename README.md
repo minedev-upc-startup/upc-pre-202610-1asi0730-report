@@ -8,13 +8,13 @@
   Ingeniería de Software – 202610
 </h3><br><br>
 
-<p align="center"><strong>Curso:</strong> Aplicaciones Web</p>
+<p align="center"><strong>Curso: Aplcaciones Web</strong> Aplicaciones Web</p>
 
-<p align="center"><strong>NRC:</strong> </p>
+<p align="center"><strong>NRC: 2610</strong> </p>
 
-<p align="center"><strong>Profesor:</strong> </p>
+<p align="center"><strong>Profesor: Angel Augusto Velasquez Nuñez</strong> </p>
 
-<p align="center"><strong>StartUp:</strong> </p>
+<p align="center"><strong>StartUp: Brainstorm</strong> </p>
 
 <p align="center"><strong>Producto:</strong> MineTrack</p><br><br>
 
@@ -22,56 +22,25 @@
   <strong>Informe de Trabajo Final</strong>
 </h2>
 
-<table style="display: flex; justify-content: center;"> 
-<tr>
-<th>Código</th>
-<th>Integrantes</th>
-</tr> 
-<tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
-</tr>
-<tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
-</tr>
-<tr>
-<td>U202320574</td>
-<td>Meza Huanacune, Juan José</td>
-</tr>
-<tr>
-<td>U20XXXXXXX</td>
-<td>Figueroa Sanchez, Alvaro Sebastian</td>
-</tr>
-<tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
-</tr>
-</table>
-<br><br>
-<div align="center"> Abril 2026 </div>
+## Integrantes
+
+| Código | Nombre | Rol |
+|--------|--------|-----|
+| U20XXXXXXX | Sanchez Arenas, Zahir Emmanuel | Team Leader |
+| U20XXXXXXX | Mendoza Machoa, Lionel | Backend Engineer |
+| U202320574 | Meza Huanacune, Juan José | Frontend Engineer |
+| U20XXXXXXX | Aliquipa Poma, Sebastian Andres | UI/UX Designer |
+| U20XXXXXXX | Figueroa Sanchez, Alvaro Sebastian | IoT & Data Integration Engineer |
+| U20XXXXXXX | Molina Umeres, Nestor | Full Stack Engineer |
+
 </div>
 
-<div style="page-break-after: always;"></div>
+## Registro de Versiones del Informe
 
-## **Registro de versiones del Informe**
+| Versión | Fecha       | Autor | Descripción |
+|--------|------------|-------|-------------|
+| 0.1.0  | 2026-04-20 | - Sanchez Arenas, Zahir Emmanuel <br> - Mendoza Machoa, Lionel <br> - Meza Huanacuna, Juan José <br> - Aliquipa Poma, Sebastian Andres <br> - Figueroa Sanchez, Alvaro <br> - Molina Umeres, Nestor | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria. |
 
-<table style="width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width: 25%;">Version</th>
-    <th style="width: 25%;">Fecha</th>
-    <th style="width: 25%;">Autor</th>
-    <th style="width: 25%;">Descripción de modificación</th>
-  </tr>
-  <tr>
-    <td align="center">1.0</td>
-    <td align="center">2026-04-18</td>
-    <td></td>
-    <td>Creación del informe</td>
-  </tr>
-</table>
-
-<div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
@@ -176,9 +145,6 @@
 - [Conclusiones y recomendaciones](Conclusiones_bibliografia.md#conclusiones-y-recomendaciones)
 - [Video About-the-Team](Conclusiones_bibliografia.md#video-about-the-team)
 
-## [Bibliografía](Conclusiones_bibliografia.md#bibliografía)
-
-## [Anexos](Conclusiones_bibliografia.md#anexos)
 
 <div style="page-break-after: always;"></div>
 

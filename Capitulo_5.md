@@ -86,7 +86,6 @@ De esta manera, se logró contar con una Landing Page funcional que presenta la 
 
 ## 5.2 Landing Page, Services & Applications Implementation
 ### 5.2.1 Sprint 1
-## 5.2.1 Sprint 1
 
 En esta sección se describe el desarrollo del Sprint 1 del proyecto MineTrack, incluyendo la planificación, organización del equipo, backlog del sprint y evidencias de implementación.
 
@@ -159,9 +158,117 @@ La asignación de líderes y colaboradores se realizó considerando la distribuc
 Cada miembro asumió al menos un rol de liderazgo, lo cual permitió fortalecer la coordinación interna y asegurar el cumplimiento de los objetivos del Sprint.
 
 Además, esta organización está alineada con las tareas definidas en el Sprint Backlog, garantizando coherencia entre la planificación y la ejecución del trabajo.
+
 ### 5.2.1.3 Sprint Backlog 1
+
+El Sprint Backlog 1 contiene las User Stories seleccionadas para cumplir con el objetivo del Sprint, enfocadas en la implementación inicial del sistema MineTrack, incluyendo la presentación del producto y la simulación del monitoreo de maquinaria.
+
+| ID | User Story | Description | Priority | Story Points |
+|----|-----------|------------|----------|--------------|
+| US01 | Landing Page - Home | Como usuario, quiero visualizar la propuesta de MineTrack para entender su utilidad | Alta | 3 |
+| US02 | Visualización de monitoreo | Como usuario, quiero ver datos de estado de maquinaria para conocer su funcionamiento | Alta | 3 |
+| US03 | Sección mantenimiento | Como usuario, quiero entender cómo funciona el mantenimiento preventivo | Alta | 2 |
+| US04 | Configuración del entorno | Como desarrollador, quiero configurar el entorno para iniciar el proyecto | Alta | 3 |
+| US05 | Estructura base Angular | Como desarrollador, quiero crear la base del sistema | Alta | 2 |
+| US06 | Simulación de alertas IoT | Como sistema, quiero mostrar alertas de fallas para validar el monitoreo inteligente | Media | 2 |
+
+**Total Story Points: 15**
+
 ### 5.2.1.4 Development Evidence for Sprint Review
+
+Durante el Sprint 1 se desarrollaron los siguientes componentes:
+
+- Implementación de la Landing Page inicial  
+- Creación de componentes en Angular (Home, Features, Contact)  
+- Configuración del entorno de desarrollo  
+- Integración de datos simulados relacionados con monitoreo de maquinaria  
+
+Se utilizaron buenas prácticas de desarrollo, incluyendo modularización del código y uso de componentes reutilizables.
+
+---
 ### 5.2.1.5 Execution Evidence for Sprint Review
+
+Durante la ejecución del Sprint 1, el equipo trabajó de manera organizada utilizando GitHub como herramienta principal de control de versiones.
+
+Se evidenciaron las siguientes actividades:
+
+- Uso de ramas feature para el desarrollo de funcionalidades específicas  
+- Realización de commits constantes y descriptivos  
+- Integración progresiva de cambios hacia la rama develop  
+- Validación continua del funcionamiento mediante pruebas locales  
+
+El flujo de trabajo permitió mantener un desarrollo ordenado y alineado con los objetivos del Sprint.
+
+---
 ### 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+Se documentaron los componentes y servicios principales del sistema MineTrack, con el objetivo de entender el flujo de información y la interacción entre sus partes.
+
+Entre los elementos documentados se incluyen:
+
+- Flujo de datos de monitoreo de maquinaria (simulado)  
+- Representación de variables como estado, uso y alertas  
+- Interacción entre la interfaz de usuario y la lógica del sistema  
+- Estructura de componentes del Landing Page  
+
+Esta documentación permite comprender cómo el sistema gestiona la información relacionada con el mantenimiento preventivo y el seguimiento de maquinaria.
+
+---
 ### 5.2.1.7 Software Deployment Evidence for Sprint Review
+
+Se realizó el despliegue de la aplicación en un entorno local, permitiendo validar su funcionamiento fuera del entorno de desarrollo.
+
+Se logró:
+
+- Ejecutar correctamente la aplicación  
+- Visualizar la Landing Page con sus secciones implementadas  
+- Verificar la navegación entre componentes  
+- Validar la correcta representación de datos simulados  
+
+Este despliegue inicial permitió comprobar la viabilidad del sistema MineTrack como solución digital.
+
+---
 ### 5.2.1.8 Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo trabajó de manera colaborativa, distribuyendo responsabilidades y manteniendo una comunicación constante.
+
+Se utilizaron herramientas como GitHub para coordinar el desarrollo y gestionar el código fuente. Además, se realizaron reuniones de seguimiento para revisar avances y resolver dificultades.
+
+Cada integrante participó activamente tanto en tareas de desarrollo como en la toma de decisiones, lo cual permitió avanzar de manera eficiente.
+
+Esta dinámica de trabajo refleja el cumplimiento del Student Outcome 5, evidenciando la capacidad del equipo para colaborar, organizarse y lograr objetivos comunes dentro del proyecto.
+
+## Conclusiones
+
+- La implementación del Sprint 1 mediante la metodología Scrum permitió organizar de manera eficiente el desarrollo del proyecto MineTrack, definiendo objetivos claros, backlog y roles, lo que facilitó el cumplimiento del Sprint Goal.
+
+- El desarrollo de la Landing Page junto con la simulación de monitoreo de maquinaria evidenció la viabilidad de la solución, demostrando cómo el uso de tecnologías IoT puede aportar valor en la gestión de mantenimiento preventivo y postventa.
+
+- El trabajo colaborativo del equipo, apoyado en herramientas como GitHub y en la correcta asignación de responsabilidades (LACX), permitió mantener un flujo de desarrollo ordenado, cumpliendo con el Student Outcome 5.
+- 
+## Bibliografía
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/
+
+- Pressman, R. S., & Maxim, B. R. (2020). *Software engineering: A practitioner’s approach* (9th ed.). McGraw-Hill.
+
+- Sommerville, I. (2016). *Software engineering* (10th ed.). Pearson.
+
+- Atzori, L., Iera, A., & Morabito, G. (2010). The Internet of Things: A survey. *Computer Networks, 54*(15), 2787–2805. https://doi.org/10.1016/j.comnet.2010.05.010
+
+- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A vision, architectural elements, and future directions. *Future Generation Computer Systems, 29*(7), 1645–1660. https://doi.org/10.1016/j.future.2013.01.010
+
+- Lee, J., Bagheri, B., & Kao, H. A. (2015). A cyber-physical systems architecture for industry 4.0-based manufacturing systems. *Manufacturing Letters, 3*, 18–23. https://doi.org/10.1016/j.mfglet.2014.12.001
+
+- Porter, M. E., & Heppelmann, J. E. (2014). How smart, connected products are transforming competition. *Harvard Business Review, 92*(11), 64–88. https://hbr.org/2014/11/how-smart-connected-products-are-transforming-competition
+
+- Schwab, K. (2017). *The fourth industrial revolution*. Crown Business.
+
+- Newman, S. (2021). *Building microservices* (2nd ed.). O’Reilly Media.
+
+- Fowler, M. (2018). *Refactoring: Improving the design of existing code* (2nd ed.). Addison-Wesley.
+  
+## Anexos
+
+Link del repositorio: [Repositorio MineTrack](https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report)
+
