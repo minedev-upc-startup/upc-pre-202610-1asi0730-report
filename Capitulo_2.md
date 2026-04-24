@@ -22,7 +22,7 @@
 
 #### Análisis SWOT  
 
-| Categoría | MineTrack | Trackunit | Hexagon | VisionLink |
+| Categoría | MineTrack [Resources/juanmeza.jpeg](Resources/juanmeza.jpeg) | Trackunit | Hexagon | VisionLink |
 | :--- | :--- | :--- | :--- | :--- |
 | **Fortalezas** | Centralización de ventas y monitoreo técnico en una sola vista simple. | Enorme base de datos global y versatilidad para cualquier tipo de flota. | Capacidad técnica superior en predicción de fallas mediante IA y sensores. | Respaldo total de la marca Caterpillar y lealtad de sus clientes. |
 | **Debilidades** | Startup nueva en el mercado con experiencia limitada en hardware propio. | Menor enfoque en la parte transaccional (ventas) del ciclo de vida del equipo. | Costos de implementación muy elevados para empresas pequeñas o medianas. | Limitado principalmente a equipos de la propia marca Caterpillar. |
