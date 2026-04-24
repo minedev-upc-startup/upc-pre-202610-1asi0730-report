@@ -20,7 +20,7 @@
 | **Precios y Costos** | Modelo de suscripción mensual (SaaS) escalable por número de máquinas monitoreadas. | Suscripciones por dispositivo conectado y costos iniciales por hardware de rastreo. | Precios corporativos de alta gama (personalizados bajo cotización por proyecto). | Generalmente incluido en el costo del equipo o suscripciones premium por servicios de datos. |
 | **Canales de Distribución** | Aplicación web de acceso directo y plataforma en la nube administrada por el grupo. | Red de distribuidores de hardware y ventas directas a través de su plataforma digital. | Consultores regionales especializados y fuerza de ventas corporativa directa. | Red exclusiva de distribuidores locales de Caterpillar en todo el mundo. |
 
-#### Análisis SWOT (FODA) Comparativo
+#### Análisis SWOT  
 
 | Categoría | MineTrack | Trackunit | Hexagon | VisionLink |
 | :--- | :--- | :--- | :--- | :--- |
