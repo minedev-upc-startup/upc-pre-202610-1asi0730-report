@@ -130,8 +130,8 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 #### Segmento 1: Distribuidores de Maquinaria Pesada
 ​<img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/7d5dcd2d-81b6-4415-9df4-0ad5d52440c8" />
 
-​#### Segmento 2: Jefes de mantenimiento
-​ ​ <img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/a4c7a535-31ff-4edc-9c34-d5fc9f88168c" />
+#### Segmento 1: jefe de mantenimiento
+<img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/a4c7a535-31ff-4edc-9c34-d5fc9f88168c" />
 
 
 ​ 
