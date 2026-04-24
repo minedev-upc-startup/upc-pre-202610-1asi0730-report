@@ -820,7 +820,7 @@ El siguiente diagrama representa la estructura completa de la base de datos del 
 
 El modelo contempla tres áreas principales:
 
-🔹 1. Gestión de usuarios
+1. Gestión de usuarios
 
 Incluye las tablas:
 
@@ -830,7 +830,7 @@ memberships y membership_types: permiten manejar los tipos de membresía y sus p
 
 Estas tablas permiten controlar el acceso, autenticación y beneficios de los usuarios dentro de la plataforma.
 
-🔹 2. Gestión de ventas de maquinaria
+2. Gestión de ventas de maquinaria
 
 Incluye:
 
@@ -843,7 +843,7 @@ invoices: generación de comprobantes de venta.
 
 Este conjunto de tablas soporta el ciclo completo de venta, desde la selección de maquinaria hasta la facturación.
 
-🔹 3. Monitoreo de maquinaria (IoT)
+3. Monitoreo de maquinaria (IoT)
 
 Incluye:
 
