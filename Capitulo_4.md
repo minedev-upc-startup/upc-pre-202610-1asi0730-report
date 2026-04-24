@@ -8,7 +8,7 @@ En esta sección se sientan las bases visuales y de comunicación comunes para l
 
 ### **Colores**
 
-![Colors](Resources/style/Colors.png)
+![Colors](Resources/style/colors.jpeg)
 
 Ámbar — #F59E0B: Este color transmite energía, acción y el ambiente industrial propio de la maquinaria pesada. Es ideal para botones principales, acentos, íconos clave y elementos que deben destacar en la interfaz.
 
@@ -50,7 +50,7 @@ JetBrains Mono:
 
 El branding de MineTrack se diseñó para transmitir robustez industrial, precisión técnica y confiabilidad. El logo combina un hexágono (que representa una tuerca y una red de conexión) con un pin de ubicación inscrito en su interior, simbolizando la trazabilidad y el monitoreo de la flota. El uso del ámbar sobre el slate oscuro refleja el color característico de la maquinaria pesada minera.
 
-![MineTrack Logo](Resources/style/Logo.png)
+![MineTrack Logo](Resources/MIneTrack.jpg)
 
 ### **Espaciado**
 
@@ -474,7 +474,7 @@ El sistema valida disponibilidad y envía la solicitud al Intermediario.
 
 El Cliente es redirigido a "Mis Solicitudes" con la nueva en estado "Pendiente".
 
-![Task Flow 1 - Cliente solicita máquina](Resources/wireflows/TaskFlow1_RequestRental.png)
+![Task Flow 1 - Cliente solicita máquina](Resources/wireframes/wireflows/flow1.jpg)
 
 **User Goals:**
 
@@ -511,7 +511,7 @@ El sistema crea la máquina con estado inicial "Disponible" y la publica en el c
 
 El Propietario es redirigido a "Mis Máquinas" donde la nueva máquina es visible.
 
-![Task Flow 2 - Propietario registra máquina](Resources/wireflows/TaskFlow2_RegisterMachine.png)
+![Task Flow 2 - Propietario registra máquina](Resources/wireframes/wireflows/flow2.jpg)
 
 **User Goals:**
 
@@ -544,7 +544,7 @@ El sistema actualiza el estado de la solicitud y notifica al Cliente del resulta
 
 En caso de aprobación, la máquina cambia automáticamente a estado "Alquilada" y queda lista para ser monitoreada posteriormente desde la sección de Alquileres del Intermediario.
 
-![Task Flow 3 - Intermediario aprueba solicitud](Resources/wireflows/TaskFlow3_ApproveAndClose.png)
+![Task Flow 3 - Intermediario aprueba solicitud](Resources/wireframes/wireflows/flow3.jpg)
 
 **User Goals:**
 
@@ -577,7 +577,7 @@ Abrir el panel de Monitoreo IoT para ver la ubicación GPS actual de la máquina
 
 Decidir la acción correctiva (contactar al Propietario o programar mantenimiento).
 
-![Task Flow 4 - Monitoreo IoT y alertas](Resources/wireflows/TaskFlow4_IoTMonitoring.png)
+![Task Flow 4 - Monitoreo IoT y alertas](Resources/wireframes/wireflows/flow4.jpg)
 
 **User Goals:**
 
@@ -660,7 +660,7 @@ Relacionado con el User Goal 1: Como Cliente, quiero encontrar y solicitar una m
 
 En esta etapa el Cliente accede al catálogo, aplica filtros, explora el detalle de una máquina y envía una solicitud de alquiler. El sistema valida la disponibilidad de fechas y, si no hay conflicto, registra la solicitud en estado "Pendiente" para la revisión del Intermediario. En caso de conflicto, se muestra un mensaje de error y se sugieren fechas alternativas.
 
-![User Flow 1 - Solicitud de alquiler](Resources/userflows/UserFlow1.png)
+![User Flow 1 - Solicitud de alquiler](Resources/mockups/userflows/flow1.png)
 
 User Flow 2:
 
@@ -668,7 +668,7 @@ Relacionado con el User Goal 2: Como Propietario, quiero publicar mi máquina en
 
 En esta etapa el Propietario completa el wizard de tres pasos para registrar una máquina: información básica, especificaciones técnicas, y fotos junto con tarifa. El sistema valida los campos obligatorios en cada paso y, al confirmar, crea la máquina en estado "Disponible" y la publica inmediatamente en el catálogo.
 
-![User Flow 2 - Registro de máquina](Resources/userflows/UserFlow2.png)
+![User Flow 2 - Registro de máquina](Resources/mockups/userflows/flow2.png)
 
 User Flow 3:
 
@@ -676,7 +676,7 @@ Relacionado con el User Goal 3: Como Intermediario, quiero evaluar y procesar la
 
 En esta etapa el Intermediario accede al Dashboard operativo, identifica las solicitudes pendientes mediante el panel de alertas o navegando directamente a la sección de Solicitudes, y revisa el detalle de cada una para aprobarla o rechazarla. Al aprobar, el sistema cambia el estado de la solicitud a "Aprobada" y la máquina asociada pasa a estado "Alquilada", activando el ciclo del alquiler. En caso de rechazo, el Intermediario debe ingresar un motivo que se notifica automáticamente al Cliente. Este flujo permite mantener el control operativo de la plataforma asegurando que cada solicitud sea evaluada y procesada en tiempo oportuno.
 
-![User Flow 3 - Aprobación de solicitud](Resources/userflows/UserFlow3.png)
+![User Flow 3 - Aprobación de solicitud](Resources/mockups/userflows/flow3.png)
 
 User Flow 4:
 
@@ -684,7 +684,7 @@ Relacionado con el User Goal 4: Como Intermediario, quiero supervisar el estado 
 
 En esta etapa el Intermediario detecta una alerta automática generada por una lectura IoT fuera de rango, revisa el detalle de la máquina afectada, consulta su histórico y decide la acción correctiva apropiada (contactar al Propietario o programar mantenimiento).
 
-![User Flow 4 - Monitoreo IoT y respuesta a alertas](Resources/userflows/UserFlow4.png)
+![User Flow 4 - Monitoreo IoT y respuesta a alertas](Resources/mockups/userflows/flow4.png)
 
 ### 4.5. Web Applications Prototyping.
 
@@ -703,9 +703,7 @@ El prototipo se organiza en el archivo Figma en tres zonas principales: una pág
 
 Los enlaces de los cuatro prototipos navegables y el video walkthrough se documentan a continuación:
 
-Enlace del prototipo Figma: _[por completar al publicar el archivo]_
-
-Video walkthrough: _[por completar al grabar]_
+Enlace del prototipo Figma: https://www.figma.com/proto/Ly5rB0Aa4PFKAnZ9bbKiGO/MineTrack---Design?node-id=23-29217&p=f&t=EikasJ2GamVE3M3j-1&scaling=min-zoom&content-scaling=fixed&page-id=23%3A27100&starting-point-node-id=23%3A29217
 
 ### 4.6.1 Design-Level EventStorming
 
