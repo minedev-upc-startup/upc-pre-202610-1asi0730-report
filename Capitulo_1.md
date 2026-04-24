@@ -69,6 +69,11 @@
 
 ## Project Report Collaboration Insights
 
+URL del repositorio del Projecto:
+
+https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report.git
+
+
 A continuación, se presentan las evidencias del trabajo colaborativo realizado por los integrantes del equipo en el repositorio de GitHub.
 
 ![Insights de Colaboración](./Resources/insights-colaboracion.png)
