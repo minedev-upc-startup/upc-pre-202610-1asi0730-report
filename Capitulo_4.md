@@ -775,42 +775,42 @@ así como con sistemas externos.
 
 #### Context: User Management
 
-En el contexto de gestión de usuarios, se definen las clases encargadas de manejar la información, autenticación y sesiones de los usuarios dentro del sistema.
+En el contexto de gestión de usuarios se modelan las clases encargadas de administrar el acceso y la interacción de los usuarios dentro de la plataforma. 
 
-La clase `User` representa a los usuarios del sistema, incluyendo sus atributos principales y operaciones como registro e inicio de sesión. La clase `UserSession` permite gestionar sesiones activas, incluyendo validación y expiración.
+La clase `User` representa a los usuarios del sistema, incluyendo sus datos personales y operaciones como registro, inicio de sesión y actualización de perfil. La clase `UserSession` permite gestionar las sesiones activas, garantizando el control de acceso mediante tokens y tiempos de expiración.
 
-Asimismo, se implementa la interfaz `Membership`, la cual define el comportamiento común para distintos tipos de membresía. Las clases `BasicMembership`, `PremiumMembership` y `EliteMembership` representan diferentes niveles de membresía con funcionalidades específicas.
+Asimismo, se incluyen las clases `Role` y `Permission`, las cuales permiten definir distintos niveles de acceso dentro del sistema, asegurando que cada usuario pueda realizar únicamente las acciones autorizadas. La clase `Company` representa las organizaciones que utilizan la plataforma, como distribuidores de maquinaria o empresas de mantenimiento.
 
-Finalmente, la clase `MembershipFactory` aplica el patrón de diseño Factory, permitiendo la creación de instancias de membresía de forma desacoplada.
+Finalmente, los servicios `AuthenticationService` y `AuthorizationService` permiten validar credenciales y controlar permisos, garantizando la seguridad del sistema.
 
-Este conjunto de clases permite gestionar de manera eficiente el acceso, personalización y comportamiento de los usuarios dentro del sistema.
+Este contexto es fundamental para asegurar el acceso controlado y seguro a la plataforma.
 
 ![User Management Diagram](Resources/user-management.png)
 
-#### Context: Equipment Monitoring
+##### Context: Machinery Sales and Management
 
-En el contexto de monitoreo de equipos, se modelan las clases responsables de representar y gestionar el estado de los equipos dentro del sistema.
+En este contexto se modelan las clases encargadas de la gestión del catálogo de maquinaria y el proceso de venta dentro de la plataforma.
 
-La clase `Equipment` representa cada equipo monitoreado, incluyendo su estado y operaciones relacionadas. La clase `SensorData` permite procesar la información obtenida de sensores, como temperatura o vibración.
+La clase `Machinery` representa los equipos disponibles, incluyendo sus características principales como modelo, precio y estado. Estas maquinarias se organizan mediante la clase `Catalog` y se clasifican a través de `Category`.
 
-La clase `Alert` se encarga de representar eventos críticos generados a partir del análisis de datos, mientras que `Maintenance` permite gestionar el mantenimiento programado de los equipos.
+El proceso de compra se gestiona mediante las clases `Order` y `OrderItem`, las cuales permiten registrar pedidos realizados por los clientes. La clase `Customer` representa a los usuarios que adquieren los equipos.
 
-Estas clases se relacionan entre sí mediante asociaciones con multiplicidad, permitiendo representar que un equipo puede generar múltiples datos, alertas y registros de mantenimiento.
+Además, se incluyen las clases `Payment` e `Invoice`, que permiten gestionar los pagos y la generación de comprobantes, completando así el ciclo de venta.
 
-Este diseño permite una supervisión eficiente y en tiempo real del estado de los equipos.
+Este contexto permite centralizar la gestión comercial de la maquinaria, facilitando la compra y administración de los equipos.
 
-![Equipment Monitoring Diagram](Resources/equipment-monitoring.png)
+![Machinery Sales Diagram](docs/diagrams/machinery-sales.png)
 
-#### Context: Alert & Notification
+#### Context: IoT Monitoring and Maintenance
 
-En el contexto de alertas y notificaciones, se modelan las clases encargadas de gestionar la comunicación de eventos importantes hacia los usuarios.
+En este contexto se modela la supervisión del estado de la maquinaria mediante la integración con dispositivos IoT.
 
-La clase `Alert` representa eventos generados por el sistema, mientras que `NotificationService` se encarga de distribuir dichas alertas a los usuarios.
+La clase `Machinery` se relaciona con múltiples `Sensor`, los cuales recopilan datos en tiempo real como temperatura, vibración y condiciones operativas. Estos datos son representados por la clase `SensorData`.
 
-Se define la interfaz `NotificationChannel`, que permite implementar distintos mecanismos de notificación, como correo electrónico (`EmailNotification`) o mensajes (`SMSNotification`).
+A partir del análisis de estos datos, se generan alertas mediante la clase `Alert`, permitiendo detectar fallas o condiciones críticas. Asimismo, la clase `Maintenance` permite gestionar las actividades de mantenimiento necesarias para cada equipo, mientras que `MaintenancePlan` define la planificación de dichas actividades.
 
-La relación entre estas clases permite enviar notificaciones de manera flexible y extensible, facilitando la integración de nuevos canales de comunicación en el futuro.
+El sistema también incluye componentes como `IoTGateway`, encargado de recibir los datos de los sensores, y `Dashboard`, que permite visualizar la información en tiempo real. Además, `NotificationService` se encarga de enviar alertas a los usuarios, y `RecommendationService` genera sugerencias de mantenimiento basadas en los datos recopilados.
 
-Este enfoque mejora la capacidad de respuesta del sistema ante eventos críticos.
+Este contexto permite mejorar la eficiencia operativa, reducir fallas y optimizar el mantenimiento de la maquinaria.
 
-![Alert Notification Diagram](Resources/alert-notification.png)
+![IoT Monitoring Diagram](docs/diagrams/iot-monitoring.png)
