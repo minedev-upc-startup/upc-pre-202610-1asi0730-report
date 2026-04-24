@@ -27,8 +27,8 @@
 | Código | Nombre | Rol |
 |--------|--------|-----|
 | U20XXXXXXX | Sanchez Arenas, Zahir Emmanuel | Team Leader |
-| U20XXXXXXX | Mendoza Machoa, Lionel | Frontend Engineer |
-| U202320574 | Meza Huanacune, Juan José | Backend Engineer |
+| U20XXXXXXX | Mendoza Machoa, Lionel | Backend Engineer |
+| U202320574 | Meza Huanacune, Juan José | Frontend Engineer |
 | U20XXXXXXX | Aliquipa Poma, Sebastian Andres | UI/UX Designer |
 | U20XXXXXXX | Figueroa Sanchez, Alvaro Sebastian | IoT & Data Integration Engineer |
 | U20XXXXXXX | Molina Umeres, Nestor | Full Stack Engineer |
