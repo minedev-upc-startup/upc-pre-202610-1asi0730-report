@@ -823,4 +823,4 @@ El diagrama describe la estructura interna del backend, identificando los princi
 (controladores, servicios y repositorios), sus responsabilidades y las interacciones entre ellos, 
 así como con sistemas externos.
 
-![Component Diagram](Resources/component-diagram-api-rest.png)
+![Component Diagram](Resources/component-diagram-api-rest..png)
