@@ -799,7 +799,7 @@ Además, se incluyen las clases `Payment` e `Invoice`, que permiten gestionar lo
 
 Este contexto permite centralizar la gestión comercial de la maquinaria, facilitando la compra y administración de los equipos.
 
-![Machinery Sales Diagram](docs/diagrams/machinery-sales.png)
+![Machinery Sales Diagram](Resources/diagrams/machinery-sales.png)
 
 #### Context: IoT Monitoring and Maintenance
 
@@ -813,4 +813,4 @@ El sistema también incluye componentes como `IoTGateway`, encargado de recibir 
 
 Este contexto permite mejorar la eficiencia operativa, reducir fallas y optimizar el mantenimiento de la maquinaria.
 
-![IoT Monitoring Diagram](docs/diagrams/iot-monitoring.png)
+![IoT Monitoring Diagram](Resources/diagrams/iot-monitoring.png)
