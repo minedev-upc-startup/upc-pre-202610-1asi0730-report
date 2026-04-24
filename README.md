@@ -54,33 +54,12 @@
 
 <div style="page-break-after: always;"></div>
 
-## **Registro de versiones del Informe**
+## Registro de Versiones del Informe
 
-<table>
-  <thead>
-    <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0.1.0</td>
-      <td>2026-04-20</td>
-      <td>
-        - Sanchez Arenas, Zahir Emmanuel<br/>
-        - Mendoza Machoa, Lionel<br/>
-        - Meza Huanacuna, Juan José<br/>
-        - Aliquipa Poma, Sebastian Andres<br/>
-        - Figueroa Sanchez, Alvaro<br/>
-        - Molina Umeres, Nestor
-      </td>
-      <td>
-        Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria.
-      </td>
-    </tr>
+| Versión | Fecha       | Autor | Descripción |
+|--------|------------|-------|-------------|
+| 0.1.0  | 2026-04-20 | - Sanchez Arenas, Zahir Emmanuel <br> - Mendoza Machoa, Lionel <br> - Meza Huanacuna, Juan José <br> - Aliquipa Poma, Sebastian Andres <br> - Figueroa Sanchez, Alvaro <br> - Molina Umeres, Nestor | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria. |
+
 
 ## Project Report Collaboration Insights
 
