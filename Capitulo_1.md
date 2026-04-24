@@ -27,7 +27,7 @@ Consolidarnos para el año 2030 como la plataforma líder en el sector minero re
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
-| ![Resources/juanmeza.jpeg](Resources/juanmeza.jpeg) | **Nombre:** Juan José Meza Huanacune <br> **Código:** U202320574 <br> **Rol:** Backend Engineer & API Owner <br> | Responsable del desarrollo del backend del sistema MineTrack, incluyendo la implementación de APIs y la gestión de datos para el monitoreo de maquinaria mediante IoT. Participa en la estructuración del sistema y en la integración de la lógica del proyecto. <br><br> **Evidencia TB1:** configuración del entorno backend, estructura inicial del sistema y definición de endpoints. |
+| ![Resources/juanmeza.jpeg](Resources/juanmeza.jpeg) | **Nombre:** Juan José Meza Huanacune <br> **Código:** U202320574 <br> **Rol:** Frontend Engineer & API Owner <br> | Responsable del desarrollo del frontend del sistema MineTrack, incluyendo la implementación de APIs y la gestión de datos para el monitoreo de maquinaria mediante IoT. Participa en la estructuración del sistema y en la integración de la lógica del proyecto. <br><br> **Evidencia TB1:** configuración del entorno backend, estructura inicial del sistema y definición de endpoints. |
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 
