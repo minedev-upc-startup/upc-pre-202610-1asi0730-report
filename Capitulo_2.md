@@ -1,4 +1,4 @@
-# 2. Requirements Elicitation & Analysis
+<img width="1249" height="705" alt="Captura de pantalla 2026-04-23 192948" src="https://github.com/user-attachments/assets/ad5286b9-46b2-4831-88a2-44796492a511" /># 2. Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -66,3 +66,51 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 8. ¿Cuánto tiempo a la semana pierden viajando solo para chequear si una máquina está bien?
 
 ### 2.2.2. Registro de entrevistas
+### 2.2.3. Analisis de entrevistas
+
+
+## 2.3. NeedFinding
+
+### 2.3.1. User Persona
+Segmento: Distribuidores 
+
+<img width="1249" height="705" alt="Captura de pantalla 2026-04-23 192948" src="https://github.com/user-attachments/assets/5dc2c9d0-4c33-460d-bed6-92cd5ead8b08" />
+
+Segmento: Jefes de mantenimiento
+
+<img width="1260" height="713" alt="image" src="https://github.com/user-attachments/assets/aae0a536-0609-44d5-bbd5-cf6fa4471371" />
+
+
+
+
+​
+
+​ 
+
+​
+​ 
+​ ​ 
+
+​ 
+
+​
+
+​ 
+
+​​ 
+
+​ 
+
+​​ 
+
+​ 
+
+​
+​ 
+
+​
+
+
+
+
+
