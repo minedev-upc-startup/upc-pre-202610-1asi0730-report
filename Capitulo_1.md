@@ -28,7 +28,7 @@ Consolidarnos para el año 2030 como la plataforma líder en el sector minero re
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 | ![Resources/juanmeza.jpeg](Resources/juanmeza.jpeg) | **Nombre:** Juan José Meza Huanacune <br> **Código:** U202320574 <br> **Rol:** Frontend Engineer & API Owner <br> | Responsable del desarrollo del frontend del sistema MineTrack, incluyendo la implementación de APIs y la gestión de datos para el monitoreo de maquinaria mediante IoT. Participa en la estructuración del sistema y en la integración de la lógica del proyecto. <br><br> **Evidencia TB1:** configuración del entorno backend, estructura inicial del sistema y definición de endpoints. |
-| ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
+| ![Resources/Alvaro.png](Resources/Alvaro.png) | **Nombre:** Alvaro Figueroa Sanchez <br> **Código:** U2023A269 <br> **Rol:** Backend Developer & System Designer <br> | Responsable del diseño y desarrollo de los diagramas UML del sistema, así como de la estructuración del backend orientado a la gestión de usuarios, ventas de maquinaria y monitoreo de equipos. <br><br> **Evidencia TB1:** elaboración de diagramas de clases (User Management, Machinery Sales y Equipment Monitoring), configuración del entorno de desarrollo y modelado de la lógica del sistema. |
 | ![]( ) | **Nombre:** Nombre <br> **Código:** Código <br> **Rol:** Rol <br><br> |  |
 
 ## 1.2. Solution Profile
