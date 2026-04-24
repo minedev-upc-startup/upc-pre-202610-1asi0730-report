@@ -812,3 +812,46 @@ El sistema también incluye componentes como `IoTGateway`, encargado de recibir 
 Este contexto permite mejorar la eficiencia operativa, reducir fallas y optimizar el mantenimiento de la maquinaria.
 
 ![IoT Monitoring Diagram](Resources/iot-monitoring.png)
+
+## 4.8 Database Design
+
+## 4.8.1  Database Diagrams
+El siguiente diagrama representa la estructura completa de la base de datos del sistema MineTrack, incluyendo las tablas principales, sus atributos y las relaciones entre ellas.
+
+El modelo contempla tres áreas principales:
+
+🔹 1. Gestión de usuarios
+
+Incluye las tablas:
+
+users: almacena la información de los usuarios registrados.
+user_sessions: gestiona las sesiones activas.
+memberships y membership_types: permiten manejar los tipos de membresía y sus periodos.
+
+Estas tablas permiten controlar el acceso, autenticación y beneficios de los usuarios dentro de la plataforma.
+
+🔹 2. Gestión de ventas de maquinaria
+
+Incluye:
+
+customers: información de los clientes.
+orders: registro de pedidos realizados.
+order_items: detalle de los productos dentro de cada pedido.
+machinery: catálogo de maquinaria disponible.
+payments: información de pagos realizados.
+invoices: generación de comprobantes de venta.
+
+Este conjunto de tablas soporta el ciclo completo de venta, desde la selección de maquinaria hasta la facturación.
+
+🔹 3. Monitoreo de maquinaria (IoT)
+
+Incluye:
+
+machines: registro de las máquinas monitoreadas.
+sensors: sensores instalados en cada máquina.
+sensor_data: datos recolectados en tiempo real.
+alerts: alertas generadas por condiciones anómalas.
+
+Este módulo permite el seguimiento del estado operativo de la maquinaria, facilitando la toma de decisiones y el mantenimiento preventivo.
+
+![MineTrack Database Diagram](Resources/database-diagram.png)
