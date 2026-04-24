@@ -33,6 +33,8 @@
 | U20XXXXXXX | Figueroa Sanchez, Alvaro Sebastian | IoT & Data Integration Engineer |
 | U20XXXXXXX | Molina Umeres, Nestor | Full Stack Engineer |
 
+</div>
+
 ## Registro de Versiones del Informe
 
 | Versión | Fecha       | Autor | Descripción |
