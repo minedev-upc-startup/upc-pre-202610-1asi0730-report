@@ -1,4 +1,3 @@
-<img width="1249" height="705" alt="Captura de pantalla 2026-04-23 192948" src="https://github.com/user-attachments/assets/ad5286b9-46b2-4831-88a2-44796492a511" /># 2. Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -80,7 +79,41 @@ Segmento: Jefes de mantenimiento
 
 <img width="1260" height="713" alt="image" src="https://github.com/user-attachments/assets/aae0a536-0609-44d5-bbd5-cf6fa4471371" />
 
+### 2.3.2. User Task Matrix
 
+En esta sección se detallan las tareas principales que realizarán los usuarios en la plataforma **MineTrack**, evaluando qué tan seguido las hacen (Frecuencia) y qué tan críticas son para su trabajo (Importancia).
+
+#### Segmento 1: Distribuidores de Maquinaria Pesada
+Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las garantías de los equipos mineros.
+
+| Tarea | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Iniciar sesión y gestionar perfil de distribuidor | Alta | Alta |
+| Registrar nueva maquinaria pesada en el catálogo | Media | Alta |
+| Consultar disponibilidad de equipos para la venta | Alta | Alta |
+| Registrar y gestionar contratos de venta de maquinaria | Media | Alta |
+| Realizar seguimiento al estado de las garantías vigentes | Alta | Alta |
+| Consultar el historial de uso de los equipos entregados | Media | Media |
+| Validar y responder solicitudes de servicio técnico | Media | Alta |
+| Visualizar el dashboard de monitoreo de la flota vendida | Alta | Media |
+| Generar reportes de ventas y desempeño de activos | Baja | Media |
+| Actualizar información técnica de los equipos en stock | Media | Media |
+
+#### Segmento 2: Empresas de Servicios de Mantenimiento
+Este segmento utiliza la plataforma como su centro de control técnico para prevenir fallas y monitorear sensores IoT.
+
+| Tarea | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Revisar el panel principal de monitoreo de maquinaria | Alta | Alta |
+| Monitorear vibración, temperatura y presión en tiempo real | Alta | Alta |
+| Configurar los umbrales de alerta para los sensores IoT | Baja | Alta |
+| Atender notificaciones de alertas preventivas del sistema | Alta | Alta |
+| Registrar informes de mantenimiento preventivo y correctivo | Alta | Media |
+| Consultar el historial de alertas y fallas de una unidad | Alta | Media |
+| Asignar técnicos especializados a tareas de reparación | Media | Alta |
+| Analizar tendencias de datos para predicción de fallas | Media | Media |
+| Descargar manuales y guías técnicas de operación | Baja | Baja |
+| Revisar las horas de uso acumuladas de cada máquina | Alta | Alta |
 
 
 ​
