@@ -159,8 +159,34 @@ La asignación de líderes y colaboradores se realizó considerando la distribuc
 Cada miembro asumió al menos un rol de liderazgo, lo cual permitió fortalecer la coordinación interna y asegurar el cumplimiento de los objetivos del Sprint.
 
 Además, esta organización está alineada con las tareas definidas en el Sprint Backlog, garantizando coherencia entre la planificación y la ejecución del trabajo.
+
 ### 5.2.1.3 Sprint Backlog 1
+
+El Sprint Backlog 1 contiene las User Stories seleccionadas para cumplir con el objetivo del Sprint, enfocadas en la implementación inicial del sistema MineTrack, incluyendo la presentación del producto y la simulación del monitoreo de maquinaria.
+
+| ID | User Story | Description | Priority | Story Points |
+|----|-----------|------------|----------|--------------|
+| US01 | Landing Page - Home | Como usuario, quiero visualizar la propuesta de MineTrack para entender su utilidad | Alta | 3 |
+| US02 | Visualización de monitoreo | Como usuario, quiero ver datos de estado de maquinaria para conocer su funcionamiento | Alta | 3 |
+| US03 | Sección mantenimiento | Como usuario, quiero entender cómo funciona el mantenimiento preventivo | Alta | 2 |
+| US04 | Configuración del entorno | Como desarrollador, quiero configurar el entorno para iniciar el proyecto | Alta | 3 |
+| US05 | Estructura base Angular | Como desarrollador, quiero crear la base del sistema | Alta | 2 |
+| US06 | Simulación de alertas IoT | Como sistema, quiero mostrar alertas de fallas para validar el monitoreo inteligente | Media | 2 |
+
+**Total Story Points: 15**
+
 ### 5.2.1.4 Development Evidence for Sprint Review
+
+Durante el Sprint 1 se desarrollaron los siguientes componentes:
+
+- Implementación de la Landing Page inicial  
+- Creación de componentes en Angular (Home, Features, Contact)  
+- Configuración del entorno de desarrollo  
+- Integración de datos simulados relacionados con monitoreo de maquinaria  
+
+Se utilizaron buenas prácticas de desarrollo, incluyendo modularización del código y uso de componentes reutilizables.
+
+---
 ### 5.2.1.5 Execution Evidence for Sprint Review
 ### 5.2.1.6 Services Documentation Evidence for Sprint Review
 ### 5.2.1.7 Software Deployment Evidence for Sprint Review
