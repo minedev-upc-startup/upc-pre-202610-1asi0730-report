@@ -67,6 +67,12 @@
 | Tb1 | 24/04/2026 | -SANCHEZ ARENAS, ZAHIR EMMANUEL<br> -MENDOZA MACHOA, LIONEL<br> -MEZA HUANACUNE, JUAN JOSÉ<br> -AIQUIPA POMA, SEBASTIAN ANDRES<br> -FIGUEROA SANCHEZ, ALVARO<br> -MOLINA UMERES, NESTOR MARCIAL | Entrega inicial del informe TB1  que incluye especificación de requisitos y diseño inicial del sistema y los capitulos 1, 2, 3, 4 y 5. |
 
 
+## Project Report Collaboration Insights
+
+A continuación, se presentan las evidencias del trabajo colaborativo realizado por los integrantes del equipo en el repositorio de GitHub.
+
+![Insights de Colaboración](./Resources/)
+
 
 # 1. Introducción
 
