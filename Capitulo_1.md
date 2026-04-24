@@ -71,7 +71,7 @@
 
 A continuación, se presentan las evidencias del trabajo colaborativo realizado por los integrantes del equipo en el repositorio de GitHub.
 
-![Insights de Colaboración](./Resources/)
+![Insights de Colaboración](./Resources/insights-colaboracion.png)
 
 
 # 1. Introducción
