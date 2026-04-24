@@ -151,3 +151,153 @@
 | **Título** | Cerrar sesión correctamente |
 | **Descripción** | Como usuario de una computadora compartida en la mina, deseo cerrar mi sesión para que nadie más vea los datos de mi empresa. |
 | **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que estoy logueado, <br> *When* hago clic en "Cerrar Sesión", <br> *Then* el sistema me expulsa al login y borra el token de acceso. <br><br> **Escenario 2:** <br> *Given* que cierro la ventana sin desloguearme, <br> *When* alguien vuelve a entrar en menos de 5 minutos, <br> *Then* el sistema le pide contraseña nuevamente por seguridad. |
+
+| User Story ID | HU26 | Epic ID | EP02 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Reporte de fallas por operario |
+| **Descripción** | Como operario de maquinaria, deseo reportar una falla mecánica detectada visualmente para que el equipo de mantenimiento la revise. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que selecciono la opción "Reportar Falla", <br> *When* describo el problema y envío el formulario, <br> *Then* el sistema genera un ticket de atención inmediata. <br><br> **Escenario 2:** <br> *Given* que no adjunto descripción, <br> *When* intento enviar, <br> *Then* el sistema solicita al menos un comentario breve sobre la falla. |
+
+| User Story ID | HU27 | Epic ID | EP02 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Búsqueda por modelo de motor |
+| **Descripción** | Como técnico, deseo buscar maquinaria según el modelo de motor para saber qué repuestos específicos debo llevar a la mina. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que ingreso el modelo del motor en el buscador, <br> *When* realizo la consulta, <br> *Then* el sistema muestra todas las máquinas que utilizan ese motor. <br><br> **Escenario 2:** <br> *Given* que el motor no existe en la base de datos, <br> *When* busco, <br> *Then* se muestra un mensaje de "Motor no registrado". |
+
+| User Story ID | HU28 | Epic ID | EP03 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Filtro por estado operativo |
+| **Descripción** | Como gestor de flota, deseo filtrar los equipos por "Operativo" o "En Reparación" para organizar el trabajo del día. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que selecciono el estado "En Reparación", <br> *When* aplico el filtro, <br> *Then* solo visualizo los equipos que están fuera de servicio. <br><br> **Escenario 2:** <br> *Given* que todas las máquinas están operativas, <br> *When* filtro por reparación, <br> *Then* la lista aparece vacía con un aviso informativo. |
+
+| User Story ID | HU29 | Epic ID | EP03 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Alerta de nivel de combustible |
+| **Descripción** | Como administrador, deseo recibir una alerta cuando el nivel de combustible sea menor al 15% para evitar paradas por falta de energía. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que el tanque baja del 15%, <br> *When* el sensor envía el dato, <br> *Then* el icono de combustible en el dashboard parpadea en amarillo. <br><br> **Escenario 2:** <br> *Given* que el nivel es crítico (5%), <br> *When* se actualiza el dato, <br> *Then* llega una notificación push de "Nivel crítico de combustible". |
+
+| User Story ID | HU30 | Epic ID | EP04 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Gestión de proveedores de repuestos |
+| **Descripción** | Como distribuidor, deseo registrar los datos de contacto de proveedores para agilizar la compra de piezas de garantía. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que ingreso el nombre y teléfono del proveedor, <br> *When* guardo el contacto, <br> *Then* queda vinculado a la marca de maquinaria correspondiente. <br><br> **Escenario 2:** <br> *Given* que el proveedor ya existe, <br> *When* intento duplicarlo, <br> *Then* el sistema me ofrece editar el contacto existente. |
+
+| User Story ID | HU31 | Epic ID | EP04 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Notificación de vencimiento de seguro |
+| **Descripción** | Como gestor, deseo que el sistema me avise 30 días antes de que venza el seguro de la máquina para realizar el trámite de renovación. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que faltan 30 días para el vencimiento, <br> *When* el sistema revisa las fechas, <br> *Then* genera una alerta en la sección de trámites pendientes. <br><br> **Escenario 2:** <br> *Given* que el seguro ya venció, <br> *When* cargo los datos del equipo, <br> *Then* el estado del documento aparece como "Vencido" en rojo. |
+
+| User Story ID | HU32 | Epic ID | EP05 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Visualización de manuales digitales |
+| **Descripción** | Como técnico en campo, deseo abrir el manual del fabricante desde la app para consultar esquemas técnicos sin cargar libros físicos. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que selecciono una máquina, <br> *When* hago clic en "Manual de Usuario", <br> *Then* se abre un visor de PDF integrado en la plataforma. <br><br> **Escenario 2:** <br> *Given* que no hay manual cargado, <br> *When* intento abrirlo, <br> *Then* el sistema me da la opción de solicitar la subida del documento. |
+
+| User Story ID | HU33 | Epic ID | EP05 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Registro de piezas reemplazadas |
+| **Descripción** | Como técnico, deseo marcar qué piezas específicas cambié en una máquina para llevar un control exacto del inventario de repuestos. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que estoy en el reporte de mantenimiento, <br> *When* selecciono "Filtro de aire" y guardo, <br> *Then* se descuenta del stock virtual y queda registrado en el equipo. <br><br> **Escenario 2:** <br> *Given* que la pieza no está en lista, <br> *When* la escribo manualmente, <br> *Then* el sistema la añade como observación especial. |
+
+| User Story ID | HU34 | Epic ID | EP03 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Dashboard de eficiencia de combustible |
+| **Descripción** | Como analista, deseo ver cuánto combustible consume cada máquina por hora para identificar equipos que necesitan afinamiento. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que elijo un rango de tiempo, <br> *When* veo la gráfica de consumo, <br> *Then* el sistema calcula el promedio de litros por hora automáticamente. <br><br> **Escenario 2:** <br> *Given* que los datos son inconsistentes, <br> *When* visualizo la eficiencia, <br> *Then* el sistema marca la gráfica con una advertencia de "Datos fuera de rango". |
+
+| User Story ID | HU35 | Epic ID | EP05 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Historial de ubicaciones GPS |
+| **Descripción** | Como jefe de logística, deseo ver el recorrido de la máquina en el mapa durante las últimas 24 horas para verificar que no salió de la zona de trabajo. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que elijo la opción "Trazar ruta", <br> *When* selecciono el día de ayer, <br> *Then* el mapa muestra una línea con los puntos de movimiento. <br><br> **Escenario 2:** <br> *Given* que la máquina estuvo estática, <br> *When* trazo la ruta, <br> *Then* solo aparece un punto con la leyenda "Sin movimiento detectado". |
+
+| User Story ID | HU36 | Epic ID | EP06 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Cambio de unidades de medida |
+| **Descripción** | Como usuario internacional, deseo cambiar entre Celsius y Fahrenheit para leer los datos de temperatura en el sistema que prefiera. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que cambio la configuración a "Fahrenheit", <br> *When* regreso al dashboard, <br> *Then* todos los valores de temperatura se convierten automáticamente. <br><br> **Escenario 2:** <br> *Given* que cierro la sesión, <br> *When* vuelvo a entrar, <br> *Then* mi preferencia de unidad de medida se mantiene guardada. |
+
+| User Story ID | HU37 | Epic ID | EP06 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Modo oscuro para trabajo nocturno |
+| **Descripción** | Como operador de noche, deseo activar el modo oscuro para no cansar mi vista al revisar el dashboard en la oscuridad de la mina. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que activo el interruptor de "Modo Oscuro", <br> *When* navego por la app, <br> *Then* los fondos cambian a tonos oscuros y los textos a claros. <br><br> **Escenario 2:** <br> *Given* que es de día, <br> *When* la app detecta mucha luz (sensor del móvil), <br> *Then* me sugiere volver al modo claro. |
+
+| User Story ID | HU38 | Epic ID | EP06 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Suscripción a alertas específicas |
+| **Descripción** | Como técnico jefe, deseo suscribirme solo a las alertas de "Presión Hidráulica" para no recibir notificaciones que no corresponden a mi área. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que en mi perfil marco solo "Presión", <br> *When* ocurre una falla de temperatura, <br> *Then* no recibo notificación push, pero sí queda en el registro. <br><br> **Escenario 2:** <br> *Given* que ocurre la falla de presión, <br> *When* el sistema la detecta, <br> *Then* me llega el aviso inmediatamente. |
+
+| User Story ID | HU39 | Epic ID | EP01 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Auditoría de cambios en inventario |
+| **Descripción** | Como administrador, deseo ver quién modificó el stock de una máquina para evitar cambios no autorizados en los datos de venta. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que consulto el log de actividad, <br> *When* filtro por una máquina, <br> *Then* veo el nombre del usuario y la hora exacta en que cambió el precio o estado. <br><br> **Escenario 2:** <br> *Given* que no hay cambios recientes, <br> *When* reviso el historial, <br> *Then* el sistema muestra "Sin modificaciones registradas". |
+
+| User Story ID | HU40 | Epic ID | EP06 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Vista simplificada para operarios |
+| **Descripción** | Como operario de cabina, deseo una vista con botones grandes y solo datos críticos para verlos rápido mientras manejo. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que activo la "Vista de Cabina", <br> *When* miro la pantalla, <br> *Then* solo aparecen los 3 indicadores más importantes en tamaño grande. <br><br> **Escenario 2:** <br> *Given* que necesito ver detalles, <br> *When* hago clic en un indicador, <br> *Then* el sistema me muestra la gráfica detallada. |
+
+| User Story ID | HU41 | Epic ID | EP04 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Registro de kilometraje |
+| **Descripción** | Como gestor de transporte, deseo registrar el kilometraje de los camiones mineros para programar el rotado de neumáticos. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que actualizo el dato de kilómetros recorridos, <br> *When* el valor llega a 10,000 km, <br> *Then* el sistema sugiere una inspección de llantas. <br><br> **Escenario 2:** <br> *Given* que el dato es menor al anterior, <br> *When* intento guardar, <br> *Then* el sistema me pide confirmar si hubo un error de digitación. |
+
+| User Story ID | HU42 | Epic ID | EP03 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Alerta de batería de dispositivo IoT |
+| **Descripción** | Como técnico de sistemas, deseo saber si la batería del sensor IoT está por agotarse para ir a cambiarla antes de perder la conexión. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que el sensor reporta 10% de energía, <br> *When* entro al panel de configuración, <br> *Then* veo un icono de batería baja al lado del ID del sensor. <br><br> **Escenario 2:** <br> *Given* que el sensor muere, <br> *When* el sistema deja de recibir señal, <br> *Then* se genera una alerta de "Pérdida de enlace IoT". |
+
+| User Story ID | HU43 | Epic ID | EP03 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Evaluación de desempeño (KPIs) |
+| **Descripción** | Como gerente, deseo ver un puntaje de salud (0-100) de cada máquina para saber cuáles son las más confiables de mi flota. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que la máquina no ha tenido fallas en el mes, <br> *When* consulto su perfil, <br> *Then* el sistema le asigna un puntaje de "A" o 95/100. <br><br> **Escenario 2:** <br> *Given* que tiene muchas alertas rojas, <br> *When* reviso el ranking, <br> *Then* aparece en los últimos lugares como equipo de alto riesgo. |
+
+| User Story ID | HU44 | Epic ID | EP06 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Chat interno para equipo técnico |
+| **Descripción** | Como técnico, deseo enviar mensajes directos a otros compañeros desde la ficha de la máquina para coordinar reparaciones grupales. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que escribo en el muro de la máquina, <br> *When* envío el mensaje, <br> *Then* todos los asignados a ese equipo reciben la notificación. <br><br> **Escenario 2:** <br> *Given* que adjunto una foto de una pieza rota, <br> *When* la envío por el chat, <br> *Then* la imagen queda guardada en el historial de ese activo. |
+
+| User Story ID | HU45 | Epic ID | EP04 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Carga de facturas de mantenimiento |
+| **Descripción** | Como contador, deseo subir las facturas de repuestos comprados para llevar el control de gastos por cada máquina. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que subo un archivo PDF de factura, <br> *When* le asigno un monto y categoría, <br> *Then* se suma automáticamente al costo operativo total del equipo. <br><br> **Escenario 2:** <br> *Given* que el monto es muy alto, <br> *When* guardo, <br> *Then* el sistema pide una segunda confirmación para evitar errores. |
+
+| User Story ID | HU46 | Epic ID | EP03 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Mapa de calor de actividad |
+| **Descripción** | Como jefe de operaciones, deseo ver un mapa de calor para identificar en qué zonas de la mina las máquinas están sufriendo más sobrecalentamiento. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que selecciono "Mapa de Calor de Temperatura", <br> *When* cargo la vista, <br> *Then* las zonas con máquinas calientes aparecen en color rojo intenso. <br><br> **Escenario 2:** <br> *Given* que todas operan normal, <br> *When* veo el mapa, <br> *Then* toda la zona se muestra en color azul o verde suave. |
+
+| User Story ID | HU47 | Epic ID | EP01 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Gestión de perfiles de empresa |
+| **Descripción** | Como administrador, deseo editar los datos de mi empresa (logo, dirección, RUC) para que aparezcan correctamente en los reportes PDF. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que subo el nuevo logo de la empresa, <br> *When* guardo la configuración, <br> *Then* todos los documentos generados a partir de ahora tendrán el nuevo logo. <br><br> **Escenario 2:** <br> *Given* que el RUC no tiene 11 dígitos, <br> *When* intento guardar, <br> *Then* el sistema rebota el cambio por formato incorrecto. |
+
+| User Story ID | HU48 | Epic ID | EP04 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Recordatorio de inspección de seguridad |
+| **Descripción** | Como oficial de seguridad, deseo que el sistema me obligue a llenar un checklist de seguridad antes de permitir que un técnico registre un mantenimiento. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que el técnico abre una orden de trabajo, <br> *When* intenta finalizarla, <br> *Then* el sistema le exige marcar que usó casco y guantes antes de cerrar. <br><br> **Escenario 2:** <br> *Given* que no marca los puntos de seguridad, <br> *When* presiona guardar, <br> *Then* el botón de "Finalizar" se mantiene bloqueado. |
+
+| User Story ID | HU49 | Epic ID | EP05 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Visualización de esquemas eléctricos |
+| **Descripción** | Como electricista, deseo ver los planos eléctricos del equipo en alta resolución para encontrar cables cortados rápidamente. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que abro el plano eléctrico, <br> *When* hago zoom en la pantalla, <br> *Then* la imagen no pierde calidad y permite leer los códigos de los cables. <br><br> **Escenario 2:** <br> *Given* que el archivo no carga, <br> *When* refresco la página, <br> *Then* el sistema reintenta la descarga desde el servidor de respaldo. |
+
+| User Story ID | HU50 | Epic ID | EP06 |
+| :--- | :--- | :--- | :--- |
+| **Título** | Backup de datos técnicos |
+| **Descripción** | Como administrador de sistemas, deseo programar una descarga semanal de toda la base de datos para no perder información por fallas del servidor. |
+| **Criterios de Aceptación** | **Escenario 1:** <br> *Given* que llega el domingo a las 12 AM, <br> *When* el sistema ejecuta la tarea, <br> *Then* se genera un archivo .sql comprimido en el almacenamiento de la nube. <br><br> **Escenario 2:** <br> *Given* que el backup falla por espacio, <br> *When* termina el proceso, <br> *Then* me llega un correo de alerta inmediata indicando "Error de Backup". |
