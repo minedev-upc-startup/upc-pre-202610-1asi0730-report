@@ -794,7 +794,7 @@ Notification Service (Servicio de Notificaciones): Envía alertas y notificacion
 El diagrama muestra cómo MineTrack integra estos componentes para ofrecer una solución completa de monitoreo y gestión de maquinaria.
 ![Context Diagram](Resources/context-diagram.png)
 
-### 4.6.3 Software Architecture Container Level Diagram
+### 4.6.3 Software Architecture Container Diagrams
 
 En esta sección se presenta el diagrama de contenedores del sistema MineTrack, el cual describe la estructura interna del sistema y cómo se distribuyen las responsabilidades entre sus principales componentes.
 
@@ -816,7 +816,7 @@ En cuanto a la comunicación entre los contenedores, la aplicación web se comun
 
 ![Container Diagram](Resources/container-diagram.png)
 
-### 4.6.4 Software Architecture Components Diagram
+### 4.6.4 Software Architecture Components Diagrams
 
 En esta sección se presenta el diagrama de componentes correspondiente al contenedor API REST (Spring Boot).  
 El diagrama describe la estructura interna del backend, identificando los principales componentes 
