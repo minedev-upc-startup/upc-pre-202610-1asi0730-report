@@ -1,3 +1,67 @@
+<p align="center">
+  <img src="./Resources/caratula/Banner-UPC.png" alt="Banner UPC" width="200"/>
+</p>
+
+<p align="center">
+  <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong>
+</p>
+
+<p align="center">
+  <strong>INGENIERÍA DE SOFTWARE</strong>
+</p>
+
+<p align="center">
+  <strong>CICLO 5</strong>
+</p>
+
+<p align="center">
+  <strong>1ASI0730 – APLICACIONES WEB</strong>
+</p>
+
+<p align="center">
+  <strong>SECCIÓN: 10215</strong>
+</p>
+
+<p align="center">
+  <strong>PROFESOR: VELASQUEZ NUÑEZ, ANGEL AUGUSTO</strong>
+</p>
+
+<br>
+
+<p align="center">
+  <strong>“INFORME DEL TRABAJO FINAL”</strong>
+</p>
+
+<br>
+
+<p align="center">
+  <strong>NOMBRE DE STARTUP:</strong><br>
+  <strong>MINETRACK</strong>
+</p>
+
+<br>
+
+<p align="center">
+  <strong>INTEGRANTES:</strong>
+</p>
+
+| APELLIDOS Y NOMBRES | CÓDIGO |
+| :--- | :--- |
+| SANCHEZ ARENAS, ZAHIR EMMANUEL | U202315324 |
+| MENDOZA MACHOA, LIONEL | U202417433 |
+| MEZA HUANACUNE, JUAN JOSÉ | U202320574 |
+| AIQUIPA POMA, SEBASTIAN ANDRES | |
+| FIGUEROA SANCHEZ, ALVARO | U20231A269 |
+| MOLINA UMERES, NESTOR MARCIAL | |
+
+<br>
+<p align="center">
+  <strong>2026</strong>
+</p>
+
+
+
+
 # 1. Introducción
 
 ## 1.1. Startup Profile
