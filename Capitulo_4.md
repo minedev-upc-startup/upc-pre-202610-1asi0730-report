@@ -326,7 +326,7 @@ La navegación contextual complementa los sistemas anteriores con enlaces que ap
 
 ### 4.3. Landing Page UI Design.
 
-En esta sección se presenta la propuesta visual del Landing Page de MineTrack, traduciendo las decisiones de la guía de estilo y la arquitectura de información en pantallas concretas. El Landing Page cubre las secciones requeridas por las User Stories US30–US35 del Epic EP07 (Landing Page e Información Pública): Hero con propuesta de valor, Características, Beneficios diferenciados por segmento, Contacto, Selector de idioma y Footer legal. Se presenta en dos niveles de fidelidad (wireframe y mock-up) y cubre el viewport desktop, sobre el cual se derivan las adaptaciones móviles.
+En esta sección se presenta la propuesta visual del Landing Page de MineTrack, traduciendo las decisiones de la guía de estilo y la arquitectura de información en pantallas concretas. El Landing Page cubre las secciones requeridas por las User Stories US30–US35 del Epic EP07 (Landing Page e Información Pública): Hero con propuesta de valor, Características, Beneficios diferenciados por segmento, Testimonios, Contacto y Footer legal. Se presenta en dos niveles de fidelidad (wireframe y mock-up) y cubre el viewport desktop, sobre el cual se derivan las adaptaciones móviles.
 
 ### 4.3.1. Landing Page Wireframe.
 
@@ -382,7 +382,7 @@ Footer:
 
 ### 4.4. Web Applications UX/UI Design.
 
-En esta sección se presenta la propuesta visual y de interacción para las pantallas autenticadas de MineTrack, que cubren los tres roles de la plataforma (Cliente, Propietario e Intermediario) y las User Stories funcionales US01 a US29. Se presentan los wireframes (baja fidelidad), los wireflow diagrams de las tareas principales, los mock-ups (alta fidelidad) y los user flow diagrams que documentan los flujos end-to-end del producto.
+En esta sección se presenta la propuesta visual y de interacción para las pantallas autenticadas de MineTrack, que cubren los tres roles de la plataforma (Cliente, Propietario e Intermediario) y las User Stories funcionales prioritarias del producto (US01–US20, US23, US27). Se presentan los wireframes (baja fidelidad), los wireflow diagrams de las tareas principales, los mock-ups (alta fidelidad) y los user flow diagrams que documentan los flujos end-to-end del producto.
 
 ### 4.4.1. Web Applications Wireframes.
 
@@ -514,45 +514,40 @@ User goal 2: Como Propietario, quiero publicar mi máquina en el catálogo con t
 US04: Registro de una máquina nueva
 US05: Edición de datos y estado de una máquina
 
-#### Task Flow 3: Aprobación y cierre de alquiler por parte del Intermediario
+#### Task Flow 3: Aprobación de solicitud por parte del Intermediario
 
-Objetivo del usuario: Procesar una solicitud de alquiler pendiente, registrar las horas durante la operación y cerrar formalmente el alquiler al finalizar, generando el contrato correspondiente.
+Objetivo del usuario: Procesar una solicitud de alquiler pendiente, revisando su detalle y aprobándola o rechazándola según corresponda para activar el alquiler.
 
 **Pasos del Task Flow:**
 
-Acceder al Dashboard operativo o la Sidebar "Solicitudes".
+Acceder al Dashboard operativo del Intermediario desde el Login.
 
-Revisar la bandeja de solicitudes pendientes.
+Identificar solicitudes pendientes en el panel de alertas del Dashboard o navegar directamente a la sección "Solicitudes" desde la Sidebar.
 
-Expandir una solicitud para ver su detalle completo.
+Revisar la bandeja de solicitudes pendientes, donde se muestran los datos clave de cada petición: cliente, máquina solicitada, rango de fechas y tiempo transcurrido desde la solicitud.
 
-Presionar "Aprobar" (o "Rechazar" con motivo).
+Expandir una solicitud para visualizar su detalle completo, incluyendo información del cliente, propósito del alquiler y observaciones adicionales.
 
-El sistema activa el alquiler y cambia el estado de la máquina a "Alquilada".
+Evaluar la viabilidad del alquiler considerando la disponibilidad de la máquina en el rango de fechas propuesto.
 
-Durante la operación, acceder al detalle del alquiler y registrar las horas de motor acumuladas.
+Presionar "Aprobar" para activar el alquiler, o "Rechazar" e ingresar el motivo si la solicitud no procede.
 
-Al finalizar el período, presionar "Cerrar alquiler".
+El sistema actualiza el estado de la solicitud y notifica al Cliente del resultado.
 
-Revisar el resumen (horas totales, tarifa, costo total calculado automáticamente).
+En caso de aprobación, la máquina cambia automáticamente a estado "Alquilada" y queda lista para ser monitoreada posteriormente desde la sección de Alquileres del Intermediario.
 
-Confirmar el cierre.
-
-El sistema cambia el estado del alquiler a "Cerrado", devuelve la máquina a "Disponible" y genera el contrato/resumen en PDF.
-
-![Task Flow 3 - Intermediario aprueba y cierra alquiler](Resources/wireflows/TaskFlow3_ApproveAndClose.png)
+![Task Flow 3 - Intermediario aprueba solicitud](Resources/wireflows/TaskFlow3_ApproveAndClose.png)
 
 **User Goals:**
 
-User goal 3: Como Intermediario, quiero gestionar el ciclo completo de un alquiler desde la aprobación hasta el cierre y la generación del contrato.
+User goal 3: Como Intermediario, quiero evaluar y procesar las solicitudes de alquiler pendientes de forma eficiente para mantener el flujo operativo de la plataforma.
 
 **User Stories:**
 
-US08: Aprobación o rechazo de solicitudes
-US09: Registro de horas de uso del alquiler
-US10: Cierre del alquiler
-US11: Generación del contrato de alquiler en PDF
-US26: Cálculo automático del costo del alquiler
+US08: Aprobación o rechazo de solicitudes de alquiler
+US13: Visualización de tarjetas resumen del panel operativo
+US14: Monitoreo de alquileres activos en tiempo real
+US15: Panel de alertas operativas
 
 #### Task Flow 4: Monitoreo IoT y reacción a alertas por parte del Intermediario
 
@@ -661,11 +656,11 @@ En esta etapa el Propietario completa el wizard de tres pasos para registrar una
 
 User Flow 3:
 
-Relacionado con el User Goal 3: Como Intermediario, quiero gestionar el ciclo completo de un alquiler desde la aprobación hasta el cierre y la generación del contrato.
+Relacionado con el User Goal 3: Como Intermediario, quiero evaluar y procesar las solicitudes de alquiler pendientes de forma eficiente para mantener el flujo operativo de la plataforma.
 
-En esta etapa el Intermediario aprueba una solicitud pendiente, registra las horas de motor durante la operación y, al finalizar el período, cierra el alquiler. El sistema calcula automáticamente el costo total (horas × tarifa), genera el contrato en PDF y habilita la gestión del estado de pago.
+En esta etapa el Intermediario accede al Dashboard operativo, identifica las solicitudes pendientes mediante el panel de alertas o navegando directamente a la sección de Solicitudes, y revisa el detalle de cada una para aprobarla o rechazarla. Al aprobar, el sistema cambia el estado de la solicitud a "Aprobada" y la máquina asociada pasa a estado "Alquilada", activando el ciclo del alquiler. En caso de rechazo, el Intermediario debe ingresar un motivo que se notifica automáticamente al Cliente. Este flujo permite mantener el control operativo de la plataforma asegurando que cada solicitud sea evaluada y procesada en tiempo oportuno.
 
-![User Flow 3 - Aprobación y cierre de alquiler](Resources/userflows/UserFlow3.png)
+![User Flow 3 - Aprobación de solicitud](Resources/userflows/UserFlow3.png)
 
 User Flow 4:
 
@@ -677,11 +672,20 @@ En esta etapa el Intermediario detecta una alerta automática generada por una l
 
 ### 4.5. Web Applications Prototyping.
 
-En esta sección se presenta el prototipo navegable de alta fidelidad construido en Figma, que convierte los mock-ups estáticos en una experiencia interactiva que permite validar los flujos diseñados con usuarios reales antes de iniciar el desarrollo frontend en Vue.js.
+En esta sección se presenta el prototipo navegable de alta fidelidad construido en Figma, que convierte los mock-ups estáticos en una experiencia interactiva que permite validar los flujos diseñados antes de iniciar el desarrollo frontend.
 
-El prototipo cubre los flujos críticos correspondientes a los User Goals definidos en la sección 4.4.2: la solicitud de alquiler por parte del Cliente, el registro de una máquina nueva por parte del Propietario, la aprobación y cierre de un alquiler por parte del Intermediario, y el monitoreo IoT con respuesta a alertas. Cada flujo conecta las pantallas relevantes (mock-ups de la sección 4.4.3) con transiciones Smart Animate para cambios dentro de una misma pantalla (tabs, modales, expansión de filas) y transiciones Dissolve para cambios de pantalla completa. Las acciones simulan la latencia de una llamada real al backend con un delay de 800 milisegundos antes del destino, y los estados alternos (loading skeletons, empty states, banners de error) están incluidos como variantes conectadas en el árbol del prototipo.
+El prototipo cubre los cuatro flujos críticos definidos en la sección 4.4.2 (Task Flows):
 
-El archivo Figma se organiza en seis páginas: Foundations (colores, tipografía, espaciado, iconografía), Components (botones, inputs, cards, navegación, modales, tablas), Landing Page, App Desktop, App Mobile y Prototype Flows. Cada flujo cuenta con un Starting Point nombrado que produce una URL compartible en modo Presentation View para recopilar feedback de stakeholders sin requerir cuenta Figma. Una vez publicado el archivo, los enlaces de los prototipos se incluirán en el README del repositorio y se complementarán con un video walkthrough de 1–2 minutos publicado en Microsoft Stream recorriendo los cuatro flujos principales.
+1. **Solicitud de alquiler por parte del Cliente** — recorrido desde el Login hasta el envío exitoso de una solicitud en la vista de Mis Solicitudes.
+2. **Registro de una nueva máquina por parte del Propietario** — recorrido desde el Dashboard del Propietario hasta la publicación de una máquina en el catálogo.
+3. **Aprobación y cierre de alquiler por parte del Intermediario** — recorrido desde el Dashboard operativo pasando por la bandeja de solicitudes hasta el detalle del alquiler.
+4. **Monitoreo IoT y reacción a alertas por parte del Intermediario** — recorrido desde el panel de Monitoreo IoT hasta la ficha IoT de una máquina específica.
+
+Cada flujo conecta las pantallas relevantes (mock-ups de la sección 4.4.3) mediante transiciones configuradas en Figma: _Smart Animate_ para cambios dentro de una misma pantalla (tabs, modales, selección de opciones) y _Dissolve_ para cambios de pantalla completa. Las acciones críticas como el envío de una solicitud o la aprobación de un alquiler incluyen un delay corto para simular la latencia de una llamada real al backend.
+
+El prototipo se organiza en el archivo Figma en tres zonas principales: una página con los mock-ups del Landing Page, una con los mock-ups de la Web Application para los tres roles, y una con los Prototype Flows donde se definen los Starting Points de cada recorrido. Cada flujo cuenta con un Starting Point nombrado que produce una URL compartible en modo Presentation View para recopilar feedback de stakeholders sin requerir cuenta Figma.
+
+Los enlaces de los cuatro prototipos navegables y el video walkthrough se documentan a continuación:
 
 Enlace del prototipo Figma: _[por completar al publicar el archivo]_
 
@@ -743,8 +747,8 @@ En cuanto a la comunicación entre los contenedores, la aplicación web se comun
 ### 4.6.4 Software Architecture Components Diagrams
 
 En esta sección se presenta el diagrama de componentes correspondiente al contenedor API REST (Spring Boot).  
-El diagrama describe la estructura interna del backend, identificando los principales componentes 
-(controladores, servicios y repositorios), sus responsabilidades y las interacciones entre ellos, 
+El diagrama describe la estructura interna del backend, identificando los principales componentes
+(controladores, servicios y repositorios), sus responsabilidades y las interacciones entre ellos,
 así como con sistemas externos.
 
 ![Component Diagram](Resources/component-diagram-api-rest..png)
