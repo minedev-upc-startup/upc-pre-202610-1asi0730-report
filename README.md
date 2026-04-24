@@ -22,37 +22,16 @@
   <strong>Informe de Trabajo Final</strong>
 </h2>
 
-<table style="display: flex; justify-content: center;"> 
-<tr>
-<th>Código</th>
-<th>Integrantes</th>
-</tr> 
-<tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
-</tr>
-<tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
-</tr>
-<tr>
-<td>U202320574</td>
-<td>Meza Huanacune, Juan José</td>
-</tr>
-<tr>
-<td>U20XXXXXXX</td>
-<td>Figueroa Sanchez, Alvaro Sebastian</td>
-</tr>
-<tr>
-<td>U20XXXXXXX</td>
-<td>Apellido Apellido, Nombre Nombre</td>
-</tr>
-</table>
-<br><br>
-<div align="center"> Abril 2026 </div>
-</div>
+## Integrantes
 
-<div style="page-break-after: always;"></div>
+| Código | Nombre | Rol |
+|--------|--------|-----|
+| U20XXXXXXX | Sanchez Arenas, Zahir Emmanuel | Team Leader |
+| U20XXXXXXX | Mendoza Machoa, Lionel | Frontend Engineer |
+| U202320574 | Meza Huanacune, Juan José | Backend Engineer |
+| U20XXXXXXX | Aliquipa Poma, Sebastian Andres | UI/UX Designer |
+| U20XXXXXXX | Figueroa Sanchez, Alvaro Sebastian | IoT & Data Integration Engineer |
+| U20XXXXXXX | Molina Umeres, Nestor | Full Stack Engineer |
 
 ## Registro de Versiones del Informe
 
