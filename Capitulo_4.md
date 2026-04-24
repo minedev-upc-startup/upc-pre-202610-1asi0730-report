@@ -358,7 +358,7 @@ Footer:
 
 Hero:
 
-![Hero Mockup](Resources/mockups/LandingPage/Hero.png)
+![Hero Mockup](Resources/mockups/landingPage/Hero.png)
 
 Características:
 
