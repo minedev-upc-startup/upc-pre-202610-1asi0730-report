@@ -115,9 +115,17 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 | Descargar manuales y guías técnicas de operación | Baja | Baja |
 | Revisar las horas de uso acumuladas de cada máquina | Alta | Alta |
 
+### 2.3.3. User Task Matrix
 
+#### Segmento 1: Distribuidores de Maquinaria Pesada
+
+<img width="1172" height="565" alt="Captura de pantalla 2026-04-23 200915" src="https://github.com/user-attachments/assets/8d2b6e79-f3d0-4aef-82c6-4888cefd5b62" />
+
+#### Segmento 2 : Jefes de mantenimiento
 ​
+<img width="1394" height="666" alt="image" src="https://github.com/user-attachments/assets/cd659495-c623-4ff9-a452-fe8d2274178d" />
 
+### 2.3.4. Empathy
 ​ 
 
 ​
