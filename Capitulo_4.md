@@ -768,3 +768,49 @@ El diagrama describe la estructura interna del backend, identificando los princi
 así como con sistemas externos.
 
 ![Component Diagram](Resources/component-diagram-api-rest..png)
+
+4.7 Software Object-Oriented Design
+
+4.7.1 Class Diagrams
+
+#### Context: User Management
+
+En el contexto de gestión de usuarios, se definen las clases encargadas de manejar la información, autenticación y sesiones de los usuarios dentro del sistema.
+
+La clase `User` representa a los usuarios del sistema, incluyendo sus atributos principales y operaciones como registro e inicio de sesión. La clase `UserSession` permite gestionar sesiones activas, incluyendo validación y expiración.
+
+Asimismo, se implementa la interfaz `Membership`, la cual define el comportamiento común para distintos tipos de membresía. Las clases `BasicMembership`, `PremiumMembership` y `EliteMembership` representan diferentes niveles de membresía con funcionalidades específicas.
+
+Finalmente, la clase `MembershipFactory` aplica el patrón de diseño Factory, permitiendo la creación de instancias de membresía de forma desacoplada.
+
+Este conjunto de clases permite gestionar de manera eficiente el acceso, personalización y comportamiento de los usuarios dentro del sistema.
+
+![User Management Diagram](Resources/user-management.png)
+
+#### Context: Equipment Monitoring
+
+En el contexto de monitoreo de equipos, se modelan las clases responsables de representar y gestionar el estado de los equipos dentro del sistema.
+
+La clase `Equipment` representa cada equipo monitoreado, incluyendo su estado y operaciones relacionadas. La clase `SensorData` permite procesar la información obtenida de sensores, como temperatura o vibración.
+
+La clase `Alert` se encarga de representar eventos críticos generados a partir del análisis de datos, mientras que `Maintenance` permite gestionar el mantenimiento programado de los equipos.
+
+Estas clases se relacionan entre sí mediante asociaciones con multiplicidad, permitiendo representar que un equipo puede generar múltiples datos, alertas y registros de mantenimiento.
+
+Este diseño permite una supervisión eficiente y en tiempo real del estado de los equipos.
+
+![Equipment Monitoring Diagram](Resources/equipment-monitoring.png)
+
+#### Context: Alert & Notification
+
+En el contexto de alertas y notificaciones, se modelan las clases encargadas de gestionar la comunicación de eventos importantes hacia los usuarios.
+
+La clase `Alert` representa eventos generados por el sistema, mientras que `NotificationService` se encarga de distribuir dichas alertas a los usuarios.
+
+Se define la interfaz `NotificationChannel`, que permite implementar distintos mecanismos de notificación, como correo electrónico (`EmailNotification`) o mensajes (`SMSNotification`).
+
+La relación entre estas clases permite enviar notificaciones de manera flexible y extensible, facilitando la integración de nuevos canales de comunicación en el futuro.
+
+Este enfoque mejora la capacidad de respuesta del sistema ante eventos críticos.
+
+![Alert Notification Diagram](Resources/alert-notification.png)
