@@ -60,6 +60,12 @@
 </p>
 
 
+### Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :--- | :--- | :--- | :--- |
+| Tb1 | 24/04/2026 | Grupo Brainstorm | Entrega inicial del informe TB1 que incluye especificación de requisitos y diseño inicial del sistema. |
+
 
 
 # 1. Introducción
