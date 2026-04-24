@@ -813,4 +813,5 @@ Además, el sistema interactúa con componentes externos:
 - **Notification Service:** Servicio externo encargado de enviar alertas y notificaciones a los usuarios mediante correo electrónico o SMS.
 
 En cuanto a la comunicación entre los contenedores, la aplicación web se comunica con el API REST mediante protocolos seguros (HTTPS). El API REST se encarga de leer y escribir información en la base de datos, así como de enviar notificaciones a través del servicio externo cuando se detectan eventos relevantes.
+
 ![Container Diagram](Resources/container-diagram.png)
