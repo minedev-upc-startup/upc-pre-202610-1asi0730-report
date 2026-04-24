@@ -86,7 +86,7 @@ En esta sección se detallan las tareas principales que realizarán los usuarios
 #### Segmento 1: Distribuidores de Maquinaria Pesada
 Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las garantías de los equipos mineros.
 
-| Tarea | Frecuencia | Importancia |
+|Ricardo Morales | Frecuencia | Importancia |
 | :--- | :--- | :--- |
 | Iniciar sesión y gestionar perfil de distribuidor | Alta | Alta |
 | Registrar nueva maquinaria pesada en el catálogo | Media | Alta |
@@ -102,7 +102,7 @@ Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las 
 #### Segmento 2: Empresas de Servicios de Mantenimiento
 Este segmento utiliza la plataforma como su centro de control técnico para prevenir fallas y monitorear sensores IoT.
 
-| Tarea | Frecuencia | Importancia |
+| Javier Espinoza | Frecuencia | Importancia |
 | :--- | :--- | :--- |
 | Revisar el panel principal de monitoreo de maquinaria | Alta | Alta |
 | Monitorear vibración, temperatura y presión en tiempo real | Alta | Alta |
