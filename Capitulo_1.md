@@ -64,8 +64,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| Tb1 | 24/04/2026 | --Lionel
---Zahit|  Se creó la estructura del informe y se completó los capítulos 1, 2, 3 y 4 |
+| Tb1 | 24/04/2026 | SANCHEZ ARENAS, ZAHIR EMMANUEL<br>MENDOZA MACHOA, LIONEL<br>MEZA HUANACUNE, JUAN JOSÉ<br>AIQUIPA POMA, SEBASTIAN ANDRES<br>FIGUEROA SANCHEZ, ALVARO<br>MOLINA UMERES, NESTOR MARCIAL | Entrega inicial del informe TB1  que incluye especificación de requisitos y diseño inicial del sistema y los capitulos 1, 2, 3, 4 y 5. |
 
 
 
