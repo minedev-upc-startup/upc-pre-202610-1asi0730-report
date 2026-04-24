@@ -815,3 +815,12 @@ Además, el sistema interactúa con componentes externos:
 En cuanto a la comunicación entre los contenedores, la aplicación web se comunica con el API REST mediante protocolos seguros (HTTPS). El API REST se encarga de leer y escribir información en la base de datos, así como de enviar notificaciones a través del servicio externo cuando se detectan eventos relevantes.
 
 ![Container Diagram](Resources/container-diagram.png)
+
+### 4.6.4 Software Architecture Components Diagram
+
+En esta sección se presenta el diagrama de componentes correspondiente al contenedor API REST (Spring Boot).  
+El diagrama describe la estructura interna del backend, identificando los principales componentes 
+(controladores, servicios y repositorios), sus responsabilidades y las interacciones entre ellos, 
+así como con sistemas externos.
+
+![Component Diagram](Resources/component-diagram-api-rest.png)
