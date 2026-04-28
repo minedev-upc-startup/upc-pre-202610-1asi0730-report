@@ -65,6 +65,57 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 8. ¿Cuánto tiempo a la semana pierden viajando solo para chequear si una máquina está bien?
 
 ### 2.2.2. Registro de entrevistas
+
+#### Entrevista N°1 – Segmento: Distribuidores de Maquinaria Pesada
+![entrevista_1](img/entrevista-1.jpg) 
+- Nombres: Manuel
+- Apellidos: Sanchez
+- Edad: 25 años
+- Departamento: Lima
+- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQBtEKucJzLlT4UIDcYooZFmAe0ugQq042VPg0ciyWfz0mA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=phdMZQ
+- Duración: 00:09:26 minutos - minuto de inicio: 00:00:00
+- Resumen:<br>
+
+#### Entrevista N°2 – Segmento: Distribuidores de Maquinaria Pesada
+![entrevista_2](img/entrevista-2.jpg) 
+- Nombres: Ricardo
+- Apellidos: Morales
+- Edad: 36 años
+- Departamento: Lima
+- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQBeAV0g9pveRLcJybBztxz2Ae3Nd_F7e19nQ7_bJDu7DOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b6A1P5
+- Duración: 00:05:44 minutos - minuto de inicio: 00:00:00
+- Resumen:<br>
+
+#### Entrevista N°3 – Segmento: Empresas de Servicios de Mantenimiento
+![entrevista_3](img/entrevista-3.jpg) 
+- Nombres: Gersson
+- Apellidos: Alemán
+- Edad: 34 años
+- Departamento: Lima
+- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQAkwIp_sa2jRr2Hrsi-k2OkAZ2WrxNBQA9FwT4-q3CcvxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7K4N9K
+- Duración: 00:04:23 minutos - minuto de inicio: 00:00:00
+- Resumen:<br>
+
+#### Entrevista N°4 – Segmento: Distribuidores de Maquinaria Pesada
+![entrevista_4](img/entrevista-4.jpg) 
+- Nombres: Raúl
+- Apellidos: 
+- Edad: 42 años
+- Departamento: Lima
+- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQCpPgdZ2CYbRofrRLN-ikvBAXsOze9jWrpw8aK693KIRXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k687cP
+- Duración: 00:02:33 minutos - minuto de inicio: 00:00:00
+- Resumen:<br>
+
+#### Entrevista N°5 – Segmento: Empresas de Servicios de Mantenimiento
+![entrevista_5](img/entrevista-5.jpg) 
+- Nombres: Javier
+- Apellidos: Espinoza
+- Edad: 54 años
+- Departamento: Lima
+- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQB7K-83BYs9TLHpiq-KnY_3Ae1folkUUWhVTna1MxkixDM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=63HPuk
+- Duración: 00:04:21 minutos - minuto de inicio: 00:00:00
+- Resumen:<br>
+
 ### 2.2.3. Analisis de entrevistas
 
 
