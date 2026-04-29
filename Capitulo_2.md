@@ -67,7 +67,7 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 ### 2.2.2. Registro de entrevistas
 
 #### Entrevista N°1 – Segmento: Distribuidores de Maquinaria Pesada
-![entrevista_1](img/entrevista-1.jpg) 
+![entrevista_1](Resources/entrevista-1.png) 
 - Nombres: Manuel
 - Apellidos: Sanchez
 - Edad: 25 años
@@ -77,7 +77,7 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 - Resumen:<br>
 
 #### Entrevista N°2 – Segmento: Distribuidores de Maquinaria Pesada
-![entrevista_2](img/entrevista-2.jpg) 
+![entrevista_2](Resources/entrevista-2.png) 
 - Nombres: Ricardo
 - Apellidos: Morales
 - Edad: 36 años
@@ -87,7 +87,7 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 - Resumen:<br>
 
 #### Entrevista N°3 – Segmento: Empresas de Servicios de Mantenimiento
-![entrevista_3](img/entrevista-3.jpg) 
+![entrevista_3](Resources/entrevista-3.png) 
 - Nombres: Gersson
 - Apellidos: Alemán
 - Edad: 34 años
@@ -97,7 +97,7 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 - Resumen:<br>
 
 #### Entrevista N°4 – Segmento: Distribuidores de Maquinaria Pesada
-![entrevista_4](img/entrevista-4.jpg) 
+![entrevista_4](Resources/entrevista-4.png) 
 - Nombres: Raúl
 - Apellidos: 
 - Edad: 42 años
@@ -107,7 +107,7 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 - Resumen:<br>
 
 #### Entrevista N°5 – Segmento: Empresas de Servicios de Mantenimiento
-![entrevista_5](img/entrevista-5.jpg) 
+![entrevista_5](Resources/entrevista-5.png) 
 - Nombres: Javier
 - Apellidos: Espinoza
 - Edad: 54 años
