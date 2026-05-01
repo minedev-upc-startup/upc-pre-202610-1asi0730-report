@@ -166,7 +166,7 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 | Descargar manuales y guías técnicas de operación | Baja | Baja |
 | Revisar las horas de uso acumuladas de cada máquina | Alta | Alta |
 
-### 2.3.3. User Task Matrix
+### 2.3.3. User Journey Mapping
 
 #### Segmento 1: Distribuidores de Maquinaria Pesada
 
