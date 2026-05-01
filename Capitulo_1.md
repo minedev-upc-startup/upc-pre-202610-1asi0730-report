@@ -45,15 +45,42 @@
   <strong>INTEGRANTES:</strong>
 </p>
 
-| APELLIDOS Y NOMBRES | CÓDIGO |
-| :--- | :--- |
-| SANCHEZ ARENAS, ZAHIR EMMANUEL | U202315324 |
-| MENDOZA MACHOA, LIONEL | U202417433 |
-| MEZA HUANACUNE, JUAN JOSÉ | U202320574 |
-| AIQUIPA POMA, SEBASTIAN ANDRES | |
-| FIGUEROA SANCHEZ, ALVARO | U20231A269 |
-| MOLINA UMERES, NESTOR MARCIAL | |
-
+<div align="center">
+  <table style="margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>APELLIDOS Y NOMBRES</th>
+        <th>CÓDIGO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SANCHEZ ARENAS, ZAHIR EMMANUEL</td>
+        <td>U202315324</td>
+      </tr>
+      <tr>
+        <td>MENDOZA MACHOA, LIONEL</td>
+        <td>U202417433</td>
+      </tr>
+      <tr>
+        <td>MEZA HUANACUNE, JUAN JOSÉ</td>
+        <td>U202320574</td>
+      </tr>
+      <tr>
+        <td>AIQUIPA POMA, SEBASTIAN ANDRES</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>FIGUEROA SANCHEZ, ALVARO</td>
+        <td>U20231A269</td>
+      </tr>
+      <tr>
+        <td>MOLINA UMERES, NESTOR MARCIAL</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <br>
 <p align="center">
   <strong> LIMA 24 DE ABRIL DEL 2026</strong>
@@ -160,9 +187,9 @@ A continuación, se presentan las evidencias del trabajo colaborativo realizado 
         * 5.2.1.7. Software Deployment Evidence for Sprint Review
         * 5.2.1.8. Team Collaboration Insights during Sprint
 
-# Conclusiones
-# Bibliografía
-# Anexos
+## Conclusiones
+## Bibliografía
+## Anexos
 
 
 # 1. Introducción
@@ -254,7 +281,7 @@ Nuestra solución, MineTrack, busca resolver este problema integrando un catálo
 
 <img width="1920" height="1080" alt="Lean UX Canvas (V2)" src="https://github.com/user-attachments/assets/2540c695-b8be-4627-a644-c1b31ff505b0" />
 
-#### 1.2.3. Segmentos objetivo
+#### 1.3. Segmentos objetivo
 
 1. **Distribuidores de Maquinaria Pesada:** Organizaciones que venden maquinaria compleja y requieren un control riguroso de sus activos para gestionar garantías, contratos de servicio post-venta y conocer el estado técnico de las máquinas entregadas.
 2. **Empresas de Servicios de Mantenimiento:** Compañías especializadas en soporte técnico y prevención de fallas contratadas para asegurar la continuidad operativa, utilizando la plataforma como su centro de control técnico predictivo mediante IoT.
