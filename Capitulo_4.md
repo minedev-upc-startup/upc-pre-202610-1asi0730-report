@@ -660,7 +660,7 @@ Relacionado con el User Goal 1: Como Cliente, quiero encontrar y solicitar una m
 
 En esta etapa el Cliente accede al catálogo, aplica filtros, explora el detalle de una máquina y envía una solicitud de alquiler. El sistema valida la disponibilidad de fechas y, si no hay conflicto, registra la solicitud en estado "Pendiente" para la revisión del Intermediario. En caso de conflicto, se muestra un mensaje de error y se sugieren fechas alternativas.
 
-![User Flow 1 - Solicitud de alquiler](Resources/mockups/userflows/flow1.png)
+![User Flow 1 - Solicitud de alquiler](Resources/mockups/userFlows/flow1.png)
 
 User Flow 2:
 
@@ -668,7 +668,7 @@ Relacionado con el User Goal 2: Como Propietario, quiero publicar mi máquina en
 
 En esta etapa el Propietario completa el wizard de tres pasos para registrar una máquina: información básica, especificaciones técnicas, y fotos junto con tarifa. El sistema valida los campos obligatorios en cada paso y, al confirmar, crea la máquina en estado "Disponible" y la publica inmediatamente en el catálogo.
 
-![User Flow 2 - Registro de máquina](Resources/mockups/userflows/flow2.png)
+![User Flow 2 - Registro de máquina](Resources/mockups/userFlows/flow2.png)
 
 User Flow 3:
 
@@ -676,7 +676,7 @@ Relacionado con el User Goal 3: Como Intermediario, quiero evaluar y procesar la
 
 En esta etapa el Intermediario accede al Dashboard operativo, identifica las solicitudes pendientes mediante el panel de alertas o navegando directamente a la sección de Solicitudes, y revisa el detalle de cada una para aprobarla o rechazarla. Al aprobar, el sistema cambia el estado de la solicitud a "Aprobada" y la máquina asociada pasa a estado "Alquilada", activando el ciclo del alquiler. En caso de rechazo, el Intermediario debe ingresar un motivo que se notifica automáticamente al Cliente. Este flujo permite mantener el control operativo de la plataforma asegurando que cada solicitud sea evaluada y procesada en tiempo oportuno.
 
-![User Flow 3 - Aprobación de solicitud](Resources/mockups/userflows/flow3.png)
+![User Flow 3 - Aprobación de solicitud](Resources/mockups/userFlows/flow3.png)
 
 User Flow 4:
 
@@ -684,7 +684,7 @@ Relacionado con el User Goal 4: Como Intermediario, quiero supervisar el estado 
 
 En esta etapa el Intermediario detecta una alerta automática generada por una lectura IoT fuera de rango, revisa el detalle de la máquina afectada, consulta su histórico y decide la acción correctiva apropiada (contactar al Propietario o programar mantenimiento).
 
-![User Flow 4 - Monitoreo IoT y respuesta a alertas](Resources/mockups/userflows/flow4.png)
+![User Flow 4 - Monitoreo IoT y respuesta a alertas](Resources/mockups/userFlows/flow4.png)
 
 ### 4.5. Web Applications Prototyping.
 
