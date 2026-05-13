@@ -306,7 +306,6 @@ Nuestra plataforma MineTrack se define como el centro de control técnico integr
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Siguiendo el patrón de Lean UX, hemos definido las siguientes hipótesis estratégicas:
 
 1. **Hipótesis de Garantías:** Creemos que **reduciremos los costos por garantías injustificadas en un 15%** si los **Distribuidores** logran **validar el uso técnico correcto de la máquina** mediante el **Módulo de Auditoría de Historial de Sensores**.
 2. **Hipótesis de Disponibilidad:** Creemos que **disminuiremos el downtime minero en un 20%** si los **Jefes de Mantenimiento** logran **intervenir antes de una rotura crítica** mediante el **Sistema de Alertas Preventivas al celular**.
