@@ -301,8 +301,8 @@ Nuestra solución, MineTrack, busca resolver este problema integrando un catálo
 - **Hipótesis de Respuesta Preventiva:** Creemos que consolidaremos a MineTrack como la herramienta técnica indispensable si los gestores de flota logran tomar decisiones más rápidas y precisas gracias al sistema de Generación de alertas tempranas y recomendaciones de mantenimiento.
 
 #### 1.2.2.4. Lean UX Canvas
+<img width="1920" height="1080" alt="Lean UX Canvas v2 0 de Jeff Gothelf (Community)" src="https://github.com/user-attachments/assets/9bed3729-8216-4ea4-9186-2d9073980245" />
 
-<img width="9" height="2" alt="image" src="https://github.com/user-attachments/assets/51f0238c-4bc0-4fa2-bd71-83f2a12946e8" />
 
 
 
