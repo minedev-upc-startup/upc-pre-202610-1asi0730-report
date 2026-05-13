@@ -47,22 +47,93 @@ La selección de herramientas responde a los lineamientos del Project Statement,
 
 ## 5.1.2 Source Code Management
 
-El proyecto se gestionó utilizando GitHub, lo cual permitió llevar un control claro de todos los cambios realizados durante el desarrollo de MineTrack.
+El proyecto MineTrack se gestionó utilizando GitHub como plataforma principal de control de versiones. Se organizaron repositorios independientes para cada producto de software del alcance del proyecto, permitiendo separar responsabilidades y mantener un flujo de trabajo más ordenado durante el desarrollo.
 
-Se utilizó una estructura de ramas sencilla pero efectiva, que facilitó el trabajo en equipo y evitó conflictos:
+### Repositorios del proyecto
 
-- **main:** versión estable del proyecto  
-- **develop:** integración de nuevas funcionalidades  
-- **feature/\*:** desarrollo de nuevas características  
-- **fix/\*:** corrección de errores  
+| Producto | Propósito |
+|---|---|
+| Landing Page Repository | Desarrollo y despliegue del Landing Page |
+| Frontend Web Application Repository | Desarrollo de la aplicación web principal |
+| Web Services Repository | Desarrollo del RESTful API |
+| Project Report Repository | Gestión del informe y documentación académica |
 
-El flujo de trabajo consistía en crear una rama a partir de `develop`, implementar la funcionalidad asignada, realizar commits con mensajes claros y finalmente crear un Pull Request para su revisión antes de integrarlo nuevamente.
+### GitFlow Workflow
 
-Ejemplo de commit utilizado:
+El equipo adoptó GitFlow como estrategia de colaboración y control de versiones. Esta metodología permitió trabajar en nuevas funcionalidades sin afectar la versión estable del proyecto.
+
+Las ramas utilizadas fueron:
+
+| Rama | Descripción |
+|---|---|
+| `main` | Contiene la versión estable del proyecto |
+| `develop` | Rama de integración de funcionalidades |
+| `feature/*` | Desarrollo de funcionalidades específicas |
+| `release/*` | Preparación de versiones estables |
+| `hotfix/*` | Corrección de errores críticos |
+
+### Convención de ramas
 
 ```bash
-git commit -m "feat: agregar monitoreo de maquinaria con datos IoT"
+feature/dashboard
+feature/iot-monitoring
+feature/landing-page
+feature/authentication
+release/v1.0.0
+hotfix/navbar-fix
 ```
+Flujo de trabajo aplicado
+
+El flujo de trabajo utilizado por el equipo fue el siguiente:
+
+Actualizar la rama develop.
+Crear una nueva rama feature/*.
+Implementar la funcionalidad asignada.
+Realizar commits utilizando Conventional Commits.
+Publicar la rama en GitHub.
+Crear un Pull Request hacia develop.
+Revisar y validar cambios antes de integrarlos.
+Conventional Commits
+
+Para mantener un historial claro y trazable, el equipo utilizó Conventional Commits.
+
+Formato:
+```
+<type>: <description>
+```
+Tipos utilizados:
+| Tipo | Uso |
+|---|---|
+| `feat` | Nueva funcionalidad |
+| `fix` | Corrección de errores |
+| `docs` | Cambios en documentación |
+| `style` | Cambios visuales o de formato |
+| `refactor` | Reorganización interna |
+| `chore` | Configuración o tareas auxiliares |
+
+Semantic Versioning
+
+El proyecto adoptó Semantic Versioning para organizar las versiones del software.
+
+Formato:
+```
+MAJOR.MINOR.PATCH
+```
+Ejemplos:
+```
+v1.0.0
+v1.1.0
+v1.1.1
+```
+| Tipo | Descripción |
+|---|---|
+| MAJOR | Cambios incompatibles |
+| MINOR | Nuevas funcionalidades |
+| PATCH | Correcciones de errores |
+
+La utilización de GitFlow, Conventional Commits y Semantic Versioning permitió mejorar la colaboración del equipo, reducir conflictos y mantener trazabilidad sobre los cambios realizados durante el Sprint.
+
+---
 ## 5.1.3 Source Code Style Guide & Conventions
 
 Para mantener el código limpio y fácil de entender, se definieron algunas convenciones básicas que todos los integrantes del equipo siguieron durante el desarrollo.
