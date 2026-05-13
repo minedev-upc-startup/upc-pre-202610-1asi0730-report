@@ -302,7 +302,8 @@ Nuestra solución, MineTrack, busca resolver este problema integrando un catálo
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img width="9" height="2" alt="image" src="https://github.com/user-attachments/assets/aba4ba89-c4f5-4087-84fe-f943a852c795" />
+<img width="9" height="2" alt="image" src="https://github.com/user-attachments/assets/51f0238c-4bc0-4fa2-bd71-83f2a12946e8" />
+
 
 
 #### 1.3. Segmentos objetivo
