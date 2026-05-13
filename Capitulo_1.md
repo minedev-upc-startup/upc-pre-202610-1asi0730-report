@@ -340,7 +340,7 @@ Este segmento comprende a las organizaciones encargadas de la comercialización 
 Compañías contratadas por las mineras para asegurar la disponibilidad mecánica de la flota mediante soporte preventivo y correctivo.
 
 * **Características Demográficas:**
-    * **Ubicación:** Personal destacado directamente en campamentos mineros a gran altitud, operando en talleres *in-situ*.
+    * **Ubicación:** Personal destacado directamente en campamentos mineros a gran altitud, operando en talleres.
     * **Perfil del Usuario:** Jefes de Soporte y Técnicos de Campo , con sólida experiencia técnica en marcas como Caterpillar o Komatsu.
     * **Intereses:** Optimización del tiempo de respuesta y reducción de riesgos laborales durante el mantenimiento.
 
