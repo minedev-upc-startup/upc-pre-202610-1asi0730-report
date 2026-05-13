@@ -188,7 +188,11 @@ A continuación, se presentan las evidencias del trabajo colaborativo realizado 
         * 5.2.1.8. Team Collaboration Insights during Sprint
 
 
+## Student Outcome
 
+| Criterio Específico | Acciones Realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.** | **---------- TB1 ----------**<br><br>**Zahir Sanchez:** Lideró la coordinación del equipo y la estructuración inicial del proyecto en GitHub.<br><br>**Lionel Mendoza:** Responsable de la especificación de requisitos, elaborando las Epics, User Stories y el Product Backlog técnico.<br><br>**Juan José Meza:** Desarrolló el modelado de la arquitectura y los diagramas de contexto/contenedores para MineTrack.<br><br>**Sebastian Aiquipa, Alvaro Figueroa y Nestor Molina:** Realizaron el análisis competitivo, diseño de entrevistas y la elaboración de los perfiles de usuario (User Personas). | **---------- TB1 ----------**<br><br>El equipo Brainstorm demostró una sólida capacidad para trabajar de manera colaborativa y efectiva, utilizando herramientas virtuales como Microsoft Teams y Discord para coordinar y ejecutar las tareas del proyecto. <br><br>La comunicación fluida y el compromiso con los objetivos permitieron un avance significativo en la fase de elicitación de requisitos, logrando un diseño ordenado y alineado con las necesidades del sector minero. La participación activa de cada miembro fue fundamental para resolver problemas técnicos durante las sesiones virtuales y cumplir estrictamente con los plazos establecidos. |
 
 # 1. Introducción
 
