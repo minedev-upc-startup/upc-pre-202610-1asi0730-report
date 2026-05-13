@@ -2,31 +2,48 @@
 
 ## 5.1 Software Configuration Management
 
-Para el desarrollo de MineTrack se siguió un enfoque ordenado en la gestión de configuración del software. Esto permitió que todos los integrantes trabajen sobre una misma base, evitando errores y manteniendo coherencia en cada cambio realizado.
+Para el desarrollo de MineTrack se definió una gestión de configuración orientada a mantener orden, trazabilidad y consistencia durante el ciclo de vida del producto. Esta sección documenta las herramientas, repositorios, flujo de trabajo con Git, convenciones de código y configuración de despliegue utilizadas por el equipo.
 
-MineTrack es una solución enfocada en mejorar el proceso de venta y mantenimiento preventivo de maquinaria, apoyándose en dispositivos IoT que permiten obtener datos en tiempo real. Por ello, era importante asegurar que tanto el código como las configuraciones se mantengan controladas durante todo el desarrollo.
+MineTrack es una solución web orientada a la gestión comercial y técnica de maquinaria pesada minera. La plataforma integra Landing Page, Web Application y RESTful API, con el objetivo de soportar procesos de venta, alquiler, monitoreo IoT, alertas y mantenimiento preventivo.
 
 ---
 
 ## 5.1.1 Software Development Environment Configuration
 
-Desde el inicio del proyecto, se definió un entorno de desarrollo común para todo el equipo. Esto ayudó a evitar problemas de compatibilidad y facilitó la integración del trabajo de cada integrante.
+Desde el inicio del proyecto se definió un entorno de desarrollo común para todos los integrantes del equipo. Esto permitió reducir problemas de compatibilidad, facilitar la integración de avances y mantener una base técnica coherente para todos los productos de software.
 
-Las herramientas principales utilizadas fueron:
+| Categoría | Herramienta / Tecnología | Propósito dentro del proyecto |
+|---|---|---|
+| Project Management | Trello | Organización de tareas, Sprint Backlog y seguimiento de avance |
+| Requirements Management | GitHub Projects / Trello | Gestión de User Stories, tareas y estado de trabajo |
+| Product UX/UI Design | Figma | Elaboración de wireframes, mock-ups y prototipos |
+| Software Development - Landing Page | HTML5, CSS3, JavaScript | Desarrollo del sitio web estático del producto |
+| Software Development - Frontend Web Application | Vue 3 + Vite | Desarrollo de la aplicación web de MineTrack |
+| UI Component Library | PrimeVue | Construcción de componentes visuales reutilizables |
+| Software Development - Web Services | ASP.NET Core | Implementación del RESTful API |
+| Backend Programming Language | C# | Desarrollo de lógica del lado servidor |
+| API Documentation | Swagger / OpenAPI | Documentación y prueba de endpoints |
+| Version Control | Git | Control de versiones local |
+| Source Code Hosting | GitHub | Gestión colaborativa de repositorios |
+| IDE | WebStorm / Visual Studio Code | Desarrollo del frontend, documentación y revisión de código |
+| Backend IDE | Visual Studio / Rider | Desarrollo del backend con ASP.NET Core |
+| Package Manager | npm | Instalación y administración de dependencias frontend |
+| Deployment - Landing Page | GitHub Pages | Publicación del Landing Page |
+| Deployment - Web Application | Vercel / Render Static Site | Publicación de la aplicación web frontend |
+| Deployment - Web Services | Render | Publicación del RESTful API |
 
-- **Frontend:** Angular  
-- **Backend:** Node.js  
-- **Lenguaje:** JavaScript / TypeScript  
-- **Gestor de paquetes:** npm  
-- **Editor recomendado:** Visual Studio Code  
-- **Control de versiones:** Git  
-
-Para ejecutar el proyecto, se siguieron pasos simples:
+### Configuración local del Frontend Web Application
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
+```Configuración local del Web Service
+dotnet restore
+dotnet build
+dotnet run
+```
+La selección de herramientas responde a los lineamientos del Project Statement, que establece el uso de Vue Framework para Frontend Web Applications, PrimeVue como biblioteca de componentes UI, ASP.NET Core con C# para Web Services, Swagger/OpenAPI para documentación de servicios, GitHub para control de versiones, GitFlow Workflow, Conventional Commits y Semantic Versioning.
 
 ## 5.1.2 Source Code Management
 
