@@ -252,17 +252,19 @@ Consolidarnos para el año 2030 como la plataforma líder en el sector minero re
 
 ## 1.2. Solution Profile
 
-### 1.2.1. Antecedentes y problemática (5W2H)
+### 1.2.1. Antecedentes y problemática (Uso de la técnica The 5'W's y 2'H's)
 
-| Pregunta                 | Descripción                                                                                                                                                                                  |
-| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Who? (¿Quién?)**       | Los distribuidores de maquinaria pesada y las empresas de servicios de mantenimiento minero que carecen de una herramienta centralizada.                                                     |
-| **What? (¿Qué?)**        | La ausencia de una plataforma que integre la gestión de ventas con el monitoreo en tiempo real de variables críticas (vibración, temperatura, presión) de la maquinaria.                     |
-| **Where? (¿Dónde?)**     | El problema ocurre tanto en las oficinas administrativas de distribución como en los sitios de operación minera donde los equipos trabajan bajo condiciones críticas.                        |
-| **When? (¿Cuándo?)**     | Se manifiesta durante todo el ciclo de vida del equipo, especialmente cuando se requiere seguimiento de garantías o cuando ocurren fallas inesperadas por falta de mantenimiento preventivo. |
-| **Why? (¿Por qué?)**     | Porque los sistemas actuales no aprovechan el potencial del IoT para generar alertas tempranas, lo que lleva a decisiones lentas y procesos de control complejos.                            |
-| **How? (¿Cómo?)**        | Actualmente, la información de uso y mantenimiento se registra de forma aislada, dificultando que el cliente tenga un control simple y transparente sobre sus compras y activos.             |
-| **How Much? (¿Cuánto?)** | El impacto se traduce en altos costos por tiempos de inactividad (downtime) y la pérdida de valor por una gestión ineficiente de las garantías y contratos de servicio.                      |
+Presentación del modelo de las preguntas 5Ws y 2Hs con las que se analizaron los antecedentes y la problemática que abarca nuestro proyecto MineTrack.
+
+| LAS 5W y 2H | Pregunta | Descripción |
+| :--- | :--- | :--- |
+| **Who?** | **¿Quién es afectado?** | Los **distribuidores de maquinaria pesada** (como Manuel Sanchez) que enfrentan pérdidas por garantías mal aplicadas y los **jefes de soporte técnico** (como Javier Espinoza) encargados de la operatividad en campamentos mineros. |
+| **What?** | **¿Cuál es el problema?** | La **fragmentación y falta de visibilidad técnica real** en el monitoreo de equipos. El 100% de la gestión de inventario y seguimiento técnico se basa en procesos manuales y comunicación informal (WhatsApp/Excel). |
+| **Where?** | **¿Dónde surge el problema?** | Se origina en los **yacimientos mineros remotos**, donde la maquinaria opera bajo condiciones críticas de presión y calor, y se extiende a las oficinas de soporte donde la falta de datos centralizados impide un control eficiente. |
+| **When?** | **¿Cuándo sucede el problema?** | Se manifiesta durante el **tiempo de inactividad (downtime) no programado** y en los procesos de reclamo de garantía, donde no existe evidencia histórica de sensores para determinar si la falla fue por error humano o defecto de fábrica. |
+| **Why?** | **¿Cuál es la causa del problema?** | La causa principal es el **desaprovechamiento de la tecnología IoT y telemetría**. Los sistemas actuales no integran variables físicas críticas (calor, presión, vibración) en una plataforma única, forzando una respuesta reactiva ante averías. |
+| **How?** | **¿Cómo se maneja actualmente?** | Mediante **macros de Excel y reportes manuales** que demandan seguimiento constante. El personal técnico debe viajar de **2 a 3 horas por tramo** solo para realizar diagnósticos visuales que podrían ser remotos. |
+| **How Much?** | **¿Cuánto es el impacto?** | El impacto económico es severo debido a los **altos costos por hora de máquina parada**. Además, se generan gastos logísticos innecesarios por traslados técnicos y pérdidas por reparaciones preventivas no detectadas a tiempo. |
 
 ### 1.2.2. Lean UX Process
 
