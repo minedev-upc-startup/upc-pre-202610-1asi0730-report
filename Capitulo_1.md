@@ -274,33 +274,45 @@ El estado actual de la gestión de maquinaria minera es ineficiente debido a que
 
 Nuestra solución, MineTrack, busca resolver este problema integrando un catálogo de ventas con un dashboard de monitoreo IoT en tiempo real. Sabremos que hemos tenido éxito cuando veamos que las empresas de mantenimiento utilicen nuestra plataforma como su centro de control técnico principal y se reduzcan los tiempos de inactividad de las máquinas.
 
+**Domain:** Gestión y monitoreo técnico de maquinaria pesada en el sector minero.
+
+**Current State & Pain Points:**
+La gestión operativa actual está fragmentada. Los distribuidores y jefes de mantenimiento dependen de procesos manuales (Excel) y comunicación informal (WhatsApp) para el seguimiento de activos. Esta falta de visibilidad técnica real resulta en paradas de equipo no programadas y una gestión deficiente de las garantías, donde no se puede determinar si una falla fue por error humano o defecto mecánico. El personal técnico pierde entre 4 a 6 horas semanales en traslados innecesarios solo para diagnósticos visuales.
+
+**Gap & Opportunity:**
+Existe una brecha tecnológica entre la operación en campo y la administración comercial. MineTrack identifica la oportunidad de integrar telemetría IoT multimarca en una plataforma centralizada para transformar el mantenimiento reactivo en proactivo, reduciendo drásticamente el downtime.
+
+**Vision & Strategy:**
+Nuestra plataforma MineTrack se define como el centro de control técnico integral que centraliza la comercialización y el monitoreo IoT en tiempo real (calor, presión, vibración). Sabremos que hemos tenido éxito cuando los distribuidores reduzcan sus costos por garantías injustificadas en un 15% y las empresas de mantenimiento disminuyan el downtime operativo en un 20%.
+
+**Initial Segment:** Distribuidores de maquinaria pesada y empresas de servicios de mantenimiento en Lima con operaciones en provincias.
+
+---
+
 #### 1.2.2.2. Lean UX Assumptions
 
-- Creemos que nuestros clientes necesitan una plataforma centralizada para consultar equipos y gestionar compras de forma simple.
-- Creemos que el valor principal de MineTrack reside en la integración de datos IoT (vibración, temperatura, presión) para la toma de decisiones preventivas.
-- Asumimos que los distribuidores de maquinaria están dispuestos a digitalizar la gestión de sus contratos y garantías para mejorar su servicio post-venta.
-- Asumimos que los técnicos de mantenimiento prefieren un panel de monitoreo digital en tiempo real sobre los registros de uso manuales o tradicionales.
+**Business Assumptions:**
+1. Creemos que los distribuidores necesitan una herramienta de auditoría técnica para validar reclamos de garantía basados en datos reales y no en reportes manuales.
+2. Creemos que la integración de variables críticas como presión hidráulica reducirá las fallas catastróficas por sobreesfuerzo del operario.
+3. Asumimos que la centralización de contratos y stock en una nube pública reducirá el tiempo administrativo de ventas en un 30%.
+4. Asumimos que el modelo SaaS será rentable al disminuir los costos logísticos de traslados técnicos innecesarios.
 
-**Business Outcomes**
+**User Assumptions:**
+1. Los Jefes de Mantenimiento (como Javier Espinoza) prefieren recibir alertas preventivas al celular antes de que la máquina se detenga por completo.
+2. Los Distribuidores (como Manuel Sanchez) están dispuestos a compartir datos en vivo con sus clientes como un valor agregado para cerrar más ventas.
+3. Los operarios de cabina necesitan interfaces simplificadas de alto contraste para visualizar datos críticos en entornos de alta vibración.
 
-1. **¿Cómo aumentará nuestra cuota de mercado en el sector minero?**: Logrando que los distribuidores de maquinaria pesada prefieran nuestra plataforma por centralizar la gestión de garantías y contratos en un solo lugar.
-2. **¿De qué manera mejorará la eficiencia de las empresas de mantenimiento?**: Al convertir a MineTrack en su centro de control técnico, eliminando la necesidad de procesos manuales o complejos para revisar el estado de los equipos.
-3. **¿Cómo impactará la solución en la fidelización de los clientes?**: Ofreciendo un valor agregado único mediante el monitoreo IoT en tiempo real, lo que genera una relación técnica constante entre el cliente y nuestra herramienta.
-4. **¿Cómo reduciremos los costos operativos de soporte?**: Automatizando la detección de anomalías físicas como vibración o presión excesiva, lo que disminuye drásticamente las inspecciones manuales innecesarias.
-
-**User Outcomes**
-
-1. **¿Cómo facilitará el trabajo diario de los técnicos de mantenimiento?**: Permitiendo visualizar valores críticos de temperatura y presión en tiempo real sin necesidad de estar físicamente junto a la maquinaria pesada.
-2. **¿Qué beneficio inmediato obtendrá el comprador de maquinaria?**: Un seguimiento simple, transparente y centralizado de sus compras y del estado operativo de sus nuevos activos desde el primer día.
-3. **¿Cómo ayudará la plataforma a evitar paradas de producción costosas?**: Generando alertas tempranas que permitan a las empresas tomar decisiones rápidas y realizar mantenimientos preventivos antes de una avería.
-4. **¿De qué forma ahorrarán tiempo los gestores de flotas mineras?**: Accediendo a un catálogo central de equipos y dashboards de monitoreo que resumen la salud de toda su maquinaria en pocos clics.
+---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-- **Hipótesis de Gestión Comercial:** Creemos que lograremos un aumento en la eficiencia administrativa y de ventas si los distribuidores de maquinaria pesada consiguen centralizar sus contratos y stock mediante el Catálogo de maquinarias y módulo de procesos de venta.
-- **Hipótesis de Operación Técnica:** Creemos que reduciremos significativamente los costos por paradas no programadas si las empresas de mantenimiento logran supervisar variables críticas en tiempo real mediante el Panel de monitoreo IoT (vibración, temperatura y presión).
-- **Hipótesis de Transparencia y Control:** Creemos que mejoraremos la satisfacción y confianza del cliente final si estos logran tener visibilidad directa sobre el uso y salud de sus equipos mediante el Módulo general de visualización de estado.
-- **Hipótesis de Respuesta Preventiva:** Creemos que consolidaremos a MineTrack como la herramienta técnica indispensable si los gestores de flota logran tomar decisiones más rápidas y precisas gracias al sistema de Generación de alertas tempranas y recomendaciones de mantenimiento.
+Siguiendo el patrón de Lean UX, hemos definido las siguientes hipótesis estratégicas:
+
+1. **Hipótesis de Garantías:** Creemos que **reduciremos los costos por garantías injustificadas en un 15%** si los **Distribuidores** logran **validar el uso técnico correcto de la máquina** mediante el **Módulo de Auditoría de Historial de Sensores**.
+2. **Hipótesis de Disponibilidad:** Creemos que **disminuiremos el downtime minero en un 20%** si los **Jefes de Mantenimiento** logran **intervenir antes de una rotura crítica** mediante el **Sistema de Alertas Preventivas al celular**.
+3. **Hipótesis Logística:** Creemos que **optimizaremos el tiempo de mano de obra técnica en 5 horas semanales** si los **Técnicos de Campo** logran **diagnosticar fallas de forma remota** mediante el **Dashboard de Monitoreo IoT en tiempo real**.
+4. **Hipótesis de Fidelización:** Creemos que **aumentaremos la confianza y cierre de ventas** si los **Gestores de Flota** obtienen **transparencia total de sus activos** mediante el **Módulo de Visualización de Salud de Flota**.
+
 
 #### 1.2.2.4. Lean UX Canvas
 <img width="1920" height="1080" alt="Lean UX Canvas v2 0 de Jeff Gothelf (Community)" src="https://github.com/user-attachments/assets/9bed3729-8216-4ea4-9186-2d9073980245" />
