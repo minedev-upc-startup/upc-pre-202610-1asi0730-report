@@ -174,11 +174,13 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 
 
 
-<img width="1172" height="565" alt="Captura de pantalla 2026-04-23 200915" src="https://github.com/user-attachments/assets/8d2b6e79-f3d0-4aef-82c6-4888cefd5b62" />
+<img width="1541" height="1209" alt="Customer journey map 1" src="https://github.com/user-attachments/assets/0a9a16a5-aa7b-4591-836c-3386176e33b7" />
+
 
 #### Segmento 2 : Jefes de mantenimiento
 ​
-<img width="1394" height="666" alt="image" src="https://github.com/user-attachments/assets/cd659495-c623-4ff9-a452-fe8d2274178d" />
+<img width="1307" height="1248" alt="Customer journey map 2" src="https://github.com/user-attachments/assets/2bd083d6-2962-4bfa-a58f-2a9681b646e5" />
+
 
 ### 2.3.4. Empathy Mapping
 
