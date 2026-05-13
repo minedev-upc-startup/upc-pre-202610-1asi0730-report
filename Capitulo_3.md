@@ -304,7 +304,8 @@
 
 ## 3.2. Impact Mapping
 
-<img width="2167" height="1330" alt="Mapa de impacto" src="https://github.com/user-attachments/assets/de34843f-3b4e-49e4-9241-d44da61a2984" />
+<img width="1240" height="2079" alt="Impact map 1" src="https://github.com/user-attachments/assets/294b74ff-49ef-455b-a684-7191b382f870" />
+
 
 ## 3.3. Product Backlog
 
