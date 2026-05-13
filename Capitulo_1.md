@@ -187,9 +187,7 @@ A continuación, se presentan las evidencias del trabajo colaborativo realizado 
         * 5.2.1.7. Software Deployment Evidence for Sprint Review
         * 5.2.1.8. Team Collaboration Insights during Sprint
 
-## Conclusiones
-## Bibliografía
-## Anexos
+
 
 
 # 1. Introducción
