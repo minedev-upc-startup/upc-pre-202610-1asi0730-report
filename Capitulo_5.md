@@ -281,14 +281,12 @@ Durante el Sprint 1, el equipo se enfocó exclusivamente en el desarrollo de la 
 
 A lo largo del Sprint se diseñaron e implementaron las secciones clave: Hero con propuesta de valor, Sobre Nosotros, Cómo Funciona (con cards separados para Owner y Client), Características principales, Equipo, Preguntas Frecuentes y Footer con información de contacto y redes sociales.
 
-| Repository         | Branch  | Commit Id  | Commit Message                                                         | Date       |
-| ------------------ | ------- | ---------- | ---------------------------------------------------------------------- | ---------- |
-| landing-page       | main    | `[LLENAR]` | feat(landing): add complete landing page with i18n EN/ES support       | 2026-05-12 |
-| minetrack-frontend | develop | `[LLENAR]` | feat(shared): add owner and client layouts with role-based sidebar     | 2026-05-12 |
-| minetrack-frontend | develop | `[LLENAR]` | feat(iam): add authentication bounded context end-to-end               | 2026-05-08 |
-| minetrack-frontend | main    | `[LLENAR]` | chore(infra): add scaffold (shared layer, iam context, template, docs) | 2026-05-08 |
-
-`[LLENAR: completar la tabla con todos los commits relevantes del Sprint 1 — usa "git log --oneline --since=2026-04-27" en cada repo para obtener los hashes y mensajes]`
+| Repository   | Branch | Commit Id | Commit Message                                   | Committed By | Date       |
+| ------------ | ------ | --------- | ------------------------------------------------ | ------------ | ---------- |
+| landing-page | main   | f482a0d   | feat(i18n): Add i18n feature english and spanish | S-aiquipa    | 2026-05-13 |
+| landing-page | main   | 00ff82f   | doc: define styles for the landing page          | S-aiquipa    | 2026-05-13 |
+| landing-page | main   | 6d37432   | doc: define index html structure                 | S-aiquipa    | 2026-05-13 |
+| landing-page | main   | e6fe707   | initial commit                                   | S-aiquipa    | 2026-05-13 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
