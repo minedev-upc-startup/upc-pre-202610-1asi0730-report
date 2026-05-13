@@ -328,11 +328,11 @@ Nuestro proyecto se enfoca en dos segmentos críticos dentro del ecosistema mine
 Este segmento comprende a las organizaciones encargadas de la comercialización y soporte inicial de activos de alto valor en el sector minero.
 
 * **Características Demográficas:** * **Ubicación:** Sedes administrativas en Lima (distritos industriales como Ate, Callao o Lurín) con centros de distribución en zonas mineras estratégicas (Arequipa, Cajamarca, Pasco).
-    * **Perfil del Usuario:** Jefes de Venta y Gerentes de Post-venta (como Manuel Sanchez), con edades entre 35 y 55 años, con formación en Ingeniería Mecánica o Administración de Empresas.
+    * **Perfil del Usuario:** Jefes de Venta y Gerentes de Post-venta , con formación en Ingeniería Mecánica o Administración de Empresas.
     * **Nivel Tecnológico:** Conocimiento intermedio en herramientas digitales, pero alta dependencia de procesos manuales.
 
 * **Información Estadística de Sustento:**
-    * **Eficiencia de Herramientas:** El 100% de los distribuidores entrevistados depende actualmente de **Excel y Macros** para la gestión de su stock y seguimiento de garantías.
+    * **Eficiencia de Herramientas:** El 100% de los distribuidores entrevistados depende actualmente de Excel y Macros para la gestión de su stock y seguimiento de garantías.
     * **Punto de Dolor:** La dificultad para validar reclamos de garantía (error humano vs. falla técnica) representa un nivel de dolor de 9.5/10 en la escala operativa del negocio.
 
 #### 1.3.2. Segmento 2: Empresas de Servicios de Mantenimiento (Technical Support)
@@ -341,7 +341,7 @@ Compañías contratadas por las mineras para asegurar la disponibilidad mecánic
 
 * **Características Demográficas:**
     * **Ubicación:** Personal destacado directamente en campamentos mineros a gran altitud, operando en talleres *in-situ*.
-    * **Perfil del Usuario:** Jefes de Soporte y Técnicos de Campo (como Javier Espinoza), con sólida experiencia técnica en marcas como Caterpillar o Komatsu.
+    * **Perfil del Usuario:** Jefes de Soporte y Técnicos de Campo , con sólida experiencia técnica en marcas como Caterpillar o Komatsu.
     * **Intereses:** Optimización del tiempo de respuesta y reducción de riesgos laborales durante el mantenimiento.
 
 * **Información Estadística de Sustento:**
