@@ -478,20 +478,13 @@ Los entrevistados consideran importante implementar una solución que incluya:
 - Paneles de visualización de maquinaria.
 - Sensores de presión, temperatura y vibración.
 
----
+# Problemas mas frecuentes identificados
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/2aa42643-16a6-4a14-bb55-828ab94161ce" />
 
-# Oportunidad de solución
 
-Las entrevistas validan que existe una necesidad real de desarrollar una plataforma web inteligente para gestión de maquinaria pesada que permita:
+# Necesidades principales detectadas.
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/b91aad20-4db3-47da-abe2-c57733417e13" />
 
-- Automatizar procesos.
-- Mejorar mantenimiento preventivo.
-- Reducir costos operativos.
-- Optimizar atención postventa.
-- Incrementar eficiencia técnica.
-- Mejorar satisfacción del cliente.
-
-La propuesta tendría un alto valor para distribuidores y empresas de mantenimiento, especialmente en sectores industriales y mineros donde las fallas de maquinaria generan pérdidas económicas significativas.
 
 ## 2.3. NeedFinding
 
