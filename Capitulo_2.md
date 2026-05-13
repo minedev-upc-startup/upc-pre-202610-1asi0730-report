@@ -502,7 +502,7 @@ Segmento: Jefes de mantenimiento
 
 ### 2.3.2. User Task Matrix
 
-En esta sección se detallan las tareas principales que realizarán los usuarios en la plataforma **MineTrack**, evaluando qué tan seguido las hacen (Frecuencia) y qué tan críticas son para su trabajo (Importancia).
+En esta sección se detallan las tareas principales que realizarán los usuarios de nuestra plataforma MineTrack, evaluando qué tan seguido las hacen (Frecuencia) y qué tan críticas son para su trabajo (Importancia).
 
 #### Segmento 1: Distribuidores de Maquinaria Pesada
 Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las garantías de los equipos mineros.
