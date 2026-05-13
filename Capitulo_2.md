@@ -124,7 +124,8 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 ### 2.3.1. User Persona
 Segmento: Distribuidores 
 
-<img width="1249" height="705" alt="Captura de pantalla 2026-04-23 192948" src="https://github.com/user-attachments/assets/5dc2c9d0-4c33-460d-bed6-92cd5ead8b08" />
+<img width="1050" height="1318" alt="Persona 1" src="https://github.com/user-attachments/assets/09068b6f-161f-49d0-81af-52672cc2af07" />
+
 
 Segmento: Jefes de mantenimiento
 
@@ -169,6 +170,8 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 ### 2.3.3. User Journey Mapping
 
 #### Segmento 1: Distribuidores de Maquinaria Pesada
+
+
 
 <img width="1172" height="565" alt="Captura de pantalla 2026-04-23 200915" src="https://github.com/user-attachments/assets/8d2b6e79-f3d0-4aef-82c6-4888cefd5b62" />
 
