@@ -1,519 +1,431 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1 Software Configuration Management
+## 5.1. Software Configuration Management
 
-Para el desarrollo de MineTrack se definió una gestión de configuración orientada a mantener orden, trazabilidad y consistencia durante el ciclo de vida del producto. Esta sección documenta las herramientas, repositorios, flujo de trabajo con Git, convenciones de código y configuración de despliegue utilizadas por el equipo.
+Para el desarrollo de MineTrack se aplicó una gestión de configuración de software ordenada que permite al equipo trabajar sobre una misma base, mantener la trazabilidad de los cambios y soportar la integración progresiva de los productos digitales del alcance: Landing Page, Frontend Web Application y, en sprints posteriores, los Web Services basados en ASP.NET Core C#.
 
-MineTrack es una solución web orientada a la gestión comercial y técnica de maquinaria pesada minera. La plataforma integra Landing Page, Web Application y RESTful API, con el objetivo de soportar procesos de venta, alquiler, monitoreo IoT, alertas y mantenimiento preventivo.
+MineTrack es una plataforma B2B para el alquiler de maquinaria minera pesada que conecta a Propietarios de equipos con Clientes (empresas mineras y constructoras), apoyada por una capa compartida de telemetría IoT. Por esta naturaleza multi-producto y multi-rol, las decisiones de configuración descritas a continuación buscan garantizar consistencia técnica y trazabilidad entre los repositorios del proyecto.
 
----
+### 5.1.1. Software Development Environment Configuration
 
-## 5.1.1 Software Development Environment Configuration
+Desde el inicio del proyecto, el equipo acordó un entorno de desarrollo común para todos los integrantes, alineado con el stack oficial del curso 1ASI0730 Aplicaciones Web. Esto evita problemas de compatibilidad y facilita la integración del trabajo individual.
 
-Desde el inicio del proyecto se definió un entorno de desarrollo común para todos los integrantes del equipo. Esto permitió reducir problemas de compatibilidad, facilitar la integración de avances y mantener una base técnica coherente para todos los productos de software.
+| Actividad                   | Herramienta / Guía  | Propósito                                      | Tipo de acceso / Ruta                            |
+| --------------------------- | ------------------- | ---------------------------------------------- | ------------------------------------------------ |
+| Gestión de proyecto         | Trello              | Organizar y dar seguimiento a tasks por sprint | [Trello](https://trello.com)                     |
+| Gestión de requerimientos   | Gherkin Conventions | Definir criterios de aceptación claros         | [Gherkin](https://cucumber.io/docs/gherkin/)     |
+| Producto UI/UX              | Figma               | Diseño de wireframes y mock-ups                | [Figma](https://figma.com)                       |
+| Desarrollo Frontend Web App | WebStorm            | Edición y desarrollo del proyecto Vue.js       | [WebStorm](https://www.jetbrains.com/webstorm/)  |
+| Desarrollo Landing Page     | Visual Studio Code  | Edición de HTML/CSS/JavaScript de la Landing   | [VS Code](https://code.visualstudio.com/)        |
+| Control de versiones        | Git                 | Gestión de versiones del código fuente         | [Git](https://git-scm.com/)                      |
+| Hosting de repositorios     | GitHub              | Repositorios remotos del equipo                | [GitHub](https://github.com/minedev-upc-startup) |
+| Despliegue Landing Page     | GitHub Pages        | Publicación pública de la Landing              | [GitHub Pages](https://pages.github.com/)        |
+| Despliegue Frontend Web App | Firebase Hosting    | Publicación pública de la Web App              | [Firebase](https://firebase.google.com/)         |
+| Despliegue Fake API         | Beeceptor           | Mock público del backend para TB1              | [Beeceptor](https://beeceptor.com/)              |
+| Event Storming              | Miro                | Modelado colaborativo del dominio              | [Miro](https://miro.com/)                        |
+| Diagramas                   | PlantUML            | Generación de diagramas UML del dominio        | [PlantUML](https://plantuml.com/)                |
 
-| Categoría | Herramienta / Tecnología | Propósito dentro del proyecto |
-|---|---|---|
-| Project Management | Trello | Organización de tareas, Sprint Backlog y seguimiento de avance |
-| Requirements Management | GitHub Projects / Trello | Gestión de User Stories, tareas y estado de trabajo |
-| Product UX/UI Design | Figma | Elaboración de wireframes, mock-ups y prototipos |
-| Software Development - Landing Page | HTML5, CSS3, JavaScript | Desarrollo del sitio web estático del producto |
-| Software Development - Frontend Web Application | Vue 3 + Vite | Desarrollo de la aplicación web de MineTrack |
-| UI Component Library | PrimeVue | Construcción de componentes visuales reutilizables |
-| Software Development - Web Services | ASP.NET Core | Implementación del RESTful API |
-| Backend Programming Language | C# | Desarrollo de lógica del lado servidor |
-| API Documentation | Swagger / OpenAPI | Documentación y prueba de endpoints |
-| Version Control | Git | Control de versiones local |
-| Source Code Hosting | GitHub | Gestión colaborativa de repositorios |
-| IDE | WebStorm / Visual Studio Code | Desarrollo del frontend, documentación y revisión de código |
-| Backend IDE | Visual Studio / Rider | Desarrollo del backend con ASP.NET Core |
-| Package Manager | npm | Instalación y administración de dependencias frontend |
-| Deployment - Landing Page | GitHub Pages | Publicación del Landing Page |
-| Deployment - Web Application | Vercel / Render Static Site | Publicación de la aplicación web frontend |
-| Deployment - Web Services | Render | Publicación del RESTful API |
+**Stack tecnológico del producto:**
 
-### Configuración local del Frontend Web Application
+- **Landing Page:** HTML5, CSS3 y JavaScript vanilla (sin framework, optimizado para GitHub Pages)
+- **Frontend Web Application:** Vue.js 3 + Vite + Pinia + Vue Router + Vue I18n + PrimeVue + PrimeFlex
+- **Backend (planificado para TB2):** ASP.NET Core 10 con C#, Entity Framework Core, PostgreSQL
+- **Fake API (TB1):** JSON Server, desplegado mediante Beeceptor para acceso público
+
+### 5.1.2. Source Code Management
+
+La gestión de código fuente se realiza sobre repositorios independientes hospedados en la organización GitHub `minedev-upc-startup`, uno por cada producto digital del alcance:
+
+| Producto                 | Repositorio                      | URL                                                                   |
+| ------------------------ | -------------------------------- | --------------------------------------------------------------------- |
+| Frontend Web Application | `minetrack-frontend`             | https://github.com/minedev-upc-startup/minetrack-frontend             |
+| Landing Page             | `landing-page`                   | https://github.com/minedev-upc-startup/landing-page                   |
+| Project Report           | `upc-pre-202610-1asi0730-report` | https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report |
+
+Para la gestión del código fuente se aplica el modelo de ramificación GitFlow, el versionado semántico y las convenciones de mensajes de commit que se detallan a continuación.
+
+**GitFlow Workflow**
+
+Se utiliza el modelo de ramificación propuesto por Vincent Driessen ("A successful Git branching model"). Las ramas principales son:
+
+- **main**: contiene siempre el código en producción. Solo recibe merges desde `develop` en hitos de entrega (TB1, TB2).
+- **develop**: rama de integración principal donde se consolidan las funcionalidades antes de pasar a producción.
+- **feature/\***: ramas creadas a partir de `develop` para nuevas funcionalidades. Convención: `feature/<descripción-corta>` (ejemplo: `feature/spine-three-layouts`, `feature/rentals-core`).
+- **fix/\***: ramas creadas para corrección de errores. Convención: `fix/<descripción-corta>`.
+
+Las ramas `main` y `develop` cuentan con reglas de protección configuradas en GitHub: requieren pull request con al menos una aprobación, bloquean force-push y restringen eliminación.
+
+**Versionado Semántico**
+
+Se aplica Semantic Versioning 2.0.0, con el formato `MAJOR.MINOR.PATCH`. Ejemplo: `v0.1.0` corresponde al cierre del Sprint 1.
+
+**Convenciones de Commits**
+
+Se emplea el estándar Conventional Commits, facilitando la trazabilidad y la futura automatización de changelogs. Los tipos utilizados son `feat`, `fix`, `chore`, `docs`, `refactor`, `style`. El scope coincide con el bounded context o aspecto afectado (`iam`, `shared`, `infra`, `landing`, `rentals`).
+
+Ejemplos de mensajes empleados en el proyecto:
+
+feat(landing): add complete landing page with i18n EN/ES support
+feat(shared): add owner and client layouts with role-based sidebar
+feat(iam): add authentication bounded context end-to-end
+chore(infra): add scaffold (shared layer, iam context, template, docs)
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+#### Landing Page Style Guide & Conventions
+
+**Estructura del proyecto**
+
+landing-page/
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+├── images/
+└── icons/
+
+**HTML**
+
+- Uso de etiquetas semánticas (`header`, `nav`, `main`, `section`, `article`, `footer`)
+- Accesibilidad: atributos `alt` en imágenes, `aria-label` en enlaces sin texto, orden lógico del DOM
+- SEO: `<title>`, `<meta name="description">`, `lang="es"` en `<html>`
+- Convenciones de nombres: kebab-case para clases CSS, IDs solo para anclas de navegación
+
+**CSS**
+
+- Nomenclatura BEM: `.block__element--modifier`
+- Variables de diseño definidas en `:root`, alineadas con los design tokens del Frontend Web App:
+
+```css
+--mt-color-primary: #f5a623;
+--mt-color-bg-base: #1c1e22;
+--mt-color-text-primary: #f4f5f7;
+--mt-font-display: "Montserrat", sans-serif;
+```
+
+- Arquitectura mobile-first con breakpoints en 600px y 900px
+- Uso de `rem` para tipografía y `clamp()` para tamaños fluidos
+
+**JavaScript**
+
+- Diseño modular, un único punto de entrada (`script.js`)
+- camelCase para variables y funciones
+- Persistencia de preferencias de usuario mediante `localStorage`
+- Uso de `addEventListener` (sin `onclick` inline)
+
+#### Frontend Web Application Style Guide & Conventions
+
+El Frontend Web Application sigue un patrón arquitectónico de **Domain-Driven Design (DDD)** con bounded contexts, replicando la estructura propuesta por el profesor en el proyecto de referencia `learning-center`.
+
+**Estructura por bounded context**
+
+Cada bounded context vive bajo `src/` con cuatro capas:
+
+src/<context>/
+├── domain/
+│ ├── _.command.js
+│ └── model/
+│ └── _.entity.js
+├── application/
+│ └── _.store.js
+├── infrastructure/
+│ ├── _-api.js
+│ ├── _.resource.js
+│ └── _.assembler.js
+└── presentation/
+├── components/
+├── views/
+└── \*-routes.js
+
+**Regla de dependencia (hard rule):**
+
+presentation → application → infrastructure → domain
+
+El layer `domain` no importa nada de los otros layers. El layer `infrastructure` no importa Vue. El layer `presentation` nunca importa Axios directamente — todo HTTP pasa por el API gateway del bounded context.
+
+**Naming conventions:**
+
+| Elemento              | Convención               | Ejemplo                          |
+| --------------------- | ------------------------ | -------------------------------- |
+| Archivos              | kebab-case con sufijo    | `rental-request.entity.js`       |
+| Clases                | PascalCase               | `RentalRequest`, `IamApi`        |
+| Variables y funciones | camelCase                | `submitRentalRequest`            |
+| Pinia store hook      | `useXxxStore`            | `useRentalsStore`                |
+| Vue route names       | `<context>-<action>`     | `owner-incoming-requests`        |
+| i18n keys             | `<context>.<area>.<key>` | `iam.signIn.title`               |
+| Componentes PrimeVue  | prefijo `pv-`            | `<pv-button>`, `<pv-data-table>` |
+
+Estas convenciones se documentan formalmente en el archivo `CONVENTIONS.md` del repositorio frontend, que sirve como referencia para todo el equipo durante code reviews.
+
+### 5.1.4. Software Deployment Configuration
+
+El despliegue de los productos digitales de MineTrack se realiza sobre proveedores cloud especializados, cada uno seleccionado según las características técnicas del producto.
+
+#### Landing Page — GitHub Pages
+
+La Landing Page se implementa con HTML, CSS y JavaScript nativo. Todos los archivos se ubican en la raíz del repositorio `landing-page`, asegurando que `index.html` sea reconocido automáticamente por GitHub Pages como punto de entrada.
+
+**Activación de GitHub Pages:**
+
+1. Acceder al repositorio `minedev-upc-startup/landing-page` en GitHub
+2. Ir a la pestaña **Settings**
+3. En el menú lateral, seleccionar **Pages**
+4. En **Source**, configurar: rama `main`, carpeta `/ (root)`
+5. Guardar los cambios
+
+**Publicación**
+
+GitHub genera automáticamente una URL pública con el formato:
+
+https://minedev-upc-startup.github.io/landing-page/
+
+Cualquier commit en la rama `main` se despliega automáticamente sin pasos adicionales.
+
+#### Frontend Web Application — Firebase Hosting
+
+El Frontend Web Application se construye mediante Vite y se despliega a Firebase Hosting. La generación de la build de producción se realiza con:
 
 ```bash
-npm install
-npm run dev
-```
-```Configuración local del Web Service
-dotnet restore
-dotnet build
-dotnet run
-```
-La selección de herramientas responde a los lineamientos del Project Statement, que establece el uso de Vue Framework para Frontend Web Applications, PrimeVue como biblioteca de componentes UI, ASP.NET Core con C# para Web Services, Swagger/OpenAPI para documentación de servicios, GitHub para control de versiones, GitFlow Workflow, Conventional Commits y Semantic Versioning.
-
-## 5.1.2 Source Code Management
-
-El proyecto MineTrack se gestionó utilizando GitHub como plataforma principal de control de versiones. Se organizaron repositorios independientes para cada producto de software del alcance del proyecto, permitiendo separar responsabilidades y mantener un flujo de trabajo más ordenado durante el desarrollo.
-
-### Repositorios del proyecto
-
-| Producto | Propósito |
-|---|---|
-| Landing Page Repository | Desarrollo y despliegue del Landing Page |
-| Frontend Web Application Repository | Desarrollo de la aplicación web principal |
-| Web Services Repository | Desarrollo del RESTful API |
-| Project Report Repository | Gestión del informe y documentación académica |
-
-### GitFlow Workflow
-
-El equipo adoptó GitFlow como estrategia de colaboración y control de versiones. Esta metodología permitió trabajar en nuevas funcionalidades sin afectar la versión estable del proyecto.
-
-Las ramas utilizadas fueron:
-
-| Rama | Descripción |
-|---|---|
-| `main` | Contiene la versión estable del proyecto |
-| `develop` | Rama de integración de funcionalidades |
-| `feature/*` | Desarrollo de funcionalidades específicas |
-| `release/*` | Preparación de versiones estables |
-| `hotfix/*` | Corrección de errores críticos |
-
-### Convención de ramas
-
-```bash
-feature/dashboard
-feature/iot-monitoring
-feature/landing-page
-feature/authentication
-release/v1.0.0
-hotfix/navbar-fix
-```
-Flujo de trabajo aplicado
-
-El flujo de trabajo utilizado por el equipo fue el siguiente:
-
-Actualizar la rama develop.
-Crear una nueva rama feature/*.
-Implementar la funcionalidad asignada.
-Realizar commits utilizando Conventional Commits.
-Publicar la rama en GitHub.
-Crear un Pull Request hacia develop.
-Revisar y validar cambios antes de integrarlos.
-Conventional Commits
-
-Para mantener un historial claro y trazable, el equipo utilizó Conventional Commits.
-
-Formato:
-```
-<type>: <description>
-```
-Tipos utilizados:
-| Tipo | Uso |
-|---|---|
-| `feat` | Nueva funcionalidad |
-| `fix` | Corrección de errores |
-| `docs` | Cambios en documentación |
-| `style` | Cambios visuales o de formato |
-| `refactor` | Reorganización interna |
-| `chore` | Configuración o tareas auxiliares |
-
-Semantic Versioning
-
-El proyecto adoptó Semantic Versioning para organizar las versiones del software.
-
-Formato:
-```
-MAJOR.MINOR.PATCH
-```
-Ejemplos:
-```
-v1.0.0
-v1.1.0
-v1.1.1
-```
-| Tipo | Descripción |
-|---|---|
-| MAJOR | Cambios incompatibles |
-| MINOR | Nuevas funcionalidades |
-| PATCH | Correcciones de errores |
-
-La utilización de GitFlow, Conventional Commits y Semantic Versioning permitió mejorar la colaboración del equipo, reducir conflictos y mantener trazabilidad sobre los cambios realizados durante el Sprint.
-
----
-## 5.1.3 Source Code Style Guide & Conventions
-
-Para mantener consistencia en el desarrollo de MineTrack, el equipo definió convenciones de código aplicables al Landing Page, Frontend Web Application y Web Services. Estas convenciones permiten que los integrantes trabajen con una misma estructura, mejoren la legibilidad del código y reduzcan errores durante la integración.
-
-Además, se estableció que los nombres de archivos, variables, funciones, clases, componentes y rutas deben escribirse en inglés, siguiendo las buenas prácticas del desarrollo de software.
-
-### Convenciones generales
-
-| Elemento | Convención | Ejemplo |
-|---|---|---|
-| Variables JavaScript | camelCase | `machineStatus` |
-| Funciones JavaScript | camelCase | `calculateHealthScore()` |
-| Componentes Vue | PascalCase | `DashboardView.vue` |
-| Clases C# | PascalCase | `MachineService` |
-| Métodos C# | PascalCase | `GenerateAlert()` |
-| Interfaces C# | Prefijo `I` + PascalCase | `IMachineRepository` |
-| Archivos CSS | kebab-case | `dashboard-view.css` |
-| Ramas Git | kebab-case | `feature/iot-monitoring` |
-
-### Convenciones para HTML y CSS
-
-| Aspecto | Convención aplicada |
-|---|---|
-| HTML semántico | Uso de etiquetas como `header`, `main`, `section`, `article` y `footer` |
-| Nombres de clases | Nombres descriptivos en inglés |
-| Organización visual | Separación clara por secciones |
-| Responsive design | Uso de media queries y layouts flexibles |
-| Accesibilidad | Uso de atributos `alt`, `aria-label` y contraste adecuado |
-
-Ejemplo:
-
-```html
-<section class="dashboard-summary" aria-label="Fleet summary">
-  <article class="summary-card">
-    <h3>Total Machines</h3>
-    <p>24 active units</p>
-  </article>
-</section>
-```
-### Convenciones para JavaScript y Vue
-
-| Aspecto | Convención aplicada |
-|---|---|
-| Componentes | Uso de Composition API |
-| Variables | camelCase |
-| Componentes Vue | PascalCase |
-| Archivos de vistas | Sufijo `View.vue` |
-| Servicios | Sufijo `Service.js` |
-| Datos mockeados | Separados de la lógica visual cuando sea posible |
-
-Ejemplo:
-```javascript
-const machineStatus = ref('Active');
-
-function calculateHealthScore(machine) {
-  return machine.alerts.length === 0 ? 100 : 75;
-}
-```
-### Convenciones para C# y ASP.NET Core
-
-| Aspecto | Convención aplicada |
-|---|---|
-| Clases | PascalCase |
-| Métodos | PascalCase |
-| Interfaces | Prefijo `I` |
-| Controladores | Sufijo `Controller` |
-| Servicios | Sufijo `Service` |
-| Repositorios | Sufijo `Repository` |
-| DTOs | Sufijo `Dto` |
-
-Ejemplo:
-```C#
-public interface IMachineRepository
-{
-    MachineDto GetMachineById(int machineId);
-}
-
-public class MachineService
-{
-    public MachineDto GetMachineStatus(int machineId)
-    {
-        // Business logic
-    }
-}
-```
-### Convenciones de documentación
-
-| Elemento | Convención |
-|---|---|
-| Commits | Conventional Commits |
-| Endpoints | Documentados con Swagger/OpenAPI |
-| Sprint evidence | Capturas, tablas y descripción técnica |
-| User Stories | Formato “Como..., deseo..., para...” |
-| Acceptance Criteria | Formato Given-When-Then |
-| Tasks | Descripción, estimación, responsable y estado |
-
-### Accesibilidad e internacionalización
-
-| Aspecto | Aplicación |
-|---|---|
-| Idioma base | Inglés |
-| Segundo idioma | Español latinoamericano |
-| i18n | Textos preparados para traducción |
-| a11y | Uso de atributos ARIA |
-| Contraste | Colores diferenciados para estados y alertas |
-| Navegación | Estructura clara y consistente |
-
-Estas convenciones permiten que MineTrack mantenga una base de código ordenada, comprensible y preparada para futuras mejoras en el Landing Page, Frontend Web Application y Web Services.
----
-
-## 5.1.4 Software Deployment Configuration
-
-La configuración de despliegue del proyecto MineTrack fue organizada para permitir que los productos desarrollados puedan ejecutarse fuera del entorno local y ser accesibles públicamente. El objetivo principal fue validar el funcionamiento del Landing Page, Frontend Web Application y Web Services en entornos reales de ejecución.
-
-### Plataformas de despliegue utilizadas
-
-| Producto | Plataforma | Estado |
-|---|---|---|
-| Landing Page | GitHub Pages | Desplegado |
-| Frontend Web Application | Vercel / Render Static Site | En despliegue |
-| RESTful API | Render | En despliegue |
-
-### Despliegue del Landing Page
-
-El Landing Page fue desplegado utilizando GitHub Pages para permitir el acceso público al producto.
-
-#### Proceso realizado
-
-1. Desarrollo del Landing Page utilizando HTML5, CSS3 y JavaScript.
-2. Organización de assets, imágenes y estilos.
-3. Verificación del responsive design.
-4. Publicación del repositorio en GitHub.
-5. Configuración de GitHub Pages.
-6. Validación del acceso público.
-
-#### Comandos utilizados
-
-```bash
-npm install
 npm run build
 ```
-Despliegue del Frontend Web Application
 
-La aplicación web frontend desarrollada con Vue 3 y Vite fue preparada para despliegue en plataformas cloud.
+Este comando produce un directorio `dist/` optimizado que se sube a Firebase. La configuración de Firebase Hosting se gestiona vía Firebase CLI con el archivo `firebase.json` en la raíz del proyecto.
 
-Proceso realizado
-Configuración del proyecto con Vue 3 + Vite.
-Instalación de dependencias necesarias.
-Configuración de variables de entorno.
-Generación del build de producción.
-Validación de rutas y navegación.
-Preparación para despliegue en Vercel o Render.
-```Comandos utilizados
-npm install
-npm run dev
-npm run build
-npm run preview
-```
-Despliegue del RESTful API
+**URL pública de despliegue:** `[LLENAR: URL de Firebase después del deploy de mañana]`
 
-El backend desarrollado con ASP.NET Core fue configurado para ser desplegado en Render.
+#### Fake API — Beeceptor
 
-Proceso realizado
-Configuración del proyecto ASP.NET Core.
-Definición de endpoints RESTful.
-Integración de Swagger/OpenAPI.
-Configuración de variables de entorno.
-Preparación para despliegue cloud.
-Validación de endpoints.
-```Comandos utilizados
-dotnet restore
-dotnet build
-dotnet run
-```
-### Variables de entorno utilizadas
+Mientras el backend C# se entrega en TB2, el Frontend Web Application se conecta a un mock público de la API hospedado en Beeceptor. Este servicio expone los endpoints de `db.json` como URLs HTTP públicas, permitiendo que el Frontend desplegado en Firebase haga peticiones reales sin depender de un servidor local.
 
-| Variable | Propósito |
-|---|---|
-| `VITE_API_URL` | URL base del backend |
-| `ORS_API_KEY` | API Key para servicios externos |
-| `ASPNETCORE_ENVIRONMENT` | Configuración del entorno ASP.NET Core |
-
-### Validaciones realizadas
-
-| Validación | Resultado |
-|---|---|
-| Responsive Design | Correcto |
-| Navegación entre secciones | Correcto |
-| Carga de assets | Correcto |
-| Comunicación frontend-backend | En validación |
-| Endpoints REST | En validación |
-| Acceso público | Correcto |
-
-![Vista](Resources/imagenmodelo.jpeg)
-
-## 5.2 Landing Page, Services & Applications Implementation
-### 5.2.1 Sprint 1
-
-En esta sección se describe el desarrollo del Sprint 1 del proyecto MineTrack, incluyendo la planificación, organización del equipo, backlog del sprint y evidencias de implementación.
-
-El Sprint 1 se enfocó en la construcción inicial del Landing Page, así como la configuración del entorno de desarrollo y la estructura base del proyecto, permitiendo al equipo establecer una base sólida para los siguientes sprints.
-
-Durante este Sprint, el equipo trabajó de manera colaborativa, distribuyendo responsabilidades y estableciendo objetivos claros, alineados con el cumplimiento del Student Outcome 5, el cual enfatiza la planificación efectiva, liderazgo compartido y trabajo en equipo.
-
-### 5.2.1.1 Sprint Planning 1
-
-En esta sección se describen los aspectos principales del Sprint Planning Meeting correspondiente al Sprint 1, donde el equipo definió los objetivos, alcance y organización del trabajo.
-
-| Sprint # | Sprint 1 |
-|----------|---------|
-| **Sprint Planning Background** |  |
-| Date | 2026-04-20 |
-| Time | 08:00 PM |
-| Location | Reunión virtual vía Discord|
-| Prepared By | Meza Huanacuna, Juan José |
-| Attendees (to planning meeting) | Sanchez Arenas, Zahir Emmanuel / Mendoza Machoa, Lionel / Meza Huanacuna, Juan José / Aliquipa Poma, Sebastian Andres / Figueroa Sanchez, Alvaro / Molina Umeres, Nestor |
-| Sprint 0 – Review Summary | No aplica, debido a que este es el primer Sprint del proyecto. |
-| Sprint 0 – Retrospective Summary | No aplica, al ser el primer Sprint. |
-| **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | **Our focus is on** developing the initial version of the Landing Page and setting up the development environment. <br> **We believe it delivers** a clear presentation of the value proposition to potential users and a solid base for future development. <br> **This will be confirmed when** the Landing Page is accessible and includes key sections such as Home, Features, and Contact.|
-| Sprint 1 Velocity | El equipo definió una capacidad de trabajo de **15 Story Points** para este Sprint, considerando la disponibilidad de los integrantes. | 
-| Sum of Story Points| La suma total de Story Points asignados a las User Stories seleccionadas para este Sprint es de: **15 Story Points**  |
-
-
-### 5.2.1.2 Aspect Leaders and Collaborators
-
-En esta sección se presenta la matriz de liderazgo y colaboración (LACX), la cual define, para cada aspecto del Sprint 1, quién asume el rol de líder (Leader) y quiénes participan como colaboradores (Collaborators).
-
-Los aspectos seleccionados están directamente relacionados con el alcance del Sprint 1, el cual se centró en la implementación inicial del Landing Page y la configuración del entorno de desarrollo del sistema MineTrack.
-
-Los principales aspectos considerados fueron:
-
-- Desarrollo del Landing Page  
-- Configuración del entorno de desarrollo  
-- Gestión del repositorio en GitHub  
-- Diseño de interfaz (UI/UX)  
-- Documentación del proyecto  
-
-Esta distribución permite mejorar la organización del equipo, asignando responsabilidades claras y fomentando la colaboración activa, en línea con el cumplimiento del Student Outcome 5.
+**URL pública del Fake API:** `[LLENAR: URL de Beeceptor después del deploy de mañana]`
 
 ---
 
-### Leadership and Collaboration Matrix (LACX)
+## 5.2. Landing Page, Services & Applications Implementation
 
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Entorno Dev | GitHub | UI/UX | Documentación |
-|------------------------------------|----------------|--------------|-------------|--------|-------|--------------|
-| Sanchez Arenas, Zahir Emmanuel | zahirsanchez | L | C | C | L | C |
-| Mendoza Machoa, Lionel | lionelmendoza | C | L | C | C | L |
-| Meza Huanacuna, Juan José | JuanMHZ12 | L | C | L | C | C |
-| Aliquipa Poma, Sebastian Andres | sebastianaliquipa | C | C | C | L | C |
-| Figueroa Sanchez, Alvaro | alvarofigueroa | C | L | C | C | L |
-| Molina Umeres, Nestor | nestormolina | C | C | L | C | C |
+### 5.2.1. Sprint 1
+
+En esta sección se documenta el Sprint 1 del proyecto MineTrack, orientado principalmente a la construcción de la Landing Page de la plataforma. En esta primera fase, el equipo definió la meta del Sprint, priorizó las User Stories del Epic EP07 (Landing Page e Información Pública) y determinó los entregables esenciales que harán posible presentar una versión inicial pública del producto.
+
+Esta planificación busca garantizar una visión común entre todos los integrantes del equipo y establecer un punto de partida sólido para transmitir con claridad el valor de MineTrack a los visitantes — tanto Propietarios de maquinaria como Clientes (empresas mineras) potenciales.
+
+#### 5.2.1.1. Sprint Planning 1
+
+| Sprint #                         | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Date                             | 2026-05-27                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Time                             | 8:00 PM (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Location                         | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Prepared By                      | Meza Huanacuna, Juan José                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Attendees                        | Aiquipa Poma, Sebastian Andres / Mendoza Machoa, Lionel / Meza Huanacuna, Juan José / Figueroa Sanchez, Alvaro / Sanchez Arenas, Zahir Emmanuel / Molina Umeres, Nestor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 0 — Review Summary        | Dado que este es el sprint inicial, no se presenta un resumen del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 0 — Retrospective Summary | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint Goal & User Stories**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 1 Goal                    | **Nuestro propósito es** diseñar y entregar una primera versión pública de la Landing Page de MineTrack, comunicando claramente la propuesta de valor del marketplace de alquiler de maquinaria minera tanto a Propietarios como a empresas mineras. **Creemos que esto aportará** claridad y confianza inicial a los visitantes, permitiendo que comprendan el modelo de negocio y se sientan motivados a registrarse en la plataforma. **Esto se confirmará cuando** la Landing Page se encuentre desplegada en una URL pública accesible, presente todas las secciones requeridas (Hero, Cómo funciona, Características, Equipo, FAQ y Contacto) y soporte internacionalización entre español e inglés. |
+| Sprint 1 Velocity                | 13 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sum of Story Points              | 13 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 1. Cada aspecto se relaciona con tareas clave del Sprint, asignando un **líder (L)** responsable principal y **colaboradores (C)** que apoyan en su ejecución.
+
+| Team Member                    | GitHub Username | Landing Page Implementation (L/C) | Diseño UI/UX (L/C) | Configuración de Repositorios (L/C) | Internacionalización i18n (L/C) | Documentación (L/C) |
+| ------------------------------ | --------------- | --------------------------------- | ------------------ | ----------------------------------- | ------------------------------- | ------------------- |
+| Aiquipa Poma, Sebastian Andres | `[LLENAR]`      | **L**                             | C                  | **L**                               | **L**                           | C                   |
+| Mendoza Machoa, Lionel         | `[LLENAR]`      | C                                 | C                  | C                                   | C                               | **L**               |
+| Meza Huanacuna, Juan José      | `[LLENAR]`      | C                                 | **L**              | C                                   | C                               | C                   |
+| Figueroa Sanchez, Alvaro       | `[LLENAR]`      | C                                 | C                  | C                                   | C                               | **L**               |
+| Sanchez Arenas, Zahir Emmanuel | `[LLENAR]`      | C                                 | **L**              | C                                   | C                               | C                   |
+| Molina Umeres, Nestor          | `[LLENAR]`      | C                                 | C                  | C                                   | C                               | C                   |
+
+**Notas:**
+
+- Cada integrante asume liderazgo en al menos un aspecto para distribuir responsabilidades equitativamente
+- Los colaboradores apoyan al líder en la ejecución, revisión y validación de las tareas correspondientes
+- Sebastian Aiquipa lideró la implementación técnica de la Landing y la configuración inicial de los repositorios de la organización GitHub `minedev-upc-startup`
+- Lionel Mendoza y Alvaro Figueroa lideraron la documentación del Capítulo 5 y la coordinación de evidencias del Sprint
+- Juan Meza y Zahir Sanchez lideraron el diseño UI/UX, definiendo la paleta de colores (slate oscuro + amber industrial) y la estructura de secciones de la Landing
+
+#### 5.2.1.3. Sprint Backlog 1
+
+`[LLENAR: enlace a tablero Trello del Sprint 1, ejemplo https://trello.com/b/XXXXXX/sprint-1]`
+
+A continuación se presenta el Sprint Backlog del Sprint 1, con las User Stories seleccionadas del Epic EP07 (Landing Page e Información Pública) y su descomposición en tasks. Cada ítem incluye descripción, estimación en horas, asignación y estado al cierre del Sprint.
+
+| Sprint # | US ID | User Story Title                    | Task ID    | Task Title                | Description                                                                                                              | Estimation (Hours) | Assigned To    | Status |
+| -------- | ----- | ----------------------------------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------ | -------------- | ------ |
+| 1        | US27  | Landing Page Value Proposition      | US27-T001  | Hero Section              | Implementar sección Hero con título, subtítulo, dos CTAs (Owner / Client) y fondo con gradiente de la paleta MineTrack.  | 4                  | Sebastian      | Done   |
+| 1        |       |                                     | US27-T002  | About Us Section          | Implementar sección Sobre Nosotros con descripción del modelo de negocio del marketplace.                                | 2                  | Juan José      | Done   |
+| 1        |       |                                     | US27-T003  | Top Bar Sticky            | Implementar barra superior fija con marca, navegación interna y selector de idioma.                                      | 3                  | Sebastian      | Done   |
+| 1        | US28  | How-It-Works for Owners and Clients | US28-T001  | How-It-Works Owner Card   | Card con 4 pasos del journey del Propietario: registrar máquinas → recibir solicitudes → aprobar → cobrar por horas.     | 3                  | Sebastian      | Done   |
+| 1        |       |                                     | US28-T002  | How-It-Works Client Card  | Card con 4 pasos del journey del Cliente: navegar catálogo → solicitar máquina → aprobación → monitorear en tiempo real. | 3                  | Sebastian      | Done   |
+| 1        |       |                                     | US28-T003  | Features Section          | Grid de 6 features principales con íconos de PrimeIcons.                                                                 | 4                  | Zahir Emmanuel | Done   |
+| 1        |       |                                     | US28-T004  | Team Section              | Sección Equipo con cards de los 6 integrantes y sus roles en el proyecto.                                                | 2                  | Alvaro         | Done   |
+| 1        | US29  | Public Contact Form                 | US29-T001  | FAQ Section               | Sección de Preguntas Frecuentes con 4 ítems collapsables (uso de `<details>` semántico).                                 | 3                  | Sebastian      | Done   |
+| 1        |       |                                     | US29-T002  | CTA Section               | Sección final con call-to-action a la plataforma y al contacto.                                                          | 2                  | Sebastian      | Done   |
+| 1        |       |                                     | US29-T003  | Footer                    | Footer con información de contacto, redes sociales y datos del curso.                                                    | 2                  | Alvaro         | Done   |
+| 1        | INFRA | Project Setup                       | INFRA-T001 | GitHub Organization Setup | Crear organización `minedev-upc-startup`, repositorios y configurar branch protection.                                   | 3                  | Sebastian      | Done   |
+| 1        | INFRA |                                     | INFRA-T002 | GitHub Pages Deployment   | Configurar deploy automático de la Landing Page desde rama `main`.                                                       | 1                  | Sebastian      | Done   |
+| 1        | i18n  | Internationalization                | i18n-T001  | Translation Dictionary    | Definir diccionario JSON con keys EN/ES para todas las secciones de la Landing.                                          | 3                  | Sebastian      | Done   |
+| 1        | i18n  |                                     | i18n-T002  | Language Toggle           | Implementar selector EN/ES con persistencia en `localStorage` y detección automática del idioma del browser.             | 2                  | Sebastian      | Done   |
+
+**Total Story Points: 13**
+**Total Estimación: 37 horas**
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo se enfocó exclusivamente en el desarrollo de la Landing Page de MineTrack. El objetivo principal fue construir una página pública funcional, visualmente atractiva y completamente responsiva, que comunique eficazmente la propuesta de valor del marketplace de alquiler de maquinaria minera tanto a Propietarios como a empresas mineras.
+
+A lo largo del Sprint se diseñaron e implementaron las secciones clave: Hero con propuesta de valor, Sobre Nosotros, Cómo Funciona (con cards separados para Owner y Client), Características principales, Equipo, Preguntas Frecuentes y Footer con información de contacto y redes sociales.
+
+| Repository         | Branch  | Commit Id  | Commit Message                                                         | Date       |
+| ------------------ | ------- | ---------- | ---------------------------------------------------------------------- | ---------- |
+| landing-page       | main    | `[LLENAR]` | feat(landing): add complete landing page with i18n EN/ES support       | 2026-05-12 |
+| minetrack-frontend | develop | `[LLENAR]` | feat(shared): add owner and client layouts with role-based sidebar     | 2026-05-12 |
+| minetrack-frontend | develop | `[LLENAR]` | feat(iam): add authentication bounded context end-to-end               | 2026-05-08 |
+| minetrack-frontend | main    | `[LLENAR]` | chore(infra): add scaffold (shared layer, iam context, template, docs) | 2026-05-08 |
+
+`[LLENAR: completar la tabla con todos los commits relevantes del Sprint 1 — usa "git log --oneline --since=2026-04-27" en cada repo para obtener los hashes y mensajes]`
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Al cierre del Sprint 1 se obtuvo una Landing Page completamente funcional, desplegada en un entorno público mediante GitHub Pages. La página presenta de manera coherente la propuesta de MineTrack y permite navegar fluidamente entre todas sus secciones mediante scroll y enlaces de anclaje en la barra superior.
+
+**Evidencias visuales:**
+
+`[LLENAR: insertar screenshots de la Landing Page desplegada. Sugerencias de screenshots:]`
+
+- _Screenshot 1: Hero Section en español con CTAs visibles_
+- _Screenshot 2: Sección Cómo Funciona mostrando los dos cards (Owner / Client)_
+- _Screenshot 3: Sección Features con grid de 6 características_
+- _Screenshot 4: Sección FAQ con un ítem expandido_
+- _Screenshot 5: Footer con datos de contacto y redes sociales_
+- _Screenshot 6: Landing en inglés tras activar el toggle EN — mostrando que i18n funciona_
+- _Screenshot 7: Vista responsiva en móvil (DevTools, viewport 375px)_
+
+**Validación funcional:**
+
+- La Landing carga correctamente en navegadores Chrome, Firefox y Safari
+- El selector de idioma EN/ES actualiza todos los textos sin recargar la página
+- La preferencia de idioma persiste entre visitas mediante `localStorage`
+- Todas las secciones se adaptan a viewports móviles (≤600px), tablets (≤900px) y desktop
+- Los enlaces de la barra superior navegan correctamente a las secciones internas
+- Los CTAs apuntan a las URLs públicas correctas (plataforma y email de contacto)
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 no se implementaron servicios backend del lado servidor, ya que el alcance del Sprint se limitó a la Landing Page (sitio estático). La documentación de servicios se enfocará en los Sprints siguientes, cuando se implementen los Web Services del Frontend Web Application sobre la Fake API y, posteriormente, los servicios C# del backend real en TB2.
+
+Sin embargo, durante el Sprint 1 se documentó la siguiente decisión técnica relevante: **separación de productos digitales en repositorios independientes**, lo cual permite que cada producto (Landing Page, Frontend Web App, Web Services) tenga su propio ciclo de despliegue, control de versiones y estrategia de hosting, en línea con las buenas prácticas de arquitectura distribuida orientada a servicios.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+La Landing Page se desplegó exitosamente en GitHub Pages, integrada con CI/CD automático desde la rama `main`. Cada commit a `main` activa un nuevo build y publicación, sin pasos manuales adicionales.
+
+**URLs de despliegue:**
+
+- **Landing Page (producción):** https://minedev-upc-startup.github.io/landing-page/
+- **Repositorio:** https://github.com/minedev-upc-startup/landing-page
+
+**Configuración aplicada:**
+
+- **Source:** Deploy from a branch
+- **Branch:** `main` / `/ (root)`
+- **HTTPS:** Habilitado automáticamente por GitHub Pages
+- **CDN:** Distribución global vía CDN de GitHub
+- **Build time:** ~30 segundos por commit
+
+**Evidencias visuales del despliegue:**
+
+`[LLENAR: insertar screenshots del despliegue]`
+
+- _Screenshot 1: Settings → Pages del repositorio mostrando "Your site is live at..."_
+- _Screenshot 2: URL pública abierta en navegador con la Landing visible_
+- _Screenshot 3: GitHub Actions workflow del deploy automático_
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo demostró una colaboración efectiva centrada en la implementación práctica de la Landing Page y el establecimiento de la base técnica del proyecto. La división clara de responsabilidades vía la LACX permitió que cada integrante asumiera al menos un aspecto de liderazgo.
+
+**Logros destacados:**
+
+- Despliegue exitoso de la Landing Page en GitHub Pages con CI/CD automático
+- Implementación de internacionalización EN/ES desde el primer Sprint, anticipando el requerimiento de accesibilidad multilingüe del producto
+- Establecimiento de la organización GitHub `minedev-upc-startup` con tres repositorios separados (Landing, Frontend, Report) que permite trabajo paralelo del equipo
+- Configuración de branch protection en las ramas críticas (`main` y `develop`) y aplicación rigurosa de GitFlow con Conventional Commits
+- Definición de design tokens (paleta amber/slate, tipografías Montserrat + Roboto) consistentes entre Landing Page y Frontend Web App, lo que asegura coherencia visual entre productos digitales
+
+**Lecciones aprendidas:**
+
+- La separación de la Landing Page en su propio repositorio simplifica el deployment y permite que evolucione independientemente del Frontend Web App
+- GitHub Pages resultó suficiente para una Landing estática, evitando complejidad innecesaria de servicios pagos
+- La definición temprana de los design tokens del Frontend Web App permitió que la Landing los reutilizara, manteniendo coherencia visual entre productos sin duplicación de decisiones de diseño
+- El trabajo distribuido en repositorios separados redujo conflictos de merge significativamente durante el Sprint
+
+`[LLENAR: insertar screenshot del GitHub Insights → Contributors del repositorio landing-page mostrando contribuciones del equipo durante el Sprint 1]`
 
 ---
 
-### Leyenda
+### 5.2.2. Sprint 2
 
-- **L (Leader):** Responsable principal del aspecto  
-- **C (Collaborator):** Apoyo en la ejecución del aspecto  
+`[LLENAR MAÑANA: esta sección documenta el Sprint 2 del Frontend Web Application. Estructura idéntica a Sprint 1.]`
 
----
+#### 5.2.2.1. Sprint Planning 2
 
-### Justificación
+`[LLENAR mañana con datos del Sprint 2]`
 
-La asignación de líderes y colaboradores se realizó considerando la distribución equitativa de responsabilidades y la participación activa de todos los integrantes del equipo.
+#### 5.2.2.2. Aspect Leaders and Collaborators
 
-Cada miembro asumió al menos un rol de liderazgo, lo cual permitió fortalecer la coordinación interna y asegurar el cumplimiento de los objetivos del Sprint.
+`[LLENAR mañana con LACX del Sprint 2]`
 
-Además, esta organización está alineada con las tareas definidas en el Sprint Backlog, garantizando coherencia entre la planificación y la ejecución del trabajo.
+#### 5.2.2.3. Sprint Backlog 2
 
-### 5.2.1.3 Sprint Backlog 1
+`[LLENAR mañana con tasks de US06 + US08 + US09 + Layouts + IAM]`
 
-El Sprint Backlog 1 contiene las User Stories seleccionadas para cumplir con el objetivo del Sprint, enfocadas en la implementación inicial del sistema MineTrack, incluyendo la presentación del producto y la simulación del monitoreo de maquinaria.
+#### 5.2.2.4. Development Evidence for Sprint Review
 
-| ID | User Story | Description | Priority | Story Points |
-|----|-----------|------------|----------|--------------|
-| US01 | Landing Page - Home | Como usuario, quiero visualizar la propuesta de MineTrack para entender su utilidad | Alta | 3 |
-| US02 | Visualización de monitoreo | Como usuario, quiero ver datos de estado de maquinaria para conocer su funcionamiento | Alta | 3 |
-| US03 | Sección mantenimiento | Como usuario, quiero entender cómo funciona el mantenimiento preventivo | Alta | 2 |
-| US04 | Configuración del entorno | Como desarrollador, quiero configurar el entorno para iniciar el proyecto | Alta | 3 |
-| US05 | Estructura base Angular | Como desarrollador, quiero crear la base del sistema | Alta | 2 |
-| US06 | Simulación de alertas IoT | Como sistema, quiero mostrar alertas de fallas para validar el monitoreo inteligente | Media | 2 |
+`[LLENAR mañana con commits del Sprint 2 — frontend desplegado]`
 
-**Total Story Points: 15**
+#### 5.2.2.5. Execution Evidence for Sprint Review
 
-### 5.2.1.4 Development Evidence for Sprint Review
+`[LLENAR mañana con screenshots del frontend funcionando]`
 
-Durante el Sprint 1 se desarrollaron los siguientes componentes:
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-- Implementación de la Landing Page inicial  
-- Creación de componentes en Angular (Home, Features, Contact)  
-- Configuración del entorno de desarrollo  
-- Integración de datos simulados relacionados con monitoreo de maquinaria  
+`[LLENAR mañana — documentación del Fake API en Beeceptor]`
 
-Se utilizaron buenas prácticas de desarrollo, incluyendo modularización del código y uso de componentes reutilizables.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+`[LLENAR mañana — URLs de Firebase Hosting y Beeceptor]`
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+`[LLENAR mañana]`
 
 ---
-### 5.2.1.5 Execution Evidence for Sprint Review
-
-Durante la ejecución del Sprint 1, el equipo trabajó de manera organizada utilizando GitHub como herramienta principal de control de versiones.
-
-Se evidenciaron las siguientes actividades:
-
-- Uso de ramas feature para el desarrollo de funcionalidades específicas  
-- Realización de commits constantes y descriptivos  
-- Integración progresiva de cambios hacia la rama develop  
-- Validación continua del funcionamiento mediante pruebas locales  
-
-El flujo de trabajo permitió mantener un desarrollo ordenado y alineado con los objetivos del Sprint.
-
----
-### 5.2.1.6 Services Documentation Evidence for Sprint Review
-
-Se documentaron los componentes y servicios principales del sistema MineTrack, con el objetivo de entender el flujo de información y la interacción entre sus partes.
-
-Entre los elementos documentados se incluyen:
-
-- Flujo de datos de monitoreo de maquinaria (simulado)  
-- Representación de variables como estado, uso y alertas  
-- Interacción entre la interfaz de usuario y la lógica del sistema  
-- Estructura de componentes del Landing Page  
-
-Esta documentación permite comprender cómo el sistema gestiona la información relacionada con el mantenimiento preventivo y el seguimiento de maquinaria.
-
----
-### 5.2.1.7 Software Deployment Evidence for Sprint Review
-
-Se realizó el despliegue de la aplicación en un entorno local, permitiendo validar su funcionamiento fuera del entorno de desarrollo.
-
-Se logró:
-
-- Ejecutar correctamente la aplicación  
-- Visualizar la Landing Page con sus secciones implementadas  
-- Verificar la navegación entre componentes  
-- Validar la correcta representación de datos simulados  
-
-Este despliegue inicial permitió comprobar la viabilidad del sistema MineTrack como solución digital.
-
----
-### 5.2.1.8 Team Collaboration Insights during Sprint
-
-Durante el Sprint 1, el equipo trabajó de manera colaborativa, distribuyendo responsabilidades y manteniendo una comunicación constante.
-
-Se utilizaron herramientas como GitHub para coordinar el desarrollo y gestionar el código fuente. Además, se realizaron reuniones de seguimiento para revisar avances y resolver dificultades.
-
-Cada integrante participó activamente tanto en tareas de desarrollo como en la toma de decisiones, lo cual permitió avanzar de manera eficiente.
-
-Esta dinámica de trabajo refleja el cumplimiento del Student Outcome 5, evidenciando la capacidad del equipo para colaborar, organizarse y lograr objetivos comunes dentro del proyecto.
 
 ## Conclusiones
 
-- La implementación del Sprint 1 mediante la metodología Scrum permitió organizar de manera eficiente el desarrollo del proyecto MineTrack, definiendo objetivos claros, backlog y roles, lo que facilitó el cumplimiento del Sprint Goal.
+- La implementación del Sprint 1 mediante la metodología Scrum permitió organizar el desarrollo de la Landing Page de MineTrack con objetivos claros, backlog priorizado y roles definidos, lo que facilitó el cumplimiento del Sprint Goal y el despliegue público del producto.
+- La estrategia de separar los productos digitales en repositorios independientes (Landing Page, Frontend Web App, Project Report) demostró ser eficaz para soportar el trabajo paralelo del equipo y simplificar los pipelines de deployment.
+- El trabajo colaborativo del equipo, apoyado en GitHub, Trello y la correcta asignación de responsabilidades vía LACX, permitió mantener un flujo de desarrollo ordenado, cumpliendo con el Student Outcome 5 de la rúbrica ABET.
 
-- El desarrollo de la Landing Page junto con la simulación de monitoreo de maquinaria evidenció la viabilidad de la solución, demostrando cómo el uso de tecnologías IoT puede aportar valor en la gestión de mantenimiento preventivo y postventa.
-
-- El trabajo colaborativo del equipo, apoyado en herramientas como GitHub y en la correcta asignación de responsabilidades (LACX), permitió mantener un flujo de desarrollo ordenado, cumpliendo con el Student Outcome 5.
-- 
 ## Bibliografía
 
-- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/
+- Schwaber, K., & Sutherland, J. (2020). _The Scrum Guide_. Scrum.org. https://scrumguides.org/
+- Driessen, V. (2010). A successful Git branching model. https://nvie.com/posts/a-successful-git-branching-model/
+- Conventional Commits Specification. (2024). https://www.conventionalcommits.org/
+- Evans, E. (2003). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley.
+- Cuomo, S. (2024). _Vue.js 3 for Beginners: Learn the essentials of Vue.js 3 and its ecosystem to build modern web applications_. Packt Publishing.
+- Pressman, R. S., & Maxim, B. R. (2020). _Software engineering: A practitioner's approach_ (9th ed.). McGraw-Hill.
+- Sommerville, I. (2016). _Software engineering_ (10th ed.). Pearson.
 
-- Pressman, R. S., & Maxim, B. R. (2020). *Software engineering: A practitioner’s approach* (9th ed.). McGraw-Hill.
-
-- Sommerville, I. (2016). *Software engineering* (10th ed.). Pearson.
-
-- Atzori, L., Iera, A., & Morabito, G. (2010). The Internet of Things: A survey. *Computer Networks, 54*(15), 2787–2805. https://doi.org/10.1016/j.comnet.2010.05.010
-
-- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A vision, architectural elements, and future directions. *Future Generation Computer Systems, 29*(7), 1645–1660. https://doi.org/10.1016/j.future.2013.01.010
-
-- Lee, J., Bagheri, B., & Kao, H. A. (2015). A cyber-physical systems architecture for industry 4.0-based manufacturing systems. *Manufacturing Letters, 3*, 18–23. https://doi.org/10.1016/j.mfglet.2014.12.001
-
-- Porter, M. E., & Heppelmann, J. E. (2014). How smart, connected products are transforming competition. *Harvard Business Review, 92*(11), 64–88. https://hbr.org/2014/11/how-smart-connected-products-are-transforming-competition
-
-- Schwab, K. (2017). *The fourth industrial revolution*. Crown Business.
-
-- Newman, S. (2021). *Building microservices* (2nd ed.). O’Reilly Media.
-
-- Fowler, M. (2018). *Refactoring: Improving the design of existing code* (2nd ed.). Addison-Wesley.
-  
 ## Anexos
 
-Link del repositorio: [Repositorio MineTrack](https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report)
-
+- **Landing Page (deployed):** https://minedev-upc-startup.github.io/landing-page/
+- **Repositorio Landing:** https://github.com/minedev-upc-startup/landing-page
+- **Repositorio Frontend Web App:** https://github.com/minedev-upc-startup/minetrack-frontend
+- **Repositorio Project Report:** https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report
+- **Trello Sprint 1:** `[LLENAR]`
+- **Trello Sprint 2:** `[LLENAR]`
