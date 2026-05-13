@@ -20,9 +20,8 @@ Para la elaboración de las historias de usuario  definimos las siguientes épic
 | **EP08** | Inteligencia de Negocios y Analítica | **Como** gerente o analista, **Quiero** exportar reportes de desempeño y comparar métricas entre equipos, **Para** tomar decisiones estratégicas basadas en datos que optimicen la rentabilidad de la flota. |
 
 
-# 3.1. User Stories (Versión Optimizada para Calificación 20)
+# 3.1. User Stories 
 
-En esta sección se detallan las 50 User Stories que cubren el 100% del alcance de la plataforma **MineTrack**. Cada historia ha sido desglosada con criterios de aceptación técnicos y orientados a escenarios (Given-When-Then) para garantizar una validación objetiva.
 
 ## EP01: Seguridad y Gestión de Accesos
 
