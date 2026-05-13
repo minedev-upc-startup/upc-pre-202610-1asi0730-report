@@ -258,13 +258,13 @@ Presentación del modelo de las preguntas 5Ws y 2Hs con las que se analizaron lo
 
 | LAS 5W y 2H | Pregunta | Descripción |
 | :--- | :--- | :--- |
-| **Who?** | **¿Quién es afectado?** | Los **distribuidores de maquinaria pesada** (como Manuel Sanchez) que enfrentan pérdidas por garantías mal aplicadas y los **jefes de soporte técnico** (como Javier Espinoza) encargados de la operatividad en campamentos mineros. |
-| **What?** | **¿Cuál es el problema?** | La **fragmentación y falta de visibilidad técnica real** en el monitoreo de equipos. El 100% de la gestión de inventario y seguimiento técnico se basa en procesos manuales y comunicación informal (WhatsApp/Excel). |
-| **Where?** | **¿Dónde surge el problema?** | Se origina en los **yacimientos mineros remotos**, donde la maquinaria opera bajo condiciones críticas de presión y calor, y se extiende a las oficinas de soporte donde la falta de datos centralizados impide un control eficiente. |
-| **When?** | **¿Cuándo sucede el problema?** | Se manifiesta durante el **tiempo de inactividad (downtime) no programado** y en los procesos de reclamo de garantía, donde no existe evidencia histórica de sensores para determinar si la falla fue por error humano o defecto de fábrica. |
-| **Why?** | **¿Cuál es la causa del problema?** | La causa principal es el **desaprovechamiento de la tecnología IoT y telemetría**. Los sistemas actuales no integran variables físicas críticas (calor, presión, vibración) en una plataforma única, forzando una respuesta reactiva ante averías. |
-| **How?** | **¿Cómo se maneja actualmente?** | Mediante **macros de Excel y reportes manuales** que demandan seguimiento constante. El personal técnico debe viajar de **2 a 3 horas por tramo** solo para realizar diagnósticos visuales que podrían ser remotos. |
-| **How Much?** | **¿Cuánto es el impacto?** | El impacto económico es severo debido a los **altos costos por hora de máquina parada**. Además, se generan gastos logísticos innecesarios por traslados técnicos y pérdidas por reparaciones preventivas no detectadas a tiempo. |
+| **Who?** | **¿Quién es afectado?** | Los distribuidores de maquinaria pesada  que enfrentan pérdidas por garantías mal aplicadas y los jefes de soporte técnico (como Javier Espinoza) encargados de la operatividad en campamentos mineros. |
+| **What?** | **¿Cuál es el problema?** | La fragmentación y falta de visibilidad técnica real en el monitoreo de equipos. El 100% de la gestión de inventario y seguimiento técnico se basa en procesos manuales y comunicación informal (WhatsApp/Excel). |
+| **Where?** | **¿Dónde surge el problema?** | Se origina en los yacimientos mineros remotos, donde la maquinaria opera bajo condiciones críticas de presión y calor, y se extiende a las oficinas de soporte donde la falta de datos centralizados impide un control eficiente. |
+| **When?** | **¿Cuándo sucede el problema?** | Se manifiesta durante el tiempo de inactividad (downtime) no programado y en los procesos de reclamo de garantía, donde no existe evidencia histórica de sensores para determinar si la falla fue por error humano o defecto de fábrica. |
+| **Why?** | **¿Cuál es la causa del problema?** | La causa principal es el desaprovechamiento de la tecnología IoT y telemetría. Los sistemas actuales no integran variables físicas críticas (calor, presión, vibración) en una plataforma única, forzando una respuesta reactiva ante averías. |
+| **How?** | **¿Cómo se maneja actualmente?** | Mediante macros de Excel y reportes manuales que demandan seguimiento constante. El personal técnico debe viajar de 2 a 3 horas por tramo solo para realizar diagnósticos visuales que podrían ser remotos. |
+| **How Much?** | **¿Cuánto es el impacto?** | El impacto económico es severo debido a los altos costos por hora de máquina parada. Además, se generan gastos logísticos innecesarios por traslados técnicos y pérdidas por reparaciones preventivas no detectadas a tiempo. |
 
 ### 1.2.2. Lean UX Process
 
