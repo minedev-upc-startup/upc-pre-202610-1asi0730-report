@@ -401,7 +401,9 @@ En esta sección se documenta el Sprint 2 del proyecto MineTrack, orientado a la
 
 #### 5.2.2.3. Sprint Backlog 2
 
-`[LLENAR: URL del Trello Sprint 2]`
+![Trello-Sprint2](./Resources/sprint-2/trello-sprint2.png)
+
+https://trello.com/b/YZ5VLjG8/minetrack-sprint-2
 
 | Sprint # | US ID | User Story Title             | Task ID    | Task Title                        | Description                                                                                                                                                        | Estimation (Hours) | Assigned To        | Status |
 | -------- | ----- | ---------------------------- | ---------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------ |
@@ -561,5 +563,6 @@ Durante el Sprint 2 el equipo demostró una distribución efectiva del trabajo b
 - **Repositorio Landing:** https://github.com/minedev-upc-startup/landing-page
 - **Repositorio Frontend Web App:** https://github.com/minedev-upc-startup/minetrack-frontend
 - **Repositorio Project Report:** https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report
-- **Trello Sprint 1:** `[LLENAR]`
-- **Trello Sprint 2:** `[LLENAR]`
+- **Trello Sprint 1:** https://trello.com/b/UJwSqATK/minetrack-sprint-1
+
+- **Trello Sprint 2:** https://trello.com/b/YZ5VLjG8/minetrack-sprint-2
