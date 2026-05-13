@@ -136,27 +136,113 @@ La utilización de GitFlow, Conventional Commits y Semantic Versioning permitió
 ---
 ## 5.1.3 Source Code Style Guide & Conventions
 
-Para mantener el código limpio y fácil de entender, se definieron algunas convenciones básicas que todos los integrantes del equipo siguieron durante el desarrollo.
+Para mantener consistencia en el desarrollo de MineTrack, el equipo definió convenciones de código aplicables al Landing Page, Frontend Web Application y Web Services. Estas convenciones permiten que los integrantes trabajen con una misma estructura, mejoren la legibilidad del código y reduzcan errores durante la integración.
 
-Entre las principales reglas adoptadas se encuentran:
+Además, se estableció que los nombres de archivos, variables, funciones, clases, componentes y rutas deben escribirse en inglés, siguiendo las buenas prácticas del desarrollo de software.
 
-- Uso de camelCase para variables y funciones  
-- Uso de PascalCase para clases y componentes  
-- Indentación de 2 espacios  
-- Organización del código en módulos reutilizables  
-- Inclusión de comentarios en partes importantes del código  
+### Convenciones generales
+
+| Elemento | Convención | Ejemplo |
+|---|---|---|
+| Variables JavaScript | camelCase | `machineStatus` |
+| Funciones JavaScript | camelCase | `calculateHealthScore()` |
+| Componentes Vue | PascalCase | `DashboardView.vue` |
+| Clases C# | PascalCase | `MachineService` |
+| Métodos C# | PascalCase | `GenerateAlert()` |
+| Interfaces C# | Prefijo `I` + PascalCase | `IMachineRepository` |
+| Archivos CSS | kebab-case | `dashboard-view.css` |
+| Ramas Git | kebab-case | `feature/iot-monitoring` |
+
+### Convenciones para HTML y CSS
+
+| Aspecto | Convención aplicada |
+|---|---|
+| HTML semántico | Uso de etiquetas como `header`, `main`, `section`, `article` y `footer` |
+| Nombres de clases | Nombres descriptivos en inglés |
+| Organización visual | Separación clara por secciones |
+| Responsive design | Uso de media queries y layouts flexibles |
+| Accesibilidad | Uso de atributos `alt`, `aria-label` y contraste adecuado |
 
 Ejemplo:
 
+```html
+<section class="dashboard-summary" aria-label="Fleet summary">
+  <article class="summary-card">
+    <h3>Total Machines</h3>
+    <p>24 active units</p>
+  </article>
+</section>
+```
+### Convenciones para JavaScript y Vue
+
+| Aspecto | Convención aplicada |
+|---|---|
+| Componentes | Uso de Composition API |
+| Variables | camelCase |
+| Componentes Vue | PascalCase |
+| Archivos de vistas | Sufijo `View.vue` |
+| Servicios | Sufijo `Service.js` |
+| Datos mockeados | Separados de la lógica visual cuando sea posible |
+
+Ejemplo:
 ```javascript
-function evaluarEstadoMaquina(sensor) {
-  if (sensor.temperatura > 80) {
-    return "Alerta";
-  }
-  return "Normal";
+const machineStatus = ref('Active');
+
+function calculateHealthScore(machine) {
+  return machine.alerts.length === 0 ? 100 : 75;
 }
 ```
+### Convenciones para C# y ASP.NET Core
 
+| Aspecto | Convención aplicada |
+|---|---|
+| Clases | PascalCase |
+| Métodos | PascalCase |
+| Interfaces | Prefijo `I` |
+| Controladores | Sufijo `Controller` |
+| Servicios | Sufijo `Service` |
+| Repositorios | Sufijo `Repository` |
+| DTOs | Sufijo `Dto` |
+
+Ejemplo:
+```C#
+public interface IMachineRepository
+{
+    MachineDto GetMachineById(int machineId);
+}
+
+public class MachineService
+{
+    public MachineDto GetMachineStatus(int machineId)
+    {
+        // Business logic
+    }
+}
+```
+### Convenciones de documentación
+
+| Elemento | Convención |
+|---|---|
+| Commits | Conventional Commits |
+| Endpoints | Documentados con Swagger/OpenAPI |
+| Sprint evidence | Capturas, tablas y descripción técnica |
+| User Stories | Formato “Como..., deseo..., para...” |
+| Acceptance Criteria | Formato Given-When-Then |
+| Tasks | Descripción, estimación, responsable y estado |
+
+### Accesibilidad e internacionalización
+
+| Aspecto | Aplicación |
+|---|---|
+| Idioma base | Inglés |
+| Segundo idioma | Español latinoamericano |
+| i18n | Textos preparados para traducción |
+| a11y | Uso de atributos ARIA |
+| Contraste | Colores diferenciados para estados y alertas |
+| Navegación | Estructura clara y consistente |
+
+Estas convenciones permiten que MineTrack mantenga una base de código ordenada, comprensible y preparada para futuras mejoras en el Landing Page, Frontend Web Application y Web Services.
+---
 ## 5.1.4 Software Deployment Configuration
 
 El despliegue del sistema MineTrack se realizó considerando la necesidad de contar con una versión accesible del producto que permita mostrar su funcionamiento de manera clara.
