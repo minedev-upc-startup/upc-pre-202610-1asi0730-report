@@ -245,7 +245,7 @@ Para la elaboración de las historias de usuario  definimos las siguientes épic
 | :--- | :--- | :--- | :--- |
 | **Título** | Modo oscuro para trabajo nocturno |
 | **Descripción** | Como operador de noche, deseo activar el modo oscuro para no cansar mi vista al revisar el dashboard en la oscuridad de la mina. |
-| **Criterios de Aceptación** | **Escenario 1: Theme Injection.** <br> * **Given** opción personalización, <br> * **When** activa modo oscuro, <br> * **Then** cambia fondo a #121212 y textos a contraste bajo. |
+| **Criterios de Aceptación** | **Escenario 1: Theme Injection.** <br> * **Given** opción personalización, <br> * **When** activa modo oscuro, <br> * **Then** cambia fondo  y textos a contraste bajo. |
 
 | User Story ID | HU38 | Epic ID | EP06 |
 | :--- | :--- | :--- | :--- |
@@ -323,7 +323,7 @@ Para la elaboración de las historias de usuario  definimos las siguientes épic
 | :--- | :--- | :--- | :--- |
 | **Título** | Backup de datos técnicos |
 | **Descripción** | Como administrador de sistemas, deseo programar una descarga semanal de toda la base de datos para no perder información por fallas del servidor. |
-| **Criterios de Aceptación** | **Escenario 1: DB Dump.** <br> * **Given** config servidor, <br> * **When** horario programado, <br> * **Then** genera volcado cifrado .sql.gz en repositorio externo. |
+| **Criterios de Aceptación** | **Escenario 1: DB Dump.** <br> * **Given** config servidor, <br> * **When** horario programado, <br> * **Then** genera volcado cifrado  en repositorio externo. |
 ## 3.2. Impact Mapping
 
 <img width="1240" height="2079" alt="Impact map 1" src="https://github.com/user-attachments/assets/294b74ff-49ef-455b-a684-7191b382f870" />
