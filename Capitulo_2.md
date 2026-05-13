@@ -507,7 +507,7 @@ En esta sección se detallan las tareas principales que realizarán los usuarios
 #### Segmento 1: Distribuidores de Maquinaria Pesada
 Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las garantías de los equipos mineros.
 
-|Ricardo Morales | Frecuencia | Importancia |
+|Manuel Sanchez | Frecuencia | Importancia |
 | :--- | :--- | :--- |
 | Iniciar sesión y gestionar perfil de distribuidor | Alta | Alta |
 | Registrar nueva maquinaria pesada en el catálogo | Media | Alta |
