@@ -29,7 +29,7 @@ Para la elaboración de las historias de usuario  definimos las siguientes épic
 | :--- | :--- | :--- | :--- |
 | **Título** | Inicio de sesión seguro |
 | **Descripción** | Como usuario de MineTrack, deseo ingresar a la plataforma con mi correo y contraseña para acceder a las funciones según mi rol asignado. |
-| **Criterios de Aceptación** | **Escenario 1: Autenticación exitosa con JWT.** <br> * **Given** que el usuario ingresa un correo con formato válido (regex) y contraseña, <br> * **When** hace clic en "Ingresar", <br> * **Then** el sistema valida las credenciales, genera un **JSON Web Token (JWT)** con expiración de 4 horas y redirige al `/dashboard` en menos de 2 segundos. <br><br> **Escenario 2: Feedback de error.** <br> * **Given** credenciales inválidas, <br> * **When** intenta acceder, <br> * **Then** el sistema resalta los campos en rojo (#D32F2F) y devuelve un código de estado **401 Unauthorized**. |
+| **Criterios de Aceptación** | **Escenario 1: Autenticación exitosa con JWT.** <br> * **Given** que el usuario ingresa un correo con formato válido (regex) y contraseña, <br> * **When** hace clic en "Ingresar", <br> * **Then** el sistema valida las credenciales, genera un **JSON Web Token (JWT)** con expiración de 4 horas y redirige al `/dashboard` en menos de 2 segundos. <br><br> **Escenario 2: Feedback de error.** <br> * **Given** credenciales inválidas, <br> * **When** intenta acceder, <br> * **Then** el sistema resalta los campos en rojo  y devuelve un código de estado **401 Unauthorized**. |
 
 | User Story ID | HU02 | Epic ID | EP01 |
 | :--- | :--- | :--- | :--- |
