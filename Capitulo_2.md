@@ -129,7 +129,8 @@ Segmento: Distribuidores
 
 Segmento: Jefes de mantenimiento
 
-<img width="1260" height="713" alt="image" src="https://github.com/user-attachments/assets/aae0a536-0609-44d5-bbd5-cf6fa4471371" />
+<img width="1050" height="1498" alt="Javier Espinoza" src="https://github.com/user-attachments/assets/2ae0521f-a8a5-4188-aaca-ad2ed0192fa1" />
+
 
 ### 2.3.2. User Task Matrix
 
