@@ -117,7 +117,381 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 - Resumen:<br>
 
 ### 2.2.3. Analisis de entrevistas
+# Análisis de Entrevistas – Proyecto de Plataforma para Gestión de Maquinaria Pesada
 
+## Análisis General de las Entrevistas
+
+Las cuatro entrevistas realizadas a distribuidores y responsables de mantenimiento de maquinaria pesada permitieron identificar problemas recurrentes en la gestión operativa, mantenimiento y seguimiento de equipos. En general, las empresas entrevistadas aún trabajan con procesos manuales, principalmente mediante Excel, macros, llamadas telefónicas, WhatsApp y reportes físicos.
+
+Esto genera dificultades importantes como:
+
+- Falta de monitoreo en tiempo real.
+- Mala comunicación entre áreas.
+- Retrasos en atención de fallas y garantías.
+- Pérdida de tiempo en supervisión presencial.
+- Falta de centralización de información.
+- Mantenimiento reactivo en lugar de preventivo.
+
+Además, todos los entrevistados coincidieron en que una plataforma digital con monitoreo en tiempo real y alertas automáticas representaría una mejora significativa para sus operaciones.
+
+---
+
+# Entrevista 1 – Segmento Distribuidor
+
+## Perfil del entrevistado
+
+Manuel Sanchez se desempeña como responsable de ventas, mantenimiento y coordinación de maquinaria pesada con empresas proveedoras.
+
+---
+
+## Problemas identificados
+
+### 1. Falta de control centralizado
+
+El entrevistado indicó que actualmente el seguimiento de las máquinas se realiza mediante:
+
+- Correos electrónicos.
+- Llamadas telefónicas.
+- WhatsApp.
+- Inspecciones presenciales.
+
+Esto demuestra que no existe un sistema centralizado para monitorear el estado de las máquinas.
+
+### 2. Gestión reactiva de fallas
+
+La empresa solo se entera de las fallas cuando el cliente las reporta. Esto ocasiona:
+
+- Interrupción de operaciones.
+- Reclamos de garantía.
+- Costos de reparación elevados.
+- Posible reemplazo total del equipo.
+
+### 3. Problemas con garantías
+
+Uno de los mayores problemas es determinar si la falla fue causada por:
+
+- Error humano.
+- Mala operación.
+- Falla mecánica o de software.
+
+La falta de información histórica dificulta validar garantías correctamente.
+
+### 4. Uso limitado de herramientas tecnológicas
+
+El control de inventario se realiza mediante:
+
+- Libros contables.
+- Archivos separados.
+- Registros manuales.
+
+Esto vuelve lento el proceso de actualización y seguimiento.
+
+### 5. Mala comunicación interna
+
+El entrevistado reconoció que no existe una comunicación constante entre:
+
+- Equipo de ventas.
+- Técnicos.
+- Clientes.
+
+Muchas veces la información llega demasiado tarde, cuando la máquina ya falló.
+
+---
+
+## Necesidades detectadas
+
+El entrevistado mostró interés en:
+
+- Monitoreo en tiempo real.
+- Paneles con estado de maquinaria.
+- Alertas preventivas.
+- Comunicación integrada entre áreas.
+- Programación automática de mantenimientos.
+
+---
+
+## Conclusión de la entrevista 1
+
+La entrevista evidencia una fuerte necesidad de digitalización y automatización en la gestión de maquinaria pesada. El distribuidor considera que una plataforma inteligente ayudaría a:
+
+- Reducir costos por fallas.
+- Mejorar la atención postventa.
+- Optimizar la comunicación.
+- Incrementar la satisfacción del cliente.
+- Generar valor agregado en ventas.
+
+---
+
+# Entrevista 2 – Segmento Mantenimiento
+
+## Perfil del entrevistado
+
+Ricardo Morales es responsable del área de mantenimiento, seguimiento técnico y soporte de maquinaria.
+
+---
+
+## Problemas identificados
+
+### 1. Dependencia del reporte manual
+
+Actualmente dependen de:
+
+- Operadores.
+- Técnicos en campo.
+- Reportes manuales.
+
+No cuentan con un sistema automatizado para detectar fallas.
+
+### 2. Procesos lentos para garantías
+
+El mayor problema es validar si el cliente realizó los mantenimientos necesarios para hacer válida la garantía.
+
+Debido al uso de Excel y registros manuales:
+
+- La información demora en revisarse.
+- Se generan retrasos.
+- El cliente percibe mala atención.
+
+### 3. Mantenimiento reactivo
+
+El entrevistado indicó que actúan cuando el cliente reporta el problema, lo cual demuestra ausencia de mantenimiento predictivo.
+
+### 4. Inventarios desorganizados
+
+El control de inventario se realiza únicamente con Excel desde la sede administrativa, sin software especializado.
+
+### 5. Exceso de seguimiento manual
+
+El equipo técnico debe dedicar mucho tiempo al seguimiento y coordinación.
+
+---
+
+## Necesidades detectadas
+
+El entrevistado destacó que sería útil contar con:
+
+- Datos en vivo de la maquinaria.
+- Historial técnico automatizado.
+- Alertas de mantenimiento.
+- Registro de mantenimientos anteriores.
+- Seguimiento de piezas y cambios.
+
+También mencionó la importancia de tener información histórica para decidir cuándo reemplazar una máquina.
+
+---
+
+## Conclusión de la entrevista 2
+
+La entrevista demuestra que el área técnica necesita herramientas digitales que permitan automatizar el mantenimiento y mejorar la trazabilidad de cada equipo.
+
+Una plataforma centralizada ayudaría a:
+
+- Reducir tiempos de respuesta.
+- Mejorar la gestión de garantías.
+- Facilitar el mantenimiento preventivo.
+- Mejorar la satisfacción del cliente.
+- Optimizar el control de inventarios.
+
+---
+
+# Entrevista 3 – Segmento Distribuidor
+
+## Perfil del entrevistado
+
+Raúl Aranívar cuenta con experiencia técnica en distribución y mantenimiento de maquinaria pesada.
+
+---
+
+## Problemas identificados
+
+### 1. Dependencia total de Excel y macros
+
+La empresa administra:
+
+- Cantidad de máquinas.
+- Tipos de equipos.
+- Inventario.
+
+Todo mediante Excel y macros.
+
+### 2. Dificultad para validar garantías
+
+El entrevistado explicó que muchas fallas ocurren por malas maniobras de los operadores, pero los clientes las reportan como fallas mecánicas.
+
+Esto genera conflictos en el proceso de garantía.
+
+### 3. Diagnóstico presencial obligatorio
+
+Cuando ocurre una falla:
+
+- Se debe enviar un jefe mecánico.
+- Se realiza diagnóstico físico.
+- Se conecta una computadora para revisar el estado.
+
+No existe monitoreo remoto.
+
+### 4. Falta de integración entre áreas
+
+El entrevistado mencionó la necesidad de integrar:
+
+- Ventas.
+- Supervisión.
+- Mantenimiento.
+
+---
+
+## Datos importantes obtenidos
+
+El entrevistado indicó que el parámetro más importante para monitorear es:
+
+- Presión hidráulica.
+
+Debido a que muchas fallas ocurren por:
+
+- Exceso de fuerza.
+- Rotura de mangueras hidráulicas.
+
+---
+
+## Necesidades detectadas
+
+- Integración de sistemas.
+- Monitoreo en tiempo real.
+- Sensores de presión.
+- Historial técnico compartido.
+- Centralización de datos.
+
+---
+
+## Conclusión de la entrevista 3
+
+Esta entrevista confirma que las empresas del sector todavía utilizan herramientas limitadas para gestionar operaciones complejas.
+
+Además, demuestra que el monitoreo de variables técnicas como presión, temperatura o vibración podría prevenir fallas graves y reducir costos operativos.
+
+---
+
+# Entrevista 4 – Segmento Mantenimiento
+
+## Perfil del entrevistado
+
+Javier Espinosa trabaja en soporte técnico y mantenimiento de maquinaria pesada en el sector minero.
+
+---
+
+## Problemas identificados
+
+### 1. Dependencia de mantenimiento preventivo tradicional
+
+Actualmente el mantenimiento se programa según:
+
+- Horas máquina.
+- Kilómetros recorridos.
+
+No existe monitoreo inteligente en tiempo real.
+
+### 2. Dificultad para manejar múltiples marcas
+
+El entrevistado mencionó que trabajan con:
+
+- Caterpillar.
+- Komatsu.
+- Shachman.
+- Inter.
+- Freilander.
+
+Cada marca tiene sistemas diferentes, lo que dificulta centralizar la información.
+
+### 3. Tiempo perdido en desplazamientos
+
+Los técnicos pierden:
+
+- Entre 2 y 3 horas de ida.
+- Más el tiempo de retorno.
+
+Solo para verificar el estado de maquinaria.
+
+Esto representa:
+
+- Pérdida de productividad.
+- Costos elevados.
+- Mayor tiempo de máquina detenida.
+
+### 4. Alto impacto económico de fallas
+
+En minería, una máquina detenida representa costos muy altos, por lo que prevenir fallas es prioritario.
+
+---
+
+## Necesidades detectadas
+
+El entrevistado mostró gran interés en:
+
+- Alertas automáticas al celular.
+- Monitoreo de vibración y temperatura.
+- Prevención de fallas.
+- Reducción de visitas presenciales.
+- Mayor disponibilidad operativa.
+
+---
+
+## Conclusión de la entrevista 4
+
+La entrevista evidencia que el sector minero requiere soluciones tecnológicas avanzadas para minimizar tiempos muertos y optimizar mantenimiento.
+
+Una plataforma inteligente permitiría:
+
+- Reducir desplazamientos innecesarios.
+- Detectar fallas antes de que ocurran.
+- Incrementar disponibilidad de maquinaria.
+- Mejorar eficiencia operativa.
+- Reducir costos de mantenimiento.
+
+---
+
+# Conclusiones Finales del Estudio
+
+A partir de las cuatro entrevistas se identificaron patrones comunes:
+
+## Problemas principales
+
+- Uso excesivo de Excel y procesos manuales.
+- Falta de monitoreo remoto.
+- Gestión reactiva de fallas.
+- Mala integración entre áreas.
+- Dificultades en validación de garantías.
+- Pérdida de tiempo en supervisión presencial.
+- Ausencia de alertas automáticas.
+
+---
+
+## Necesidades del mercado
+
+Los entrevistados consideran importante implementar una solución que incluya:
+
+- Monitoreo en tiempo real.
+- Alertas automáticas.
+- Historial de mantenimiento.
+- Gestión centralizada de inventario.
+- Seguimiento de garantías.
+- Integración entre ventas y soporte técnico.
+- Paneles de visualización de maquinaria.
+- Sensores de presión, temperatura y vibración.
+
+---
+
+# Oportunidad de solución
+
+Las entrevistas validan que existe una necesidad real de desarrollar una plataforma web inteligente para gestión de maquinaria pesada que permita:
+
+- Automatizar procesos.
+- Mejorar mantenimiento preventivo.
+- Reducir costos operativos.
+- Optimizar atención postventa.
+- Incrementar eficiencia técnica.
+- Mejorar satisfacción del cliente.
+
+La propuesta tendría un alto valor para distribuidores y empresas de mantenimiento, especialmente en sectores industriales y mineros donde las fallas de maquinaria generan pérdidas económicas significativas.
 
 ## 2.3. NeedFinding
 
