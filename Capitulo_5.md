@@ -191,7 +191,7 @@ npm run build
 
 Este comando produce un directorio `dist/` optimizado que se sube a Firebase. La configuración de Firebase Hosting se gestiona vía Firebase CLI con el archivo `firebase.json` en la raíz del proyecto.
 
-**URL pública de despliegue:** `[LLENAR: URL de Firebase después del deploy de mañana]`
+**URL pública de despliegue:** https://minetrack-upc-2026.web.app
 
 #### Fake API — Beeceptor
 
