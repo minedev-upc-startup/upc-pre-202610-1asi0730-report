@@ -117,9 +117,9 @@ Para validar nuestras hipótesis y entender las necesidades reales del mercado, 
 - Resumen:<br>
 
 ### 2.2.3. Analisis de entrevistas
-# Análisis de Entrevistas – Proyecto de Plataforma para Gestión de Maquinaria Pesada
+#### Análisis de Entrevistas – Proyecto de Plataforma para Gestión de Maquinaria Pesada
 
-## Análisis General de las Entrevistas
+#### Análisis General de las Entrevistas
 
 Las cuatro entrevistas realizadas a distribuidores y responsables de mantenimiento de maquinaria pesada permitieron identificar problemas recurrentes en la gestión operativa, mantenimiento y seguimiento de equipos. En general, las empresas entrevistadas aún trabajan con procesos manuales, principalmente mediante Excel, macros, llamadas telefónicas, WhatsApp y reportes físicos.
 
@@ -136,17 +136,17 @@ Además, todos los entrevistados coincidieron en que una plataforma digital con 
 
 ---
 
-# Entrevista 1 – Segmento Distribuidor
+#### Entrevista 1 – Segmento Distribuidor
 
-## Perfil del entrevistado
+#### Perfil del entrevistado
 
 Manuel Sanchez se desempeña como responsable de ventas, mantenimiento y coordinación de maquinaria pesada con empresas proveedoras.
 
 ---
 
-## Problemas identificados
+#### Problemas identificados
 
-### 1. Falta de control centralizado
+#### 1. Falta de control centralizado
 
 El entrevistado indicó que actualmente el seguimiento de las máquinas se realiza mediante:
 
@@ -157,7 +157,7 @@ El entrevistado indicó que actualmente el seguimiento de las máquinas se reali
 
 Esto demuestra que no existe un sistema centralizado para monitorear el estado de las máquinas.
 
-### 2. Gestión reactiva de fallas
+#### 2. Gestión reactiva de fallas
 
 La empresa solo se entera de las fallas cuando el cliente las reporta. Esto ocasiona:
 
@@ -166,7 +166,7 @@ La empresa solo se entera de las fallas cuando el cliente las reporta. Esto ocas
 - Costos de reparación elevados.
 - Posible reemplazo total del equipo.
 
-### 3. Problemas con garantías
+#### 3. Problemas con garantías
 
 Uno de los mayores problemas es determinar si la falla fue causada por:
 
@@ -176,7 +176,7 @@ Uno de los mayores problemas es determinar si la falla fue causada por:
 
 La falta de información histórica dificulta validar garantías correctamente.
 
-### 4. Uso limitado de herramientas tecnológicas
+#### 4. Uso limitado de herramientas tecnológicas
 
 El control de inventario se realiza mediante:
 
@@ -186,7 +186,7 @@ El control de inventario se realiza mediante:
 
 Esto vuelve lento el proceso de actualización y seguimiento.
 
-### 5. Mala comunicación interna
+#### 5. Mala comunicación interna
 
 El entrevistado reconoció que no existe una comunicación constante entre:
 
@@ -198,7 +198,7 @@ Muchas veces la información llega demasiado tarde, cuando la máquina ya falló
 
 ---
 
-## Necesidades detectadas
+#### Necesidades detectadas
 
 El entrevistado mostró interés en:
 
@@ -210,7 +210,7 @@ El entrevistado mostró interés en:
 
 ---
 
-## Conclusión de la entrevista 1
+#### Conclusión de la entrevista 1
 
 La entrevista evidencia una fuerte necesidad de digitalización y automatización en la gestión de maquinaria pesada. El distribuidor considera que una plataforma inteligente ayudaría a:
 
@@ -222,17 +222,17 @@ La entrevista evidencia una fuerte necesidad de digitalización y automatizació
 
 ---
 
-# Entrevista 2 – Segmento Mantenimiento
+#### Entrevista 2 – Segmento Mantenimiento
 
-## Perfil del entrevistado
+#### Perfil del entrevistado
 
 Ricardo Morales es responsable del área de mantenimiento, seguimiento técnico y soporte de maquinaria.
 
 ---
 
-## Problemas identificados
+#### Problemas identificados
 
-### 1. Dependencia del reporte manual
+#### 1. Dependencia del reporte manual
 
 Actualmente dependen de:
 
@@ -242,7 +242,7 @@ Actualmente dependen de:
 
 No cuentan con un sistema automatizado para detectar fallas.
 
-### 2. Procesos lentos para garantías
+#### 2. Procesos lentos para garantías
 
 El mayor problema es validar si el cliente realizó los mantenimientos necesarios para hacer válida la garantía.
 
@@ -252,11 +252,11 @@ Debido al uso de Excel y registros manuales:
 - Se generan retrasos.
 - El cliente percibe mala atención.
 
-### 3. Mantenimiento reactivo
+#### 3. Mantenimiento reactivo
 
 El entrevistado indicó que actúan cuando el cliente reporta el problema, lo cual demuestra ausencia de mantenimiento predictivo.
 
-### 4. Inventarios desorganizados
+#### 4. Inventarios desorganizados
 
 El control de inventario se realiza únicamente con Excel desde la sede administrativa, sin software especializado.
 
@@ -266,7 +266,7 @@ El equipo técnico debe dedicar mucho tiempo al seguimiento y coordinación.
 
 ---
 
-## Necesidades detectadas
+#### Necesidades detectadas
 
 El entrevistado destacó que sería útil contar con:
 
@@ -280,7 +280,7 @@ También mencionó la importancia de tener información histórica para decidir 
 
 ---
 
-## Conclusión de la entrevista 2
+#### Conclusión de la entrevista 2
 
 La entrevista demuestra que el área técnica necesita herramientas digitales que permitan automatizar el mantenimiento y mejorar la trazabilidad de cada equipo.
 
@@ -294,17 +294,17 @@ Una plataforma centralizada ayudaría a:
 
 ---
 
-# Entrevista 3 – Segmento Distribuidor
+#### Entrevista 3 – Segmento Distribuidor
 
-## Perfil del entrevistado
+#### Perfil del entrevistado
 
 Raúl Aranívar cuenta con experiencia técnica en distribución y mantenimiento de maquinaria pesada.
 
 ---
 
-## Problemas identificados
+#### Problemas identificados
 
-### 1. Dependencia total de Excel y macros
+#### 1. Dependencia total de Excel y macros
 
 La empresa administra:
 
@@ -314,13 +314,13 @@ La empresa administra:
 
 Todo mediante Excel y macros.
 
-### 2. Dificultad para validar garantías
+#### 2. Dificultad para validar garantías
 
 El entrevistado explicó que muchas fallas ocurren por malas maniobras de los operadores, pero los clientes las reportan como fallas mecánicas.
 
 Esto genera conflictos en el proceso de garantía.
 
-### 3. Diagnóstico presencial obligatorio
+#### 3. Diagnóstico presencial obligatorio
 
 Cuando ocurre una falla:
 
@@ -330,7 +330,7 @@ Cuando ocurre una falla:
 
 No existe monitoreo remoto.
 
-### 4. Falta de integración entre áreas
+#### 4. Falta de integración entre áreas
 
 El entrevistado mencionó la necesidad de integrar:
 
@@ -340,7 +340,7 @@ El entrevistado mencionó la necesidad de integrar:
 
 ---
 
-## Datos importantes obtenidos
+#### Datos importantes obtenidos
 
 El entrevistado indicó que el parámetro más importante para monitorear es:
 
@@ -353,7 +353,7 @@ Debido a que muchas fallas ocurren por:
 
 ---
 
-## Necesidades detectadas
+#### Necesidades detectadas
 
 - Integración de sistemas.
 - Monitoreo en tiempo real.
@@ -363,7 +363,7 @@ Debido a que muchas fallas ocurren por:
 
 ---
 
-## Conclusión de la entrevista 3
+#### Conclusión de la entrevista 3
 
 Esta entrevista confirma que las empresas del sector todavía utilizan herramientas limitadas para gestionar operaciones complejas.
 
@@ -371,17 +371,17 @@ Además, demuestra que el monitoreo de variables técnicas como presión, temper
 
 ---
 
-# Entrevista 4 – Segmento Mantenimiento
+#### Entrevista 4 – Segmento Mantenimiento
 
-## Perfil del entrevistado
+#### Perfil del entrevistado
 
 Javier Espinosa trabaja en soporte técnico y mantenimiento de maquinaria pesada en el sector minero.
 
 ---
 
-## Problemas identificados
+#### Problemas identificados
 
-### 1. Dependencia de mantenimiento preventivo tradicional
+#### 1. Dependencia de mantenimiento preventivo tradicional
 
 Actualmente el mantenimiento se programa según:
 
@@ -390,7 +390,7 @@ Actualmente el mantenimiento se programa según:
 
 No existe monitoreo inteligente en tiempo real.
 
-### 2. Dificultad para manejar múltiples marcas
+#### 2. Dificultad para manejar múltiples marcas
 
 El entrevistado mencionó que trabajan con:
 
@@ -402,7 +402,7 @@ El entrevistado mencionó que trabajan con:
 
 Cada marca tiene sistemas diferentes, lo que dificulta centralizar la información.
 
-### 3. Tiempo perdido en desplazamientos
+#### 3. Tiempo perdido en desplazamientos
 
 Los técnicos pierden:
 
@@ -417,13 +417,13 @@ Esto representa:
 - Costos elevados.
 - Mayor tiempo de máquina detenida.
 
-### 4. Alto impacto económico de fallas
+#### 4. Alto impacto económico de fallas
 
 En minería, una máquina detenida representa costos muy altos, por lo que prevenir fallas es prioritario.
 
 ---
 
-## Necesidades detectadas
+#### Necesidades detectadas
 
 El entrevistado mostró gran interés en:
 
@@ -435,7 +435,7 @@ El entrevistado mostró gran interés en:
 
 ---
 
-## Conclusión de la entrevista 4
+#### Conclusión de la entrevista 4
 
 La entrevista evidencia que el sector minero requiere soluciones tecnológicas avanzadas para minimizar tiempos muertos y optimizar mantenimiento.
 
@@ -449,7 +449,7 @@ Una plataforma inteligente permitiría:
 
 ---
 
-# Conclusiones Finales del Estudio
+#### Conclusiones Finales del Estudio
 
 A partir de las cuatro entrevistas se identificaron patrones comunes:
 
@@ -465,7 +465,7 @@ A partir de las cuatro entrevistas se identificaron patrones comunes:
 
 ---
 
-## Necesidades del mercado
+#### Necesidades del mercado
 
 Los entrevistados consideran importante implementar una solución que incluya:
 
@@ -478,11 +478,11 @@ Los entrevistados consideran importante implementar una solución que incluya:
 - Paneles de visualización de maquinaria.
 - Sensores de presión, temperatura y vibración.
 
-# Problemas mas frecuentes identificados
+#### Problemas mas frecuentes identificados
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/2aa42643-16a6-4a14-bb55-828ab94161ce" />
 
 
-# Necesidades principales detectadas.
+#### Necesidades principales detectadas.
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/b91aad20-4db3-47da-abe2-c57733417e13" />
 
 
