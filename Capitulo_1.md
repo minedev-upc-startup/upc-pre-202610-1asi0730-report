@@ -298,8 +298,8 @@ Nuestra plataforma MineTrack se define como el centro de control técnico integr
 4. Asumimos que el modelo SaaS será rentable al disminuir los costos logísticos de traslados técnicos innecesarios.
 
 **User Assumptions:**
-1. Los Jefes de Mantenimiento (como Javier Espinoza) prefieren recibir alertas preventivas al celular antes de que la máquina se detenga por completo.
-2. Los Distribuidores (como Manuel Sanchez) están dispuestos a compartir datos en vivo con sus clientes como un valor agregado para cerrar más ventas.
+1. Los Jefes de Mantenimiento  prefieren recibir alertas preventivas al celular antes de que la máquina se detenga por completo.
+2. Los Distribuidores  están dispuestos a compartir datos en vivo con sus clientes como un valor agregado para cerrar más ventas.
 3. Los operarios de cabina necesitan interfaces simplificadas de alto contraste para visualizar datos críticos en entornos de alta vibración.
 
 ---
