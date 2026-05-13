@@ -183,10 +183,13 @@ Este segmento utiliza la plataforma como su centro de control técnico para prev
 ### 2.3.4. Empathy Mapping
 
 #### Segmento 1: Distribuidores de Maquinaria Pesada
-​<img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/7d5dcd2d-81b6-4415-9df4-0ad5d52440c8" />
+​<img width="1050" height="1378" alt="Empathy map1" src="https://github.com/user-attachments/assets/54704d77-cce1-44e3-bc18-898d6899a31c" />
+
 
 #### Segmento 1: jefe de mantenimiento
-<img width="2245" height="1587" alt="Say and Do" src="https://github.com/user-attachments/assets/a4c7a535-31ff-4edc-9c34-d5fc9f88168c" />
+<img width="1050" height="1378" alt="Empathy map2" src="https://github.com/user-attachments/assets/2ed1bf5b-f6d1-4973-b7a8-a4d901790636" />
+
+
 
 
 ​ 
