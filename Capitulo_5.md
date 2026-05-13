@@ -217,7 +217,7 @@ Esta planificación busca garantizar una visión común entre todos los integran
 | Date                             | 2026-05-27                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Time                             | 8:00 PM (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Location                         | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Prepared By                      | Meza Huanacuna, Juan José                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Prepared By                      | Meza Huanacuna, Juan José                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Attendees                        | Aiquipa Poma, Sebastian Andres / Mendoza Machoa, Lionel / Meza Huanacuna, Juan José / Figueroa Sanchez, Alvaro / Sanchez Arenas, Zahir Emmanuel / Molina Umeres, Nestor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Sprint 0 — Review Summary        | Dado que este es el sprint inicial, no se presenta un resumen del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Sprint 0 — Retrospective Summary | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -230,14 +230,14 @@ Esta planificación busca garantizar una visión común entre todos los integran
 
 En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 1. Cada aspecto se relaciona con tareas clave del Sprint, asignando un **líder (L)** responsable principal y **colaboradores (C)** que apoyan en su ejecución.
 
-| Team Member                    | GitHub Username | Landing Page Implementation (L/C) | Diseño UI/UX (L/C) | Configuración de Repositorios (L/C) | Internacionalización i18n (L/C) | Documentación (L/C) |
-| ------------------------------ | --------------- | --------------------------------- | ------------------ | ----------------------------------- | ------------------------------- | ------------------- |
-| Aiquipa Poma, Sebastian Andres | `[LLENAR]`      | **L**                             | C                  | **L**                               | **L**                           | C                   |
-| Mendoza Machoa, Lionel         | `[LLENAR]`      | C                                 | C                  | C                                   | C                               | **L**               |
-| Meza Huanacuna, Juan José      | `[LLENAR]`      | C                                 | **L**              | C                                   | C                               | C                   |
-| Figueroa Sanchez, Alvaro       | `[LLENAR]`      | C                                 | C                  | C                                   | C                               | **L**               |
-| Sanchez Arenas, Zahir Emmanuel | `[LLENAR]`      | C                                 | **L**              | C                                   | C                               | C                   |
-| Molina Umeres, Nestor          | `[LLENAR]`      | C                                 | C                  | C                                   | C                               | C                   |
+| Team Member                    | GitHub Username         | Landing Page Implementation (L/C) | Diseño UI/UX (L/C) | Configuración de Repositorios (L/C) | Internacionalización i18n (L/C) | Documentación (L/C) |
+| ------------------------------ | ----------------------- | --------------------------------- | ------------------ | ----------------------------------- | ------------------------------- | ------------------- |
+| Aiquipa Poma, Sebastian Andres | `S-aiquipa`             | **L**                             | C                  | **L**                               | **L**                           | C                   |
+| Mendoza Machoa, Lionel         | `mendozalionel745-ctrl` | C                                 | C                  | C                                   | C                               | **L**               |
+| Meza Huanacuna, Juan José      | `JuanMHZ12`             | C                                 | **L**              | C                                   | C                               | C                   |
+| Figueroa Sanchez, Alvaro       | `2003V616`              | C                                 | C                  | C                                   | C                               | **L**               |
+| Sanchez Arenas, Zahir Emmanuel | `Zahir210206`           | C                                 | **L**              | C                                   | C                               | C                   |
+| Molina Umeres, Nestor          | `Nesthoro`              | C                                 | C                  | C                                   | C                               | C                   |
 
 **Notas:**
 
@@ -249,7 +249,9 @@ En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)** c
 
 #### 5.2.1.3. Sprint Backlog 1
 
-`[LLENAR: enlace a tablero Trello del Sprint 1, ejemplo https://trello.com/b/XXXXXX/sprint-1]`
+![Trello - Sprint 1](./Resources/sprint-1/trello/trello-sprint1.png)
+
+https://trello.com/b/UJwSqATK/minetrack-sprint-1
 
 A continuación se presenta el Sprint Backlog del Sprint 1, con las User Stories seleccionadas del Epic EP07 (Landing Page e Información Pública) y su descomposición en tasks. Cada ítem incluye descripción, estimación en horas, asignación y estado al cierre del Sprint.
 
@@ -294,15 +296,17 @@ Al cierre del Sprint 1 se obtuvo una Landing Page completamente funcional, despl
 
 **Evidencias visuales:**
 
-`[LLENAR: insertar screenshots de la Landing Page desplegada. Sugerencias de screenshots:]`
+![Hero-LandingPage](./Resources/sprint-1/landing-page/hero.png)
 
-- _Screenshot 1: Hero Section en español con CTAs visibles_
-- _Screenshot 2: Sección Cómo Funciona mostrando los dos cards (Owner / Client)_
-- _Screenshot 3: Sección Features con grid de 6 características_
-- _Screenshot 4: Sección FAQ con un ítem expandido_
-- _Screenshot 5: Footer con datos de contacto y redes sociales_
-- _Screenshot 6: Landing en inglés tras activar el toggle EN — mostrando que i18n funciona_
-- _Screenshot 7: Vista responsiva en móvil (DevTools, viewport 375px)_
+![HowWorks-LandingPage](./Resources/sprint-1/landing-page/how-works.png)
+
+![Features-LandingPage](./Resources/sprint-1/landing-page/features.png)
+
+![FAQ-LandingPage](./Resources/sprint-1/landing-page/FaQ.png)
+
+![Footer-LandingPage](./Resources/sprint-1/landing-page/footer.png)
+
+![Toogle-LandingPage](./Resources/sprint-1/landing-page/toogle-i18n.png)
 
 **Validación funcional:**
 
@@ -338,11 +342,11 @@ La Landing Page se desplegó exitosamente en GitHub Pages, integrada con CI/CD a
 
 **Evidencias visuales del despliegue:**
 
-`[LLENAR: insertar screenshots del despliegue]`
+![Deploy-Pages-Github](./Resources/sprint-1/github/github-pages.png)
 
-- _Screenshot 1: Settings → Pages del repositorio mostrando "Your site is live at..."_
-- _Screenshot 2: URL pública abierta en navegador con la Landing visible_
-- _Screenshot 3: GitHub Actions workflow del deploy automático_
+![Url-LandingPage](./Resources/sprint-1/github/url-live.png)
+
+![Workflow-Github](./Resources/sprint-1/github/workflow-github.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -363,9 +367,7 @@ Durante el Sprint 1, el equipo demostró una colaboración efectiva centrada en 
 - La definición temprana de los design tokens del Frontend Web App permitió que la Landing los reutilizara, manteniendo coherencia visual entre productos sin duplicación de decisiones de diseño
 - El trabajo distribuido en repositorios separados redujo conflictos de merge significativamente durante el Sprint
 
-`[LLENAR: insertar screenshot del GitHub Insights → Contributors del repositorio landing-page mostrando contribuciones del equipo durante el Sprint 1]`
-
----
+## ![Insights-Sprint1](/Resources/sprint-1/github/insights-sprint1.png)
 
 ### 5.2.2. Sprint 2
 
