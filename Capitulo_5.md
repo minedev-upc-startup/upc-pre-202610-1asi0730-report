@@ -243,20 +243,91 @@ public class MachineService
 
 Estas convenciones permiten que MineTrack mantenga una base de código ordenada, comprensible y preparada para futuras mejoras en el Landing Page, Frontend Web Application y Web Services.
 ---
+
 ## 5.1.4 Software Deployment Configuration
 
-El despliegue del sistema MineTrack se realizó considerando la necesidad de contar con una versión accesible del producto que permita mostrar su funcionamiento de manera clara.
+La configuración de despliegue del proyecto MineTrack fue organizada para permitir que los productos desarrollados puedan ejecutarse fuera del entorno local y ser accesibles públicamente. El objetivo principal fue validar el funcionamiento del Landing Page, Frontend Web Application y Web Services en entornos reales de ejecución.
 
-Para ello, se generó una versión de producción del proyecto utilizando el siguiente comando:
+### Plataformas de despliegue utilizadas
+
+| Producto | Plataforma | Estado |
+|---|---|---|
+| Landing Page | GitHub Pages | Desplegado |
+| Frontend Web Application | Vercel / Render Static Site | En despliegue |
+| RESTful API | Render | En despliegue |
+
+### Despliegue del Landing Page
+
+El Landing Page fue desplegado utilizando GitHub Pages para permitir el acceso público al producto.
+
+#### Proceso realizado
+
+1. Desarrollo del Landing Page utilizando HTML5, CSS3 y JavaScript.
+2. Organización de assets, imágenes y estilos.
+3. Verificación del responsive design.
+4. Publicación del repositorio en GitHub.
+5. Configuración de GitHub Pages.
+6. Validación del acceso público.
+
+#### Comandos utilizados
 
 ```bash
+npm install
 npm run build
 ```
-Este proceso permitió optimizar la aplicación para su ejecución en un entorno real, reduciendo el tamaño de los archivos y mejorando el rendimiento.
+Despliegue del Frontend Web Application
 
-Posteriormente, la aplicación fue desplegada en un entorno web, lo que permitió validar que el sistema funcione correctamente fuera del entorno de desarrollo.
+La aplicación web frontend desarrollada con Vue 3 y Vite fue preparada para despliegue en plataformas cloud.
 
-De esta manera, se logró contar con una Landing Page funcional que presenta la propuesta de valor del sistema MineTrack, enfocada en la venta y mantenimiento preventivo inteligente de maquinaria mediante el uso de dispositivos IoT.
+Proceso realizado
+Configuración del proyecto con Vue 3 + Vite.
+Instalación de dependencias necesarias.
+Configuración de variables de entorno.
+Generación del build de producción.
+Validación de rutas y navegación.
+Preparación para despliegue en Vercel o Render.
+```Comandos utilizados
+npm install
+npm run dev
+npm run build
+npm run preview
+```
+Despliegue del RESTful API
+
+El backend desarrollado con ASP.NET Core fue configurado para ser desplegado en Render.
+
+Proceso realizado
+Configuración del proyecto ASP.NET Core.
+Definición de endpoints RESTful.
+Integración de Swagger/OpenAPI.
+Configuración de variables de entorno.
+Preparación para despliegue cloud.
+Validación de endpoints.
+```Comandos utilizados
+dotnet restore
+dotnet build
+dotnet run
+```
+### Variables de entorno utilizadas
+
+| Variable | Propósito |
+|---|---|
+| `VITE_API_URL` | URL base del backend |
+| `ORS_API_KEY` | API Key para servicios externos |
+| `ASPNETCORE_ENVIRONMENT` | Configuración del entorno ASP.NET Core |
+
+### Validaciones realizadas
+
+| Validación | Resultado |
+|---|---|
+| Responsive Design | Correcto |
+| Navegación entre secciones | Correcto |
+| Carga de assets | Correcto |
+| Comunicación frontend-backend | En validación |
+| Endpoints REST | En validación |
+| Acceso público | Correcto |
+
+![Vista](Resources/imagenmodelo.jpeg)
 
 ## 5.2 Landing Page, Services & Applications Implementation
 ### 5.2.1 Sprint 1
