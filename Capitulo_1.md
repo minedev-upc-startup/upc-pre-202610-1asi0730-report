@@ -104,7 +104,7 @@ https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report.git
 A continuación, se presentan las evidencias del trabajo colaborativo realizado por los integrantes del equipo en el repositorio de GitHub.
 
 ![Insights de Colaboración](./Resources/insights-colaboracion.png)
-
+---
 <img width="896" height="628" alt="Captura de pantalla 2026-05-13 200509" src="https://github.com/user-attachments/assets/b5e91e20-12d7-4f6a-9289-779b4f242b04" />
 
 
