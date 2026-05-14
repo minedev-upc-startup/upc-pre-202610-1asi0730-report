@@ -105,6 +105,9 @@ A continuación, se presentan las evidencias del trabajo colaborativo realizado 
 
 ![Insights de Colaboración](./Resources/insights-colaboracion.png)
 
+<img width="896" height="628" alt="image" src="https://github.com/user-attachments/assets/f88822b8-1d3c-4d54-a27e-ec5feef0b2f0" />
+
+
 # Índice del Informe del Trabajo Final - MineTrack
 
 <div style="page-break-after: always;"></div>
