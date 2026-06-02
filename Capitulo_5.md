@@ -540,7 +540,8 @@ Durante el Sprint 2 el equipo demostró una distribución efectiva del trabajo b
 - El Fake API con json-server funcionó correctamente para el desarrollo local; para TB2 se planifica el reemplazo por los Web Services reales en ASP.NET Core C#
 
 ---
-
+5.2.3. Sprint 3
+En esta sección se documenta el avance técnico y la dinámica de trabajo colaborativo correspondiente al Sprint 3 del proyecto MineTrack. Durante esta iteración, el equipo se concentró en el desarrollo de capacidades transaccionales esenciales para el negocio, tales como el registro de maquinaria, la búsqueda avanzada de equipos y la gestión de solicitudes de alquiler. De manera complementaria, se implementó el módulo de monitoreo IoT en tiempo real, con el propósito de consolidar la propuesta de valor que distingue a la plataforma en el ecosistema minero.
 ## Conclusiones
 
 - La implementación del Sprint 1 mediante la metodología Scrum permitió organizar el desarrollo de la Landing Page de MineTrack con objetivos claros, backlog priorizado y roles definidos, lo que facilitó el cumplimiento del Sprint Goal y el despliegue público del producto.
