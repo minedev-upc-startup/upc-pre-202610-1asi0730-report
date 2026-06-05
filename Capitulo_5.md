@@ -563,14 +563,14 @@ En esta sección se documenta el avance técnico y la dinámica de trabajo colab
 
 5.2.3.2  . Aspect Leaders and Collaborators
 
-| Team Member                    | GitHub Username       | IAM Bounded Context (L/C) | Equipment/Catalog Bounded Context (L/C) | Rental Bounded Context (L/C) | IoT Telemetry Bounded Context (L/C) | IoT Telemetry Bounded Context (L/C) | Shared Kernel (L/C) | Documentación (L/C) |
-| ------------------------------ | --------------------- | --------------------------------- | ------------------------- | -------------------------- | --------------------------------------- | ------------------- |
-| Aiquipa Poma, Sebastian Andres | S-aiquipa             | **L**                             | **L**                     | **L**                      | C                                       | C                   | C                   | C                   |
-| Mendoza Machoa, Lionel         | mendozalionel745-ctrl | C                                 | C                         | C                          | C                                       | **L**               | C                   | C                   |
-| Meza Huanacuna, Juan José      | JuanMHZ12             | C                                 | C                         | C                          | C                                       | **L**               | C                   | C                   |
-| Figueroa Sanchez, Alvaro       | 2003V616              | C                                 | C                         | C                          | C                                       | C                   | C                   | C                   |
-| Sanchez Arenas, Zahir Emmanuel | Zahir210206           | C                                 | C                         | C                          | C                                       | C                   | C                   | C                   |
-| Molina Umeres, Nestor          | Nesthoro              | C                                 | C                         | C                          | **L**                                   | C                   | C                   | C                   |
+| Team Member | GitHub Username | IAM Bounded Context (L/C) | Equipment/Catalog Bounded Context (L/C) | Rental Bounded Context (L/C) | IoT Telemetry Bounded Context (L/C) | Shared Kernel (L/C) | Backend Platform (L/C) |
+|-------------|-----------------|---------------------------|-----------------------------------------|------------------------------|-------------------------------------|---------------------|------------------------|
+| **Aiquipa Poma, Sebastian** | `S-aiquipa` | C | C | C | C | **L** | **L** |
+| **Mendoza Machoa, Lionel** | `mendozalionel745-ctrl` | C | C | C | C | C | C |
+| **Meza Huanacuna, Juan José** | `JuanMHZ12` | C | C | C | **L** | C | C |
+| **Figueroa Sanchez, Alvaro** | `2003V616` | C | C | **L** | C | **L** | C |
+| **Sanchez Arenas, Zahir** | `Zahir210206` | **L** | C | C | C | C | **L** |
+| **Molina Umeres, Nestor** | `Nesthoro` | C | **L** | C | C | C | C |
 
 ## Conclusiones
 
