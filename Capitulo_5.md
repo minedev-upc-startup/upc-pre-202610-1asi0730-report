@@ -572,6 +572,12 @@ En esta sección se documenta el avance técnico y la dinámica de trabajo colab
 | **Sanchez Arenas, Zahir** | `Zahir210206` | **L** | C | C | C | C | **L** |
 | **Molina Umeres, Nestor** | `Nesthoro` | C | **L** | C | C | C | C |
 
+5.2.3.3. Sprint Backlog 3
+
+![MineTrack Sprint 3 Board](./Resources/sprint3-board.png)
+
+https://trello.com/b/aP44UAmY/minetrack-sprint-3
+
 ## Conclusiones
 
 - La implementación del Sprint 1 mediante la metodología Scrum permitió organizar el desarrollo de la Landing Page de MineTrack con objetivos claros, backlog priorizado y roles definidos, lo que facilitó el cumplimiento del Sprint Goal y el despliegue público del producto.
