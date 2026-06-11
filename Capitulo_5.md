@@ -580,20 +580,20 @@ https://trello.com/b/aP44UAmY/minetrack-sprint-3
 
 | Sprint # | US ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |:---:|:---:|:---|:---:|:---|:---|:---:|:---|:---|
-| **3** | US04 | Recuperación de credenciales | TS-04-01 | Frontend: Vista Forgot Password | Implementar componente Vue con validación de email | 2h | Sanchez Arenas, Zahir | ✅ Done |
-| **3** | US04 | Recuperación de credenciales | TS-04-02 | Web Service: Mock Endpoint /auth/recover | Configurar Beeceptor | 1h | Sanchez Arenas, Zahir | ✅ Done |
-| **3** | US05 | Registro de activos | TS-05-01 | Frontend: Formulario de Registro | Desarrollar vista con validaciones | 3h | Molina Umeres, Nestor | ✅ Done |
-| **3** | US05 | Registro de activos | TS-05-02 | Web Service: Integración POST /machines | Conectar con EquipmentApi | 3h | Molina Umeres, Nestor | ⏳ To-Do |
-| **3** | US07 | Búsqueda por filtros | TS-07-01 | Frontend: Componente Filter Bar | Crear barra de selectores | 2h | Aiquipa Poma, Sebastian | ✅ Done |
-| **3** | US07 | Búsqueda por filtros | TS-07-02 | Frontend: Lógica de filtrado en Pinia | Implementar computed stores | 2h | Aiquipa Poma, Sebastian | ⏳ To-Do |
-| **3** | US08 | Solicitud de alquiler | TS-08-01 | Frontend: Modal de Solicitud | Implementar modal de fechas | 3h | Figueroa Sanchez, Alvaro | ⏳ To-Do |
-| **3** | US08 | Solicitud de alquiler | TS-08-02 | Web Service: Servicio POST /rental-requests | Llamada HTTP para registrar | 2h | Figueroa Sanchez, Alvaro | ⏳ To-Do |
-| **3** | US09 | Dashboard IoT | TS-09-01 | Frontend: Integración de Chart.js | Configurar librería de gráficos | 4h | Meza Huanacuna, Juan José | ⏳ To-Do |
-| **3** | US09 | Dashboard IoT | TS-09-02 | Web Service: Servicio de Polling IoT | Intervalo 5s para sensores | 4h | Meza Huanacuna, Juan José | ⏳ To-Do |
-| **3** | US10 | Monitoreo de temperatura | TS-10-01 | Frontend: Widget de Estado Térmico | Tarjeta con semáforo | 3h | Meza Huanacuna, Juan José | ⏳ To-Do |
-| **3** | US12 | Medición de presión hidráulica | TS-12-01 | Frontend: Indicador de Presión PSI | Componente gauge | 3h | Mendoza Machoa, Lionel | ⏳ To-Do |
-| **3** | INFRA | Backend ASP.NET Core | TS-00-01 | Web Service: Estructura de Solución | Crear carpetas base | 3h | Aiquipa Poma, Sebastian | ✅ Done |
-| **3** | INFRA | Backend ASP.NET Core | TS-00-02 | Web Service: Setup Entity Framework | Instalar EF Core + PostgreSQL | 2h | Sanchez Arenas, Zahir | ✅ Done |
+| **3** | US04 | Recuperación de credenciales | TS-04-01 | Frontend: Vista Forgot Password | Implementar componente Vue con validación de email | 2h | Sanchez Arenas, Zahir |  Done |
+| **3** | US04 | Recuperación de credenciales | TS-04-02 | Web Service: Mock Endpoint /auth/recover | Configurar Beeceptor | 1h | Sanchez Arenas, Zahir |  Done |
+| **3** | US05 | Registro de activos | TS-05-01 | Frontend: Formulario de Registro | Desarrollar vista con validaciones | 3h | Molina Umeres, Nestor |  Done |
+| **3** | US05 | Registro de activos | TS-05-02 | Web Service: Integración POST /machines | Conectar con EquipmentApi | 3h | Molina Umeres, Nestor |  To-Do |
+| **3** | US07 | Búsqueda por filtros | TS-07-01 | Frontend: Componente Filter Bar | Crear barra de selectores | 2h | Aiquipa Poma, Sebastian |  Done |
+| **3** | US07 | Búsqueda por filtros | TS-07-02 | Frontend: Lógica de filtrado en Pinia | Implementar computed stores | 2h | Aiquipa Poma, Sebastian |  To-Do |
+| **3** | US08 | Solicitud de alquiler | TS-08-01 | Frontend: Modal de Solicitud | Implementar modal de fechas | 3h | Figueroa Sanchez, Alvaro |  To-Do |
+| **3** | US08 | Solicitud de alquiler | TS-08-02 | Web Service: Servicio POST /rental-requests | Llamada HTTP para registrar | 2h | Figueroa Sanchez, Alvaro |  To-Do |
+| **3** | US09 | Dashboard IoT | TS-09-01 | Frontend: Integración de Chart.js | Configurar librería de gráficos | 4h | Meza Huanacuna, Juan José |  To-Do |
+| **3** | US09 | Dashboard IoT | TS-09-02 | Web Service: Servicio de Polling IoT | Intervalo 5s para sensores | 4h | Meza Huanacuna, Juan José |  To-Do |
+| **3** | US10 | Monitoreo de temperatura | TS-10-01 | Frontend: Widget de Estado Térmico | Tarjeta con semáforo | 3h | Meza Huanacuna, Juan José |  To-Do |
+| **3** | US12 | Medición de presión hidráulica | TS-12-01 | Frontend: Indicador de Presión PSI | Componente gauge | 3h | Mendoza Machoa, Lionel |  To-Do |
+| **3** | INFRA | Backend ASP.NET Core | TS-00-01 | Web Service: Estructura de Solución | Crear carpetas base | 3h | Aiquipa Poma, Sebastian |  Done |
+| **3** | INFRA | Backend ASP.NET Core | TS-00-02 | Web Service: Setup Entity Framework | Instalar EF Core + PostgreSQL | 2h | Sanchez Arenas, Zahir |  Done |
 
 **Total Story Points: 13 SP** | **Total Estimación: 37 horas**
 
