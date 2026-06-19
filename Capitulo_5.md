@@ -597,6 +597,70 @@ https://trello.com/b/aP44UAmY/minetrack-sprint-3
 
 **Total Story Points: 13 SP** | **Total Estimación: 37 horas**
 
+
+### 5.3. Validation Interviews
+
+Para esta etapa del proyecto, tras la culminación del Sprint 3, se procedió a realizar entrevistas de validación con nuestros segmentos de usuarios objetivo: **Distribuidores de Maquinaria Pesada** y **Empresas de Servicios de Mantenimiento**. El propósito principal es recopilar *feedback* cualitativo sobre las nuevas funcionalidades implementadas, tales como la recuperación de contraseñas, registro de maquinaria, gestión de solicitudes de alquiler y el monitoreo telemétrico IoT en tiempo real.
+
+#### 5.3.1. Diseño de Entrevistas
+
+El guion de la entrevista se ha estructurado en tres secciones: una introducción general y preguntas específicas divididas por el segmento de usuario, enfocadas en validar los flujos desarrollados durante el Sprint 3.
+
+**Preguntas Generales (Ambos Segmentos)**
+1. ¿Fue sencillo el proceso para recuperar su contraseña en caso de olvido mediante la plataforma?
+2. ¿Cómo percibe la fluidez y el diseño visual de la aplicación al navegar entre sus diferentes paneles de gestión?
+
+**Preguntas para el Segmento: Distribuidores de Maquinaria Pesada**
+1. **(US05 - Registro de activos):** Al registrar una nueva máquina para su distribución o alquiler, ¿los campos solicitados le parecieron claros y suficientes para describir las especificaciones técnicas de su equipo?
+2. **(US08 - Solicitudes):** Cuando recibe una solicitud de alquiler por parte de un cliente, ¿la información mostrada en pantalla le permite tomar una decisión rápida de aprobación o rechazo?
+3. **(US07 - Búsqueda y Filtros):** ¿Considera que la organización de su catálogo y el uso de filtros facilitan la gestión de su flota disponible?
+
+**Preguntas para el Segmento: Empresas de Servicios de Mantenimiento**
+1. **(US09, US10, US12 - IoT):** ¿El panel de monitoreo IoT le genera confianza y utilidad al mostrar en tiempo real la temperatura del motor y la presión de aceite de las máquinas en operación?
+2. **(US09 - Dashboard IoT):** Como proveedor de mantenimiento, ¿qué tanto valor le aporta visualizar las alertas y el estado telemétrico centralizado en un solo Command Center para despachar a sus técnicos?
+
+---
+
+#### 5.3.2. Registro de Entrevistas
+
+A continuación, se detalla el registro de las entrevistas realizadas a los representantes de cada segmento objetivo. Las sesiones se grabaron con el consentimiento de los participantes para su posterior análisis y evaluación.
+
+**Segmento 1: Distribuidores de Maquinaria Pesada**
+
+| Detalle | Información |
+| :--- | :--- |
+| **Entrevistado** | Carlos Mendoza Vargas |
+| **Perfil** | Gerente Comercial en distribuidora de maquinaria pesada. |
+| **Fecha y Duración** | 24/05/2026 - 15 minutos |
+| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 1 (Video)](#) |
+| **Resumen y Feedback** | El usuario logró registrar un camión minero sin dificultades, destacando que el formulario es directo y adaptado al sector. Valoró muy positivamente el panel de solicitudes, mencionando que le ahorra tiempo en papeleo. Sugirió agregar la opción de subir múltiples fotos y documentos técnicos en formato PDF al registrar la máquina. |
+
+| Detalle | Información |
+| :--- | :--- |
+| **Entrevistado** | Roberto Paredes |
+| **Perfil** | Asesor de Flota y Ventas B2B. |
+| **Fecha y Duración** | 25/05/2026 - 18 minutos |
+| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 2 (Audio)](#) |
+| **Resumen y Feedback** | Probó exitosamente el flujo de recuperación de contraseña comprobando la recepción del correo. Al revisar el panel de alquileres activos, indicó que las tarjetas son claras, pero le gustaría que el sistema calcule automáticamente una proyección de ganancias antes de aprobar el contrato. Considera que la interfaz oscura le da un aspecto premium al sistema. |
+
+**Segmento 2: Empresas de Servicios de Mantenimiento**
+
+| Detalle | Información |
+| :--- | :--- |
+| **Entrevistado** | Javier Ortega |
+| **Perfil** | Jefe de Taller en empresa de soporte y mantenimiento pesado. |
+| **Fecha y Duración** | 25/05/2026 - 20 minutos |
+| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 3 (Video)](#) |
+| **Resumen y Feedback** | La interacción con el *IoT Command Center* fue muy fluida. Mencionó que visualizar la telemetría en vivo (temperatura y presión) es un diferenciador enorme, ya que les permite anticiparse a fallas catastróficas del motor. Sugirió que, al presionar el botón de "Enviar Técnico", el sistema permita adjuntar una nota rápida sobre la anomalía detectada. |
+
+| Detalle | Información |
+| :--- | :--- |
+| **Entrevistado** | Luis Fernández |
+| **Perfil** | Supervisor de Soporte Técnico y Diagnóstico Telemétrico. |
+| **Fecha y Duración** | 26/05/2026 - 15 minutos |
+| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 4 (Video)](#) |
+| **Resumen y Feedback** | Considera que el panel de monitoreo es muy limpio y los gráficos de los medidores (gauges) son fáciles de interpretar a simple vista. Probó la actualización de datos simulada y apreció la velocidad de respuesta. Recomendó implementar alertas sonoras o notificaciones emergentes (push) en el navegador cuando un sensor entre en "zona roja" crítica. |
+
 ## Conclusiones
 
 - La implementación del Sprint 1 mediante la metodología Scrum permitió organizar el desarrollo de la Landing Page de MineTrack con objetivos claros, backlog priorizado y roles definidos, lo que facilitó el cumplimiento del Sprint Goal y el despliegue público del producto.
