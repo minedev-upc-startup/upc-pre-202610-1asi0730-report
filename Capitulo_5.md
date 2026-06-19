@@ -540,11 +540,11 @@ Durante el Sprint 2 el equipo demostró una distribución efectiva del trabajo b
 - El Fake API con json-server funcionó correctamente para el desarrollo local; para TB2 se planifica el reemplazo por los Web Services reales en ASP.NET Core C#
 
 ---
-5.2.3. Sprint 3
+### 5.2.3. Sprint 3
 
 En esta sección se documenta el avance técnico y la dinámica de trabajo colaborativo correspondiente al Sprint 3 del proyecto MineTrack. Durante esta iteración, el equipo se concentró en el desarrollo de capacidades transaccionales esenciales para el negocio, tales como el registro de maquinaria, la búsqueda avanzada de equipos y la gestión de solicitudes de alquiler. De manera complementaria, se implementó el módulo de monitoreo IoT en tiempo real, con el propósito de consolidar la propuesta de valor que distingue a la plataforma en el ecosistema minero.
 
-5.2.3.1. Sprint Planning 3
+#### 5.2.3.1. Sprint Planning 3
 
 | Sprint #                         | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -561,7 +561,7 @@ En esta sección se documenta el avance técnico y la dinámica de trabajo colab
 | Sprint 2 Velocity                | 34 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Sum of Story Points              | 34 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
-5.2.3.2  . Aspect Leaders and Collaborators
+#### 5.2.3.2  . Aspect Leaders and Collaborators
 
 | Team Member | GitHub Username | IAM Bounded Context (L/C) | Equipment/Catalog Bounded Context (L/C) | Rental Bounded Context (L/C) | IoT Telemetry Bounded Context (L/C) | Shared Kernel (L/C) | Backend Platform (L/C) |
 |-------------|-----------------|---------------------------|-----------------------------------------|------------------------------|-------------------------------------|---------------------|------------------------|
@@ -572,7 +572,7 @@ En esta sección se documenta el avance técnico y la dinámica de trabajo colab
 | **Sanchez Arenas, Zahir** | `Zahir210206` | **L** | C | C | C | C | **L** |
 | **Molina Umeres, Nestor** | `Nesthoro` | C | **L** | C | C | C | C |
 
-5.2.3.3. Sprint Backlog 3
+#### 5.2.3.3. Sprint Backlog 3
 
 ![MineTrack Sprint 3 Board](./Resources/sprint3-board.png)
 
@@ -603,9 +603,94 @@ Durante el Sprint 3, el equipo dividió los esfuerzos técnicos en dos grandes f
 A continuación, se presenta el registro de los commits más representativos que evidencian el desarrollo de ambas capas.
 
 
+| Repository | Branch | Commit Id | Commit Message | Type | Author | Date |
+| ---------- | ------ | --------- | --------------- | ---- | ------ | ---- |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `8c849f7` | feat(migrations): add initial migrations for Machinery and Users bounded contexts | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `3829bf5` | chore(config): update connection string in production settings to enable connection pooling | Mantenimiento / configuración | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `0cd2e0b` | Merge branch 'feature/machinery-post' into develop | Integración de rama | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `52dfbcd` | feat(machinery): update DbContext with `Machine` entity and adjust date properties in `RentalRequest` entity | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `29f0a48` | feat(machinery): configure Machinery bounded context in DbContext and Dependency Injection | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `3e6385d` | feat(machinery): add `MachinesActionResultAssembler` for assembling API action results | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `670fb3a` | feat(machinery): add assemblers for transforming between machine resources and domain models | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `acd1799` | feat(machinery): add `MachineResource` and `MachineLocationResource` records for machine data representation | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `cfe02b8` | feat(machinery): add `UpdateMachineStatusResource` record for machine status updates | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `c0a16f1` | feat(machinery): add `CreateMachineResource` record for machine creation requests | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `7fc4bb4` | feat(machinery): add `MachinesController` for REST API endpoints to manage machines | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `2166846` | feat(machinery): add `ModelBuilderExtensions` for configuring `Machine` entity in EF Core | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `4353330` | feat(machinery): implement `MachineRepository` with method for finding machines by owner ID | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `d3f641a` | feat(machinery): implement `MachineQueryService` for handling machine data queries | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `1823c21` | feat(machinery): implement `MachineCommandService` to handle machine creation and status updates | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `7f7e96c` | feat(machinery): add `UpdateMachineError` enum for machine update error handling | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `30fe83b` | feat(machinery): add `CreateMachineError` enum for machine creation error handling | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `2fc4de8` | feat(machinery): add `IMachineQueryService` interface for querying machine data | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `7a25735` | feat(machinery): add `IMachineCommandService` interface for handling machine commands | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `1545e5f` | feat(machinery): add `IMachineRepository` interface with method for finding machines by owner ID | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `c7f59a5` | feat(machinery): add `MachineStatus` value object with predefined status constants and validation | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `8827a90` | feat(machinery): add `GetMachinesByOwnerIdQuery` record for querying machines by owner ID | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `4531ebc` | feat(machinery): add `GetMachineByIdQuery` record for querying machine details by ID | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `854d6e0` | feat(machinery): add `GetAllMachinesQuery` record for querying all machines | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `8fd441b` | feat(machinery): add `UpdateMachineStatusCommand` record for status updates | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `39bb318` | feat(machinery): add `CreateMachineCommand` record for machine creation | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `877c2de` | feat(machinery): introduce `MachineAudit` for command-driven status updates | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `0c8b402` | feat(machinery): add `Machine` aggregate with properties, constructors, and status update behavior | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `56c3c7e` | chore: stop tracking appsettings.Development.json (already gitignored) | Mantenimiento / configuración | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `cc633a2` | Merge remote-tracking branch 'origin/main' into develop | Integración de rama | Aiquipa Poma, Sebastian Andres | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `fbcfa23` | Merge branch 'feature/auth' into develop | Integración de rama | Sanchez Arenas, Zahir Emmanuel | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `fe35ac6` | refactor: added new fields for User entity and implementing DI pattern | Refactorización | Sanchez Arenas, Zahir Emmanuel | 19/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `018c22a` | Merge branch 'release/0.12.0' into main | Integración de rama | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `8f69677` | fix(rental): ensure `CompleteAsync` is awaited in RentalRequestCommandService | Corrección de error | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `698505b` | Merge branch 'release/0.11.0' into main | Integración de rama | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `3c5b15d` | feat(rental): add DateOnly to DateTime conversion for StartDate and EndDate properties | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `9f9c666` | Merge branch 'release/0.9.0' into main | Integración de rama | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `b292d97` | refactor(rental): rename RentalRequestsController to RentalsController and update endpoints accordingly | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `238f66f` | feat: configure CORS with policy to allow frontend origins | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `f662ae9` | feat: rest interfaces & resources layer added | Nueva funcionalidad | Sanchez Arenas, Zahir Emmanuel | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `083a347` | feat: infrastructure, application & acl interface layer added | Nueva funcionalidad | Sanchez Arenas, Zahir Emmanuel | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `de23129` | build: jwt related packages added | Actualización de dependencias | Sanchez Arenas, Zahir Emmanuel | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `e8ae1d3` | build: "bcrypt.net-next" package | Actualización de dependencias | Sanchez Arenas, Zahir Emmanuel | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `18273ed` | feat: iam domain layer | Nueva funcionalidad | Sanchez Arenas, Zahir Emmanuel | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `c840e04` | Merge branch 'release/0.7.0' into main | Integración de rama | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `aeb4134` | fix: resolve merge conflict in Program.cs | Corrección de error | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `ded2f77` | feat(rental): add Spanish resource file for RentalMessages with localized messages | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `ac525ea` | feat(rental): add resource file for RentalMessages with predefined message keys | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `c1252d2` | feat(rental): add placeholder for RentalMessages class in resources | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `31dea44` | feat(rental): add EF Core migration for RentalRequest entity and enable DI for rental services | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `597b5c9` | feat(rental): implement RentalRequestsController with endpoints for managing rental requests | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `6c27942` | refactor(rental): move assembler classes to Rest/Transform namespace | Refactorización | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `1729bcd` | feat(rental): add assembler for transforming Result&lt;RentalRequest&gt; to IActionResult | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `9314b24` | feat(rental): add assembler for transforming RentalRequest entity to RentalRequestResource | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `cc7efca` | feat(rental): add assembler for transforming CreateRentalRequestResource to CreateRentalRequestCommand | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `91e37e0` | feat(rental): add CreateRentalRequestResource record for API request handling | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `5742e11` | feat(rental): add RentalRequestResource record for API data representation | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `71f1a5a` | feat(rental): apply RentalRequest entity configuration in AppDbContext | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `2b5d15a` | feat(rental): add ModelBuilderExtensions for RentalRequest entity configuration | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `be9a521` | feat(rental): implement RentalRequestRepository with client and owner filtering | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `174cd6e` | feat(rental): implement RentalRequestQueryService for handling rental request queries | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `17b9d75` | feat(rental): introduce RentalRequestCommandService with handling for create, approve, and reject rental requests | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `0452497` | feat(rental): add UpdateRentalRequestError enum for handling update rental request error types | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `30cfe59` | feat(rental): add CreateRentalRequestError enum for handling rental request error types | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | `7861bb4` | feat(rental): add IRentalRequestQueryService interface with methods for handling rental request queries | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 16/06/2026 |
 
-> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
-> *Por favor, completar las filas vacías de la tabla superior con los commits correspondientes a la estructura de la solución ASP.NET Core y el Setup de Entity Framework.*
+
+A continuación, la evidencia de desarrollo del Frontend correspondiente al mismo periodo, en el repositorio
+`minetrack-frontend`, rama `main`:
+
+| Repository | Branch | Commit Id | Commit Message | Type | Author | Date |
+| ---------- | ------ | --------- | --------------- | ---- | ------ | ---- |
+| minedev-upc-startup/minetrack-frontend | main | `20f4ec9` | refactor(shared): remove horizontal top navigation | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `209017c` | refactor(shared): remove horizontal top navigation | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `d31b100` | refactor(topbar): Remove role-based navigation logic and simplify component structure | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `4242ccc` | feat(rentals): connect rentals BC to real backend | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `fa0c975` | feat(rentals): connect rentals BC to real backend | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `592ccf7` | feat(rentals): connect rentals BC to real backend | Nueva funcionalidad | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `a8fb5c4` | refactor(rentals): Improve request handling logic and streamline API integrations | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `0c901cf` | refactor(rentals): Replace BaseEndpoint with direct HTTP methods and expand rental request handling | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `e39591b` | refactor(iam): Replace BaseApi with in-memory user registry and simplify methods | Refactorización | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `1995a16` | chore(deployment): Update API URL in environment files for production and development | Mantenimiento / configuración | Aiquipa Poma, Sebastian Andres | 18/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `bd637e7` | feature/ merge improveds | Nueva funcionalidad | Mendoza Machoa, Lionel | 16/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `3f96090` | feature/ merge improveds | Nueva funcionalidad | Mendoza Machoa, Lionel | 16/06/2026 |
+| minedev-upc-startup/minetrack-frontend | main | `ed87892` | feature/merge update, user maintenance | Nueva funcionalidad | Mendoza Machoa, Lionel | 16/06/2026 |
+
 
 ---
 
@@ -613,25 +698,14 @@ A continuación, se presenta el registro de los commits más representativos que
 
 Al cierre del Sprint 3, se lograron avances significativos en la interfaz de usuario, completando las vistas de recuperación de contraseña, registro de activos, filtros dinámicos y el Command Center IoT. En paralelo, se levantó la infraestructura del backend para procesar estas solicitudes.
 
-**Evidencias de Ejecución - Frontend (Vistas implementadas):**
-
-* **Vista de Recuperación de Credenciales:**
-    `[Insertar captura de pantalla de Forgot Password]`
-
-* **Formulario de Registro de Activos:**
-    `[Insertar captura de pantalla del Formulario de Máquinas]`
-
-* **Dashboard IoT (Gráficos y Medidores de Temperatura/Presión):**
-    `[Insertar captura de pantalla del Dashboard IoT con Chart.js y Gauges]`
 
 **Evidencias de Ejecución - Backend (API y Base de Datos):**
 
-> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
-> *Insertar aquí las capturas de pantalla de la ejecución del Backend. Ejemplos:*
-> * 1. Captura de Swagger UI corriendo localmente con los endpoints creados.*
-> * 2. Captura de pruebas en Postman (GET/POST).*
-> * 3. Captura de la base de datos PostgreSQL conectada mediante Entity Framework.*
+![MineTrack Swagger](./Resources/backendDeploy/swagger_minetrack.png)
 
+![MineTrack Swagger GET](./Resources/backendDeploy/swagger_get.png)
+
+![MineTrack Swagger Filess](./Resources/backendDeploy/filess_db.png)
 ---
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -640,8 +714,16 @@ Durante esta iteración, se inició la transición desde la Fake API (json-serve
 
 **Documentación de Endpoints (Swagger / OpenAPI):**
 
-> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
-> *Insertar aquí una tabla resumen de los endpoints o capturas de pantalla de la documentación de Swagger generada por ASP.NET Core para rutas como `/api/v1/machines`, `/api/v1/rental-requests`, etc.*
+ Recurso | Acción implementada | Método HTTP | URL / Endpoint | Link de repositorio |
+| --- | --- | --- | --- | --- |
+| Machinery | Crear máquina | POST | `/api/v1/machines` | [minedev-upc-startup/MineDev.MineTrack.Platform](https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform) |
+| Machinery | Listar catálogo completo | GET | `/api/v1/machines` | [minedev-upc-startup/MineDev.MineTrack.Platform](https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform) |
+| Machinery | Consultar detalle por id | GET | `/api/v1/machines/{id}` | [minedev-upc-startup/MineDev.MineTrack.Platform](https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform) |
+| Machinery | Consultar flota por Propietario | GET | `/api/v1/owners/{ownerId}/machines` | [minedev-upc-startup/MineDev.MineTrack.Platform](https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform) |
+| Machinery | Actualizar estado de máquina | PATCH | `/api/v1/machines/{id}` | [minedev-upc-startup/MineDev.MineTrack.Platform](https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform) |
+
+Documentación interactiva (Swagger UI) publicada en:
+https://minedev-minetrack-platform-vs1n.onrender.com/swagger
 
 ---
 
@@ -652,13 +734,14 @@ En este Sprint, el equipo mantuvo el pipeline de despliegue continuo (CI/CD) par
 **Despliegue del Frontend (Firebase):**
 * El código del frontend con las nuevas vistas IoT y transaccionales se desplegó exitosamente en Firebase.
 
+![Minetrack Firebase](./Resources/backendDeploy/firebase_deploy.png)
+
 **Despliegue del Backend (API REST en la Nube):**
 
-> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
-> *Insertar aquí los detalles y capturas del despliegue del Backend en Render/Azure u otro proveedor utilizado.*
-> * *URL del Web Service:* `[Insertar URL]`
-> * *Plataforma de Hosting:* `[Insertar Plataforma]`
-> * *[Insertar captura de pantalla del panel de control del despliegue exitoso]*
+![MineTrack Render](./Resources/backendDeploy/deply_exitoso.png)
+
+Documentación interactiva (Swagger UI) publicada en:
+https://minedev-minetrack-platform-vs1n.onrender.com/swagger
 
 ---
 
@@ -676,7 +759,7 @@ Durante el Sprint 3, la colaboración del equipo se caracterizó por una fuerte 
 * **Gestión de Tiempos:** Tareas como la configuración de Entity Framework y los despliegues en plataformas en la nube (como Render) tomaron un poco más de lo estimado debido a configuraciones de variables de entorno, lo cual nos enseñó a asignar buffers de tiempo mayores para tareas de DevOps en futuros sprints.
 
 
-imagen de los insight del git
+![Sprint 3 Insights](./Resources/backendDeploy/insight_backend.png)
 ### 5.3. Validation Interviews
 
 Para esta etapa del proyecto, tras la culminación del Sprint 3, se procedió a realizar entrevistas de validación con nuestros segmentos de usuarios objetivo: **Distribuidores de Maquinaria Pesada** y **Empresas de Servicios de Mantenimiento**. El propósito principal es recopilar *feedback* cualitativo sobre las nuevas funcionalidades implementadas, tales como la recuperación de contraseñas, registro de maquinaria, gestión de solicitudes de alquiler y el monitoreo telemétrico IoT en tiempo real.
