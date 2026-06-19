@@ -68,7 +68,7 @@
       </tr>
       <tr>
         <td>AIQUIPA POMA, SEBASTIAN ANDRES</td>
-        <td></td>
+        <td> U201916755</td>
       </tr>
       <tr>
         <td>FIGUEROA SANCHEZ, ALVARO</td>
