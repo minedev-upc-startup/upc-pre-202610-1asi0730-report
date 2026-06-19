@@ -668,6 +668,103 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 4 (Video)](#) |
 | **Resumen y Feedback** | Considera que el panel de monitoreo es muy limpio y los gráficos de los medidores (gauges) son fáciles de interpretar a simple vista. Probó la actualización de datos simulada y apreció la velocidad de respuesta. Recomendó implementar alertas sonoras o notificaciones emergentes (push) en el navegador cuando un sensor entre en "zona roja" crítica. |
 
+
+### 5.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**Carrera:** Ingeniería de Software
+**Curso:** Aplicaciones Web
+**Sección:** 1ASI0730
+**Equipo Auditor:** Aiquipa Poma Sebastian, Mendoza Machoa Lionel, Meza Huanacuna Juan José, Figueroa Sanchez Alvaro, Sanchez Arenas Zahir, Molina Umeres Nestor.
+**Site o APP a evaluar:** MineTrack (Web Application)
+
+#### Tareas a Evaluar (Sprint 3)
+*   Recuperar credenciales / contraseña.
+*   Registro de activos y maquinaria pesada.
+*   Búsqueda de maquinaria por filtros en el catálogo.
+*   Creación y envío de solicitud de alquiler.
+*   Monitoreo telemétrico de temperatura y presión en el Dashboard IoT.
+*   Despacho de técnicos desde el IoT Command Center.
+
+#### No están incluidas en esta versión de la evaluación las siguientes tareas:
+*   Pasarela de pagos y facturación.
+*   Historial histórico de mantenimientos pasados.
+*   Chat integrado en tiempo real entre cliente y distribuidor.
+*   Gestión de perfiles de usuario y configuración de notificaciones externas (SMS).
+
+---
+
+#### Escala de Severidad
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | **Problema superficial:** Puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+#### Tabla Resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| **1** | Falta de feedback visual al ingresar un correo no registrado al recuperar credenciales | 3 | Usabilidad: Visibilidad del estado del sistema |
+| **2** | Ausencia de indicador de progreso al subir imágenes en el registro de maquinaria | 2 | Usabilidad: Visibilidad del estado del sistema |
+| **3** | Pantalla vacía sin sugerencias cuando los filtros del catálogo no arrojan resultados | 2 | Usabilidad: Ayuda a diagnosticar y recuperarse de errores |
+| **4** | Falta de opción para deshacer/cancelar una solicitud de alquiler recién enviada | 3 | Usabilidad: Control y libertad del usuario |
+| **5** | Medidores IoT dependen únicamente del color, dificultando lectura para daltónicos | 2 | Diseño Inclusivo y Prevención de Errores |
+| **6** | Ausencia de botón para silenciar alertas visuales/sonoras en el Dashboard IoT | 2 | Usabilidad: Control y libertad del usuario |
+| **7** | Falta de indicación clara del rol/empresa activa en la barra de navegación superior | 2 | Usabilidad: Consistencia y estándares |
+
+---
+
+#### Descripción de problemas:
+
+**PROBLEMA #1: Falta de feedback visual al ingresar un correo no registrado al recuperar credenciales**
+*   **Severidad:** 3
+*   **Heurística Violada:** Usabilidad - Visibilidad del estado del sistema.
+*   **Problema:** En la vista de "Forgot Password", si el usuario ingresa un correo que no existe en la base de datos, el sistema no muestra un mensaje claro de error, dejando al usuario esperando un correo que nunca llegará.
+*   **Recomendación:** Implementar un mensaje de alerta tipo "Toast" o texto en rojo debajo del input indicando que el correo no está registrado en el sistema.
+
+**PROBLEMA #2: Ausencia de indicador de progreso al subir imágenes en el registro de maquinaria**
+*   **Severidad:** 2
+*   **Heurística Violada:** Usabilidad - Visibilidad del estado del sistema.
+*   **Problema:** Al completar el formulario de registro de un activo pesado, el botón de guardado se bloquea mientras la imagen sube, pero no hay un "spinner" o barra de carga. El usuario puede pensar que la plataforma se ha colgado.
+*   **Recomendación:** Añadir un componente de carga (spinner o progress bar) dentro del botón "Registrar" mientras se realiza la petición HTTP.
+
+**PROBLEMA #3: Pantalla vacía sin sugerencias cuando los filtros del catálogo no arrojan resultados**
+*   **Severidad:** 2
+*   **Heurística Violada:** Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+*   **Problema:** Cuando un cliente utiliza la barra de filtros y no hay maquinaria que coincida con esos criterios, la pantalla muestra un fondo vacío (`0 machines found`), generando un punto ciego en la navegación.
+*   **Recomendación:** Mostrar una ilustración amigable tipo "Empty State" acompañada de un botón que diga "Limpiar filtros" para que el usuario pueda volver al catálogo completo fácilmente.
+
+**PROBLEMA #4: Falta de opción para deshacer/cancelar una solicitud de alquiler recién enviada**
+*   **Severidad:** 3
+*   **Heurística Violada:** Usabilidad - Control y libertad del usuario.
+*   **Problema:** Si un arrendatario selecciona fechas incorrectas en el modal y envía la solicitud, no tiene una forma inmediata de cancelarla desde su panel; depende de que el propietario la rechace manualmente.
+*   **Recomendación:** Incluir un botón de "Cancelar Solicitud" en el panel de *My Requests*, que esté disponible mientras el estado de la solicitud siga siendo "Pendiente".
+
+**PROBLEMA #5: Medidores IoT dependen únicamente del color, dificultando lectura para daltónicos**
+*   **Severidad:** 2
+*   **Heurística Violada:** Diseño Inclusivo y Prevención de Errores.
+*   **Problema:** Los gráficos de tipo *gauge* para medir la presión hidráulica y temperatura cambian de verde a rojo cuando hay peligro, pero no alteran su iconografía ni muestran textos de advertencia explícitos, lo cual afecta la accesibilidad visual.
+*   **Recomendación:** Acompañar el cambio de color con un icono de alerta (triángulo de advertencia) y una etiqueta de texto que diga "Estado Crítico" o "Normal".
+
+**PROBLEMA #6: Ausencia de botón para silenciar alertas visuales/sonoras en el Dashboard IoT**
+*   **Severidad:** 2
+*   **Heurística Violada:** Usabilidad - Control y libertad del usuario.
+*   **Problema:** Si múltiples sensores entran en estado crítico, el Command Center muestra las alertas constantemente, pero el Jefe de Taller no tiene una opción rápida para silenciar la notificación visual en la pantalla principal mientras gestiona el problema.
+*   **Recomendación:** Agregar un icono de campana en el Dashboard IoT que permita mutear las alertas activas temporalmente ("Snooze").
+
+**PROBLEMA #7: Falta de indicación clara del rol/empresa activa en la barra de navegación superior**
+*   **Severidad:** 2
+*   **Heurística Violada:** Usabilidad - Consistencia y estándares.
+*   **Problema:** Dado que la plataforma soporta múltiples Bounded Contexts, al iniciar sesión, la barra superior (TopBar) no muestra de forma prominente si el usuario está conectado como "Owner" o "Maintenance", lo que puede confundir en cuentas de prueba o usuarios duales.
+*   **Recomendación:** Incluir una etiqueta tipo "Badge" junto al nombre del usuario en la esquina superior derecha que indique el rol actual (ej. `[Distribuidor]` o `[Taller]`).
+
 ## Conclusiones
 
 - La implementación del Sprint 1 mediante la metodología Scrum permitió organizar el desarrollo de la Landing Page de MineTrack con objetivos claros, backlog priorizado y roles definidos, lo que facilitó el cumplimiento del Sprint Goal y el despliegue público del producto.
