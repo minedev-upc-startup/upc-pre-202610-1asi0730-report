@@ -645,9 +645,8 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | **Entrevistado** | Italo Pancorbo |
 | **Perfil** | Asesor de Flota y Ventas B2B. |
 | **Fecha y Duración** | 19/06/2026 - 18 minutos |
-| **Evidencia (Link)** |  https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c   
-<img width="633" height="493" alt="image" src="https://github.com/user-attachments/assets/f2314e3e-d23e-4e59-8e9e-6fb8e558decf" />
-|
+| **Evidencia (Link)** |  https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c  |
+| <img width="633" height="493" alt="image" src="https://github.com/user-attachments/assets/9af1a278-e2cf-4a7c-9c3b-bb8134a39802" />|
 | **Resumen y Feedback** | Probó exitosamente el flujo de recuperación de contraseña comprobando la recepción del correo. Al revisar el panel de alquileres activos, indicó que las tarjetas son claras, pero le gustaría que el sistema calcule automáticamente una proyección de ganancias antes de aprobar el contrato. Considera que la interfaz oscura le da un aspecto premium al sistema. |
 
 **Segmento 2: Empresas de Servicios de Mantenimiento**
