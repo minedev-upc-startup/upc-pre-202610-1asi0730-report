@@ -634,10 +634,11 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 
 | Detalle | Información |
 | :--- | :--- |
-| **Entrevistado** | Carlos Mendoza Vargas |
+| **Entrevistado** |  Alonso Gutierrez|
 | **Perfil** | Gerente Comercial en distribuidora de maquinaria pesada. |
-| **Fecha y Duración** | 24/05/2026 - 15 minutos |
-| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 1 (Video)](#) |
+| **Fecha y Duración** | 19/06/2026 - 15 minutos |
+| **Evidencia (Link)** | https://1drv.ms/v/c/191e2f4b07143ce2/IQCnzQnvJHCfToLrra0_lzwuAYfOQxT60oTMCyWMjdeKECQ|
+| <img width="458" height="318" alt="image" src="https://github.com/user-attachments/assets/c1f841a0-cfdd-458f-a23b-a30e5e67075c" />|
 | **Resumen y Feedback** | El usuario logró registrar un camión minero sin dificultades, destacando que el formulario es directo y adaptado al sector. Valoró muy positivamente el panel de solicitudes, mencionando que le ahorra tiempo en papeleo. Sugirió agregar la opción de subir múltiples fotos y documentos técnicos en formato PDF al registrar la máquina. |
 
 | Detalle | Información |
@@ -659,15 +660,6 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | **Evidencia (Link)** | https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c |
 |  <img width="571" height="488" alt="image" src="https://github.com/user-attachments/assets/6f23fd4b-2f2e-4dbb-818a-300e650622cb" /> |
 | **Resumen y Feedback** | La interacción con el *IoT Command Center* fue muy fluida. Mencionó que visualizar la telemetría en vivo (temperatura y presión) es un diferenciador enorme, ya que les permite anticiparse a fallas catastróficas del motor. Sugirió que, al presionar el botón de "Enviar Técnico", el sistema permita adjuntar una nota rápida sobre la anomalía detectada. |
-
-| Detalle | Información |
-| :--- | :--- |
-| **Entrevistado** | Luis Fernández |
-| **Perfil** | Supervisor de Soporte Técnico y Diagnóstico Telemétrico. |
-| **Fecha y Duración** | 26/05/2026 - 15 minutos |
-| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 4 (Video)](#) |
-| **Resumen y Feedback** | Considera que el panel de monitoreo es muy limpio y los gráficos de los medidores (gauges) son fáciles de interpretar a simple vista. Probó la actualización de datos simulada y apreció la velocidad de respuesta. Recomendó implementar alertas sonoras o notificaciones emergentes (push) en el navegador cuando un sensor entre en "zona roja" crítica. |
-
 
 ### 5.3.3. Evaluaciones según heurísticas
 
