@@ -636,7 +636,7 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | :--- | :--- |
 | **Entrevistado** |  Alonso Gutierrez|
 | **Perfil** | Gerente Comercial en distribuidora de maquinaria pesada. |
-| **Fecha y Duración** | 19/06/2026 - 15 minutos |
+| **Fecha y Duración** | 19/06/2026 - 5 minutos |
 | **Evidencia (Link)** | https://1drv.ms/v/c/191e2f4b07143ce2/IQCnzQnvJHCfToLrra0_lzwuAYfOQxT60oTMCyWMjdeKECQ|
 | <img width="458" height="318" alt="image" src="https://github.com/user-attachments/assets/c1f841a0-cfdd-458f-a23b-a30e5e67075c" />|
 | **Resumen y Feedback** | El usuario logró registrar un camión minero sin dificultades, destacando que el formulario es directo y adaptado al sector. Valoró muy positivamente el panel de solicitudes, mencionando que le ahorra tiempo en papeleo. Sugirió agregar la opción de subir múltiples fotos y documentos técnicos en formato PDF al registrar la máquina. |
@@ -645,7 +645,7 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | :--- | :--- |
 | **Entrevistado** | Italo Pancorbo |
 | **Perfil** | Asesor de Flota y Ventas B2B. |
-| **Fecha y Duración** | 19/06/2026 - 18 minutos |
+| **Fecha y Duración** | 19/06/2026 - 5 minutos |
 | **Evidencia (Link)** |  https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c  |
 | <img width="633" height="493" alt="image" src="https://github.com/user-attachments/assets/9af1a278-e2cf-4a7c-9c3b-bb8134a39802" />|
 | **Resumen y Feedback** | Probó exitosamente el flujo de recuperación de contraseña comprobando la recepción del correo. Al revisar el panel de alquileres activos, indicó que las tarjetas son claras, pero le gustaría que el sistema calcule automáticamente una proyección de ganancias antes de aprobar el contrato. Considera que la interfaz oscura le da un aspecto premium al sistema. |
@@ -656,7 +656,7 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | :--- | :--- |
 | **Entrevistado** | Tomas Mendoza |
 | **Perfil** | Jefe de Taller en empresa de soporte y mantenimiento pesado. |
-| **Fecha y Duración** | 19/06/2026 - 20 minutos |
+| **Fecha y Duración** | 19/06/2026 - 5 minutos |
 | **Evidencia (Link)** | https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c |
 |  <img width="571" height="488" alt="image" src="https://github.com/user-attachments/assets/6f23fd4b-2f2e-4dbb-818a-300e650622cb" /> |
 | **Resumen y Feedback** | La interacción con el *IoT Command Center* fue muy fluida. Mencionó que visualizar la telemetría en vivo (temperatura y presión) es un diferenciador enorme, ya que les permite anticiparse a fallas catastróficas del motor. Sugirió que, al presionar el botón de "Enviar Técnico", el sistema permita adjuntar una nota rápida sobre la anomalía detectada. |
