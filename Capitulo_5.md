@@ -596,8 +596,87 @@ https://trello.com/b/aP44UAmY/minetrack-sprint-3
 | **3** | INFRA | Backend ASP.NET Core | TS-00-02 | Web Service: Setup Entity Framework | Instalar EF Core + PostgreSQL | 2h | Sanchez Arenas, Zahir |  Done |
 
 **Total Story Points: 13 SP** | **Total Estimación: 37 horas**
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo dividió los esfuerzos técnicos en dos grandes frentes: la implementación de las vistas transaccionales e IoT en el Frontend (Vue 3) y la configuración inicial de la arquitectura del Backend real utilizando ASP.NET Core y Entity Framework. 
+
+A continuación, se presenta el registro de los commits más representativos que evidencian el desarrollo de ambas capas.
 
 
+
+> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
+> *Por favor, completar las filas vacías de la tabla superior con los commits correspondientes a la estructura de la solución ASP.NET Core y el Setup de Entity Framework.*
+
+---
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Al cierre del Sprint 3, se lograron avances significativos en la interfaz de usuario, completando las vistas de recuperación de contraseña, registro de activos, filtros dinámicos y el Command Center IoT. En paralelo, se levantó la infraestructura del backend para procesar estas solicitudes.
+
+**Evidencias de Ejecución - Frontend (Vistas implementadas):**
+
+* **Vista de Recuperación de Credenciales:**
+    `[Insertar captura de pantalla de Forgot Password]`
+
+* **Formulario de Registro de Activos:**
+    `[Insertar captura de pantalla del Formulario de Máquinas]`
+
+* **Dashboard IoT (Gráficos y Medidores de Temperatura/Presión):**
+    `[Insertar captura de pantalla del Dashboard IoT con Chart.js y Gauges]`
+
+**Evidencias de Ejecución - Backend (API y Base de Datos):**
+
+> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
+> *Insertar aquí las capturas de pantalla de la ejecución del Backend. Ejemplos:*
+> * 1. Captura de Swagger UI corriendo localmente con los endpoints creados.*
+> * 2. Captura de pruebas en Postman (GET/POST).*
+> * 3. Captura de la base de datos PostgreSQL conectada mediante Entity Framework.*
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante esta iteración, se inició la transición desde la Fake API (json-server) hacia una arquitectura de microservicios reales construidos en ASP.NET Core. Se documentaron los endpoints críticos correspondientes a los Bounded Contexts abordados en el sprint.
+
+**Documentación de Endpoints (Swagger / OpenAPI):**
+
+> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
+> *Insertar aquí una tabla resumen de los endpoints o capturas de pantalla de la documentación de Swagger generada por ASP.NET Core para rutas como `/api/v1/machines`, `/api/v1/rental-requests`, etc.*
+
+---
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En este Sprint, el equipo mantuvo el pipeline de despliegue continuo (CI/CD) para el Frontend en Firebase Hosting y procedió con el primer despliegue del Backend real para permitir la integración entre ambas capas en un entorno de producción.
+
+**Despliegue del Frontend (Firebase):**
+* El código del frontend con las nuevas vistas IoT y transaccionales se desplegó exitosamente en Firebase.
+
+**Despliegue del Backend (API REST en la Nube):**
+
+> **[ESPACIO RESERVADO PARA SEBASTIÁN - BACKEND DEV]**
+> *Insertar aquí los detalles y capturas del despliegue del Backend en Render/Azure u otro proveedor utilizado.*
+> * *URL del Web Service:* `[Insertar URL]`
+> * *Plataforma de Hosting:* `[Insertar Plataforma]`
+> * *[Insertar captura de pantalla del panel de control del despliegue exitoso]*
+
+---
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, la colaboración del equipo se caracterizó por una fuerte sincronización interdisciplinaria, dado que fue el primer sprint donde se integró código Frontend (Vue) de forma concurrente con el desarrollo de la API real en Backend (ASP.NET Core).
+
+**Logros destacados:**
+* Se logró implementar con éxito librerías complejas en el frontend, como Chart.js, para visualizar la telemetría simulada (vibración, temperatura y presión) cumpliendo con las expectativas del negocio.
+* El equipo de Backend configuró rápidamente la estructura base (Controllers, Services, Repositories) y la conexión a la base de datos PostgreSQL utilizando Entity Framework Core, estableciendo los cimientos para reemplazar por completo la Fake API.
+* Se mantuvo una comunicación constante a través de Discord para alinear los modelos de datos (DTOs) que el Frontend enviaría y el Backend recibiría (por ejemplo, en el registro de maquinaria y solicitudes de alquiler).
+
+**Lecciones aprendidas:**
+* **Integración Continua:** Nos dimos cuenta de que coordinar el trabajo cuando se desarrollan ambas capas en paralelo requiere acuerdos muy estrictos sobre los contratos de las APIs (JSONs) para no bloquear a los desarrolladores de Frontend mientras Backend termina los endpoints.
+* **Gestión de Tiempos:** Tareas como la configuración de Entity Framework y los despliegues en plataformas en la nube (como Render) tomaron un poco más de lo estimado debido a configuraciones de variables de entorno, lo cual nos enseñó a asignar buffers de tiempo mayores para tareas de DevOps en futuros sprints.
+
+
+imagen de los insight del git
 ### 5.3. Validation Interviews
 
 Para esta etapa del proyecto, tras la culminación del Sprint 3, se procedió a realizar entrevistas de validación con nuestros segmentos de usuarios objetivo: **Distribuidores de Maquinaria Pesada** y **Empresas de Servicios de Mantenimiento**. El propósito principal es recopilar *feedback* cualitativo sobre las nuevas funcionalidades implementadas, tales como la recuperación de contraseñas, registro de maquinaria, gestión de solicitudes de alquiler y el monitoreo telemétrico IoT en tiempo real.
