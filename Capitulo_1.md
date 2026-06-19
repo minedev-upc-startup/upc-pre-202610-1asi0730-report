@@ -91,7 +91,8 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| Tb1 | 24/04/2026 | -SANCHEZ ARENAS, ZAHIR EMMANUEL<br> -MENDOZA MACHOA, LIONEL<br> -MEZA HUANACUNE, JUAN JOSÉ<br> -AIQUIPA POMA, SEBASTIAN ANDRES<br> -FIGUEROA SANCHEZ, ALVARO<br> -MOLINA UMERES, NESTOR MARCIAL | Entrega inicial del informe TB1  que incluye especificación de requisitos y diseño inicial del sistema y los capitulos 1, 2, 3, 4 y 5. |
+| **TB1** | 24/04/2026 | - SANCHEZ ARENAS, ZAHIR EMMANUEL<br> - MENDOZA MACHOA, LIONEL<br> - MEZA HUANACUNE, JUAN JOSÉ<br> - AIQUIPA POMA, SEBASTIAN ANDRES<br> - FIGUEROA SANCHEZ, ALVARO<br> - MOLINA UMERES, NESTOR MARCIAL | Entrega inicial del informe TB1 que incluye especificación de requisitos y diseño inicial del sistema y los capítulos 1, 2, 3, 4 y 5. |
+| **AV2** | 19/06/2026 | - SANCHEZ ARENAS, ZAHIR EMMANUEL<br> - MENDOZA MACHOA, LIONEL<br> - MEZA HUANACUNE, JUAN JOSÉ<br> - AIQUIPA POMA, SEBASTIAN ANDRES<br> - FIGUEROA SANCHEZ, ALVARO<br> - MOLINA UMERES, NESTOR MARCIAL | Actualización del informe para la entrega AV2. Se incluye la documentación completa del Sprint 3 (desarrollo de vistas transaccionales, Dashboard IoT e inicio de estructura Backend en ASP.NET Core), diseño y registro de entrevistas de validación con los segmentos objetivo, y la evaluación de heurísticas de usabilidad. |
 
 
 ## Project Report Collaboration Insights
