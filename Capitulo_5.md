@@ -611,13 +611,18 @@ El guion de la entrevista se ha estructurado en tres secciones: una introducció
 2. ¿Cómo percibe la fluidez y el diseño visual de la aplicación al navegar entre sus diferentes paneles de gestión?
 
 **Preguntas para el Segmento: Distribuidores de Maquinaria Pesada**
-1. **(US05 - Registro de activos):** Al registrar una nueva máquina para su distribución o alquiler, ¿los campos solicitados le parecieron claros y suficientes para describir las especificaciones técnicas de su equipo?
-2. **(US08 - Solicitudes):** Cuando recibe una solicitud de alquiler por parte de un cliente, ¿la información mostrada en pantalla le permite tomar una decisión rápida de aprobación o rechazo?
-3. **(US07 - Búsqueda y Filtros):** ¿Considera que la organización de su catálogo y el uso de filtros facilitan la gestión de su flota disponible?
+1. **(US04 - Recuperación de credenciales):** ¿El flujo para recuperar o restablecer su contraseña en la plataforma le pareció intuitivo y seguro?
+2. **(US05 - Registro de activos):** Al registrar una nueva máquina en su catálogo, ¿los campos solicitados le parecieron claros y suficientes para detallar las especificaciones de su equipo?
+3. **(US07 - Búsqueda y Filtros):** ¿Considera que la organización visual de su flota y el uso de filtros facilitan la búsqueda rápida de un equipo en particular?
+4. **(US08 - Solicitudes de Alquiler):** Cuando recibe una solicitud de alquiler por parte de un cliente, ¿la información mostrada en las tarjetas le permite tomar una decisión rápida para aprobar o rechazar el contrato?
+5. **(UI/UX y Mejora):** ¿Hubo algún paso durante la navegación, el registro o la aprobación de alquileres que le resultara confuso o que cree que podría simplificarse aún más?
 
 **Preguntas para el Segmento: Empresas de Servicios de Mantenimiento**
-1. **(US09, US10, US12 - IoT):** ¿El panel de monitoreo IoT le genera confianza y utilidad al mostrar en tiempo real la temperatura del motor y la presión de aceite de las máquinas en operación?
-2. **(US09 - Dashboard IoT):** Como proveedor de mantenimiento, ¿qué tanto valor le aporta visualizar las alertas y el estado telemétrico centralizado en un solo Command Center para despachar a sus técnicos?
+1. **(US04 - Accesibilidad):** ¿Tuvo algún inconveniente al momento de ingresar a su cuenta de taller o al utilizar la funcionalidad de recuperación de contraseña?
+2. **(US09, US10 - Monitoreo IoT y Temperatura):** ¿El panel de monitoreo IoT le genera confianza al mostrar en tiempo real la temperatura del motor de los equipos en operación?
+3. **(US12 - Indicadores de Presión):** ¿Los indicadores visuales (como los gráficos de medidores o semáforos) son lo suficientemente claros para identificar rápidamente si la presión de una máquina requiere atención inmediata?
+4. **(US09 - Despacho de Técnicos):** Como proveedor de mantenimiento, ¿considera que el "Command Center" centralizado le aporta el valor y la información necesaria para decidir si debe enviar a un técnico al campo?
+5. **(UI/UX y Mejora):** ¿Qué dato o indicador adicional le gustaría ver en el Dashboard IoT que actualmente no se encuentra visible y que facilitaría el diagnóstico de sus mecánicos?
 
 ---
 
