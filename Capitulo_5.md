@@ -653,10 +653,11 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 
 | Detalle | Información |
 | :--- | :--- |
-| **Entrevistado** | Javier Ortega |
+| **Entrevistado** | Tomas Mendoza |
 | **Perfil** | Jefe de Taller en empresa de soporte y mantenimiento pesado. |
-| **Fecha y Duración** | 25/05/2026 - 20 minutos |
-| **Evidencia (Link)** | [Enlace a la grabación de la Entrevista 3 (Video)](#) |
+| **Fecha y Duración** | 19/06/2026 - 20 minutos |
+| **Evidencia (Link)** | https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c |
+|  <img width="571" height="488" alt="image" src="https://github.com/user-attachments/assets/6f23fd4b-2f2e-4dbb-818a-300e650622cb" /> |
 | **Resumen y Feedback** | La interacción con el *IoT Command Center* fue muy fluida. Mencionó que visualizar la telemetría en vivo (temperatura y presión) es un diferenciador enorme, ya que les permite anticiparse a fallas catastróficas del motor. Sugirió que, al presionar el botón de "Enviar Técnico", el sistema permita adjuntar una nota rápida sobre la anomalía detectada. |
 
 | Detalle | Información |
