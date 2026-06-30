@@ -4,603 +4,267 @@
 
 ### 2.1.1. Análisis competitivo
 
+Los competidores de MineTrack son plataformas de gestión y telemática de maquinaria pesada. Si bien ninguno ofrece exactamente un marketplace de alquiler B2B con capa IoT integrada, compiten parcialmente por el presupuesto tecnológico de los mismos segmentos objetivo.
+
 #### Competidores Directos
+
 1. **Trackunit:** Plataforma de telemática agnóstica para maquinaria pesada que recolecta datos de sensores para optimizar el tiempo de actividad y proporcionar una visión centralizada de la flota independientemente del fabricante.
 2. **Hexagon Mining (Asset Health):** Suite tecnológica para la "mina conectada" especializada en monitorización de condiciones en tiempo real mediante sensores IoT y análisis predictivo para fallas en componentes críticos.
 3. **VisionLink (Caterpillar):** Estándar de gestión de flotas para equipos Caterpillar que permite rastrear ubicación, uso de combustible y salud de la máquina a través de códigos de falla y telemetría para distribuidores y clientes.
 
 #### Competitive Analysis Landscape
 
-| Categoría  | MineTrack | Trackunit | Hexagon (Asset Health) | VisionLink (Caterpillar) |
+| Categoría | MineTrack | Trackunit | Hexagon (Asset Health) | VisionLink (Caterpillar) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Perfil: Overview** | Plataforma web centralizada para la venta y gestión técnica de maquinaria minera con monitoreo de sensores. | Plataforma global de telemática para maquinaria pesada, independiente de la marca del fabricante. | Tecnología industrial avanzada enfocada en la "salud de activos" y minería conectada a gran escala. | Sistema oficial de gestión de flotas de Caterpillar para sus distribuidores y clientes. |
-| **Ventaja Competitiva** | Integración única de catálogo de ventas y monitoreo IoT en una sola herramienta simple para distribuidores. | Gran escala global y compatibilidad extrema con hardware de cualquier marca (agnóstico). | Profundidad técnica en análisis predictivo y automatización de procesos mineros complejos. | Integración nativa total con el hardware de Caterpillar y su red global de distribuidores. |
-| **Perfil de Marketing: Mercado Objetivo** | Distribuidores de maquinaria y empresas de servicios de mantenimiento minero. | Empresas de construcción, alquiler de equipos y flotas mixtas a nivel mundial. | Grandes corporaciones mineras y operaciones industriales de alta complejidad. | Propietarios de equipos Caterpillar y distribuidores oficiales de la marca (Cat Dealers). |
+| **Perfil: Overview** | Marketplace B2B de alquiler de maquinaria pesada para el sector minero y de construcción, con monitoreo IoT integrado durante el periodo de arrendamiento. | Plataforma global de telemática para maquinaria pesada, independiente de la marca del fabricante. | Tecnología industrial avanzada enfocada en la "salud de activos" y minería conectada a gran escala. | Sistema oficial de gestión de flotas de Caterpillar para sus distribuidores y clientes. |
+| **Ventaja Competitiva** | Única plataforma que combina el ciclo completo de alquiler (catálogo, solicitud, aprobación, contrato) con monitoreo IoT en tiempo real, en un solo entorno accesible para Propietarios y Clientes. | Gran escala global y compatibilidad extrema con hardware de cualquier marca (agnóstico). | Profundidad técnica en análisis predictivo y automatización de procesos mineros complejos. | Integración nativa total con el hardware de Caterpillar y su red global de distribuidores. |
+| **Perfil de Marketing: Mercado Objetivo** | Propietarios de maquinaria pesada que buscan arrendar su flota y empresas mineras o constructoras que necesitan alquilar equipos por proyecto. | Empresas de construcción, alquiler de equipos y flotas mixtas a nivel mundial. | Grandes corporaciones mineras y operaciones industriales de alta complejidad. | Propietarios de equipos Caterpillar y distribuidores oficiales de la marca (Cat Dealers). |
 | **Estrategias de Marketing** | Venta directa B2B, demostraciones técnicas personalizadas y alianzas estratégicas universitarias. | Alianzas con fabricantes (OEM) y enfoque en branding de software como servicio (SaaS). | Venta consultiva corporativa y presencia en las ferias mineras más importantes del mundo. | Servicios incluidos en la compra de maquinaria y capacitación exclusiva a través de su red de ventas. |
-| **Perfil de Producto: Productos y Servicios** | Catálogo, gestión de ventas, dashboard IoT (vibración, temperatura, presión) y alertas. | Hardware telemático, plataforma en la nube y APIs de integración de datos. | Software de salud de activos, sistemas de prevención de colisiones y planificación minera. | Aplicaciones web y móviles para rastreo, alertas de fallas y programación de mantenimiento. |
-| **Precios y Costos** | Modelo de suscripción mensual (SaaS) escalable por número de máquinas monitoreadas. | Suscripciones por dispositivo conectado y costos iniciales por hardware de rastreo. | Precios corporativos de alta gama (personalizados bajo cotización por proyecto). | Generalmente incluido en el costo del equipo o suscripciones premium por servicios de datos. |
-| **Canales de Distribución** | Aplicación web de acceso directo y plataforma en la nube administrada por el grupo. | Red de distribuidores de hardware y ventas directas a través de su plataforma digital. | Consultores regionales especializados y fuerza de ventas corporativa directa. | Red exclusiva de distribuidores locales de Caterpillar en todo el mundo. |
+| **Perfil de Producto: Productos y Servicios** | Catálogo de maquinaria disponible para alquiler, flujo de solicitud y aprobación, contratos digitales, dashboard de flota y monitoreo IoT (vibración, temperatura, presión). | Hardware telemático, plataforma en la nube y APIs de integración de datos. | Software de salud de activos, sistemas de prevención de colisiones y planificación minera. | Aplicaciones web y móviles para rastreo, alertas de fallas y programación de mantenimiento. |
+| **Precios y Costos** | Modelo de comisión por alquiler completado (B2B transaccional), sin costo fijo inicial para Propietarios ni Clientes. | Suscripciones por dispositivo conectado y costos iniciales por hardware de rastreo. | Precios corporativos de alta gama (personalizados bajo cotización por proyecto). | Generalmente incluido en el costo del equipo o suscripciones premium por servicios de datos. |
+| **Canales de Distribución** | Aplicación web de acceso directo y plataforma en la nube administrada por el equipo BrainStorm. | Red de distribuidores de hardware y ventas directas a través de su plataforma digital. | Consultores regionales especializados y fuerza de ventas corporativa directa. | Red exclusiva de distribuidores locales de Caterpillar en todo el mundo. |
 
-#### Análisis SWOT  
+#### Análisis SWOT
 
 | Categoría | MineTrack | Trackunit | Hexagon | VisionLink |
 | :--- | :--- | :--- | :--- | :--- |
-| **Fortalezas** | Centralización de ventas y monitoreo técnico en una sola vista simple. | Enorme base de datos global y versatilidad para cualquier tipo de flota. | Capacidad técnica superior en predicción de fallas mediante IA y sensores. | Respaldo total de la marca Caterpillar y lealtad de sus clientes. |
-| **Debilidades** | Startup nueva en el mercado con experiencia limitada en hardware propio. | Menor enfoque en la parte transaccional (ventas) del ciclo de vida del equipo. | Costos de implementación muy elevados para empresas pequeñas o medianas. | Limitado principalmente a equipos de la propia marca Caterpillar. |
-| **Oportunidades** | Creciente digitalización de pequeñas empresas de servicios mineros en la región. | Expansión hacia nuevos tipos de sensores y automatización de flotas. | Integración con sistemas de minería autónoma. | Lanzamiento de versiones ligeras para competir en flotas mixtas. |
-| **Amenazas** | Competidores establecidos lanzando versiones simplificadas. | Fabricantes desarrollando sus propios sistemas telemáticos cerrados. | Nuevas startups con tecnologías más ágiles y económicas. | Plataformas multimarca que ofrecen más libertad al dueño de la flota. |
+| **Fortalezas** | Única solución que formaliza el mercado informal de alquiler de maquinaria pesada integrando el flujo transaccional con monitoreo IoT en tiempo real. | Enorme base de datos global y versatilidad para cualquier tipo de flota. | Capacidad técnica superior en predicción de fallas mediante IA y sensores. | Respaldo total de la marca Caterpillar y lealtad de sus clientes. |
+| **Debilidades** | Startup nueva en el mercado con experiencia limitada y dependencia de la adopción digital en un sector con baja madurez tecnológica. | Menor enfoque en la parte transaccional (alquiler y contratos) del ciclo de vida del equipo. | Costos de implementación muy elevados para empresas pequeñas o medianas. | Limitado principalmente a equipos de la propia marca Caterpillar. |
+| **Oportunidades** | Mercado de alquiler de maquinaria pesada en Perú altamente informal y sin un marketplace digital de referencia, con alta demanda insatisfecha. | Expansión hacia nuevos tipos de sensores y automatización de flotas. | Integración con sistemas de minería autónoma. | Lanzamiento de versiones ligeras para competir en flotas mixtas. |
+| **Amenazas** | Competidores establecidos que podrían agregar funcionalidades de marketplace a sus plataformas de telemática existentes. | Fabricantes desarrollando sus propios sistemas telemáticos cerrados. | Nuevas startups con tecnologías más ágiles y económicas. | Plataformas multimarca que ofrecen más libertad al dueño de la flota. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-Para posicionar nuestra app frente a gigantes establecidos como Trackunit o VisionLink, = implementaremos las siguientes estrategias:
+Para posicionar MineTrack frente a plataformas establecidas como Trackunit o VisionLink, se implementarán las siguientes estrategias:
 
-* **Estrategia de Diferenciación por Integración:** A diferencia de la competencia que se centra solo en telemetría (Trackunit) o solo en ventas , MineTrack ofrece una solución todo en uno que une el ciclo comercial con el monitoreo técnico.
-* **Enfoque en el Mercado Regional (Localismo):** Mientras que Hexagon y Caterpillar se enfocan en grandes corporaciones globales, MineTrack atacará a los distribuidores locales y medianas empresas de mantenimiento en Perú, ofreciendo soporte personalizado y adaptado a la realidad minera regional.
-* **Táctica de Usabilidad Superior:** Aprovechando el diseño centrado en el usuario , nuestra plataforma será más intuitiva y fácil de configurar que los sistemas corporativos complejos, reduciendo la curva de aprendizaje para los técnicos de campo.
-* **Modelo de Escalabilidad B2B:** Implementaremos un modelo SaaS escalable que permita a las pequeñas empresas de mantenimiento monitorear flotas reducidas a un bajo costo, algo que los competidores de alta gama no permiten.
+- **Estrategia de Diferenciación por Modelo de Negocio:** Mientras que la competencia se enfoca exclusivamente en telemática o en gestión de flotas propias, MineTrack es el único actor que combina el marketplace de alquiler (catálogo, solicitud, aprobación, contrato digital) con monitoreo IoT en tiempo real. Esta integración convierte a la plataforma en el centro de operaciones de la transacción completa.
+- **Enfoque en el Mercado Regional (Localismo):** Hexagon y VisionLink apuntan a grandes corporaciones globales. MineTrack atacará a Propietarios de maquinaria de mediana escala y a empresas mineras y constructoras en Perú que hoy resuelven el alquiler de forma informal, ofreciendo la formalización digital como propuesta de valor principal.
+- **Táctica de Usabilidad Superior:** La plataforma priorizará una experiencia simple y directa, pensada para usuarios que no son nativos digitales, reduciendo la curva de aprendizaje frente a los sistemas corporativos complejos de los competidores.
+- **Modelo de Entrada sin Fricción:** El modelo de comisión por alquiler completado (sin costo fijo) elimina la barrera de adopción para Propietarios que nunca han usado una plataforma de este tipo, permitiendo escalar la oferta de maquinaria disponible desde el primer mes.
+
+---
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
-Para validar nuestras hipótesis y entender las necesidades reales del mercado, hemos diseñado dos guiones de entrevista dirigidos a nuestros segmentos objetivo principales.
+Para validar nuestras hipótesis y entender las necesidades reales del mercado, se diseñaron dos guiones de entrevista dirigidos a los segmentos objetivo de MineTrack: Propietarios de maquinaria pesada y empresas del sector minero y de construcción que requieren alquilar equipos.
 
-#### Segmento 1: Distribuidores de Maquinaria Pesada (Ventas y Garantías)
-1. ¿Cómo llevan hoy el control de las máquinas que ya le entregaron a sus clientes?
-2. ¿Cuál es el mayor dolor de cabeza que tienen cuando un cliente reclama una garantía?
-3. ¿De qué forma se enteran si una máquina que vendieron falló en plena operación?
-4. ¿Qué programas o aplicaciones usan actualmente para ver su inventario o stock?
-5. ¿Creen que mostrarle al cliente datos en vivo de su máquina ayudaría a cerrar más ventas?
-6. De datos como calor, vibración o presión, ¿cuál es el que más les piden monitorear?
-7. ¿Sienten que el equipo de ventas y los técnicos están bien comunicados sobre el estado de los equipos?
-8. Si pudieran cambiar algo de su sistema actual para que sea más fácil de usar, ¿qué sería?
+#### Segmento 1: Propietarios de Maquinaria Pesada
 
-#### Segmento 2: Empresas de Servicios de Mantenimiento (Técnicos)
-1. ¿Cómo revisan hoy si una máquina necesita mantenimiento sin tener que ir hasta el sitio?
-2. ¿Qué tan seguido se detienen las máquinas por fallas que nadie vio venir?
-3. ¿En qué se basan para decidir que a una máquina ya le toca mantenimiento preventivo?
-4. ¿Es muy complicado manejar máquinas de marcas distintas en una misma plataforma?
-5. ¿Les ayudaría recibir alertas al celular cuando una máquina empieza a vibrar o calentar de más?
-6. ¿Pasan más tiempo arreglando máquinas que ya se malograron o tratando de que no fallen?
-7. ¿Cómo le demuestran a sus clientes que están haciendo un buen trabajo de seguimiento técnico?
-8. ¿Cuánto tiempo a la semana pierden viajando solo para chequear si una máquina está bien?
+1. ¿Cómo gestionan actualmente el arrendamiento de sus equipos cuando no están en uso propio?
+2. ¿Qué tan seguido tienen máquinas ociosas sin generar ingresos por falta de arrendatario?
+3. ¿Cómo registran y hacen seguimiento a los contratos de alquiler que cierran actualmente?
+4. ¿Cómo verifican que el arrendatario está usando el equipo correctamente durante el alquiler?
+5. ¿Han tenido conflictos con clientes por el estado del equipo al devolverlo? ¿Cómo los resolvieron?
+6. ¿Estarían dispuestos a compartir datos técnicos del equipo en tiempo real con el arrendatario como parte del contrato?
+7. ¿Qué tan importante es para ustedes tener visibilidad del estado técnico del equipo mientras está arrendado?
+8. Si existiera una plataforma donde publicar sus máquinas disponibles y recibir solicitudes de alquiler formalizadas, ¿qué funcionalidades considerarían indispensables?
+
+#### Segmento 2: Empresas Mineras y Constructoras (Clientes)
+
+1. ¿Cómo consiguen actualmente maquinaria pesada cuando necesitan equipos que no poseen para un proyecto?
+2. ¿Cuánto tiempo les toma normalmente encontrar y contratar una máquina alquilada desde que identifican la necesidad?
+3. ¿Han tenido experiencias negativas con equipos alquilados que llegaron en malas condiciones técnicas?
+4. ¿Qué información técnica del equipo necesitan conocer antes de comprometerse con un contrato de alquiler?
+5. ¿Les sería útil poder ver el estado técnico del equipo en tiempo real (temperatura, vibración, presión) durante el periodo de alquiler?
+6. ¿Qué tan frecuente es que un equipo alquilado falle durante la ejecución de un proyecto y cuál es el impacto operativo?
+7. ¿Qué canales usan actualmente para buscar maquinaria disponible para alquiler en el mercado?
+8. ¿Qué características tendría que tener una plataforma digital de alquiler de maquinaria para que la adopten en su empresa?
 
 ### 2.2.2. Registro de entrevistas
 
-#### Entrevista N°1 – Segmento: Distribuidores de Maquinaria Pesada
-![entrevista_1](Resources/entrevista-1.png) 
-- Nombres: Manuel
-- Apellidos: Sanchez
-- Edad: 25 años
-- Departamento: Lima
-- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQBtEKucJzLlT4UIDcYooZFmAe0ugQq042VPg0ciyWfz0mA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=phdMZQ
-- Duración: 00:09:26 minutos - minuto de inicio: 00:00:00
-- Resumen:<br>
+#### Entrevista N°1 – Segmento: Propietarios de Maquinaria Pesada
 
-#### Entrevista N°2 – Segmento: Distribuidores de Maquinaria Pesada
-![entrevista_2](Resources/entrevista-2.png) 
-- Nombres: Ricardo
-- Apellidos: Morales
-- Edad: 36 años
-- Departamento: Lima
-- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQBeAV0g9pveRLcJybBztxz2Ae3Nd_F7e19nQ7_bJDu7DOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b6A1P5
-- Duración: 00:05:44 minutos - minuto de inicio: 00:00:00
-- Resumen:<br>
+![entrevista_1](Resources/entrevista-1.png)
+- **Nombres:** Manuel
+- **Apellidos:** Sanchez
+- **Edad:** 25 años
+- **Departamento:** Lima
+- **URL Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQBtEKucJzLlT4UIDcYooZFmAe0ugQq042VPg0ciyWfz0mA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=phdMZQ
+- **Duración:** 00:09:26 minutos — minuto de inicio: 00:00:00
+- **Resumen:** Manuel Sanchez se desempeña como responsable de coordinación de maquinaria pesada. Durante la entrevista manifestó que el seguimiento de sus equipos se realiza actualmente mediante llamadas telefónicas, WhatsApp e inspecciones presenciales, sin ningún sistema centralizado. Señaló que el mayor problema al arrendar maquinaria es no tener evidencia objetiva del estado del equipo durante el uso, lo que genera conflictos cuando el arrendatario devuelve la máquina con daños. Mostró alto interés en una plataforma que le permita publicar sus equipos disponibles, recibir solicitudes formalizadas y monitorear el estado técnico del equipo en tiempo real durante el arrendamiento. Consideró que el monitoreo de presión hidráulica y temperatura son los datos más relevantes para él como Propietario.
 
-#### Entrevista N°3 – Segmento: Empresas de Servicios de Mantenimiento
-![entrevista_3](Resources/entrevista-3.png) 
-- Nombres: Gersson
-- Apellidos: Alemán
-- Edad: 34 años
-- Departamento: Lima
-- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQAkwIp_sa2jRr2Hrsi-k2OkAZ2WrxNBQA9FwT4-q3CcvxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7K4N9K
-- Duración: 00:04:23 minutos - minuto de inicio: 00:00:00
-- Resumen:<br>
+#### Entrevista N°2 – Segmento: Propietarios de Maquinaria Pesada
 
-#### Entrevista N°4 – Segmento: Distribuidores de Maquinaria Pesada
-![entrevista_4](Resources/entrevista-4.png) 
-- Nombres: Raúl
-- Apellidos: 
-- Edad: 42 años
-- Departamento: Lima
-- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQCpPgdZ2CYbRofrRLN-ikvBAXsOze9jWrpw8aK693KIRXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k687cP
-- Duración: 00:02:33 minutos - minuto de inicio: 00:00:00
-- Resumen:<br>
+![entrevista_2](Resources/entrevista-2.png)
+- **Nombres:** Ricardo
+- **Apellidos:** Morales
+- **Edad:** 36 años
+- **Departamento:** Lima
+- **URL Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQBeAV0g9pveRLcJybBztxz2Ae3Nd_F7e19nQ7_bJDu7DOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b6A1P5
+- **Duración:** 00:05:44 minutos — minuto de inicio: 00:00:00
+- **Resumen:** Ricardo Morales es responsable del área técnica y soporte de maquinaria. Indicó que actualmente los contratos de alquiler se cierran de forma verbal o con documentos físicos sin ningún registro digital. Describió que sus equipos suelen estar ociosos entre proyectos por falta de visibilidad en el mercado, y que conseguir un arrendatario le toma entre una y dos semanas de contactos informales. Destacó la importancia de contar con historial técnico automatizado de cada equipo para defender su posición en caso de conflictos con clientes. Mostró interés en una plataforma donde pueda gestionar su flota disponible y recibir alertas si el arrendatario opera la máquina fuera de los parámetros normales.
 
-#### Entrevista N°5 – Segmento: Empresas de Servicios de Mantenimiento
-![entrevista_5](Resources/entrevista-5.png) 
-- Nombres: Javier
-- Apellidos: Espinoza
-- Edad: 54 años
-- Departamento: Lima
-- URL Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQB7K-83BYs9TLHpiq-KnY_3Ae1folkUUWhVTna1MxkixDM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=63HPuk
-- Duración: 00:04:21 minutos - minuto de inicio: 00:00:00
-- Resumen:<br>
+#### Entrevista N°3 – Segmento: Empresas Mineras y Constructoras (Clientes)
 
-### 2.2.3. Analisis de entrevistas
-#### Análisis de Entrevistas – Proyecto de Plataforma para Gestión de Maquinaria Pesada
+![entrevista_3](Resources/entrevista-3.png)
+- **Nombres:** Gersson
+- **Apellidos:** Alemán
+- **Edad:** 34 años
+- **Departamento:** Lima
+- **URL Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQAkwIp_sa2jRr2Hrsi-k2OkAZ2WrxNBQA9FwT4-q3CcvxI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7K4N9K
+- **Duración:** 00:04:23 minutos — minuto de inicio: 00:00:00
+- **Resumen:** Gersson Alemán trabaja en coordinación de equipos para proyectos de construcción y minería. Indicó que actualmente consiguen maquinaria alquilada a través de contactos personales y redes informales, lo que les toma entre tres y siete días hábiles. Mencionó que ha recibido equipos en condiciones técnicas deficientes sin poder reclamar al no tener evidencia del estado inicial. Consideró que una plataforma con catálogo de máquinas verificadas, donde pueda ver las especificaciones técnicas y solicitar el alquiler de forma formal, reduciría significativamente el riesgo operativo de su empresa. Señaló que el monitoreo IoT durante el alquiler sería un diferenciador clave para decidir qué proveedor elegir.
+
+#### Entrevista N°4 – Segmento: Propietarios de Maquinaria Pesada
+
+![entrevista_4](Resources/entrevista-4.png)
+- **Nombres:** Raúl
+- **Apellidos:** Aranívar
+- **Edad:** 42 años
+- **Departamento:** Lima
+- **URL Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQCpPgdZ2CYbRofrRLN-ikvBAXsOze9jWrpw8aK693KIRXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k687cP
+- **Duración:** 00:02:33 minutos — minuto de inicio: 00:00:00
+- **Resumen:** Raúl Aranívar cuenta con experiencia técnica en distribución y mantenimiento de maquinaria pesada. Describió que administra su inventario de equipos disponibles mediante Excel y macros, sin un sistema especializado. Señaló que uno de sus mayores problemas al arrendar maquinaria es no poder demostrar objetivamente si una falla ocurrida durante el alquiler fue causada por el uso del arrendatario o existía previamente. Indicó que el parámetro más importante para monitorear es la presión hidráulica, ya que las fallas por exceso de fuerza y rotura de mangueras son las más frecuentes y costosas. Mostró interés en una solución que le permita centralizar la gestión de su flota disponible para alquiler e integrar datos técnicos como evidencia objetiva del uso.
+
+#### Entrevista N°5 – Segmento: Empresas Mineras y Constructoras (Clientes)
+
+![entrevista_5](Resources/entrevista-5.png)
+- **Nombres:** Javier
+- **Apellidos:** Espinoza
+- **Edad:** 54 años
+- **Departamento:** Lima
+- **URL Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315324_upc_edu_pe/IQB7K-83BYs9TLHpiq-KnY_3Ae1folkUUWhVTna1MxkixDM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=63HPuk
+- **Duración:** 00:04:21 minutos — minuto de inicio: 00:00:00
+- **Resumen:** Javier Espinoza trabaja en soporte técnico y coordinación de maquinaria para el sector minero, gestionando flotas con equipos de múltiples marcas (Caterpillar, Komatsu, Shachman, entre otros). Indicó que el proceso de conseguir un equipo alquilado cuando uno falla en plena operación es crítico, ya que los técnicos pierden entre 2 y 3 horas de desplazamiento solo para diagnosticar visualmente el estado de un equipo de reemplazo. Señaló que una plataforma donde pueda filtrar maquinaria disponible por tipo y especificaciones técnicas, y solicitar el alquiler formalmente, reduciría drásticamente el tiempo de respuesta ante fallas. Destacó que el monitoreo de vibración y temperatura durante el arrendamiento sería de alto valor para su equipo técnico.
+
+### 2.2.3. Análisis de entrevistas
 
 #### Análisis General de las Entrevistas
 
-Las cuatro entrevistas realizadas a distribuidores y responsables de mantenimiento de maquinaria pesada permitieron identificar problemas recurrentes en la gestión operativa, mantenimiento y seguimiento de equipos. En general, las empresas entrevistadas aún trabajan con procesos manuales, principalmente mediante Excel, macros, llamadas telefónicas, WhatsApp y reportes físicos.
+Las cinco entrevistas realizadas a Propietarios de maquinaria pesada y a representantes de empresas mineras y constructoras permitieron identificar patrones recurrentes que validan el modelo de negocio de MineTrack como marketplace de alquiler con capa IoT.
 
-Esto genera dificultades importantes como:
+**Hallazgos del segmento Propietarios (3 entrevistas):**
 
-- Falta de monitoreo en tiempo real.
-- Mala comunicación entre áreas.
-- Retrasos en atención de fallas y garantías.
-- Pérdida de tiempo en supervisión presencial.
-- Falta de centralización de información.
-- Mantenimiento reactivo en lugar de preventivo.
+- El 100% gestiona sus alquileres actualmente a través de canales informales (WhatsApp, contactos personales, acuerdos verbales) sin contrato digital ni trazabilidad técnica.
+- El 100% reportó haber tenido equipos ociosos por periodos prolongados por falta de un canal formal para encontrar arrendatarios.
+- El 67% (2 de 3) mencionó conflictos con arrendatarios por el estado del equipo a la devolución, sin evidencia objetiva para resolverlos.
+- El 100% mostró interés en una plataforma que centralice la publicación de su flota disponible y el monitoreo técnico durante el arrendamiento.
 
-Además, todos los entrevistados coincidieron en que una plataforma digital con monitoreo en tiempo real y alertas automáticas representaría una mejora significativa para sus operaciones.
+**Hallazgos del segmento Clientes (2 entrevistas):**
 
----
+- El 100% reportó que el proceso de conseguir maquinaria alquilada les toma entre 3 y 7 días hábiles a través de canales informales.
+- El 100% mencionó haber recibido equipos en condiciones técnicas deficientes sin mecanismo de reclamación formal.
+- El 100% consideró que el monitoreo IoT durante el alquiler sería un diferenciador clave para elegir proveedor.
+- El 100% declaró que una plataforma con catálogo verificado y solicitud formal de alquiler reduciría significativamente su riesgo operativo.
 
-#### Entrevista 1 – Segmento Distribuidor
+#### Problemas más frecuentes identificados
 
-#### Perfil del entrevistado
+<img width="1000" height="600" alt="Problemas frecuentes identificados en entrevistas" src="https://github.com/user-attachments/assets/2aa42643-16a6-4a14-bb55-828ab94161ce" />
 
-Manuel Sanchez se desempeña como responsable de ventas, mantenimiento y coordinación de maquinaria pesada con empresas proveedoras.
+#### Necesidades principales detectadas
 
----
-
-#### Problemas identificados
-
-#### 1. Falta de control centralizado
-
-El entrevistado indicó que actualmente el seguimiento de las máquinas se realiza mediante:
-
-- Correos electrónicos.
-- Llamadas telefónicas.
-- WhatsApp.
-- Inspecciones presenciales.
-
-Esto demuestra que no existe un sistema centralizado para monitorear el estado de las máquinas.
-
-#### 2. Gestión reactiva de fallas
-
-La empresa solo se entera de las fallas cuando el cliente las reporta. Esto ocasiona:
-
-- Interrupción de operaciones.
-- Reclamos de garantía.
-- Costos de reparación elevados.
-- Posible reemplazo total del equipo.
-
-#### 3. Problemas con garantías
-
-Uno de los mayores problemas es determinar si la falla fue causada por:
-
-- Error humano.
-- Mala operación.
-- Falla mecánica o de software.
-
-La falta de información histórica dificulta validar garantías correctamente.
-
-#### 4. Uso limitado de herramientas tecnológicas
-
-El control de inventario se realiza mediante:
-
-- Libros contables.
-- Archivos separados.
-- Registros manuales.
-
-Esto vuelve lento el proceso de actualización y seguimiento.
-
-#### 5. Mala comunicación interna
-
-El entrevistado reconoció que no existe una comunicación constante entre:
-
-- Equipo de ventas.
-- Técnicos.
-- Clientes.
-
-Muchas veces la información llega demasiado tarde, cuando la máquina ya falló.
+<img width="1000" height="600" alt="Necesidades principales detectadas en entrevistas" src="https://github.com/user-attachments/assets/b91aad20-4db3-47da-abe2-c57733417e13" />
 
 ---
 
-#### Necesidades detectadas
-
-El entrevistado mostró interés en:
-
-- Monitoreo en tiempo real.
-- Paneles con estado de maquinaria.
-- Alertas preventivas.
-- Comunicación integrada entre áreas.
-- Programación automática de mantenimientos.
-
----
-
-#### Conclusión de la entrevista 1
-
-La entrevista evidencia una fuerte necesidad de digitalización y automatización en la gestión de maquinaria pesada. El distribuidor considera que una plataforma inteligente ayudaría a:
-
-- Reducir costos por fallas.
-- Mejorar la atención postventa.
-- Optimizar la comunicación.
-- Incrementar la satisfacción del cliente.
-- Generar valor agregado en ventas.
-
----
-
-#### Entrevista 2 – Segmento Mantenimiento
-
-#### Perfil del entrevistado
-
-Ricardo Morales es responsable del área de mantenimiento, seguimiento técnico y soporte de maquinaria.
-
----
-
-#### Problemas identificados
-
-#### 1. Dependencia del reporte manual
-
-Actualmente dependen de:
-
-- Operadores.
-- Técnicos en campo.
-- Reportes manuales.
-
-No cuentan con un sistema automatizado para detectar fallas.
-
-#### 2. Procesos lentos para garantías
-
-El mayor problema es validar si el cliente realizó los mantenimientos necesarios para hacer válida la garantía.
-
-Debido al uso de Excel y registros manuales:
-
-- La información demora en revisarse.
-- Se generan retrasos.
-- El cliente percibe mala atención.
-
-#### 3. Mantenimiento reactivo
-
-El entrevistado indicó que actúan cuando el cliente reporta el problema, lo cual demuestra ausencia de mantenimiento predictivo.
-
-#### 4. Inventarios desorganizados
-
-El control de inventario se realiza únicamente con Excel desde la sede administrativa, sin software especializado.
-
-### 5. Exceso de seguimiento manual
-
-El equipo técnico debe dedicar mucho tiempo al seguimiento y coordinación.
-
----
-
-#### Necesidades detectadas
-
-El entrevistado destacó que sería útil contar con:
-
-- Datos en vivo de la maquinaria.
-- Historial técnico automatizado.
-- Alertas de mantenimiento.
-- Registro de mantenimientos anteriores.
-- Seguimiento de piezas y cambios.
-
-También mencionó la importancia de tener información histórica para decidir cuándo reemplazar una máquina.
-
----
-
-#### Conclusión de la entrevista 2
-
-La entrevista demuestra que el área técnica necesita herramientas digitales que permitan automatizar el mantenimiento y mejorar la trazabilidad de cada equipo.
-
-Una plataforma centralizada ayudaría a:
-
-- Reducir tiempos de respuesta.
-- Mejorar la gestión de garantías.
-- Facilitar el mantenimiento preventivo.
-- Mejorar la satisfacción del cliente.
-- Optimizar el control de inventarios.
-
----
-
-#### Entrevista 3 – Segmento Distribuidor
-
-#### Perfil del entrevistado
-
-Raúl Aranívar cuenta con experiencia técnica en distribución y mantenimiento de maquinaria pesada.
-
----
-
-#### Problemas identificados
-
-#### 1. Dependencia total de Excel y macros
-
-La empresa administra:
-
-- Cantidad de máquinas.
-- Tipos de equipos.
-- Inventario.
-
-Todo mediante Excel y macros.
-
-#### 2. Dificultad para validar garantías
-
-El entrevistado explicó que muchas fallas ocurren por malas maniobras de los operadores, pero los clientes las reportan como fallas mecánicas.
-
-Esto genera conflictos en el proceso de garantía.
-
-#### 3. Diagnóstico presencial obligatorio
-
-Cuando ocurre una falla:
-
-- Se debe enviar un jefe mecánico.
-- Se realiza diagnóstico físico.
-- Se conecta una computadora para revisar el estado.
-
-No existe monitoreo remoto.
-
-#### 4. Falta de integración entre áreas
-
-El entrevistado mencionó la necesidad de integrar:
-
-- Ventas.
-- Supervisión.
-- Mantenimiento.
-
----
-
-#### Datos importantes obtenidos
-
-El entrevistado indicó que el parámetro más importante para monitorear es:
-
-- Presión hidráulica.
-
-Debido a que muchas fallas ocurren por:
-
-- Exceso de fuerza.
-- Rotura de mangueras hidráulicas.
-
----
-
-#### Necesidades detectadas
-
-- Integración de sistemas.
-- Monitoreo en tiempo real.
-- Sensores de presión.
-- Historial técnico compartido.
-- Centralización de datos.
-
----
-
-#### Conclusión de la entrevista 3
-
-Esta entrevista confirma que las empresas del sector todavía utilizan herramientas limitadas para gestionar operaciones complejas.
-
-Además, demuestra que el monitoreo de variables técnicas como presión, temperatura o vibración podría prevenir fallas graves y reducir costos operativos.
-
----
-
-#### Entrevista 4 – Segmento Mantenimiento
-
-#### Perfil del entrevistado
-
-Javier Espinosa trabaja en soporte técnico y mantenimiento de maquinaria pesada en el sector minero.
-
----
-
-#### Problemas identificados
-
-#### 1. Dependencia de mantenimiento preventivo tradicional
-
-Actualmente el mantenimiento se programa según:
-
-- Horas máquina.
-- Kilómetros recorridos.
-
-No existe monitoreo inteligente en tiempo real.
-
-#### 2. Dificultad para manejar múltiples marcas
-
-El entrevistado mencionó que trabajan con:
-
-- Caterpillar.
-- Komatsu.
-- Shachman.
-- Inter.
-- Freilander.
-
-Cada marca tiene sistemas diferentes, lo que dificulta centralizar la información.
-
-#### 3. Tiempo perdido en desplazamientos
-
-Los técnicos pierden:
-
-- Entre 2 y 3 horas de ida.
-- Más el tiempo de retorno.
-
-Solo para verificar el estado de maquinaria.
-
-Esto representa:
-
-- Pérdida de productividad.
-- Costos elevados.
-- Mayor tiempo de máquina detenida.
-
-#### 4. Alto impacto económico de fallas
-
-En minería, una máquina detenida representa costos muy altos, por lo que prevenir fallas es prioritario.
-
----
-
-#### Necesidades detectadas
-
-El entrevistado mostró gran interés en:
-
-- Alertas automáticas al celular.
-- Monitoreo de vibración y temperatura.
-- Prevención de fallas.
-- Reducción de visitas presenciales.
-- Mayor disponibilidad operativa.
-
----
-
-#### Conclusión de la entrevista 4
-
-La entrevista evidencia que el sector minero requiere soluciones tecnológicas avanzadas para minimizar tiempos muertos y optimizar mantenimiento.
-
-Una plataforma inteligente permitiría:
-
-- Reducir desplazamientos innecesarios.
-- Detectar fallas antes de que ocurran.
-- Incrementar disponibilidad de maquinaria.
-- Mejorar eficiencia operativa.
-- Reducir costos de mantenimiento.
-
----
-
-#### Conclusiones Finales del Estudio
-
-A partir de las cuatro entrevistas se identificaron patrones comunes:
-
-## Problemas principales
-
-- Uso excesivo de Excel y procesos manuales.
-- Falta de monitoreo remoto.
-- Gestión reactiva de fallas.
-- Mala integración entre áreas.
-- Dificultades en validación de garantías.
-- Pérdida de tiempo en supervisión presencial.
-- Ausencia de alertas automáticas.
-
----
-
-#### Necesidades del mercado
-
-Los entrevistados consideran importante implementar una solución que incluya:
-
-- Monitoreo en tiempo real.
-- Alertas automáticas.
-- Historial de mantenimiento.
-- Gestión centralizada de inventario.
-- Seguimiento de garantías.
-- Integración entre ventas y soporte técnico.
-- Paneles de visualización de maquinaria.
-- Sensores de presión, temperatura y vibración.
-
-#### Problemas mas frecuentes identificados
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/2aa42643-16a6-4a14-bb55-828ab94161ce" />
-
-
-#### Necesidades principales detectadas.
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/b91aad20-4db3-47da-abe2-c57733417e13" />
-
-
-## 2.3. NeedFinding
+## 2.3. Needfinding
 
 ### 2.3.1. User Persona
-Segmento: Distribuidores 
 
-<img width="1050" height="1318" alt="Persona 1" src="https://github.com/user-attachments/assets/09068b6f-161f-49d0-81af-52672cc2af07" />
+A partir del análisis de las entrevistas realizadas se construyeron dos fichas de User Persona, una por cada segmento objetivo identificado. Los arquetipos recogen las características demográficas, motivaciones, frustraciones y comportamientos tecnológicos más representativos de cada segmento, y sirven de base para el User Task Matrix, el User Journey Map y el Empathy Map.
 
+**Segmento 1: Propietarios de Maquinaria Pesada**
 
-Segmento: Jefes de mantenimiento
+<img width="1050" height="1318" alt="User Persona - Propietario de Maquinaria Pesada" src="https://github.com/user-attachments/assets/09068b6f-161f-49d0-81af-52672cc2af07" />
 
-<img width="1050" height="1498" alt="Javier Espinoza" src="https://github.com/user-attachments/assets/2ae0521f-a8a5-4188-aaca-ad2ed0192fa1" />
+**Segmento 2: Empresas Mineras y Constructoras (Clientes)**
 
+<img width="1050" height="1498" alt="User Persona - Empresa Minera y Constructora" src="https://github.com/user-attachments/assets/2ae0521f-a8a5-4188-aaca-ad2ed0192fa1" />
 
 ### 2.3.2. User Task Matrix
 
-En esta sección se detallan las tareas principales que realizarán los usuarios de nuestra plataforma MineTrack, evaluando qué tan seguido las hacen (Frecuencia) y qué tan críticas son para su trabajo (Importancia).
+En esta sección se detallan las tareas principales que realizan los usuarios de MineTrack para cumplir sus objetivos de negocio, evaluando su frecuencia e importancia. Las tareas representan actividades del negocio que los usuarios realizan independientemente de la existencia de la plataforma; no son funcionalidades del software.
 
-#### Segmento 1: Distribuidores de Maquinaria Pesada
-Este segmento se enfoca en la gestión de ventas, stock y el seguimiento de las garantías de los equipos mineros.
+**Segmento 1: Propietarios de Maquinaria Pesada**
 
-|Manuel Sanchez | Frecuencia | Importancia |
+Este segmento se enfoca en maximizar la tasa de ocupación de su flota generando ingresos por arrendamiento y protegiendo el estado técnico de sus activos.
+
+| Carlos Medina (Propietario) | Frecuencia | Importancia |
 | :--- | :--- | :--- |
-| Iniciar sesión y gestionar perfil de distribuidor | Alta | Alta |
-| Registrar nueva maquinaria pesada en el catálogo | Media | Alta |
-| Consultar disponibilidad de equipos para la venta | Alta | Alta |
-| Registrar y gestionar contratos de venta de maquinaria | Media | Alta |
-| Realizar seguimiento al estado de las garantías vigentes | Alta | Alta |
-| Consultar el historial de uso de los equipos entregados | Media | Media |
-| Validar y responder solicitudes de servicio técnico | Media | Alta |
-| Visualizar el dashboard de monitoreo de la flota vendida | Alta | Media |
-| Generar reportes de ventas y desempeño de activos | Baja | Media |
-| Actualizar información técnica de los equipos en stock | Media | Media |
+| Identificar equipos disponibles para arrendar en su flota | Alta | Alta |
+| Buscar potenciales arrendatarios para sus máquinas ociosas | Alta | Alta |
+| Negociar y formalizar condiciones de un contrato de alquiler | Media | Alta |
+| Verificar el estado técnico del equipo antes de entregarlo | Alta | Alta |
+| Hacer seguimiento del uso del equipo durante el arrendamiento | Alta | Alta |
+| Registrar incidencias o daños al recibir el equipo de vuelta | Media | Alta |
+| Calcular y cobrar el monto por las horas de uso al cierre del alquiler | Media | Alta |
+| Programar mantenimiento preventivo entre contratos de alquiler | Media | Alta |
+| Consultar el historial técnico acumulado de cada equipo | Baja | Media |
+| Gestionar la documentación de sus activos (seguro, revisión técnica) | Baja | Media |
 
-#### Segmento 2: Empresas de Servicios de Mantenimiento
-Este segmento utiliza la plataforma como su centro de control técnico para prevenir fallas y monitorear sensores IoT.
+**Segmento 2: Empresas Mineras y Constructoras (Clientes)**
 
-| Javier Espinoza | Frecuencia | Importancia |
+Este segmento necesita acceder rápidamente a maquinaria técnicamente confiable para sus proyectos, minimizando el riesgo de paradas no programadas durante la operación.
+
+| Javier Espinoza (Cliente) | Frecuencia | Importancia |
 | :--- | :--- | :--- |
-| Revisar el panel principal de monitoreo de maquinaria | Alta | Alta |
-| Monitorear vibración, temperatura y presión en tiempo real | Alta | Alta |
-| Configurar los umbrales de alerta para los sensores IoT | Baja | Alta |
-| Atender notificaciones de alertas preventivas del sistema | Alta | Alta |
-| Registrar informes de mantenimiento preventivo y correctivo | Alta | Media |
-| Consultar el historial de alertas y fallas de una unidad | Alta | Media |
-| Asignar técnicos especializados a tareas de reparación | Media | Alta |
-| Analizar tendencias de datos para predicción de fallas | Media | Media |
-| Descargar manuales y guías técnicas de operación | Baja | Baja |
-| Revisar las horas de uso acumuladas de cada máquina | Alta | Alta |
+| Identificar qué tipo de maquinaria necesita para un proyecto | Alta | Alta |
+| Buscar proveedores de maquinaria disponible para alquilar | Alta | Alta |
+| Verificar el estado técnico del equipo antes de comprometerse | Alta | Alta |
+| Negociar condiciones y fechas del alquiler con el propietario | Media | Alta |
+| Coordinar la llegada del equipo a la obra o campamento | Media | Alta |
+| Supervisar el estado técnico del equipo durante la operación | Alta | Alta |
+| Reportar incidencias técnicas al propietario durante el alquiler | Media | Alta |
+| Registrar las horas de uso acumuladas del equipo en el proyecto | Alta | Media |
+| Coordinar la devolución del equipo al cierre del contrato | Media | Alta |
+| Evaluar el desempeño del proveedor para futuras contrataciones | Baja | Media |
 
 ### 2.3.3. User Journey Mapping
 
-#### Segmento 1: Distribuidores de Maquinaria Pesada
+Esta sección presenta los User Journey Maps para cada User Persona, describiendo el recorrido actual (As-Is) de cada segmento para resolver su necesidad principal sin la existencia de MineTrack. El objetivo es evidenciar los puntos de fricción y oportunidades de mejora que la plataforma busca resolver.
 
+**Segmento 1: Propietarios de Maquinaria Pesada**
 
+<img width="1541" height="1209" alt="User Journey Map - Propietario de Maquinaria Pesada" src="https://github.com/user-attachments/assets/0a9a16a5-aa7b-4591-836c-3386176e33b7" />
 
-<img width="1541" height="1209" alt="Customer journey map 1" src="https://github.com/user-attachments/assets/0a9a16a5-aa7b-4591-836c-3386176e33b7" />
+**Segmento 2: Empresas Mineras y Constructoras (Clientes)**
 
-
-#### Segmento 2 : Jefes de mantenimiento
-​
-<img width="1307" height="1248" alt="Customer journey map 2" src="https://github.com/user-attachments/assets/2bd083d6-2962-4bfa-a58f-2a9681b646e5" />
-
+<img width="1307" height="1248" alt="User Journey Map - Empresa Minera y Constructora" src="https://github.com/user-attachments/assets/2bd083d6-2962-4bfa-a58f-2a9681b646e5" />
 
 ### 2.3.4. Empathy Mapping
 
-#### Segmento 1: Distribuidores de Maquinaria Pesada
-​<img width="1050" height="1378" alt="Empathy map1" src="https://github.com/user-attachments/assets/54704d77-cce1-44e3-bc18-898d6899a31c" />
+Los Empathy Maps sintetizan la perspectiva de cada User Persona respondiendo las preguntas clave del proceso de empatía: qué piensa y siente, qué escucha, qué ve, qué dice y hace, y cuáles son sus principales frustraciones (Pains) y motivaciones (Gains). Los mapas se construyeron a partir de la información recolectada en las entrevistas.
 
+**Segmento 1: Propietarios de Maquinaria Pesada**
 
-#### Segmento 1: jefe de mantenimiento
-<img width="1050" height="1378" alt="Empathy map2" src="https://github.com/user-attachments/assets/2ed1bf5b-f6d1-4973-b7a8-a4d901790636" />
+<img width="1050" height="1378" alt="Empathy Map - Propietario de Maquinaria Pesada" src="https://github.com/user-attachments/assets/54704d77-cce1-44e3-bc18-898d6899a31c" />
 
+**Segmento 2: Empresas Mineras y Constructoras (Clientes)**
 
+<img width="1050" height="1378" alt="Empathy Map - Empresa Minera y Constructora" src="https://github.com/user-attachments/assets/2ed1bf5b-f6d1-4973-b7a8-a4d901790636" />
 
+---
 
-​ 
-### 2.4. Big Picture EventStorming
+## 2.4. Big Picture EventStorming
 
-<img width="1638" height="795" alt="image" src="https://github.com/user-attachments/assets/02ccbd56-990b-41a3-b12b-10099dac40d9" />
+El equipo realizó una sesión colaborativa de Big Picture EventStorming para identificar los eventos de dominio más relevantes del marketplace de alquiler de maquinaria pesada, explorar el flujo completo del negocio y determinar los bounded contexts que estructuran la arquitectura del sistema.
 
+Durante la sesión se modelaron los eventos significativos del ciclo de vida de un alquiler —desde que un Propietario publica una máquina hasta que el Intermediario cierra el contrato y genera el resumen de facturación— identificando los actores involucrados (Propietario, Cliente, Intermediario, Sistema IoT), los comandos que disparan cada evento, y las políticas de negocio que los gobiernan. Como resultado se identificaron cuatro bounded contexts principales: **IAM** (gestión de identidad y acceso), **Machinery** (catálogo y estado de la flota), **Rentals** (proceso de alquiler) y **Telemetry** (monitoreo IoT).
 
-### 2.5. Ubiquitous Language
+<img width="1638" height="795" alt="Big Picture EventStorming - MineTrack" src="https://github.com/user-attachments/assets/02ccbd56-990b-41a3-b12b-10099dac40d9" />
 
+---
 
+## 2.5. Ubiquitous Language
+
+El siguiente glosario define los términos y conceptos del dominio de negocio de MineTrack sin ambigüedad. Mantener este vocabulario compartido permite que todos los miembros del equipo y los stakeholders se comuniquen con precisión sobre el dominio del problema y la solución. Los términos se presentan en inglés, que es el idioma utilizado en el código fuente y la arquitectura del sistema.
 
 | Term (EN) | Definición (ES) |
 | :--- | :--- |
-| **Distributor (Distribuidor)** | Empresa o usuario responsable de la venta de maquinaria pesada y la gestión de garantías post-venta en la plataforma. |
-| **Asset (Activo / Maquinaria)** | Unidad física de maquinaria pesada (excavadora, camión minero, etc.) que es monitoreada por el sistema. |
-| **IoT Sensor (Sensor IoT)** | Dispositivo de hardware instalado en la maquinaria que captura datos físicos como temperatura, vibración y presión. |
-| **Telemetry (Telemetría)** | Proceso de medición y transmisión de datos técnicos en tiempo real desde los sensores de la maquinaria hacia la nube de MineTrack. |
-| **Downtime (Tiempo de inactividad)** | Periodo en el cual una máquina no está operativa debido a una falla técnica o mantenimiento no programado. |
-| **Threshold (Umbral)** | Límite numérico pre-configurado (ej. 90°C) que, al ser superado por un sensor, dispara automáticamente una alerta en el sistema. |
-| **Warranty (Garantía)** | Periodo de cobertura técnica brindado por el distribuidor sobre un activo vendido, gestionado digitalmente en la app. |
-| **Health Score (Puntaje de Salud)** | Indicador algorítmico (0-100) que representa el estado general de funcionamiento de una máquina basado en sus alertas recientes. |
-| **Maintenance Lead (Jefe de Mantenimiento)** | Usuario encargado de supervisar la flota técnica, recibir alertas críticas y asignar técnicos para reparaciones preventivas. |
-| **Fleet Dashboard (Panel de Flota)** | Vista consolidada que permite visualizar la ubicación y el estado de salud de todos los activos pertenecientes a una organización. |
-
-​ 
-
-​​ 
-
-​ 
-
-​​ 
-
-​ 
-
-​
-​ 
-
-​
-
-
-
-
-
+| **Owner (Propietario)** | Empresa o usuario que posee maquinaria pesada y la publica en MineTrack para generar ingresos por arrendamiento sin asumir la carga operativa de gestionar contratos manualmente. |
+| **Client (Cliente)** | Empresa minera o constructora que accede al catálogo de MineTrack para solicitar el alquiler de maquinaria pesada por proyecto o temporada sin necesidad de adquirirla. |
+| **Intermediary (Intermediario)** | Rol operativo de la plataforma MineTrack encargado de revisar y aprobar o rechazar las solicitudes de alquiler, supervisar la flota activa y gestionar la facturación. |
+| **Machine (Máquina)** | Unidad física de maquinaria pesada (excavadora, cargador frontal, volquete, perforadora, tractor, etc.) registrada por un Propietario en el catálogo de MineTrack con sus datos técnicos, fotos y tarifa por hora. |
+| **Rental Request (Solicitud de Alquiler)** | Petición formal enviada por un Cliente al sistema para arrendar una máquina específica en un rango de fechas determinado, que queda en estado Pendiente hasta que el Intermediario la aprueba o rechaza. |
+| **Rental (Alquiler)** | Contrato de arrendamiento activo generado tras la aprobación de una Solicitud de Alquiler, que registra la máquina, el Cliente, el Propietario, las fechas y las horas de uso acumuladas. |
+| **Fleet (Flota)** | Conjunto de máquinas registradas por un Propietario en la plataforma, con sus respectivos estados (Disponible, Alquilada, En Mantenimiento). |
+| **Machine Status (Estado de Máquina)** | Condición operativa actual de una máquina dentro de la plataforma: Available (Disponible), Rented (Alquilada) o UnderMaintenance (En Mantenimiento). |
+| **Asset (Activo)** | Término genérico que refiere a cualquier unidad de maquinaria pesada como bien de capital de alto valor registrado en el sistema. |
+| **IoT Sensor (Sensor IoT)** | Dispositivo de hardware instalado en la maquinaria que captura y transmite datos físicos en tiempo real como temperatura del motor, vibración mecánica y presión hidráulica. |
+| **Telemetry (Telemetría)** | Proceso de medición y transmisión de datos técnicos en tiempo real desde los sensores instalados en la maquinaria hacia la plataforma MineTrack. |
+| **Threshold (Umbral)** | Límite numérico configurado para un sensor (ej. 90°C de temperatura) que, al ser superado, dispara automáticamente una alerta en el sistema. |
+| **Downtime (Tiempo de inactividad)** | Período en el cual una máquina no está operativa debido a una falla técnica o mantenimiento no programado, con impacto económico directo para el Cliente arrendatario. |
+| **Health Score (Puntaje de Salud)** | Indicador que representa el estado general de funcionamiento de una máquina basado en sus lecturas de sensores y alertas recientes. |
+| **Fleet Dashboard (Panel de Flota)** | Vista consolidada que permite al Propietario o al Intermediario visualizar el estado de todos los activos registrados, los alquileres activos y las métricas operativas clave. |
