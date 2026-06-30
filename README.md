@@ -1,38 +1,65 @@
-![alt text](Resources/caratula/Banner-UPC.png)
+<p align="center">
+  <img src="./Resources/caratula/UPC-logo.png" alt="Logo UPC" width="120"/>
+</p>
 
-<div align= "center">
+<p align="center">Universidad Peruana de Ciencias Aplicadas</p>
 
-<h1 style="text-align: center;">Universidad Peruana de Ciencias Aplicadas</h1><br>
+<p align="center">Carrera de Ingeniería de Software</p>
 
-<h3 style="text-align: center; font-weight: normal; font-size: 22px; margin-top: 0;">
-  Ingeniería de Software – 202610
-</h3><br><br>
+<br>
 
-<p align="center"><strong>Curso: Aplcaciones Web</strong> Aplicaciones Web</p>
+<p align="center"><strong>1ASI0730</strong></p>
 
-<p align="center"><strong>NRC: 2610</strong> </p>
+<p align="center"><strong>Aplicaciones Web</strong></p>
 
-<p align="center"><strong>Profesor: Angel Augusto Velasquez Nuñez</strong> </p>
+<p align="center">NRC</p>
 
-<p align="center"><strong>StartUp: Brainstorm</strong> </p>
+<p align="center"><strong>10215</strong></p>
 
-<p align="center"><strong>Producto:</strong> MineTrack</p><br><br>
+<br>
 
-<h2 style="text-align: center; font-size: 24px; margin-top: 30px;">
-  <strong>Informe de Trabajo Final</strong>
-</h2>
+<p align="center"><strong>Informe del Trabajo Final</strong></p>
 
-## Integrantes
+<br>
 
-| Código     | Nombre                             | Rol                             |
-| ---------- | ---------------------------------- | ------------------------------- |
-| U20XXXXXXX | Sanchez Arenas, Zahir Emmanuel     | Team Leader                     |
-| U20XXXXXXX | Mendoza Machoa, Lionel             | Backend Engineer                |
-| U202320574 | Meza Huanacune, Juan José          | Frontend Engineer               |
-| U201916755 | Aiquipa Poma, Sebastian Andres     | UI/UX Designer                  |
-| U20XXXXXXX | Figueroa Sanchez, Alvaro Sebastian | IoT & Data Integration Engineer |
-| U20XXXXXXX | Molina Umeres, Nestor              | Full Stack Engineer             |
+<p align="center">Docente</p>
 
+<p align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+
+<br>
+
+<p align="center">Equipo</p>
+
+<p align="center"><strong>BrainStorm</strong></p>
+
+<br>
+
+<p align="center">Proyecto</p>
+
+<p align="center"><strong>MineTrack</strong></p>
+
+<br>
+
+<p align="center"><strong>Integrantes</strong></p>
+
+<div align="center">
+
+| **Código** | **Apellidos y Nombres** |
+| :--- | :--- |
+| U202315324 | Sanchez Arenas, Zahir Emmanuel |
+| U202417433 | Mendoza Machoa, Lionel |
+| U202320574 | Meza Huanacune, Juan José |
+| U201916755 | Aiquipa Poma, Sebastian Andres |
+| U20231A269 | Figueroa Sanchez, Alvaro |
+| U202317631 | Molina Umeres, Nestor Marcial |
+
+</div>
+
+<br>
+
+<p align="center"><strong>Período 202610</strong></p>
+
+<p align="center"><strong>Junio 2026</strong></p>
 </div>
 
 ## Registro de Versiones del Informe
