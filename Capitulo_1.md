@@ -53,26 +53,15 @@ La siguiente tabla presenta el análisis de antecedentes y problemática mediant
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual del mercado de alquiler de maquinaria pesada en el Perú se caracteriza por su alta informalidad y fragmentación. Los Propietarios de equipos no cuentan con un canal digital estructurado para publicar su disponibilidad, gestionar solicitudes de alquiler y monitorear el estado de sus activos durante el arrendamiento. Las empresas mineras y constructoras que necesitan maquinaria alquilada tampoco disponen de un marketplace confiable que centralice la oferta, estandarice condiciones y les dé visibilidad técnica sobre los equipos disponibles. Esta situación genera pérdidas de ingresos para los propietarios por equipos ociosos, y sobrecostos operativos para los clientes por tiempos muertos y fallas imprevistas.
+#### 1.2.2.1. Lean UX Problem Statements
 
-Nuestra solución, MineTrack, busca resolver este problema siendo el marketplace B2B de referencia para el alquiler de maquinaria pesada en el sector minero peruano, integrando catálogo, proceso de solicitud y aprobación, contratos digitales y monitoreo IoT en un solo entorno. Sabremos que hemos tenido éxito cuando los Propietarios logren reducir el tiempo de ociosidad de su flota en al menos un 30% y los Clientes puedan acceder y contratar maquinaria verificada en menos de 48 horas desde la solicitud.
+El estado actual del mercado de alquiler de maquinaria pesada en el Perú se ha centrado principalmente en canales informales (redes de contactos personales, WhatsApp y acuerdos verbales), dejando a los Propietarios de maquinaria con flotas inactivas sin un canal formal para arrendar sus equipos, y a las empresas mineras y constructoras (Clientes) con un acceso lento y riesgoso a maquinaria no verificada técnicamente.
 
-**Domain:** Marketplace digital para el alquiler de maquinaria pesada en el sector minero y de construcción.
+Lo que los productos y servicios existentes no logran resolver es la ausencia de un marketplace digital unificado que combine el flujo transaccional completo del alquiler (catálogo, solicitud, aprobación, contrato) con el monitoreo IoT en tiempo real del activo arrendado durante el periodo de uso.
 
-**Customer Segments:**
-- **Propietarios de maquinaria pesada:** Empresas contratistas e independientes con activos de alto valor (excavadoras, volquetes, cargadores frontales, perforadoras) que buscan monetizar sus equipos arrendándolos sin asumir la carga operativa de gestionar contratos y seguimiento.
-- **Clientes / Empresas mineras y constructoras:** Organizaciones que necesitan maquinaria pesada por proyecto o temporada sin necesidad de adquirirla, buscando acceso rápido a equipos verificados y condiciones contractuales transparentes.
+Nuestro producto, MineTrack, abordará esta brecha siendo el marketplace B2B de referencia para el alquiler de maquinaria pesada en el sector minero peruano, conectando Propietarios y Clientes a través de un proceso digital formalizado con telemetría integrada que protege a ambas partes durante el arrendamiento.
 
-**Current State & Pain Points:**
-Los Propietarios gestionan sus alquileres a través de contactos personales y WhatsApp, sin trazabilidad contractual ni visibilidad del estado de sus máquinas durante el arrendamiento. Los Clientes buscan maquinaria a través de redes informales sin poder verificar el estado técnico real de los equipos, asumiendo el riesgo de encontrarse con maquinaria en condiciones deficientes al llegar a obra. Ninguno de los dos actores cuenta con herramientas digitales que centralicen la información, formalicen los acuerdos y permitan el monitoreo técnico del activo durante el periodo de alquiler.
-
-**Gap & Opportunity:**
-No existe en el mercado peruano un marketplace vertical especializado en maquinaria pesada que combine el flujo comercial del alquiler (catálogo, solicitud, aprobación, contrato) con la capa técnica de monitoreo IoT (telemetría de temperatura, vibración y presión). MineTrack identifica esta brecha como la oportunidad central del negocio.
-
-**Vision & Strategy:**
-MineTrack será la plataforma de referencia que formalice y digitalice el mercado de alquiler de maquinaria pesada en el Perú. El modelo de negocio se basa en comisiones por alquiler completado (B2B SaaS transaccional), con un diferenciador técnico claro: la capa de telemetría IoT que protege tanto al Propietario (evidencia del uso correcto del activo) como al Cliente (detección temprana de fallas durante la operación).
-
-**Initial Segment:** Propietarios de maquinaria pesada con flota disponible para arrendar y empresas mineras o constructoras de mediana escala en Lima con operaciones en provincias.
+Nuestro enfoque inicial será en Propietarios de maquinaria pesada con flota disponible para arrendar en Lima con operaciones en provincias, y empresas mineras y constructoras de mediana escala que necesitan equipos por proyecto sin adquirirlos.
 
 ---
 
@@ -98,7 +87,7 @@ MineTrack será la plataforma de referencia que formalice y digitalice el mercad
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-1. **Hipótesis de Disponibilidad de Flota:** Creemos que **reduciremos el tiempo de ociosidad de la flota de Propietarios en un 30%** si los **Propietarios** logran **publicar sus máquinas disponibles y recibir solicitudes de alquiler formalizadas** mediante el **Catálogo público y el módulo de gestión de solicitudes de MineTrack**.
+1. **Hipótesis de Disponibilidad de Flota:** Creemos que **reduciremos el tiempo de inactividad de la flota de Propietarios en un 30%** si los **Propietarios** logran **publicar sus máquinas disponibles y recibir solicitudes de alquiler formalizadas** mediante el **Catálogo público y el módulo de gestión de solicitudes de MineTrack**.
 
 2. **Hipótesis de Acceso a Maquinaria:** Creemos que **los Clientes podrán contratar maquinaria verificada en menos de 48 horas** si los **Clientes** logran **filtrar el catálogo, consultar el estado técnico de cada equipo y enviar una solicitud de alquiler formal** mediante el **Catálogo de Máquinas con filtros y el flujo de Solicitud de Alquiler de MineTrack**.
 
@@ -112,7 +101,7 @@ MineTrack será la plataforma de referencia que formalice y digitalice el mercad
 
 <img width="1920" height="1080" alt="Lean UX Canvas MineTrack v2.0" src="https://github.com/user-attachments/assets/9bed3729-8216-4ea4-9186-2d9073980245" />
 
-> **Nota para TB2:** Actualizar la imagen del Lean UX Canvas para reflejar el modelo de marketplace de alquiler, con los segmentos Propietario y Cliente, las hipótesis revisadas y los criterios de éxito actualizados.
+<!-- > **Nota para TB2:** Actualizar la imagen del Lean UX Canvas para reflejar el modelo de marketplace de alquiler, con los segmentos Propietario y Cliente, las hipótesis revisadas y los criterios de éxito actualizados. -->
 
 ---
 
@@ -139,7 +128,7 @@ Este segmento comprende a empresas contratistas e independientes que poseen acti
 
 ---
 
-### 1.3.2. Segmento 2: Empresas Mineras y Constructoras (Clientes)
+### 1.3.2. Segmento 2: Empresas Mineras y Constructoras
 
 Este segmento comprende a las empresas mineras y constructoras de mediana escala que necesitan maquinaria pesada para la ejecución de proyectos específicos, sin necesidad —ni capacidad financiera inmediata— de adquirirla. Son organizaciones con operaciones en campo que requieren acceso rápido a equipos verificados, condiciones contractuales claras y visibilidad técnica del activo durante el periodo de uso.
 
