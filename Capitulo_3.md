@@ -60,7 +60,7 @@ Las User Stories cubren tres productos digitales del alcance: la **Landing Page*
 
 El siguiente Impact Map presenta los Business Goals de MineTrack para el ciclo 2026-1, identificando los actores clave (User Personas) que contribuyen a cada meta, los comportamientos que se espera generar en ellos (Impacts) y las funcionalidades entregables que provocan esos comportamientos (Deliverables), vinculadas con las User Stories especificadas en la sección 3.1.
 
-> **Nota para TB2:** Actualizar la imagen del Impact Map en la herramienta (Miro/Lucidspark) para reflejar los Business Goals del modelo de alquiler con los segmentos Propietario y Cliente. Business Goals propuestos: (1) Alcanzar 20 Propietarios registrados con al menos una máquina publicada en los primeros 3 meses. (2) Lograr que el 70% de las solicitudes de alquiler sean procesadas en menos de 48 horas. (3) Que el 80% de los Clientes que soliciten alquiler completen al menos una transacción en su primer mes de uso.
+<!-- > **Nota para TB2:** Actualizar la imagen del Impact Map en la herramienta (Miro/Lucidspark) para reflejar los Business Goals del modelo de alquiler con los segmentos Propietario y Cliente. Business Goals propuestos: (1) Alcanzar 20 Propietarios registrados con al menos una máquina publicada en los primeros 3 meses. (2) Lograr que el 70% de las solicitudes de alquiler sean procesadas en menos de 48 horas. (3) Que el 80% de los Clientes que soliciten alquiler completen al menos una transacción en su primer mes de uso. -->
 
 <img width="1240" height="2079" alt="Impact Map MineTrack" src="https://github.com/user-attachments/assets/294b74ff-49ef-455b-a684-7191b382f870" />
 
@@ -70,7 +70,7 @@ El siguiente Impact Map presenta los Business Goals de MineTrack para el ciclo 2
 
 El Product Backlog se presenta ordenado por valor de negocio, priorizando las funcionalidades que permiten a los segmentos objetivo realizar las tareas centrales del marketplace. Las User Stories de Landing Page se incluyen desde el primer sprint. Las Technical Stories de la API REST se agrupan al final como habilitadoras de las User Stories de la Web Application.
 
-> **Referencia del tablero:** https://trello.com/b/aP44UAmY/minetrack-sprint-3 *(Actualizar a URL del Product Backlog general en TB2)*
+<!-- > **Referencia del tablero:** https://trello.com/b/aP44UAmY/minetrack-sprint-3 *(Actualizar a URL del Product Backlog general en TB2)* -->
 
 | # Orden | Story ID | Título | Descripción | Story Points |
 | :--- | :--- | :--- | :--- | :--- |
