@@ -64,15 +64,47 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                                                                                                                               | Descripción                                                                                                                                                                                                                                |
-| ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 0.1.0   | 2026-04-20 | - Sanchez Arenas, Zahir Emmanuel <br> - Mendoza Machoa, Lionel <br> - Meza Huanacuna, Juan José <br> - Aliquipa Poma, Sebastian Andres <br> - Figueroa Sanchez, Alvaro <br> - Molina Umeres, Nestor | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria. |
+| Versión | Fecha | Autor | Descripción |
+|---|---|---|---|
+| **0.1.0** | 2026-04-20 | Todos los integrantes | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo, propuesta de solución y la documentación correspondiente al Sprint 1. Se implementó y desplegó la primera versión del Landing Page. |
+| **0.2.0** | 2026-05-11 | Todos los integrantes | Se actualizó el informe incorporando las mejoras derivadas de la retroalimentación recibida durante AV1. Se añadieron los artefactos y evidencias correspondientes al Sprint 2, incluyendo la primera versión del Frontend Web Application, una nueva versión del Landing Page, la actualización del Student Outcome, Project Report Collaboration Insights y el Registro de Versiones, además de la documentación de implementación, despliegue y colaboración del equipo. |
+| **0.3.0** | 2026-06-18 | Todos los integrantes | Se realizó una actualización integral del informe incorporando el Sprint 3 y la primera versión de los Web Services. Se documentaron las entrevistas de validación, la evaluación heurística, el Video About-the-Product y el Video About-the-Team, además de nuevas evidencias de implementación, despliegue y colaboración. Asimismo, se actualizaron los artefactos previamente presentados, el Landing Page, la Web Application y las secciones acumulativas del informe. |
+
+---
 
 ## Project Report Collaboration Insights
 
-## AV1
+### AV1
+
+Durante el Sprint 1 el equipo organizó las actividades iniciales del proyecto utilizando GitHub Projects. Se definieron las tareas principales relacionadas con la planificación, el desarrollo de la primera versión del Landing Page y la documentación inicial.
+
+<p align="center">
+  <img src="Resources/AV1.jpeg" alt="Project Report Collaboration Insights - AV1" width="900">
+</p>
+
+---
+
+### TB1
+
+Durante el Sprint 2 se actualizó el tablero del proyecto para incorporar las actividades del Frontend Web Application y la nueva versión del Landing Page. Esto permitió hacer seguimiento al avance del equipo y cumplir con los entregables del trabajo parcial.
+
+<p align="center">
+  <img src="Resources/TB1.jpeg" alt="Project Report Collaboration Insights - TB1" width="900">
+</p>
+
+---
+
+### AV2
+
+Durante el Sprint 3 el tablero fue actualizado con las actividades relacionadas con Web Services, entrevistas de validación, videos del proyecto y mejoras de la aplicación web.
+
+<p align="center">
+  <img src="Resources/AV2.jpeg" alt="Project Report Collaboration Insights - AV2" width="900">
+</p>
 
 <div style="page-break-after: always;"></div>
+
+---
 
 # Tabla de contenidos
 
