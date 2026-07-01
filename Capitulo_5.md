@@ -921,9 +921,19 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 
 ## Conclusiones
 
-- La implementación del Sprint 1 mediante la metodología Scrum permitió organizar el desarrollo de la Landing Page de MineTrack con objetivos claros, backlog priorizado y roles definidos, lo que facilitó el cumplimiento del Sprint Goal y el despliegue público del producto.
-- La estrategia de separar los productos digitales en repositorios independientes (Landing Page, Frontend Web App, Project Report) demostró ser eficaz para soportar el trabajo paralelo del equipo y simplificar los pipelines de deployment.
-- El trabajo colaborativo del equipo, apoyado en GitHub, Trello y la correcta asignación de responsabilidades vía LACX, permitió mantener un flujo de desarrollo ordenado, cumpliendo con el Student Outcome 5 de la rúbrica ABET.
+## Conclusiones
+
+A partir del desarrollo y análisis integral del proyecto **MineTrack**, se establecen las siguientes conclusiones fundamentales que validan la viabilidad y el impacto de la plataforma:
+
+1. **Resolución de una Brecha Crítica en el Mercado:** La investigación de mercado y las entrevistas a usuarios evidencian una desconexión significativa entre los propietarios de maquinaria pesada subutilizada y las empresas constructoras o mineras con necesidades temporales de equipos[cite: 4]. MineTrack se consolida como una solución de economía colaborativa B2B (Business-to-Business) que optimiza el uso de activos de alto valor, transformando costos hundidos en nuevas líneas de ingresos para los arrendadores y ofreciendo flexibilidad operativa a los arrendatarios[cite: 4].
+
+2. **Integración de IoT como Diferenciador Estratégico:** A diferencia de los modelos tradicionales de alquiler, la implementación de tecnología IoT (Internet of Things) para la telemetría en tiempo real constituye la ventaja competitiva central de MineTrack[cite: 4]. La capacidad de monitorear horas de uso, consumo de combustible, ubicación GPS y alertas de mantenimiento preventivo no solo garantiza la transparencia y seguridad de los activos, sino que también permite un modelo de facturación dinámico basado en el uso real ("Pay-as-you-go"), reduciendo fricciones entre las partes[cite: 4].
+
+3. **Arquitectura Escalable y Robusta:** El diseño técnico bajo una arquitectura respaldada por *Domain-Driven Design* (DDD) garantiza que la plataforma pueda escalar horizontalmente[cite: 4]. La clara separación de *Bounded Contexts* (IAM, Catalog, Rentals, IoT, Reviews) permite que el sistema maneje volúmenes crecientes de transacciones, perfiles de usuario y datos telemétricos sin comprometer el rendimiento ni la integridad de la información[cite: 4].
+
+4. **Experiencia de Usuario (UX) Centrada en la Confianza:** El desarrollo de la interfaz a través de metodologías ágiles y *Design Thinking* ha dado como resultado una plataforma intuitiva[cite: 4]. La inclusión de perfiles verificados, un sistema de calificaciones cruzadas (Reviews) y pasarelas de pago seguras aborda la principal preocupación de los usuarios: la confianza y la seguridad al transaccionar con equipos de alto valor monetario[cite: 4].
+
+5. **Viabilidad Comercial a Corto y Mediano Plazo:** El análisis preliminar, apoyado en la validación del *Lean UX* y los *User Journeys*, confirma que existe una disposición a pagar por parte del segmento *Early Adopter*[cite: 4]. Esto perfila a MineTrack como una *startup* con alto potencial de penetración en el mercado de construcción y minería, con un modelo de ingresos escalable basado en comisiones por transacción y suscripciones premium para análisis avanzados de flota[cite: 4].
                                                                               
 ## Bibliografía
 
