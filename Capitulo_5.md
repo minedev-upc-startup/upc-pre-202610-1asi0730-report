@@ -944,6 +944,36 @@ A partir del desarrollo y análisis integral del proyecto **MineTrack**, se esta
 - Pressman, R. S., & Maxim, B. R. (2020). _Software engineering: A practitioner's approach_ (9th ed.). McGraw-Hill.
 - Sommerville, I. (2016). _Software engineering_ (10th ed.). Pearson.
 
+### Tecnologías Frontend (Vue.js, Pinia, Axios)
+1. You, E. (2024). *Vue.js: The Progressive JavaScript Framework*. Vue.js Official Documentation. https://vuejs.org/guide/introduction.html
+2. Posva, E. (2024). *Pinia: The intuitive store for Vue.js*. Pinia Official Documentation. https://pinia.vuejs.org/
+3. Zabriskie, M. (2024). *Axios: Promise based HTTP client for the browser and node.js*. Axios Docs. https://axios-http.com/docs/intro
+4. Mozilla Developer Network [MDN]. (2024). *JavaScript modules*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+### Tecnologías Backend y Base de Datos (.NET, C#, MySQL)
+5. Microsoft. (2024). *Introducción a ASP.NET Core*. Microsoft Learn. https://learn.microsoft.com/es-es/aspnet/core/introduction-to-aspnet-core
+6. Microsoft. (2024). *Información general sobre Entity Framework Core*. Microsoft Learn. https://learn.microsoft.com/es-es/ef/core/
+7. Oracle. (2024). *MySQL 8.0 Reference Manual*. MySQL Documentation. https://dev.mysql.com/doc/refman/8.0/en/
+8. SmartBear Software. (2024). *OpenAPI Specification*. Swagger. https://swagger.io/specification/
+9. Bradley, J., Natarajan, N., Sakimura, N., & Jones, M. (2015). *JSON Web Token (JWT)*. Internet Engineering Task Force (IETF). https://datatracker.ietf.org/doc/html/rfc7519
+
+### Arquitectura de Software y Patrones (DDD, CQRS, REST)
+10. Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional. https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
+11. Martin, R. C. (2017). *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall. https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/
+12. Fowler, M. (2011). *CQRS*. MartinFowler.com. https://martinfowler.com/bliki/CQRS.html
+13. Newman, S. (2015). *Building Microservices: Designing Fine-Grained Systems*. O'Reilly Media. https://www.oreilly.com/library/view/building-microservices/9781491950340/
+14. Fielding, R. T. (2000). *Architectural Styles and the Design of Network-based Software Architectures* [Disertación doctoral, University of California, Irvine]. https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+
+### Metodologías Ágiles y Experiencia de Usuario (Scrum, Lean UX)
+15. Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/scrum-guide.html
+16. Beck, K., Beedle, M., van Bennekum, A., Cockburn, A., Cunningham, W., Fowler, M., ... & Thomas, D. (2001). *Manifesto for Agile Software Development*. Agile Alliance. https://agilemanifesto.org/
+17. Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing Great Products with Agile Teams* (2da ed.). O'Reilly Media. https://www.oreilly.com/library/view/lean-ux-2nd/9781491953594/
+18. Brown, T. (2008). Design Thinking. *Harvard Business Review*. https://hbr.org/2008/06/design-thinking
+
+### IoT y Modelos de Negocio (B2B, Economía Colaborativa)
+19. Greengard, S. (2015). *The Internet of Things*. MIT Press. https://mitpress.mit.edu/9780262527736/the-internet-of-things/
+20. Botsman, R., & Rogers, R. (2010). *What's Mine Is Yours: The Rise of Collaborative Consumption*. HarperBusiness. https://www.harpercollins.com/products/whats-mine-is-yours-rachel-botsmanroo-rogers
+
 ## Anexos
 
 - **Landing Page (deployed):** https://minedev-upc-startup.github.io/landing-page/
