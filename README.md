@@ -64,9 +64,11 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                                                                                                                               | Descripción                                                                                                                                                                                                                                |
-| ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 0.1.0   | 2026-04-20 | - Sanchez Arenas, Zahir Emmanuel <br> - Mendoza Machoa, Lionel <br> - Meza Huanacuna, Juan José <br> - Aliquipa Poma, Sebastian Andres <br> - Figueroa Sanchez, Alvaro <br> - Molina Umeres, Nestor | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo y propuesta de solución basada en monitoreo IoT para maquinaria. |
+| Versión | Fecha | Autor | Descripción |
+|---|---|---|---|
+| **0.1.0** | 2026-04-20 | Todos los integrantes | Primera versión del informe del proyecto MineTrack. Se definió la estructura general del documento, incluyendo la introducción, análisis del problema, segmentos objetivo, propuesta de solución y la documentación correspondiente al Sprint 1. Se implementó y desplegó la primera versión del Landing Page. |
+| **0.2.0** | 2026-05-11 | Todos los integrantes | Se actualizó el informe incorporando las mejoras derivadas de la retroalimentación recibida durante AV1. Se añadieron los artefactos y evidencias correspondientes al Sprint 2, incluyendo la primera versión del Frontend Web Application, una nueva versión del Landing Page, la actualización del Student Outcome, Project Report Collaboration Insights y el Registro de Versiones, además de la documentación de implementación, despliegue y colaboración del equipo. |
+| **0.3.0** | 2026-06-18 | Todos los integrantes | Se realizó una actualización integral del informe incorporando el Sprint 3 y la primera versión de los Web Services. Se documentaron las entrevistas de validación, la evaluación heurística, el Video About-the-Product y el Video About-the-Team, además de nuevas evidencias de implementación, despliegue y colaboración. Asimismo, se actualizaron los artefactos previamente presentados, el Landing Page, la Web Application y las secciones acumulativas del informe. |
 
 ## Project Report Collaboration Insights
 
