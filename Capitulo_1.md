@@ -69,23 +69,33 @@ El enfoque inicial estará dirigido a propietarios de maquinaria pesada con flot
 
 ---
 
-#### 1.2.2.2. Lean UX Assumptions
+### 1.2.2.2. Lean UX Assumptions
 
-**Business Assumptions:**
+#### Business Assumptions
 
-1. Creemos que los Propietarios de maquinaria necesitan un canal digital para publicar su disponibilidad y recibir solicitudes de alquiler formales, eliminando la dependencia de contactos personales y acuerdos verbales.
-2. Creemos que las empresas mineras y constructoras están dispuestas a pagar una prima por acceder a maquinaria verificada con historial técnico disponible, reduciendo el riesgo de encontrarse con equipos en mal estado al inicio de un proyecto.
-3. Asumimos que la integración de telemetría IoT durante el periodo de alquiler será el diferenciador clave que justifique la adopción de MineTrack frente a canales informales, al brindar trazabilidad técnica objetiva a ambas partes.
-4. Asumimos que el modelo de comisión por alquiler completado (sin costo fijo inicial) reducirá la barrera de entrada para Propietarios con poca experiencia en plataformas digitales.
-5. Creemos que centralizar el catálogo, el proceso de solicitud y los contratos en una sola plataforma reducirá el tiempo promedio de cierre de un alquiler de semanas (proceso informal) a menos de 48 horas.
+1. Creemos que los Propietarios de maquinaria necesitan un canal digital para publicar la disponibilidad de sus equipos y recibir solicitudes de alquiler formales, reduciendo la dependencia de contactos personales y acuerdos verbales.
 
-**User Assumptions:**
+2. Creemos que las empresas mineras y constructoras están dispuestas a pagar por acceder a maquinaria verificada con historial técnico disponible, disminuyendo el riesgo de utilizar equipos en condiciones inadecuadas al inicio de un proyecto.
 
-1. Los Propietarios de maquinaria prefieren una plataforma donde ellos tengan control de qué equipos publicar, a qué tarifa y con qué condiciones, en lugar de ceder esa gestión a un intermediario.
-2. Los Clientes (jefes de operaciones y directores de obra) priorizan la confiabilidad técnica del equipo sobre el precio al tomar decisiones de alquiler, dado el alto costo de una parada no programada en operaciones mineras.
-3. Los Propietarios están dispuestos a compartir telemetría en tiempo real de sus equipos durante el arrendamiento como evidencia del uso correcto del activo por parte del Cliente.
-4. Los Clientes necesitan una interfaz clara que les muestre el estado de sus solicitudes de alquiler en tiempo real, sin tener que hacer seguimiento telefónico al Propietario o al operador logístico.
-5. Ambos segmentos tienen acceso a dispositivos desktop en sus entornos de trabajo habituales (oficinas, campamentos base), siendo la web el canal preferido frente a aplicaciones móviles nativas.
+3. Creemos que la integración de telemetría IoT durante el periodo de alquiler será un diferenciador clave que incrementará la confianza entre Propietarios y Clientes al proporcionar trazabilidad técnica en tiempo real.
+
+4. Creemos que un modelo de negocio basado en una comisión por alquiler completado, sin costos fijos iniciales, facilitará la adopción de la plataforma por parte de Propietarios con poca experiencia en soluciones digitales.
+
+5. Creemos que centralizar el catálogo, el proceso de solicitud, la aprobación y los contratos dentro de una única plataforma reducirá significativamente el tiempo necesario para completar un proceso de alquiler.
+
+---
+
+#### User Assumptions
+
+1. Creemos que los Propietarios prefieren una plataforma donde puedan administrar directamente qué equipos publicar, establecer tarifas y definir las condiciones de alquiler sin depender de intermediarios.
+
+2. Creemos que los Clientes priorizan la confiabilidad técnica, el historial de mantenimiento y el estado operativo de la maquinaria antes que el precio al momento de seleccionar un equipo para un proyecto.
+
+3. Creemos que los Propietarios están dispuestos a compartir la información de telemetría en tiempo real de sus equipos durante el periodo de alquiler como evidencia del uso adecuado del activo.
+
+4. Creemos que los Clientes necesitan una interfaz sencilla e intuitiva que les permita visualizar el estado de sus solicitudes y contratos en tiempo real, evitando la necesidad de realizar seguimiento mediante llamadas o mensajes.
+
+5. Creemos que tanto Propietarios como Clientes prefieren acceder a la plataforma mediante una aplicación web desde computadoras de escritorio durante sus actividades laborales, debido a que la mayor parte de la gestión del alquiler se realiza en oficinas o centros de operaciones.
 
 ---
 
