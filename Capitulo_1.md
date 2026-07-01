@@ -113,11 +113,21 @@ El enfoque inicial estará dirigido a propietarios de maquinaria pesada con flot
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img width="1920" height="1080" alt="Lean UX Canvas MineTrack v2.0" src="https://github.com/user-attachments/assets/9bed3729-8216-4ea4-9186-2d9073980245" />
+# Lean UX Canvas 
 
-<!-- > **Nota para TB2:** Actualizar la imagen del Lean UX Canvas para reflejar el modelo de marketplace de alquiler, con los segmentos Propietario y Cliente, las hipótesis revisadas y los criterios de éxito actualizados. -->
+**Proyecto:** MineTrack  
+**Fecha:** 13/05/2026
 
----
+| Sección | Contenido |
+|:---------|:----------|
+| **1. Problemas del negocio** | - El mercado de alquiler de maquinaria pesada opera principalmente mediante contactos personales, WhatsApp e intermediarios informales.<br><br>- Los propietarios no cuentan con un canal digital para publicar la disponibilidad de sus equipos y gestionar solicitudes de alquiler.<br><br>- Las empresas mineras y constructoras invierten demasiado tiempo en encontrar maquinaria disponible y verificar su estado técnico.<br><br>- No existe trazabilidad durante el período de alquiler ni monitoreo en tiempo real del estado de los equipos.<br><br>- La gestión de contratos y solicitudes continúa siendo manual y poco transparente. |
+| **2. Resultados comerciales** | - Incrementar la cantidad de alquileres realizados mediante la plataforma.<br><br>- Reducir el tiempo necesario para conectar propietarios con clientes.<br><br>- Incrementar la ocupación de la flota de los propietarios.<br><br>- Posicionar a MineTrack como el marketplace digital de referencia para el alquiler de maquinaria pesada.<br><br>- Generar ingresos mediante una comisión por alquiler exitoso. |
+| **3. Usuarios y clientes** | **Propietarios de maquinaria pesada:** Empresas contratistas e independientes que poseen maquinaria y desean alquilarla para maximizar la utilización de sus activos.<br><br>**Clientes:** Empresas mineras y constructoras que necesitan alquilar maquinaria pesada para proyectos específicos sin realizar una compra permanente. |
+| **4. Beneficios para el usuario** | **Para los Propietarios:**<br>- Mayor visibilidad de sus equipos.<br>- Gestión digital de solicitudes.<br>- Seguimiento del estado de sus activos durante el alquiler.<br><br>**Para los Clientes:**<br>- Catálogo centralizado de maquinaria.<br>- Equipos con historial técnico verificable.<br>- Solicitud de alquiler sencilla.<br>- Monitoreo IoT durante el período de alquiler. |
+| **5. Soluciones propuestas** | - Marketplace web para el alquiler de maquinaria pesada.<br>- Catálogo digital con filtros de búsqueda.<br>- Gestión de solicitudes y aprobación de alquileres.<br>- Administración de contratos digitales.<br>- Dashboard IoT para monitoreo de temperatura, vibración y presión hidráulica.<br>- Sistema de alertas preventivas basado en telemetría.<br>- Historial técnico de cada maquinaria. |
+| **6. Hipótesis** | - Reduciremos el tiempo de inactividad de la flota de los propietarios en un **30%** mediante la publicación digital de maquinaria disponible.<br><br>- Los clientes podrán alquilar maquinaria verificada en menos de **48 horas** utilizando el marketplace.<br><br>- El monitoreo IoT incrementará la confianza entre propietarios y clientes durante el período de alquiler.<br><br>- Las alertas preventivas reducirán el tiempo de inactividad no programado en un **20%**. |
+| **7. ¿Qué es lo más importante que debemos aprender primero?** | - ¿Los propietarios están dispuestos a migrar de procesos informales a una plataforma digital?<br><br>- ¿Las empresas mineras confiarán en un marketplace para alquilar maquinaria?<br><br>- ¿El monitoreo IoT representa un valor agregado suficiente para ambas partes?<br><br>- ¿El modelo basado en comisión por alquiler será aceptado por los usuarios? |
+| **8. ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para aprender lo siguiente más importante?** | - Desarrollar un MVP del marketplace.<br><br>- Implementar el catálogo de maquinaria y el flujo de solicitudes de alquiler.<br><br>- Integrar un dashboard básico de monitoreo IoT utilizando datos simulados.<br><br>- Validar el flujo completo con propietarios y clientes reales mediante pruebas de usabilidad y entrevistas. |
 
 ## 1.3. Segmentos objetivo
 
