@@ -919,7 +919,6 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 *   **Problema:** Dado que la plataforma soporta múltiples Bounded Contexts, al iniciar sesión, la barra superior (TopBar) no muestra de forma prominente si el usuario está conectado como "Owner" o "Maintenance", lo que puede confundir en cuentas de prueba o usuarios duales.
 *   **Recomendación:** Incluir una etiqueta tipo "Badge" junto al nombre del usuario en la esquina superior derecha que indique el rol actual (ej. `[Distribuidor]` o `[Taller]`).
 
-## Conclusiones
 
 ## Conclusiones
 
