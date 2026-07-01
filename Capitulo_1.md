@@ -49,19 +49,23 @@ La siguiente tabla presenta el análisis de antecedentes y problemática mediant
 
 ---
 
-### 1.2.2. Lean UX Process
+### 1.2.2.1. Lean UX Problem Statements
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### Problem Statement 1: Informalidad en el alquiler de maquinaria pesada
 
-#### 1.2.2.1. Lean UX Problem Statements
+El mercado actual de alquiler de maquinaria pesada en el Perú se gestiona principalmente mediante canales informales como redes de contactos, WhatsApp y acuerdos verbales. Esta situación afecta a propietarios de maquinaria pesada y a empresas mineras o constructoras, quienes enfrentan dificultades para publicar, encontrar, comparar y alquilar equipos de forma segura.
 
-El estado actual del mercado de alquiler de maquinaria pesada en el Perú se ha centrado principalmente en canales informales (redes de contactos personales, WhatsApp y acuerdos verbales), dejando a los Propietarios de maquinaria con flotas inactivas sin un canal formal para arrendar sus equipos, y a las empresas mineras y constructoras (Clientes) con un acceso lento y riesgoso a maquinaria no verificada técnicamente.
+#### Problem Statement 2: Falta de trazabilidad y monitoreo del activo arrendado
 
-Lo que los productos y servicios existentes no logran resolver es la ausencia de un marketplace digital unificado que combine el flujo transaccional completo del alquiler (catálogo, solicitud, aprobación, contrato) con el monitoreo IoT en tiempo real del activo arrendado durante el periodo de uso.
+Las soluciones existentes no integran un flujo transaccional completo con monitoreo IoT en tiempo real. Por ello, durante el periodo de alquiler, los propietarios tienen poca visibilidad sobre el estado, ubicación y uso de sus equipos, mientras que los clientes no cuentan con información técnica confiable del activo arrendado.
 
-Nuestro producto, MineTrack, abordará esta brecha siendo el marketplace B2B de referencia para el alquiler de maquinaria pesada en el sector minero peruano, conectando Propietarios y Clientes a través de un proceso digital formalizado con telemetría integrada que protege a ambas partes durante el arrendamiento.
+#### Problem Statement 3: Brecha que aborda MineTrack
 
-Nuestro enfoque inicial será en Propietarios de maquinaria pesada con flota disponible para arrendar en Lima con operaciones en provincias, y empresas mineras y constructoras de mediana escala que necesitan equipos por proyecto sin adquirirlos.
+MineTrack abordará esta brecha mediante un marketplace B2B para el alquiler de maquinaria pesada, integrando catálogo, solicitud, aprobación, contrato y monitoreo IoT. La solución conectará propietarios y clientes mediante un proceso digital formalizado que busca reducir riesgos, mejorar la confianza y facilitar la gestión del alquiler.
+
+#### Alcance inicial
+
+El enfoque inicial estará dirigido a propietarios de maquinaria pesada con flota disponible para arrendar en Lima y operaciones en provincias, así como a empresas mineras y constructoras de mediana escala que necesitan maquinaria por proyecto sin adquirirla.
 
 ---
 
