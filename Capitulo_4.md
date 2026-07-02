@@ -50,7 +50,7 @@ JetBrains Mono:
 
 El branding de MineTrack se diseñó para transmitir robustez industrial, precisión técnica y confiabilidad. El logo combina un hexágono (que representa una tuerca y una red de conexión) con un pin de ubicación inscrito en su interior, simbolizando la trazabilidad y el monitoreo de la flota. El uso del ámbar sobre el slate oscuro refleja el color característico de la maquinaria pesada minera.
 
-![MineTrack Logo](Resources/MIneTrack.jpg)
+![MineTrack Logo](Resources/logo-minetrack.png)
 
 ### **Espaciado**
 
