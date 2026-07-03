@@ -464,9 +464,11 @@ Durante el Sprint 2 se implementó y desplegó el Frontend Web Application de Mi
 <img width="1866" height="849" alt="Captura de pantalla 2026-07-02 205106" src="https://github.com/user-attachments/assets/436809d7-8d6d-48b1-a06f-d5564c1b2bdc" />
 
 
-![Machines](./Resources/sprint-2/my-machines.png)
+<img width="1893" height="855" alt="Captura de pantalla 2026-07-02 205136" src="https://github.com/user-attachments/assets/30c74205-0b00-421e-a366-f5d8e9f1d288" />
 
-![Catalog](./Resources/sprint-2/catalog.png)
+
+<img width="1890" height="857" alt="Captura de pantalla 2026-07-02 205203" src="https://github.com/user-attachments/assets/9799cb89-ddea-414e-a3bb-48d1305eeb28" />
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
