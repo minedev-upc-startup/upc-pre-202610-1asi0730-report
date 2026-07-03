@@ -16,29 +16,19 @@
 
 <p align="center"><strong>10215</strong></p>
 
-<br>
-
 <p align="center"><strong>Informe del Trabajo Final</strong></p>
-
-<br>
 
 <p align="center">Docente</p>
 
 <p align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></p>
 
-<br>
-
 <p align="center">Equipo</p>
 
 <p align="center"><strong>BrainStorm</strong></p>
 
-<br>
-
 <p align="center">Proyecto</p>
 
 <p align="center"><strong>MineTrack</strong></p>
-
-<br>
 
 <p align="center"><strong>Integrantes</strong></p>
 
@@ -54,8 +44,6 @@
 | U202317631 | Molina Umeres, Nestor Marcial |
 
 </div>
-
-<br>
 
 <p align="center"><strong>Período 202610</strong></p>
 
@@ -83,7 +71,7 @@
 Durante el Sprint 1 el equipo organizó las actividades iniciales del proyecto utilizando GitHub Projects. Se definieron las tareas principales relacionadas con la planificación, el desarrollo de la primera versión del Landing Page y la documentación inicial.
 
 <p align="center">
-  <img src="Resources/AV1.jpeg" alt="Project Report Collaboration Insights - AV1" width="900">
+  <img src="Resources/AV1.jpeg" alt="Project Report Collaboration Insights - AV1" width="450">
 </p>
 
 | **Integrante** | **Insight** |
@@ -96,13 +84,15 @@ Durante el Sprint 1 el equipo organizó las actividades iniciales del proyecto u
 | Molina Umeres, Nestor Marcial |  |
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ### TB1
 
 Durante el Sprint 2 se actualizó el tablero del proyecto para incorporar las actividades del Frontend Web Application y la nueva versión del Landing Page. Esto permitió hacer seguimiento al avance del equipo y cumplir con los entregables del trabajo parcial.
 
 <p align="center">
-  <img src="Resources/TB1.jpeg" alt="Project Report Collaboration Insights - TB1" width="900">
+  <img src="Resources/TB1.jpeg" alt="Project Report Collaboration Insights - TB1" width="450">
 </p>
 
 | **Integrante** | **Insight** |
@@ -116,12 +106,14 @@ Durante el Sprint 2 se actualizó el tablero del proyecto para incorporar las ac
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ### AV2
 
 Durante el Sprint 3 el tablero fue actualizado con las actividades relacionadas con Web Services, entrevistas de validación, videos del proyecto y mejoras de la aplicación web.
 
 <p align="center">
-  <img src="Resources/AV2.jpeg" alt="Project Report Collaboration Insights - AV2" width="900">
+  <img src="Resources/AV2.jpeg" alt="Project Report Collaboration Insights - AV2" width="450">
 </p>
 
 | **Integrante** | **Insight** |
@@ -241,5 +233,5 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
 | Criterio | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **AV1:**<br><br> **Sebastián Aiquipa:** Lideré el desarrollo del Capítulo IV secciones 4.1 a 4.5 (Product Design), definiendo la guía de estilo, arquitectura de información, diseño de la Landing Page y 15 pantallas de la aplicación web para los tres roles (Cliente, Propietario, Intermediario). Establecí las convenciones de GitFlow con commits convencionales que el equipo adoptó, y gestioné los Pull Requests a la rama develop asegurando revisiones previas al merge.<br><br>**Lionel Mendoza:** Lideré la integración técnica entre el frontend y el backend, asumiendo la responsabilidad de identificar y solucionar bloqueos críticos de infraestructura y lógica de negocio, como los errores de autenticación (IAM) y la configuración de Middlewares y controladores . Guié al equipo en la correcta sincronización de la base de datos mediante migraciones de Entity Framework, asegurando que los entornos locales de desarrollo estuvieran correctamente alineados con los despliegues en producción y resolviendo las desincronizaciones de tablas para evitar caídas del servidor.<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br> **TB1:** <br><br> **Sebastián Aiquipa:** <br><br> **Lionel Mendoza:** **Juan Meza:** <br><br> **Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br>**AV2:**<br><br>**Sebastián Aiquipa:**<br><br>**Lionel Mendoza:**<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br> | El liderazgo compartido permitió que cada integrante asumiera responsabilidad sobre un módulo específico del reporte, aportando desde su especialidad sin depender de una figura central. Esta distribución de liderazgo fortaleció la autonomía del equipo y aceleró el avance en paralelo de los capítulos, demostrando que un liderazgo distribuido es viable cuando se establecen convenciones claras. Asumir resolución de problemas de integración y bases de datos demostró que gestionar y destrabar cuellos de botella técnicos agiliza enormemente el trabajo del resto del equipo. Esto garantizó que mis compañeros pudieran enfocarse en desarrollar nuevas funcionalidades visuales sin retrasos, evidenciando que un liderazgo técnico proactivo es fundamental para mantener el ritmo del proyecto y asegurar la estabilidad de la plataforma. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **AV1:**<br><br> **Sebastián Aiquipa:** Como equipo establecimos metas semanales alineadas al syllabus del curso, usando GitFlow con ramas feature por integrante para evitar bloqueos. Coordinamos mediante reuniones periódicas donde revisamos el estado de cada Capítulo y ajustamos la distribución de tareas según la carga de trabajo. Se adoptó la práctica de Pull Requests con revisión entre pares antes de integrar cambios a la rama develop, lo que permitió mantener la calidad del entregable y resolver dudas técnicas de forma colaborativa. Cada integrante aportó desde su fortaleza (diseño UX/UI, arquitectura, dominio del negocio, documentación) respetando los tiempos y sugerencias de los demás.<br><br>**Lionel Mendoza:** Fomenté un entorno de trabajo colaborativo al organizar sesiones conjuntas de depuración  con mis compañeros, alineando la estructura de los datos  del frontend con las exigencias estrictas de los controladores en C# para superar errores de comunicación . Planifiqué mis tareas respetando estrictamente el flujo de trabajo del repositorio, actualizando y reconstruyendo mi entorno local constantemente  para evitar conflictos al integrar el código de otros. Además, para cumplir con el objetivo final del TB2, me encargué de consolidar el análisis del informe, estructurando las conclusiones del proyecto y garantizando el rigor académico mediante la investigación y formato de las referencias bibliográficas en formato APA 7.<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br> **TB1:** <br><br> **Sebastián Aiquipa:** <br><br> **Lionel Mendoza:** **Juan Meza:** <br><br> **Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br>**AV2:**<br><br>**Sebastián Aiquipa:**<br><br>**Lionel Mendoza:**<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br>  | El entorno colaborativo creado permitió cumplir con los objetivos del proyecto dentro del plazo establecido, a pesar de la complejidad de coordinar cinco capítulos en paralelo. La planificación semanal y el uso disciplinado de GitFlow demostraron ser prácticas efectivas para un equipo distribuido, minimizando conflictos de integración y asegurando que cada entregable reflejara el aporte colectivo del grupo. La comunicación transparente durante la resolución de errores creó un ambiente de apoyo donde los fallos del código se solucionaron de forma educativa y conjunta, sin buscar culpables. La disciplina al sincronizar los avances locales y el trabajo en la calidad documental demostraron que la colaboración integral (tanto en el código como en el reporte) es clave para cumplir con los hitos del cronograma y entregar un producto de software robusto dentro de los plazos establecidos. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **AV1:**<br><br> **Sebastián Aiquipa:** Lideré el desarrollo del Capítulo IV secciones 4.1 a 4.5 (Product Design), definiendo la guía de estilo, arquitectura de información, diseño de la Landing Page y 15 pantallas de la aplicación web para los tres roles (Cliente, Propietario, Intermediario). Establecí las convenciones de GitFlow con commits convencionales que el equipo adoptó, y gestioné los Pull Requests a la rama develop asegurando revisiones previas al merge.<br><br>**Lionel Mendoza:** Lideré la integración técnica entre el frontend y el backend, asumiendo la responsabilidad de identificar y solucionar bloqueos críticos de infraestructura y lógica de negocio, como los errores de autenticación (IAM) y la configuración de Middlewares y controladores . Guié al equipo en la correcta sincronización de la base de datos mediante migraciones de Entity Framework, asegurando que los entornos locales de desarrollo estuvieran correctamente alineados con los despliegues en producción y resolviendo las desincronizaciones de tablas para evitar caídas del servidor.<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br> **TB1:** <br><br> **Sebastián Aiquipa:** <br><br> **Lionel Mendoza:** **Juan Meza:** <br><br> **Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br>**AV2:**<br><br>**Sebastián Aiquipa:**<br><br>**Lionel Mendoza:**<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br> | **AV1:** El liderazgo compartido permitió que cada integrante asumiera responsabilidad sobre un módulo específico del reporte, aportando desde su especialidad sin depender de una figura central. Esta distribución de liderazgo fortaleció la autonomía del equipo y aceleró el avance en paralelo de los capítulos, demostrando que un liderazgo distribuido es viable cuando se establecen convenciones claras. Asumir resolución de problemas de integración y bases de datos demostró que gestionar y destrabar cuellos de botella técnicos agiliza enormemente el trabajo del resto del equipo. Esto garantizó que mis compañeros pudieran enfocarse en desarrollar nuevas funcionalidades visuales sin retrasos, evidenciando que un liderazgo técnico proactivo es fundamental para mantener el ritmo del proyecto y asegurar la estabilidad de la plataforma. <br><br> **TB1:** <br><br> **AV2:** |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **AV1:**<br><br> **Sebastián Aiquipa:** Como equipo establecimos metas semanales alineadas al syllabus del curso, usando GitFlow con ramas feature por integrante para evitar bloqueos. Coordinamos mediante reuniones periódicas donde revisamos el estado de cada Capítulo y ajustamos la distribución de tareas según la carga de trabajo. Se adoptó la práctica de Pull Requests con revisión entre pares antes de integrar cambios a la rama develop, lo que permitió mantener la calidad del entregable y resolver dudas técnicas de forma colaborativa. Cada integrante aportó desde su fortaleza (diseño UX/UI, arquitectura, dominio del negocio, documentación) respetando los tiempos y sugerencias de los demás.<br><br>**Lionel Mendoza:** Fomenté un entorno de trabajo colaborativo al organizar sesiones conjuntas de depuración  con mis compañeros, alineando la estructura de los datos  del frontend con las exigencias estrictas de los controladores en C# para superar errores de comunicación . Planifiqué mis tareas respetando estrictamente el flujo de trabajo del repositorio, actualizando y reconstruyendo mi entorno local constantemente  para evitar conflictos al integrar el código de otros. Además, para cumplir con el objetivo final del TB2, me encargué de consolidar el análisis del informe, estructurando las conclusiones del proyecto y garantizando el rigor académico mediante la investigación y formato de las referencias bibliográficas en formato APA 7.<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br> **TB1:** <br><br> **Sebastián Aiquipa:** <br><br> **Lionel Mendoza:** **Juan Meza:** <br><br> **Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br>**AV2:**<br><br>**Sebastián Aiquipa:**<br><br>**Lionel Mendoza:**<br><br>**Juan Meza:**<br><br>**Álvaro Figueroa:**<br><br>**Zahir Sanchez:**<br><br>  | **AV1:** El entorno colaborativo creado permitió cumplir con los objetivos del proyecto dentro del plazo establecido, a pesar de la complejidad de coordinar cinco capítulos en paralelo. La planificación semanal y el uso disciplinado de GitFlow demostraron ser prácticas efectivas para un equipo distribuido, minimizando conflictos de integración y asegurando que cada entregable reflejara el aporte colectivo del grupo. La comunicación transparente durante la resolución de errores creó un ambiente de apoyo donde los fallos del código se solucionaron de forma educativa y conjunta, sin buscar culpables. La disciplina al sincronizar los avances locales y el trabajo en la calidad documental demostraron que la colaboración integral (tanto en el código como en el reporte) es clave para cumplir con los hitos del cronograma y entregar un producto de software robusto dentro de los plazos establecidos. <br><br> **TB1:** <br><br> **AV2:** |
