@@ -458,9 +458,11 @@ Durante el Sprint 2 se implementó y desplegó el Frontend Web Application de Mi
 - Vista de flota del Owner con sus máquinas registradas
 - Navegación diferenciada según el rol activo
 
-![Sign-In](./Resources/sprint-2/sign-in.png)
+<img width="1912" height="944" alt="Captura de pantalla 2026-07-02 205050" src="https://github.com/user-attachments/assets/ad513a33-7031-4973-869a-21378cb92a2e" />
 
-![Register](./Resources/sprint-2/registrer.png)
+
+<img width="1866" height="849" alt="Captura de pantalla 2026-07-02 205106" src="https://github.com/user-attachments/assets/436809d7-8d6d-48b1-a06f-d5564c1b2bdc" />
+
 
 ![Machines](./Resources/sprint-2/my-machines.png)
 
@@ -792,7 +794,7 @@ El guion de la entrevista se ha estructurado en tres secciones: una introducció
 
 A continuación, se detalla el registro de las entrevistas realizadas a los representantes de cada segmento objetivo. Las sesiones se grabaron con el consentimiento de los participantes para su posterior análisis y evaluación.
 
-**Segmento 1: Distribuidores de Maquinaria Pesada**
+**Segmento 1: Propietarios de Maquinaria Pesada**
 
 | Detalle | Información |
 | :--- | :--- |
@@ -812,12 +814,12 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 | <img width="633" height="493" alt="image" src="https://github.com/user-attachments/assets/9af1a278-e2cf-4a7c-9c3b-bb8134a39802" />|
 | **Resumen y Feedback** | Probó exitosamente el flujo de recuperación de contraseña comprobando la recepción del correo. Al revisar el panel de alquileres activos, indicó que las tarjetas son claras, pero le gustaría que el sistema calcule automáticamente una proyección de ganancias antes de aprobar el contrato. Considera que la interfaz oscura le da un aspecto premium al sistema. |
 
-**Segmento 2: Empresas de Servicios de Mantenimiento**
+**Segmento 2:  Empresas Mineras y Constructoras**
 
 | Detalle | Información |
 | :--- | :--- |
 | **Entrevistado** | Tomas Mendoza |
-| **Perfil** | Jefe de Taller en empresa de soporte y mantenimiento pesado. |
+| **Perfil** | Jefe de Taller en empresa de soporte pesado. |
 | **Fecha y Duración** | 19/06/2026 - 5 minutos |
 | **Evidencia (Link)** | https://1drv.ms/v/c/191e2f4b07143ce2/IQBPN8VZ-lWSRqpwAcN3vNi8Ad8l-H_hazeiXrNOl9pdW9c |
 |  <img width="571" height="488" alt="image" src="https://github.com/user-attachments/assets/6f23fd4b-2f2e-4dbb-818a-300e650622cb" /> |
@@ -924,25 +926,18 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 
 A partir del desarrollo y análisis integral del proyecto **MineTrack**, se establecen las siguientes conclusiones fundamentales que validan la viabilidad y el impacto de la plataforma:
 
-1. **Resolución de una Brecha Crítica en el Mercado:** La investigación de mercado y las entrevistas a usuarios evidencian una desconexión significativa entre los propietarios de maquinaria pesada subutilizada y las empresas constructoras o mineras con necesidades temporales de equipos[cite: 4]. MineTrack se consolida como una solución de economía colaborativa B2B (Business-to-Business) que optimiza el uso de activos de alto valor, transformando costos hundidos en nuevas líneas de ingresos para los arrendadores y ofreciendo flexibilidad operativa a los arrendatarios[cite: 4].
+1. **Resolución de una Brecha Crítica en el Mercado:** La investigación de mercado y las entrevistas a usuarios evidencian una desconexión significativa entre los propietarios de maquinaria pesada subutilizada y las empresas constructoras o mineras con necesidades temporales de equipos. MineTrack se consolida como una solución de economía colaborativa B2B  que optimiza el uso de activos de alto valor, transformando costos hundidos en nuevas líneas de ingresos para los arrendadores y ofreciendo flexibilidad operativa a los arrendatarios.
 
-2. **Integración de IoT como Diferenciador Estratégico:** A diferencia de los modelos tradicionales de alquiler, la implementación de tecnología IoT  para la telemetría en tiempo real constituye la ventaja competitiva central de MineTrack[cite: 4]. La capacidad de monitorear horas de uso, consumo de combustible, ubicación GPS y alertas de mantenimiento preventivo no solo garantiza la transparencia y seguridad de los activos, sino que también permite un modelo de facturación dinámico basado en el uso real , reduciendo fricciones entre las partes[cite: 4].
+2. **Integración de IoT como Diferenciador Estratégico:** A diferencia de los modelos tradicionales de alquiler, la implementación de tecnología IoT  para la telemetría en tiempo real constituye la ventaja competitiva central de MineTrack. La capacidad de monitorear horas de uso, consumo de combustible, ubicación GPS y alertas de mantenimiento preventivo no solo garantiza la transparencia y seguridad de los activos, sino que también permite un modelo de facturación dinámico basado en el uso real , reduciendo fricciones entre las partes.
 
-3. **Arquitectura Escalable y Robusta:** El diseño técnico bajo una arquitectura respaldada por *Domain-Driven Design*  garantiza que la plataforma pueda escalar horizontalmente[cite: 4]. La clara separación de *Bounded Contexts* (IAM, Catalog, Rentals, IoT, Reviews) permite que el sistema maneje volúmenes crecientes de transacciones, perfiles de usuario y datos telemétricos sin comprometer el rendimiento ni la integridad de la información[cite: 4].
+3. **Arquitectura Escalable y Robusta:** El diseño técnico bajo una arquitectura respaldada por *Domain-Driven Design*  garantiza que la plataforma pueda escalar horizontalmente. La clara separación de *Bounded Contexts* (IAM, Catalog, Rentals, IoT, Reviews) permite que el sistema maneje volúmenes crecientes de transacciones, perfiles de usuario y datos telemétricos sin comprometer el rendimiento ni la integridad de la información.
 
-4. **Experiencia de Usuario (UX) Centrada en la Confianza:** El desarrollo de la interfaz a través de metodologías ágiles y *Design Thinking* ha dado como resultado una plataforma intuitiva[cite: 4]. La inclusión de perfiles verificados, un sistema de calificaciones cruzadas (Reviews) y pasarelas de pago seguras aborda la principal preocupación de los usuarios: la confianza y la seguridad al transaccionar con equipos de alto valor monetario[cite: 4].
+4. **Experiencia de Usuario (UX) Centrada en la Confianza:** El desarrollo de la interfaz a través de metodologías ágiles y *Design Thinking* ha dado como resultado una plataforma intuitiva. La inclusión de perfiles verificados, un sistema de calificaciones cruzadas (Reviews) y pasarelas de pago seguras aborda la principal preocupación de los usuarios: la confianza y la seguridad al transaccionar con equipos de alto valor monetario.
 
-5. **Viabilidad Comercial a Corto y Mediano Plazo:** El análisis preliminar, apoyado en la validación del *Lean UX* y los *User Journeys*, confirma que existe una disposición a pagar por parte del segmento *Early Adopter*[cite: 4]. Esto perfila a MineTrack como una *startup* con alto potencial de penetración en el mercado de construcción y minería, con un modelo de ingresos escalable basado en comisiones por transacción y suscripciones premium para análisis avanzados de flota[cite: 4].
+5. **Viabilidad Comercial a Corto y Mediano Plazo:** El análisis preliminar, apoyado en la validación del *Lean UX* y los *User Journeys*, confirma que existe una disposición a pagar por parte del segmento *Early Adopter*. Esto perfila a MineTrack como una *startup* con alto potencial de penetración en el mercado de construcción y minería, con un modelo de ingresos escalable basado en comisiones por transacción y suscripciones premium para análisis avanzados de flota.
                                                                               
 ## Bibliografía
 
-- Schwaber, K., & Sutherland, J. (2020). _The Scrum Guide_. Scrum.org. https://scrumguides.org/
-- Driessen, V. (2010). A successful Git branching model. https://nvie.com/posts/a-successful-git-branching-model/
-- Conventional Commits Specification. (2024). https://www.conventionalcommits.org/
-- Evans, E. (2003). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley.
-- Cuomo, S. (2024). _Vue.js 3 for Beginners: Learn the essentials of Vue.js 3 and its ecosystem to build modern web applications_. Packt Publishing.
-- Pressman, R. S., & Maxim, B. R. (2020). _Software engineering: A practitioner's approach_ (9th ed.). McGraw-Hill.
-- Sommerville, I. (2016). _Software engineering_ (10th ed.). Pearson.
 
 ### Tecnologías Frontend (Vue.js, Pinia, Axios)
 1. You, E. (2024). *Vue.js: The Progressive JavaScript Framework*. Vue.js Official Documentation. https://vuejs.org/guide/introduction.html
