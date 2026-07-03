@@ -59,8 +59,10 @@
 
 <p align="center"><strong>Período 202610</strong></p>
 
-<p align="center"><strong>Junio 2026</strong></p>
+<p align="center"><strong>Julio 2026</strong></p>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ## Registro de Versiones del Informe
 
@@ -71,6 +73,8 @@
 | **0.3.0** | 2026-06-18 | Todos los integrantes | Se realizó una actualización integral del informe incorporando el Sprint 3 y la primera versión de los Web Services. Se documentaron las entrevistas de validación, la evaluación heurística, el Video About-the-Product y el Video About-the-Team, además de nuevas evidencias de implementación, despliegue y colaboración. Asimismo, se actualizaron los artefactos previamente presentados, el Landing Page, la Web Application y las secciones acumulativas del informe. |
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
 
@@ -105,6 +109,8 @@ Durante el Sprint 3 el tablero fue actualizado con las actividades relacionadas 
 <div style="page-break-after: always;"></div>
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Tabla de contenidos
 
