@@ -924,6 +924,10 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 *   **Recomendación:** Incluir una etiqueta tipo "Badge" junto al nombre del usuario en la esquina superior derecha que indique el rol actual (ej. `[Distribuidor]` o `[Taller]`).
 
 
+### 5.4. Video About-the-Product.
+
+Link:
+
 ## Conclusiones
 
 A partir del desarrollo y análisis integral del proyecto **MineTrack**, se establecen las siguientes conclusiones fundamentales que validan la viabilidad y el impacto de la plataforma:
