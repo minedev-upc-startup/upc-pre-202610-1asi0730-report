@@ -926,7 +926,7 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 
 ### 5.4. Video About-the-Product.
 
-Link:
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQBuIdqWn5gCQZZADRKIFMjJAXC-Ju4lCJVz_M84EmDQtAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oQX6w8
 
 ## Conclusiones
 
