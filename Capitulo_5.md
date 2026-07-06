@@ -928,6 +928,8 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQBuIdqWn5gCQZZADRKIFMjJAXC-Ju4lCJVz_M84EmDQtAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oQX6w8
 
+Link: https://youtu.be/m2UdzDzjqm8
+
 ## Conclusiones
 
 A partir del desarrollo y análisis integral del proyecto **MineTrack**, se establecen las siguientes conclusiones fundamentales que validan la viabilidad y el impacto de la plataforma:
