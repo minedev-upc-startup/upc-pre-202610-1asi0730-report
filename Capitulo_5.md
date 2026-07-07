@@ -1140,11 +1140,19 @@ Link: https://youtu.be/m2UdzDzjqm8
 20. Botsman, R., & Rogers, R. (2010). *What's Mine Is Yours: The Rise of Collaborative Consumption*. HarperBusiness. https://www.harpercollins.com/products/whats-mine-is-yours-rachel-botsmanroo-rogers
 
 ## Anexos
-
 - **Landing Page (deployed):** https://minedev-upc-startup.github.io/landing-page/
 - **Repositorio Landing:** https://github.com/minedev-upc-startup/landing-page
 - **Repositorio Frontend Web App:** https://github.com/minedev-upc-startup/minetrack-frontend
+- **Repositorio Backend Web Services:** https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform
 - **Repositorio Project Report:** https://github.com/minedev-upc-startup/upc-pre-202610-1asi0730-report
+- **Frontend Web App (deployed):** https://minetrack-upc-2026.web.app
+- **Backend Web Services (deployed):** https://minedev-minetrack-platform-vs1n.onrender.com/swagger
 - **Trello Sprint 1:** https://trello.com/b/UJwSqATK/minetrack-sprint-1
-
 - **Trello Sprint 2:** https://trello.com/b/YZ5VLjG8/minetrack-sprint-2
+- **Trello Sprint 3:** https://trello.com/b/aP44UAmY/minetrack-sprint-3
+- **Trello Sprint 4:** https://trello.com/invite/b/6a4c42b43ecbc82b03d9c160/ATTI64efbfc1d1af006fa5ac0ba8f89cca7c54EDC083/minetrack-sprint-4
+- **Video About-the-Team (YouTube):** https://youtu.be/m2UdzDzjqm8
+- **Video About-the-Team (OneDrive):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQBuIdqWn5gCQZZADRKIFMjJAXC-Ju4lCJVz_M84EmDQtAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oQX6w8
+- **Video About-the-Product (YouTube):** https://youtu.be/ZlHahUYZsys
+- **Video About-the-Product (OneDrive):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQDmNjigMZ-RQo1yoDybyNgEAe9Cc-oVoIMW7727LfLcLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6hTVZS
+
