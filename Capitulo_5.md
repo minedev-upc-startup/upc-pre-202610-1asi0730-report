@@ -1104,7 +1104,7 @@ A partir del desarrollo y análisis integral del proyecto **MineTrack**, se esta
 
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQCl2nfGXJyiSYs2V0MVIrUxASd8x99WzR-Ycpzplmnh6T4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Nkeq5h
 
-Link: hhttps://youtu.be/n96zP1lQFjk
+Link: https://youtu.be/n96zP1lQFjk
                                                                               
 ## Bibliografía
 
