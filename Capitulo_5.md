@@ -1080,6 +1080,12 @@ A continuación, se detalla el registro de las entrevistas realizadas a los repr
 *   **Recomendación:** Incluir una etiqueta tipo "Badge" junto al nombre del usuario en la esquina superior derecha que indique el rol actual (ej. `[Distribuidor]` o `[Taller]`).
 
 
+### 5.4. Video About-the Product.
+
+Link: https://youtu.be/ZlHahUYZsys
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQDmNjigMZ-RQo1yoDybyNgEAe9Cc-oVoIMW7727LfLcLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6hTVZS
+
 ## Conclusiones
 
 A partir del desarrollo y análisis integral del proyecto **MineTrack**, se establecen las siguientes conclusiones fundamentales que validan la viabilidad y el impacto de la plataforma:
@@ -1093,6 +1099,12 @@ A partir del desarrollo y análisis integral del proyecto **MineTrack**, se esta
 4. **Experiencia de Usuario (UX) Centrada en la Confianza:** El desarrollo de la interfaz a través de metodologías ágiles y *Design Thinking* ha dado como resultado una plataforma intuitiva. La inclusión de perfiles verificados, un sistema de calificaciones cruzadas (Reviews) y pasarelas de pago seguras aborda la principal preocupación de los usuarios: la confianza y la seguridad al transaccionar con equipos de alto valor monetario.
 
 5. **Viabilidad Comercial a Corto y Mediano Plazo:** El análisis preliminar, apoyado en la validación del *Lean UX* y los *User Journeys*, confirma que existe una disposición a pagar por parte del segmento *Early Adopter*. Esto perfila a MineTrack como una *startup* con alto potencial de penetración en el mercado de construcción y minería, con un modelo de ingresos escalable basado en comisiones por transacción y suscripciones premium para análisis avanzados de flota.
+
+### Video About-the TEAM.
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQBuIdqWn5gCQZZADRKIFMjJAXC-Ju4lCJVz_M84EmDQtAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oQX6w8
+
+Link: https://youtu.be/m2UdzDzjqm8
                                                                               
 ## Bibliografía
 
