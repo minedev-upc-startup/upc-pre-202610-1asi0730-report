@@ -1102,9 +1102,9 @@ A partir del desarrollo y análisis integral del proyecto **MineTrack**, se esta
 
 ### Video About-the TEAM.
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQBuIdqWn5gCQZZADRKIFMjJAXC-Ju4lCJVz_M84EmDQtAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oQX6w8
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQCl2nfGXJyiSYs2V0MVIrUxASd8x99WzR-Ycpzplmnh6T4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Nkeq5h
 
-Link: https://youtu.be/m2UdzDzjqm8
+Link: hhttps://youtu.be/n96zP1lQFjk
                                                                               
 ## Bibliografía
 
@@ -1151,8 +1151,8 @@ Link: https://youtu.be/m2UdzDzjqm8
 - **Trello Sprint 2:** https://trello.com/b/YZ5VLjG8/minetrack-sprint-2
 - **Trello Sprint 3:** https://trello.com/b/aP44UAmY/minetrack-sprint-3
 - **Trello Sprint 4:** https://trello.com/invite/b/6a4c42b43ecbc82b03d9c160/ATTI64efbfc1d1af006fa5ac0ba8f89cca7c54EDC083/minetrack-sprint-4
-- **Video About-the-Team (YouTube):** https://youtu.be/m2UdzDzjqm8
-- **Video About-the-Team (OneDrive):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQBuIdqWn5gCQZZADRKIFMjJAXC-Ju4lCJVz_M84EmDQtAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oQX6w8
+- **Video About-the-Team (YouTube):** https://youtu.be/n96zP1lQFjk
+- **Video About-the-Team (OneDrive):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQCl2nfGXJyiSYs2V0MVIrUxASd8x99WzR-Ycpzplmnh6T4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Nkeq5h
 - **Video About-the-Product (YouTube):** https://youtu.be/ZlHahUYZsys
 - **Video About-the-Product (OneDrive):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417433_upc_edu_pe/IQDmNjigMZ-RQo1yoDybyNgEAe9Cc-oVoIMW7727LfLcLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6hTVZS
 
