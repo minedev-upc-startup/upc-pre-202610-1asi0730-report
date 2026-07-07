@@ -123,6 +123,7 @@ Durante el Sprint 1 el equipo organizó las actividades iniciales del proyecto u
 ---
 
 <div style="page-break-after: always;"></div>
+
 ### TB1
 
 Durante el Sprint 2 se actualizó el tablero del proyecto para incorporar las actividades del Frontend Web Application y la nueva versión del Landing Page. Esto permitió hacer seguimiento al avance del equipo y cumplir con los entregables del trabajo parcial.
@@ -133,12 +134,12 @@ Durante el Sprint 2 se actualizó el tablero del proyecto para incorporar las ac
 
 | **Integrante** | **Insight** |
 | :--- | :--- |
-| Sanchez Arenas, Zahir Emmanuel |  |
-| Mendoza Machoa, Lionel |  |
-| Meza Huanacune, Juan José |  |
-| Aiquipa Poma, Sebastian Andres |  |
-| Figueroa Sanchez, Alvaro |  |
-| Molina Umeres, Nestor Marcial |  |
+| Sanchez Arenas, Zahir Emmanuel | Contribuyó de manera sostenida durante las primeras semanas de junio, apoyando en la estructuración y tareas preliminares del Frontend. |
+| Mendoza Machoa, Lionel | Lideró el desarrollo técnico durante la fase central del sprint, con un pico de productividad clave a mediados de junio para la implementación del Frontend Web. |
+| Meza Huanacune, Juan José | Realizó aportes técnicos y de configuración muy puntuales al inicio del sprint, sentando las bases operativas para esta iteración. |
+| Aiquipa Poma, Sebastian Andres | Concentró sus mayores esfuerzos hacia el final del sprint, asegurando la integración, el diseño y el refinamiento previo a la entrega del trabajo parcial. |
+| Figueroa Sanchez, Alvaro | Colaboró activamente en la revisión de código y estabilización de la nueva versión del Landing Page, asegurando la calidad del entregable. |
+| Molina Umeres, Nestor Marcial | Enfocó su colaboración en la gestión ágil, actualización del tablero de GitHub Projects y el seguimiento continuo de los entregables del equipo. |
 
 ---
 
@@ -154,11 +155,11 @@ Durante el Sprint 3 el tablero fue actualizado con las actividades relacionadas 
 
 | **Integrante** | **Insight** |
 | :--- | :--- |
-| Sanchez Arenas, Zahir Emmanuel |  |
-| Mendoza Machoa, Lionel |  |
-| Meza Huanacune, Juan José |  |
-| Aiquipa Poma, Sebastian Andres |  |
-| Figueroa Sanchez, Alvaro |  |
+| Sanchez Arenas, Zahir Emmanuel | Aportó de forma constante durante las primeras semanas del sprint, colaborando en la estructuración base y configuración de los nuevos requerimientos. |
+| Mendoza Machoa, Lionel | Lideró la carga técnica durante la fase central del sprint, enfocándose fuertemente en el desarrollo, integración y despliegue de los Web Services. |
+| Meza Huanacune, Juan José | Tuvo intervenciones precisas en la etapa final de la iteración, apoyando en ajustes de código específicos y revisiones de cierre. |
+| Aiquipa Poma, Sebastian Andres | Concentró su mayor esfuerzo técnico en la recta final del sprint, asegurando la integración de las mejoras en la aplicación web y estabilizando la versión final. |
+| Figueroa Sanchez, Alvaro | Enfocó su contribución en las entregas no orientadas al código, gestionando el desarrollo de las entrevistas de validación y la producción de los videos del proyecto. |
 
 ---
 
