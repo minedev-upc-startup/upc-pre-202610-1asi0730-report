@@ -764,6 +764,162 @@ Durante el Sprint 3, la colaboración del equipo se caracterizó por una fuerte 
 
 
 ![Sprint 3 Insights](./Resources/backendDeploy/insight_backend.png)
+
+
+# 5.2.4. Sprint 4
+
+## 5.2.4.1. Sprint Planning 4
+
+| Sprint #                         | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Date                             | 2026-06-26                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                             | 8:00 PM (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Location                         | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Prepared By                      | Aiquipa Poma, Sebastian Andres                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Attendees                        | Aiquipa Poma, Sebastian Andres / Mendoza Machoa, Lionel / Meza Huanacuna, Juan José / Figueroa Sanchez, Alvaro / Sanchez Arenas, Zahir Emmanuel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint 3 — Review Summary        | Se completó la integración del frontend con el backend real en ASP.NET Core, reemplazando la Fake API por endpoints REST desplegados en Render. Se implementaron los flujos de registro e inicio de sesión con JWT, el catálogo de maquinaria pesada con filtros, el registro de máquinas por parte del Propietario y el flujo completo de solicitud y aprobación de alquiler. Sprint Goal cumplido al 100% con 34 Story Points completados.                                                                                                                                                                                                                               |
+| Sprint 3 — Retrospective Summary | El equipo validó que la migración de Fake API a backend real requirió coordinación estrecha entre los bounded contexts de IAM, Machinery y Rentals. Se identificó la importancia de mantener los contratos de API documentados en Swagger antes de iniciar la integración en el frontend. Para el Sprint 4 se acordó priorizar el cierre del ciclo de alquiler antes de abordar las funcionalidades de telemetría IoT.                                                                                                                                                                                                                                                    |
+| **Sprint Goal & User Stories**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint 4 Goal                    | Nuestro enfoque está en completar el ciclo de vida del alquiler de maquinaria pesada dentro de MineTrack, permitiendo que los clientes de empresas mineras y constructoras devuelvan los equipos arrendados, y que los propietarios de maquinaria puedan visualizar sus ganancias y el estado final de su flota. Creemos que esto entrega a los clientes la capacidad de cerrar formalmente un alquiler mediante la devolución del equipo, a los propietarios de maquinaria la visibilidad de sus ingresos generados y el historial de alquileres completados, y al equipo operativo de MineTrack el control financiero del marketplace con el resumen de facturación del período. Esto se confirmará cuando un cliente pueda devolver una máquina arrendada desde la plataforma, la máquina vuelva automáticamente al estado Disponible en el catálogo, el propietario visualice las ganancias generadas por el alquiler en su dashboard, y el equipo operativo de MineTrack acceda al resumen de facturación con los totales del período reflejados en la base de datos de producción. |
+| Sprint 3 Velocity                | 34 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points              | 34 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+---
+
+## 5.2.4.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 4. Cada aspecto se relaciona con los bounded contexts y responsabilidades técnicas del equipo durante este sprint.
+
+| Team Member | GitHub Username | Backend Kernel (L/C) | IAM Bounded Context (L/C) | Rental Bounded Context (L/C) | Equipment/Catalog Bounded Context (L/C) | IoT Telemetry Bounded Context (L/C) | Shared Platform Context (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Aiquipa Poma, Sebastian | S-aiquipa | L | C | L | C | C | C |
+| Mendoza Machoa, Lionel | mendozalionel745-ctrl | C | C | C | C | C | L |
+| Meza Huanacune, Juan José | JuanMHZ12 | C | C | C | L | C | C |
+| Figueroa Sanchez, Alvaro | 2003V616 | C | C | C | C | L | C |
+| Sanchez Arenas, Zahir | Zahir210206 | C | L | C | C | C | C |
+
+---
+
+## 5.2.4.3. Sprint Backlog 4
+
+https://trello.com/invite/b/6a4c42b43ecbc82b03d9c160/ATTI64efbfc1d1af006fa5ac0ba8f89cca7c54EDC083/minetrack-sprint-4
+
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|:---:|:---:|:---|:---:|:---|:---|:---:|:---|:---|
+| 4 | US10 | Cierre de alquiler y generación de resumen | TS-10-01 | Frontend: Botón de devolución en vista del Cliente con confirmación y actualización de estado del alquiler en tiempo real | Desarrollar componente de devolución en my-rentals-view.vue con modal de confirmación, llamada al endpoint de cierre y actualización reactiva del estado en el store de Rentals | 6h | Mendoza Machoa, Lionel | Done |
+| 4 | US10 | Cierre de alquiler y generación de resumen | TS-10-02 | Backend: Endpoint PATCH /api/v1/rental-requests/{id}/complete que cierra el alquiler, devuelve la máquina a Available y genera el resumen con total a facturar | Implementar comando CompleteRentalRequest, agregar método Complete() en agregado RentalRequest, handler en RentalRequestCommandService y endpoint en RentalsController con cálculo de total por horas | 6h | Aiquipa Poma, Sebastian | Done |
+| 4 | US07 | Seguimiento de mis solicitudes de alquiler | TS-07-01 | Frontend: Implementación completa de vista de historial de solicitudes del Cliente con listado ordenado por fecha y estados diferenciados | Desarrollar my-requests-view.vue con llamada al endpoint GET /api/v1/clients/{clientId}/rentals, manejo de estados Pending/Approved/Rejected y vista vacía | 5h | Mendoza Machoa, Lionel | To-Do |
+| 4 | US09 | Seguimiento de alquileres activos del Propietario | TS-09-01 | Frontend: Vista de alquileres activos del Propietario con datos del Cliente, fechas y horas registradas | Desarrollar owner-rentals-view.vue con llamada al endpoint de alquileres por Propietario y tarjetas por alquiler activo | 5h | Mendoza Machoa, Lionel | To-Do |
+| 4 | US09 | Seguimiento de alquileres activos del Propietario | TS-09-02 | Backend: Endpoint GET /api/v1/owners/{ownerId}/rentals que retorna todos los alquileres activos del Propietario con datos del Cliente y horas acumuladas | Implementar query GetRentalsByOwner, handler en RentalRequestQueryService y endpoint en RentalsController con retorno de RentalResource por Propietario | 5h | Aiquipa Poma, Sebastian | To-Do |
+| 4 | US11 | Dashboard del Propietario con resumen de flota | TS-11-01 | Frontend: Dashboard del Propietario con tarjetas de resumen de flota, alquileres activos y ganancia del período con datos reales del backend | Desarrollar owner-dashboard-view.vue con tarjetas de métricas, integración con endpoints de máquinas y alquileres del Propietario y cálculo de ganancia acumulada | 6h | Mendoza Machoa, Lionel | To-Do |
+| 4 | US11 | Dashboard del Propietario con resumen de flota | TS-11-02 | Backend: Endpoint GET /api/v1/owners/{ownerId}/dashboard que retorna resumen de flota con totales de máquinas por estado y ganancia del período | Implementar query GetOwnerDashboard con agregación de métricas de flota y financieras, handler en servicio de aplicación y endpoint en OwnersController | 6h | Aiquipa Poma, Sebastian | To-Do |
+| 4 | US12 | Dashboard operativo del Intermediario | TS-12-01 | Frontend: Dashboard del Intermediario con tarjetas de solicitudes pendientes, alquileres activos, total de máquinas y monto facturado del período | Desarrollar intermediary-dashboard-view.vue con tarjetas de métricas operativas y acceso directo a bandeja de solicitudes pendientes | 6h | Mendoza Machoa, Lionel | To-Do |
+| 4 | US12 | Dashboard operativo del Intermediario | TS-12-02 | Backend: Endpoint GET /api/v1/intermediary/dashboard que retorna resumen operativo con solicitudes pendientes, alquileres activos y monto facturado | Implementar query GetIntermediaryDashboard con agregación de métricas del marketplace y endpoint en IntermediaryController | 6h | Aiquipa Poma, Sebastian | To-Do |
+| 4 | US26 | Resumen de facturación del Intermediario | TS-26-01 | Frontend: Vista de facturación con totales del período (facturado, cobrado, pendiente) y desglose por Propietario con filtro de rango de fechas | Desarrollar billing-view.vue con tabla de resumen financiero, filtro de período y llamada al endpoint de facturación del Intermediario | 5h | Mendoza Machoa, Lionel | To-Do |
+| 4 | US26 | Resumen de facturación del Intermediario | TS-26-02 | Backend: Endpoint GET /api/v1/billing/summary que retorna totales de facturación del período con desglose por Propietario y estado de cobro | Implementar query GetBillingSummary con agregación de alquileres cerrados por período, cálculo de totales y endpoint en BillingController | 5h | Aiquipa Poma, Sebastian | To-Do |
+| 4 | US18 | Horas de motor acumuladas por máquina | TS-18-01 | Frontend: Panel IoT con widget de horas de motor acumuladas por máquina en alquiler y alerta de umbral de mantenimiento | Desarrollar iot-panel-view.vue con componente de horas de motor por máquina, llamada periódica al endpoint de telemetría e indicador visual de alerta por umbral | 6h | Figueroa Sanchez, Alvaro | To-Do |
+| 4 | US18 | Horas de motor acumuladas por máquina | TS-18-02 | Backend: Bounded Context Telemetry con entidad de registro de horas de motor y endpoint GET /api/v1/machines/{id}/telemetry/hours | Implementar BC Telemetry con capas DDD, entidad MotorHoursRecord, configuración EF Core y endpoint en TelemetryController con retorno de horas acumuladas | 6h | Figueroa Sanchez, Alvaro | To-Do |
+| 4 | US05 | Edición de datos y estado de una máquina | TS-05-01 | Frontend: Vista de edición de máquina del Propietario con formulario prellenado y actualización de datos técnicos y estado | Desarrollar edit-machine-view.vue con formulario prellenado desde el store y llamada al endpoint PATCH /api/v1/machines/{id} | 5h | Meza Huanacune, Juan José | To-Do |
+| 4 | US05 | Edición de datos y estado de una máquina | TS-05-02 | Backend: Endpoint PATCH /api/v1/machines/{id} que actualiza datos técnicos y estado de una máquina con validación de pertenencia al Propietario | Implementar comando UpdateMachine, handler en MachineCommandService y endpoint en MachinesController con validación de ownership y actualización parcial de campos | 5h | Aiquipa Poma, Sebastian | To-Do |
+
+---
+
+## 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo concentró los esfuerzos en completar el ciclo de vida del alquiler de maquinaria pesada. Se finalizó la integración del módulo IAM con autenticación JWT real, se corrigieron bugs críticos del flujo de solicitudes del Sprint 3, y se implementó el cierre del alquiler con el endpoint `PATCH /api/v1/rental-requests/{id}/complete`. A continuación se presentan los commits realizados en los repositorios de frontend y backend durante este sprint.
+
+### Frontend — minetrack-frontend
+
+| Repository | Branch | Commit ID | Commit Message | Committed By | Committed On |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| minedev-upc-startup/minetrack-frontend | feature/iam-backend-integration | a1b2c3d | feat(iam): connect frontend IAM to real backend with JWT authentication | Aiquipa Poma, Sebastian | 28/06/2026 |
+| minedev-upc-startup/minetrack-frontend | fix/dashboard-client-rentals | b2c3d4e | fix(dashboard): filter client rentals by clientId using nested route | Aiquipa Poma, Sebastian | 28/06/2026 |
+| minedev-upc-startup/minetrack-frontend | fix/rentals-localstorage | c3d4e5f | fix(rentals): remove localStorage merge causing stale data across users | Aiquipa Poma, Sebastian | 30/06/2026 |
+| minedev-upc-startup/minetrack-frontend | feature/complete-rental | d4e5f6a | feat(rentals): add support for completing rental requests | Aiquipa Poma, Sebastian | 06/07/2026 |
+
+### Backend — MineDev.MineTrack.Platform
+
+| Repository | Branch | Commit ID | Commit Message | Committed By | Committed On |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| minedev-upc-startup/MineDev.MineTrack.Platform | feature/iam-users-migration | e5f6a7b | feat(users): add users table migration and update IAM services configuration for User management | Aiquipa Poma, Sebastian | 28/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | feature/iam-jwt | f6a7b8c | feat(iam): connect IAM with JWT authentication, fix token service and authorization middleware | Aiquipa Poma, Sebastian | 28/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | feature/complete-rental | a7b8c9d | feat(rental): add Completed status to ERentalRequestStatus enum | Aiquipa Poma, Sebastian | 30/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | feature/complete-rental | b8c9d0e | feat(rental): add CompleteRentalRequestCommand to handle rental request completion | Aiquipa Poma, Sebastian | 30/06/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | feature/complete-rental | c9d0e1f | feat(rentals): add complete rental endpoint and Completed status | Aiquipa Poma, Sebastian | 06/07/2026 |
+| minedev-upc-startup/MineDev.MineTrack.Platform | develop | d0e1f2a | Merge branch 'feature/complete-rental' into develop | Aiquipa Poma, Sebastian | 06/07/2026 |
+
+> **Nota:** Los Commit IDs son referenciales. Reemplazar con los hashes reales obtenidos con `git log --oneline` en cada repositorio.
+
+---
+
+## 5.2.4.5. Execution Evidence for Sprint Review
+
+Al cierre del Sprint 4, se completó la implementación del flujo de devolución de maquinaria, cerrando el ciclo completo del alquiler en la plataforma MineTrack. El Cliente puede acceder a su lista de alquileres activos y ejecutar la devolución del equipo desde la interfaz, lo que actualiza el estado del alquiler a Completado y devuelve la máquina al estado Disponible en el catálogo de forma automática.
+
+**Evidencia de ejecución — Funcionalidad de devolución de máquina:**
+
+![Devolución de máquina - Sprint 4](Resources/sprint4-devolucion.png)
+
+---
+
+## 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 se implementaron y documentaron los endpoints del Bounded Context Rentals correspondientes al cierre del ciclo de alquiler. Los endpoints se encuentran documentados y disponibles en Swagger UI en el backend desplegado en Render.
+
+**URL Swagger:** https://minedev-minetrack-platform-vs1n.onrender.com/swagger
+
+| Endpoint | HTTP Verb | Action | Link to Swagger |
+| :--- | :--- | :--- | :--- |
+| /api/v1/authentication/sign-up | POST | Registra un nuevo usuario con nombre, correo, contraseña y rol | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/authentication/sign-in | POST | Autentica un usuario y retorna JWT con rol | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/machines | POST | Registra una nueva máquina en el catálogo | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/machines | GET | Retorna el listado completo de máquinas registradas | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/owners/{ownerId}/machines | GET | Retorna las máquinas registradas por un Propietario específico | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/machines/{id} | PATCH | Actualiza el estado y datos técnicos de una máquina | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/rental-requests | POST | Registra una solicitud de alquiler de un Cliente para una máquina | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/clients/{clientId}/rentals | GET | Retorna todas las solicitudes de alquiler de un Cliente específico | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/rental-requests/{id} | PATCH | Aprueba o rechaza una solicitud de alquiler pendiente | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+| /api/v1/rental-requests/{id}/complete | PATCH | Cierra un alquiler activo, devuelve la máquina a Available y registra el total facturado | https://minedev-minetrack-platform-vs1n.onrender.com/swagger |
+
+---
+
+## 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 4 se actualizaron los despliegues del Frontend y Backend con las nuevas funcionalidades implementadas. El frontend fue actualizado en Firebase Hosting y el backend en Render.
+
+**Frontend Web Application — Firebase Hosting**
+
+URL de producción: https://minetrack-upc-2026.web.app
+
+![Despliegue Frontend Firebase Sprint 4](Resources/sprint4-firebase-deploy.png)
+
+**Backend Web Services — Render**
+
+URL de producción: https://minedev-minetrack-platform-vs1n.onrender.com/swagger
+
+![Despliegue Backend Render Sprint 4](Resources/sprint4-render-deploy.png)
+
+**Repositorio Frontend:** https://github.com/minedev-upc-startup/minetrack-frontend
+
+**Repositorio Backend:** https://github.com/minedev-upc-startup/MineDev.MineTrack.Platform
+
+---
+
+## 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, el equipo mantuvo el flujo de trabajo GitFlow establecido desde el Sprint 2, con ramas feature por funcionalidad y Pull Requests hacia develop con revisión previa al merge. El sprint estuvo centrado principalmente en el Bounded Context Rentals para completar el ciclo de alquiler, con Sebastian como responsable principal de los commits de backend y frontend para este módulo.
+
+A continuación se presentan las evidencias de colaboración del equipo en los repositorios de GitHub durante el Sprint 4.
+
+**Frontend — minedev-upc-startup/minetrack-frontend**
+
+![GitHub Insights Frontend Sprint 4](Resources/sprint4-insights-frontend.png)
+
+**Backend — minedev-upc-startup/MineDev.MineTrack.Platform**
+
+![GitHub Insights Backend Sprint 4](Resources/sprint4-insights-backend.png)
+
 ### 5.3. Validation Interviews
 
 Para esta etapa del proyecto, tras la culminación del Sprint 3, se procedió a realizar entrevistas de validación con nuestros segmentos de usuarios objetivo: **Distribuidores de Maquinaria Pesada** y **Empresas de Servicios de Mantenimiento**. El propósito principal es recopilar *feedback* cualitativo sobre las nuevas funcionalidades implementadas, tales como la recuperación de contraseñas, registro de maquinaria, gestión de solicitudes de alquiler y el monitoreo telemétrico IoT en tiempo real.
