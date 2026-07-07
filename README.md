@@ -113,17 +113,16 @@ Durante el Sprint 1 el equipo organizó las actividades iniciales del proyecto u
 
 | **Integrante** | **Insight** |
 | :--- | :--- |
-| Sanchez Arenas, Zahir Emmanuel |  |
-| Mendoza Machoa, Lionel |  |
-| Meza Huanacune, Juan José |  |
-| Aiquipa Poma, Sebastian Andres |  |
-| Figueroa Sanchez, Alvaro |  |
-| Molina Umeres, Nestor Marcial |  |
+| Sanchez Arenas, Zahir Emmanuel | Contribuyó en la etapa de configuración inicial, apoyando con la estructura base del repositorio y la documentación temprana. |
+| Mendoza Machoa, Lionel | Lideró la carga técnica al inicio del sprint, estableciendo los cimientos del código y manteniendo un flujo de integración constante. |
+| Meza Huanacune, Juan José | Concentró sus aportes en hitos clave del desarrollo, logrando integraciones importantes durante la etapa central del sprint. |
+| Aiquipa Poma, Sebastian Andres | Tuvo una participación destacada y sostenida, impulsando fuertemente el desarrollo de la Landing Page y los componentes visuales. |
+| Figueroa Sanchez, Alvaro | Apoyó de manera continua en la consolidación de la primera versión, colaborando en tareas de revisión y soporte en el desarrollo. |
+| Molina Umeres, Nestor Marcial | Colaboró activamente en la organización de las tareas dentro de GitHub Projects y en la estructuración de la planificación inicial. |
 
 ---
 
 <div style="page-break-after: always;"></div>
-
 ### TB1
 
 Durante el Sprint 2 se actualizó el tablero del proyecto para incorporar las actividades del Frontend Web Application y la nueva versión del Landing Page. Esto permitió hacer seguimiento al avance del equipo y cumplir con los entregables del trabajo parcial.
